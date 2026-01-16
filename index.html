@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D2R 아이템 검색기</title>
+    <style>
+        body { font-family: sans-serif; background-color: #121212; color: #e0e0e0; max-width: 800px; margin: 0 auto; padding: 20px; }
+        h1 { color: #d4af37; text-align: center; } /* 디아블로 골드 색상 */
+        
+        .control-panel { background: #1e1e1e; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #333; }
+        input, select, button { padding: 10px; margin: 5px 0; width: 100%; box-sizing: border-box; background: #333; color: white; border: 1px solid #555; }
+        button { cursor: pointer; background-color: #5d4037; font-weight: bold; }
+        button:hover { background-color: #795548; }
+
+        .tabs { display: flex; gap: 10px; margin-bottom: 10px; }
+        .tab-btn { flex: 1; background: #2c2c2c; }
+        .tab-btn.active { background: #d4af37; color: black; }
+
+        #results { display: grid; grid-template-columns: 1fr; gap: 10px; }
+        .item-card { background: #252525; padding: 15px; border: 1px solid #444; border-radius: 5px; }
+        .item-type { font-size: 0.8em; color: #aaa; text-transform: uppercase; margin-bottom: 5px; }
+        .item-name { font-size: 1.2em; font-weight: bold; color: #d4af37; margin-bottom: 10px; }
+        .item-detail { font-size: 0.9em; line-height: 1.5; white-space: pre-wrap; }
+        
+        /* 모달 스타일 (아이템 추가용) */
+        #addModal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; }
+        .modal-content { background: #1e1e1e; margin: 10% auto; padding: 20px; width: 90%; max-width: 500px; border-radius: 8px; border: 1px solid #d4af37; }
+    </style>
+</head>
+<body>
+
+    <h1>D2R 아이템 검색기</h1>
+
+    <div class="control-panel">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="app.setCategory('all')">전체</button>
+            <button class="tab-btn" onclick="app.setCategory('rune')">룬</button>
+            <button class="tab-btn" onclick="app.setCategory('runeword')">룬어</button>
+            <button class="tab-btn" onclick="app.setCategory('quest')">퀘스트</button>
+            <button class="tab-btn" onclick="app.setCategory('merc')">용병</button>
+        </div>
+        <input type="text" id="searchInput" placeholder="검색어 입력 (예: 베르, 수수께끼, 2막)...">
+        <button onclick="app.openAddModal()">+ 신규 데이터 추가</button>
+    </div>
+
+    <div id="results">
+        </div>
+
+    <div id="addModal">
+        <div class="modal-content">
+            <h2 style="color:#d4af37">데이터 추가</h2>
+            <select id="newType">
+                <option value="rune">룬</option>
+                <option value="runeword">룬어</option>
+                <option value="quest">퀘스트</option>
+                <option value="merc">용병</option>
+            </select>
+            <input type="text" id="newName" placeholder="이름 (예: 자 룬)">
+            <textarea id="newDesc" rows="5" style="width:100%; background:#333; color:white; border:1px solid #555;" placeholder="상세 정보 입력..."></textarea>
+            <button onclick="app.addItem()">저장</button>
+            <button onclick="app.closeAddModal()" style="background-color: #333;">취소</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script> </body>
+</html>
+
