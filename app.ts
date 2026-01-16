@@ -153,28 +153,75 @@ class App {
         }
     }
 
-    // 파일에서 데이터를 읽어오고 버전 관리 수행
+	// 로딩 화면 제어 메서드 추가
+    showLoading(message: string = "데이터 업데이트 중...") {
+        const overlay = document.getElementById('loadingOverlay');
+        const text = document.getElementById('loadingText');
+        if (overlay && text) {
+            text.textContent = message;
+            overlay.classList.remove('hidden');
+        }
+    }
+
+    hideLoading() {
+        const overlay = document.getElementById('loadingOverlay');
+        if (overlay) {
+            overlay.classList.add('hidden');
+        }
+    }
+
     async checkAndLoadData() {
         try {
-            const response = await fetch('./data.json');
-            if (!response.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
+            // 1. 버전 파일 확인 (가벼움)
+            const versionResponse = await fetch(`./db_version.json?t=${Date.now()}`);
+            if (!versionResponse.ok) throw new Error("버전 파일을 찾을 수 없습니다.");
             
-            const data: SeedDataFile = await response.json();
+            const versionData = await versionResponse.json();
+            const remoteVersion = versionData.version;
             const currentVersion = parseInt(localStorage.getItem(this.VERSION_KEY) || '0');
+            
+            console.log(`현재 로컬 버전: ${currentVersion}, 서버 버전: ${remoteVersion}`);
 
-            console.log(`현재 로컬 버전: ${currentVersion}, 파일 버전: ${data.version}`);
+            // 2. 업데이트가 필요한 경우에만 로딩창 표시 및 다운로드
+            if (remoteVersion > currentVersion) {
+                // UI: 로딩 시작
+                this.showLoading(`새 데이터(v${remoteVersion})를 받아오고 있습니다...`);
+                
+                try {
+                    const dataResponse = await fetch('./data.json');
+                    if (!dataResponse.ok) throw new Error("데이터 파일을 찾을 수 없습니다.");
+                    
+                    // UI: 메시지 변경 (다운로드 완료 후 DB 작업 시)
+                    this.showLoading("데이터베이스를 최적화 중입니다...");
+                    
+                    const data = await dataResponse.json();
 
-            // 파일 버전이 더 높거나, 로컬 버전이 0(처음 실행)인 경우 업데이트 수행
-            if (data.version > currentVersion) {
-                console.log("데이터 업데이트를 시작합니다...");
-                await this.db.updateSeedData(data.items);
-                localStorage.setItem(this.VERSION_KEY, data.version.toString());
-                alert(`데이터가 버전 ${data.version}으로 업데이트되었습니다.`);
+                    // DB 업데이트 수행
+                    await this.db.updateSeedData(data.items);
+                    
+                    // 버전 갱신
+                    localStorage.setItem(this.VERSION_KEY, remoteVersion.toString());
+                    
+                    // 검색 결과 갱신
+                    this.handleSearch();
+                    
+                    // 완료 알림 (선택 사항)
+                    // alert(`업데이트 완료 (v${remoteVersion})`);
+                    
+                } catch (updateError) {
+                    console.error("업데이트 실패:", updateError);
+                    alert("데이터 업데이트 중 문제가 발생했습니다.");
+                } finally {
+                    // 성공하든 실패하든 로딩창 닫기
+                    this.hideLoading();
+                }
+            } else {
+                console.log("최신 상태입니다.");
             }
+
         } catch (e) {
-            console.error("데이터 로드 중 오류:", e);
-            // fetch는 로컬 파일 시스템(file://)에서 보안상 막힐 수 있음을 경고
-            console.warn("로컬에서 실행 중이라면 웹 서버(Live Server 등)를 이용해야 JSON을 로드할 수 있습니다.");
+            console.error("초기화 확인 실패:", e);
+            // 버전 파일 체크 자체가 실패했을 때는 로딩창을 띄우지 않았으므로 닫을 필요 없음
         }
     }
 
