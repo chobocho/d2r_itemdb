@@ -198,6 +198,7 @@
         .item-card[data-type="merc"]::before { background: #ff6bff; }
         .item-card[data-type="area"]::before { background: #44dddd; }
         .item-card[data-type="event"]::before { background: #ff4444; }
+        .item-card[data-type="class"]::before { background: #9b59b6; }
 
         .item-header {
             display: flex;
@@ -221,6 +222,7 @@
         .type-merc { background: rgba(255,107,255,0.15); color: #ff6bff; }
         .type-area { background: rgba(68,221,221,0.15); color: #44dddd; }
         .type-event { background: rgba(255,68,68,0.15); color: #ff4444; }
+        .type-class { background: rgba(155,89,182,0.15); color: #9b59b6; }
 
         .item-badge {
             font-size: 0.65em;
@@ -239,6 +241,7 @@
         .item-card[data-type="unique"] .item-name { color: #c4a24e; }
         .item-card[data-type="set"] .item-name { color: #00cc44; }
         .item-card[data-type="runeword"] .item-name { color: #d4af37; }
+        .item-card[data-type="class"] .item-name { color: #9b59b6; }
 
         .item-detail {
             font-size: 0.82em;
@@ -425,6 +428,7 @@
                 <button class="tab-btn" data-cat="merc">용병</button>
                 <button class="tab-btn" data-cat="area">지역</button>
                 <button class="tab-btn" data-cat="event">이벤트</button>
+                <button class="tab-btn" data-cat="class">악마술사</button>
             </div>
             <div class="search-row">
                 <input type="text" id="searchInput" placeholder="검색 (예: 베르, 수수께끼, 카오스, 테러존...)">
@@ -456,6 +460,7 @@
                 <option value="merc">용병</option>
                 <option value="area">지역</option>
                 <option value="event">이벤트</option>
+                <option value="class">악마술사</option>
             </select>
             <input type="text" id="newName" placeholder="이름 (예: 자 룬)">
             <textarea id="newDesc" rows="5" placeholder="상세 정보 입력..."></textarea>

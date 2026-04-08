@@ -137,7 +137,8 @@ var App = (function () {
         quest: { label: '퀘스트', cls: 'type-quest' },
         merc: { label: '용병', cls: 'type-merc' },
         area: { label: '지역', cls: 'type-area' },
-        event: { label: '이벤트', cls: 'type-event' }
+        event: { label: '이벤트', cls: 'type-event' },
+        class: { label: '악마술사', cls: 'type-class' }
     };
 
     App.prototype.init = function () {
@@ -207,7 +208,7 @@ var App = (function () {
             if (!bar) return;
             var labels = {
                 rune: '룬', runeword: '룬워드', unique: '유니크', set: '세트',
-                quest: '퀘스트', merc: '용병', area: '지역', event: '이벤트'
+                quest: '퀘스트', merc: '용병', area: '지역', event: '이벤트', class: '악마술사'
             };
             var html = '<div class="stat-item">전체 <span>' + items.length + '</span></div>';
             Object.keys(labels).forEach(function (key) {

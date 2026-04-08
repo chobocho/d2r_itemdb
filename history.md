@@ -1,5 +1,77 @@
 # 작업 이력
 
+## v8 — 2026-04-08 (DLC 악마술사의 군림 콘텐츠 추가)
+
+### 배경
+
+2026년 2월 12일 출시된 D2R 첫 번째 유료 DLC "악마술사의 군림 (Reign of the Warlock)" 콘텐츠 반영.
+어쌔신·드루이드 이후 25년 만의 신규 클래스(악마술사/Warlock) 및 관련 아이템 추가.
+
+검색 에이전트 → 개발 에이전트 → 검토 에이전트 협업으로 작성.
+
+---
+
+### 신규 탭 추가
+
+- **악마술사 탭**: `type: "class"` 신규 도입 — 클래스 개요 및 스킬 트리 정보
+- index.html: 탭 버튼, 보라색(#9b59b6) 카드 컬러, 타입 선택 옵션 추가
+- app.js: TYPE_MAP 및 updateStats labels에 `class` 타입 등록
+
+---
+
+### data.json 변경 (v7 → v8)
+
+#### 신규 룬워드 (5개, DLC 3.0)
+
+| 룬워드 | 룬 조합 | 적용 |
+|-------|--------|-----|
+| 공허 (Void) | Thul+Zod+Ist | 3소켓 단검 |
+| 마녀단 (Coven) | Ist+Ral+Io | 3소켓 투구 |
+| 경계 (Vigilance) | Dol+Gul | 2소켓 방패/그리모어 |
+| 의식 (Ritual) | Amn+Shael+Ohm | 3소켓 단검 |
+| 권위 (Authority) | Hel+Shael+Ral | 3소켓 갑옷 |
+
+#### 신규 유니크 아이템 (12개)
+
+그리모어 (악마술사 전용 오프핸드, 4종):
+- 아르스 둘'메피스토스 (Ars Dul'Mephistos) — 캐스터용
+- 아르스 알'디아볼로스 (Ars Al'Diabolos) — 혼돈 빌드
+- 아르스 토르'바알로스 (Ars Tor'Baalos) — 소환 빌드
+- 소각된 문서 (Measured Wrath) — 범용 입문
+
+기타 유니크 (8종):
+- 죽음의 가면 (Hellwarden's Will) — 투구
+- 드레드팡 (Dreadfang) — 단검
+- 블러드팩트 샤드 (Bloodpact Shard) — 단검
+- 레이스스텝 (Wraithstep) — 부츠
+- 슬링 반지 (Sling Ring) — 반지
+- 오팔베인 (Opalvein) — 반지
+- 엔트로피 로켓 (Entropy Locket) — 목걸이
+- 기드의 내기 (Gheed's Wager) — 벨트
+
+#### 신규 세트 아이템 (2세트)
+- 베인의 의복 (Bane's Garments) — 악마술사 중급 4종 세트
+- 호라존의 영광 (Horazon's Splendor) — 악마술사 고급 5종 세트
+
+#### 신규 이벤트/시스템 (4개)
+- 코로살 에인션트 (Colossal Ancient) — 신규 엔드게임 보스
+- 갱신된 썬더 참 (Renewed Sunder Charm) — 커스터마이즈 가능한 썬더 참
+- 연대기 (Chronicle) — 계정 공통 수집 트래커
+- 테러 존 개편 (Terror Zones 3.0) — 30분 주기, 헤럴드 추가
+
+#### 악마술사 클래스 정보 (4개, type: "class")
+- 악마술사 (Warlock) 클래스 개요 — 핵심 메카닉, 기본 스탯
+- 악마 결속 (Demon Bond) — 소환 스킬 트리
+- 기괴 (Eldritch) — 근접 딜러 스킬 트리
+- 혼돈 (Chaos) — 캐스터 스킬 트리
+
+---
+
+### db_version.json 변경
+- `7` → `8`
+
+---
+
 ## v7 — 2026-04-08 (대규모 개편)
 
 ### 배경
