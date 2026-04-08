@@ -4,1253 +4,1058 @@
       "type": "rune",
       "name": "엘 룬 (El)",
       "description": "무기: 명중률 +50, 시야 +1\n방어구/투구/방패: 방어력 +15, 시야 +1",
-      "tags": [
-        "rune",
-        "1번",
-        "el"
-      ],
-      "meta": {
-        "rank": 1,
-        "dropRate": "매우 높음"
-      }
+      "tags": ["rune", "1번", "el"],
+      "meta": { "rank": 1, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "엘드 룬 (Eld)",
-      "description": "무기: 불사조에게 주는 피해 +75%, 불사조에 대한 명중률 +50\n방어구/투구: 스테미나 소모 지연 15%\n방패: 저지 확률 7% 증가",
-      "tags": [
-        "rune",
-        "2번",
-        "eld"
-      ],
-      "meta": {
-        "rank": 2,
-        "dropRate": "매우 높음"
-      }
+      "description": "무기: 불사족에게 주는 피해 +75%, 불사족에 대한 명중률 +50\n방어구/투구: 스테미나 소모 지연 15%\n방패: 저지 확률 7% 증가",
+      "tags": ["rune", "2번", "eld"],
+      "meta": { "rank": 2, "dropRate": "매우 높음" }
+    },
+    {
+      "type": "rune",
+      "name": "티르 룬 (Tir)",
+      "description": "무기: 적 처치 시 마나 +2\n방어구/투구/방패: 적 처치 시 마나 +2",
+      "tags": ["rune", "3번", "tir"],
+      "meta": { "rank": 3, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "네프 룬 (Nef)",
       "description": "무기: 밀치기\n방어구/투구/방패: 원거리 공격 방어력 +30",
-      "tags": [
-        "rune",
-        "4번",
-        "nef"
-      ],
-      "meta": {
-        "rank": 4,
-        "dropRate": "매우 높음"
-      }
+      "tags": ["rune", "4번", "nef"],
+      "meta": { "rank": 4, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "에드 룬 (Eth)",
       "description": "무기: 대상의 방어력 -25%\n방어구/투구/방패: 마나 재생 15%",
-      "tags": [
-        "rune",
-        "5번",
-        "eth"
-      ],
-      "meta": {
-        "rank": 5,
-        "dropRate": "매우 높음"
-      }
+      "tags": ["rune", "5번", "eth"],
+      "meta": { "rank": 5, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "이르 룬 (Ith)",
       "description": "무기: 최대 피해 +9\n방어구/투구/방패: 받은 피해의 15%만큼 마나로 흡수",
-      "tags": [
-        "rune",
-        "6번",
-        "ith"
-      ],
-      "meta": {
-        "rank": 6,
-        "dropRate": "매우 높음"
-      }
+      "tags": ["rune", "6번", "ith"],
+      "meta": { "rank": 6, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "탈 룬 (Tal)",
       "description": "무기: 5초에 걸쳐 독 피해 +75 추가\n방어구/투구: 독 저항 +30%\n방패: 독 저항 +35%",
-      "tags": [
-        "rune",
-        "7번",
-        "tal"
-      ],
-      "meta": {
-        "rank": 7,
-        "dropRate": "매우 높음"
-      }
+      "tags": ["rune", "7번", "tal"],
+      "meta": { "rank": 7, "dropRate": "매우 높음" }
+    },
+    {
+      "type": "rune",
+      "name": "랄 룬 (Ral)",
+      "description": "무기: 화염 피해 5-30 추가\n방어구/투구: 화염 저항 +30%\n방패: 화염 저항 +35%",
+      "tags": ["rune", "8번", "ral"],
+      "meta": { "rank": 8, "dropRate": "높음" }
     },
     {
       "type": "rune",
       "name": "오르트 룬 (Ort)",
       "description": "무기: 번개 피해 1-50 추가\n방어구/투구: 번개 저항 +30%\n방패: 번개 저항 +35%",
-      "tags": [
-        "rune",
-        "9번",
-        "ort"
-      ],
-      "meta": {
-        "rank": 9,
-        "dropRate": "높음"
-      }
+      "tags": ["rune", "9번", "ort"],
+      "meta": { "rank": 9, "dropRate": "높음" }
     },
     {
       "type": "rune",
       "name": "주울 룬 (Thul)",
       "description": "무기: 냉기 피해 3-14 추가 (3초 지속)\n방어구/투구: 냉기 저항 +30%\n방패: 냉기 저항 +35%",
-      "tags": [
-        "rune",
-        "10번",
-        "thul"
-      ],
-      "meta": {
-        "rank": 10,
-        "dropRate": "높음"
-      }
+      "tags": ["rune", "10번", "thul"],
+      "meta": { "rank": 10, "dropRate": "높음" }
     },
     {
       "type": "rune",
       "name": "앰 룬 (Amn)",
       "description": "무기: 적중 당 생명력 7% 훔침\n방어구/투구/방패: 공격자가 피해를 14 받음",
-      "tags": [
-        "rune",
-        "11번",
-        "amn"
-      ],
-      "meta": {
-        "rank": 11,
-        "dropRate": "보통"
-      }
+      "tags": ["rune", "11번", "amn"],
+      "meta": { "rank": 11, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "솔 룬 (Sol)",
       "description": "무기: 최소 피해 +9\n방어구/투구/방패: 피해 감소 7",
-      "tags": [
-        "rune",
-        "12번",
-        "sol"
-      ],
-      "meta": {
-        "rank": 12,
-        "dropRate": "보통"
-      }
+      "tags": ["rune", "12번", "sol"],
+      "meta": { "rank": 12, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "샤엘 룬 (Shael)",
       "description": "무기: 공격 속도 +20%\n방어구/투구: 타격 회복 속도 +20%\n방패: 저지 속도 +20%",
-      "tags": [
-        "rune",
-        "13번",
-        "shael"
-      ],
-      "meta": {
-        "rank": 13,
-        "dropRate": "보통"
-      }
+      "tags": ["rune", "13번", "shael"],
+      "meta": { "rank": 13, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "돌 룬 (Dol)",
       "description": "무기: 적중 시 몬스터가 달아남 25%\n방어구/투구/방패: 생명력 회복 +7",
-      "tags": [
-        "rune",
-        "14번",
-        "dol"
-      ],
-      "meta": {
-        "rank": 14,
-        "dropRate": "보통"
-      }
+      "tags": ["rune", "14번", "dol"],
+      "meta": { "rank": 14, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "헬 룬 (Hel)",
-      "description": "무기: 착용 조건 -20%\n방어구/투구/방패: 착용 조건 -15%",
-      "tags": [
-        "rune",
-        "15번",
-        "hel"
-      ],
-      "meta": {
-        "rank": 15,
-        "dropRate": "낮음"
-      }
+      "description": "무기: 착용 조건 -20%\n방어구/투구/방패: 착용 조건 -15%\n※ 소켓 빼기 큐브 레시피에 사용",
+      "tags": ["rune", "15번", "hel", "소켓빼기"],
+      "meta": { "rank": 15, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "포 룬 (Io)",
       "description": "공통: 활력 +10",
-      "tags": [
-        "rune",
-        "16번",
-        "io"
-      ],
-      "meta": {
-        "rank": 16,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "16번", "io"],
+      "meta": { "rank": 16, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "룸 룬 (Lum)",
       "description": "공통: 에너지 +10",
-      "tags": [
-        "rune",
-        "17번",
-        "lum"
-      ],
-      "meta": {
-        "rank": 17,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "17번", "lum"],
+      "meta": { "rank": 17, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "코 룬 (Ko)",
       "description": "공통: 민첩 +10",
-      "tags": [
-        "rune",
-        "18번",
-        "ko"
-      ],
-      "meta": {
-        "rank": 18,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "18번", "ko"],
+      "meta": { "rank": 18, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "팔 룬 (Fal)",
       "description": "공통: 힘 +10",
-      "tags": [
-        "rune",
-        "19번",
-        "fal"
-      ],
-      "meta": {
-        "rank": 19,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "19번", "fal"],
+      "meta": { "rank": 19, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "렘 룬 (Lem)",
       "description": "무기: 몬스터로부터 얻는 금 75% 증가\n방어구/투구/방패: 몬스터로부터 얻는 금 50% 증가",
-      "tags": [
-        "rune",
-        "20번",
-        "lem",
-        "삥"
-      ],
-      "meta": {
-        "rank": 20,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "20번", "lem", "삥"],
+      "meta": { "rank": 20, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "풀 룬 (Pul)",
       "description": "무기: 악마에게 주는 피해 +75%, 악마에 대한 명중률 +100\n방어구/투구/방패: 방어력 30% 증가",
-      "tags": [
-        "rune",
-        "21번",
-        "pul",
-        "중급"
-      ],
-      "meta": {
-        "rank": 21,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "21번", "pul", "중급"],
+      "meta": { "rank": 21, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "우움 룬 (Um)",
       "description": "무기: 상처 악화 확률 25%\n방어구/투구: 모든 저항 +15\n방패: 모든 저항 +22",
-      "tags": [
-        "rune",
-        "22번",
-        "um",
-        "중급"
-      ],
-      "meta": {
-        "rank": 22,
-        "dropRate": "낮음"
-      }
+      "tags": ["rune", "22번", "um", "중급"],
+      "meta": { "rank": 22, "dropRate": "낮음" }
+    },
+    {
+      "type": "rune",
+      "name": "말 룬 (Mal)",
+      "description": "무기: 대상의 마나 차단\n방어구/투구/방패: 마력 흡수(마나 흡수) 감소",
+      "tags": ["rune", "23번", "mal", "중급"],
+      "meta": { "rank": 23, "dropRate": "낮음" }
+    },
+    {
+      "type": "rune",
+      "name": "이스트 룬 (Ist)",
+      "description": "무기: 매직 아이템 얻을 확률 30% 증가\n방어구/투구/방패: 매직 아이템 얻을 확률 25% 증가",
+      "tags": ["rune", "24번", "ist", "중급", "매파"],
+      "meta": { "rank": 24, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "굴 룬 (Gul)",
       "description": "무기: 명중률 20% 증가\n방어구/투구/방패: 최대 독 저항 +5%",
-      "tags": [
-        "rune",
-        "25번",
-        "gul"
-      ],
-      "meta": {
-        "rank": 25,
-        "dropRate": "매우 낮음"
-      }
+      "tags": ["rune", "25번", "gul"],
+      "meta": { "rank": 25, "dropRate": "매우 낮음" }
+    },
+    {
+      "type": "rune",
+      "name": "벡스 룬 (Vex)",
+      "description": "무기: 적중 당 마나 7% 훔침\n방어구/투구/방패: 최대 화염 저항 +5%",
+      "tags": ["rune", "26번", "vex", "고급"],
+      "meta": { "rank": 26, "dropRate": "매우 낮음" }
+    },
+    {
+      "type": "rune",
+      "name": "오움 룬 (Ohm)",
+      "description": "무기: 피해 +50% 증가\n방어구/투구/방패: 최대 냉기 저항 +5%",
+      "tags": ["rune", "27번", "ohm", "고급"],
+      "meta": { "rank": 27, "dropRate": "매우 낮음" }
+    },
+    {
+      "type": "rune",
+      "name": "로 룬 (Lo)",
+      "description": "무기: 치명타(데드리 스트라이크) 20%\n방어구/투구/방패: 최대 번개 저항 +5%",
+      "tags": ["rune", "28번", "lo", "고급"],
+      "meta": { "rank": 28, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "수르 룬 (Sur)",
       "description": "무기: 대상의 시야 차단\n방어구/투구: 최대 마나 5% 증가\n방패: 마나 +50",
-      "tags": [
-        "rune",
-        "29번",
-        "sur",
-        "고급"
-      ],
-      "meta": {
-        "rank": 29,
-        "dropRate": "매우 낮음"
-      }
+      "tags": ["rune", "29번", "sur", "고급"],
+      "meta": { "rank": 29, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "베르 룬 (Ber)",
       "description": "무기: 강한 타격 확률 20%\n방어구/투구/방패: 피해 8% 감소",
-      "tags": [
-        "rune",
-        "30번",
-        "ber",
-        "고급"
-      ],
-      "meta": {
-        "rank": 30,
-        "dropRate": "매우 낮음"
-      }
+      "tags": ["rune", "30번", "ber", "고급"],
+      "meta": { "rank": 30, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "자 룬 (Jah)",
       "description": "무기: 대상의 방어력 무시\n방어구/투구: 최대 생명력 5% 증가\n방패: 생명력 +50",
-      "tags": [
-        "rune",
-        "31번",
-        "jah",
-        "고급"
-      ],
-      "meta": {
-        "rank": 31,
-        "dropRate": "극악"
-      }
+      "tags": ["rune", "31번", "jah", "고급"],
+      "meta": { "rank": 31, "dropRate": "극악" }
     },
     {
       "type": "rune",
       "name": "참 룬 (Cham)",
       "description": "무기: 대상 빙결 +3\n방어구/투구/방패: 빙결되지 않음",
-      "tags": [
-        "rune",
-        "32번",
-        "cham",
-        "고급"
-      ],
-      "meta": {
-        "rank": 32,
-        "dropRate": "극악"
-      }
+      "tags": ["rune", "32번", "cham", "고급"],
+      "meta": { "rank": 32, "dropRate": "극악" }
     },
+    {
+      "type": "rune",
+      "name": "조드 룬 (Zod)",
+      "description": "공통: 파괴 불가(Indestructible)\n※ 가장 희귀한 룬, 에더리얼 아이템에 사용 시 내구도 파괴 방지",
+      "tags": ["rune", "33번", "zod", "고급", "파괴불가", "에더리얼"],
+      "meta": { "rank": 33, "dropRate": "극악" }
+    },
+
     {
       "type": "runeword",
       "name": "악의 (Malice)",
       "description": "조합: 아이드 + 엘 + 에드\n레벨 제한: 15\n효과: 피해 +33% 증가, 최대 피해 +9, 대상의 방어력 -25%, 상처 악화 100%, 괴물 회복 방지, 생명력 회복 -5",
-      "tags": [
-        "runeword",
-        "근접무기",
-        "초반용",
-        "상처악화"
-      ],
-      "meta": {
-        "base": "3소켓 근접 무기",
-        "runes": [
-          "Ith",
-          "El",
-          "Eth"
-        ]
-      }
+      "tags": ["runeword", "근접무기", "초반용", "상처악화"],
+      "meta": { "base": "3소켓 근접 무기", "runes": ["Ith", "El", "Eth"] }
     },
     {
       "type": "runeword",
       "name": "잠행 (Stealth)",
-      "description": "조합: 탈 + 에드\n레벨 제한: 17\n효과: 달리기/걷기 속도 +25%, 시전 속도 +25%, 타격 회복 속도 +25%, 마나 재생 15%",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "초반용",
-        "필수"
-      ],
-      "meta": {
-        "base": "2소켓 갑옷",
-        "runes": [
-          "Tal",
-          "Eth"
-        ]
-      }
+      "description": "조합: 탈 + 에드\n레벨 제한: 17\n효과: 달리기/걷기 속도 +25%, 시전 속도 +25%, 타격 회복 속도 +25%, 마나 재생 15%, 독 저항 +30%, 최대 스테미나 +15",
+      "tags": ["runeword", "갑옷", "초반용", "필수", "시전속도"],
+      "meta": { "base": "2소켓 갑옷", "runes": ["Tal", "Eth"] }
     },
     {
       "type": "runeword",
       "name": "서풍 (Zephyr)",
-      "description": "조합: 오르트 + 에드\n레벨 제한: 21\n효과: 달리기/걷기 속도 +25%, 공격 속도 +25%, 대상의 방어력 -25%, 전기에너지 피해 1-50 추가",
-      "tags": [
-        "runeword",
-        "활",
-        "아마존",
-        "초반용",
-        "공속"
-      ],
-      "meta": {
-        "base": "2소켓 원거리 무기",
-        "runes": [
-          "Ort",
-          "Eth"
-        ]
-      }
+      "description": "조합: 오르트 + 에드\n레벨 제한: 21\n효과: 달리기/걷기 속도 +25%, 공격 속도 +25%, 대상의 방어력 -25%, 번개 피해 1-50 추가, 방어력 +66, 명중률 +7%",
+      "tags": ["runeword", "활", "아마존", "초반용", "공속"],
+      "meta": { "base": "2소켓 원거리 무기", "runes": ["Ort", "Eth"] }
     },
     {
       "type": "runeword",
       "name": "모서리 (Edge)",
-      "description": "조합: 티르 + 탈 + 앰\n레벨 제한: 25\n효과: 장착 시 15레벨 가시(쏜즈) 오라 효과, 공격 속도 +35%, 상점 물품 가격 15% 하락, 괴물 회복 방지",
-      "tags": [
-        "runeword",
-        "활",
-        "가성비",
-        "상점용",
-        "가시오라"
-      ],
-      "meta": {
-        "base": "3소켓 원거리 무기",
-        "runes": [
-          "Tir",
-          "Tal",
-          "Amn"
-        ]
-      }
+      "description": "조합: 티르 + 탈 + 앰\n레벨 제한: 25\n효과: 장착 시 15레벨 가시(쏜즈) 오라 효과, 공격 속도 +35%, 상점 물품 가격 15% 하락, 괴물 회복 방지, 악마/불사족에게 피해 증가",
+      "tags": ["runeword", "활", "가성비", "상점용", "가시오라"],
+      "meta": { "base": "3소켓 원거리 무기", "runes": ["Tir", "Tal", "Amn"] }
     },
     {
       "type": "runeword",
       "name": "영혼 (Spirit)",
-      "description": "조합: 탈 + 주울 + 오르트 + 앰\n레벨 제한: 25\n효과: +2 모든 스킬, 시전 속도 +25~35%, 타격 회복 속도 +55%",
-      "tags": [
-        "runeword",
-        "검",
-        "방패",
-        "가성비",
-        "국민템"
-      ],
-      "meta": {
-        "base": "4소켓 검/방패",
-        "runes": [
-          "Tal",
-          "Thul",
-          "Ort",
-          "Amn"
-        ]
-      }
+      "description": "조합: 탈 + 주울 + 오르트 + 앰\n레벨 제한: 25\n효과: +2 모든 스킬, 시전 속도 +25~35%, 타격 회복 속도 +55%, 마나 +89~112, 활력 +22, 흡수 마력 3~8%\n※ 검/방패 모두 가능. 모나크 방패(힘 156)가 인기",
+      "tags": ["runeword", "검", "방패", "가성비", "국민템", "시전속도", "올스킬"],
+      "meta": { "base": "4소켓 검/방패", "runes": ["Tal", "Thul", "Ort", "Amn"] }
     },
     {
       "type": "runeword",
       "name": "통찰 (Insight)",
-      "description": "조합: 랄 + 티르 + 탈 + 솔\n레벨 제한: 27\n효과: 장착 시 12~17레벨 명상(메디테이션) 오라 효과, 치명타 +1~6",
-      "tags": [
-        "runeword",
-        "폴암",
-        "활",
-        "용병용",
-        "마나재생"
-      ],
-      "meta": {
-        "base": "4소켓 폴암/활/스태프",
-        "runes": [
-          "Ral",
-          "Tir",
-          "Tal",
-          "Sol"
-        ]
-      }
+      "description": "조합: 랄 + 티르 + 탈 + 솔\n레벨 제한: 27\n효과: 장착 시 12~17레벨 명상(메디테이션) 오라 효과, 치명타 +1~6, 피해 +200~260% 증가, 마나 +5 킬당\n※ 용병 장비로 최고 인기. 마나 문제 해결의 핵심",
+      "tags": ["runeword", "폴암", "활", "용병용", "마나재생", "명상오라"],
+      "meta": { "base": "4소켓 폴암/활/스태프", "runes": ["Ral", "Tir", "Tal", "Sol"] }
     },
     {
       "type": "runeword",
       "name": "학식 (Lore)",
-      "description": "조합: 오르트 + 솔\n레벨 제한: 27\n효과: +1 모든 스킬, 전기에너지 저항 +30%, 적 처치 시 마나 +2",
-      "tags": [
-        "runeword",
-        "투구",
-        "초반용",
-        "스킬"
-      ],
-      "meta": {
-        "base": "2소켓 투구",
-        "runes": [
-          "Ort",
-          "Sol"
-        ]
-      }
+      "description": "조합: 오르트 + 솔\n레벨 제한: 27\n효과: +1 모든 스킬, 번개 저항 +30%, 피해 감소 7, 에너지 +10, 적 처치 시 마나 +2, 시야 +2",
+      "tags": ["runeword", "투구", "초반용", "스킬", "가성비"],
+      "meta": { "base": "2소켓 투구", "runes": ["Ort", "Sol"] }
+    },
+    {
+      "type": "runeword",
+      "name": "고대인의 서약 (Ancients' Pledge)",
+      "description": "조합: 랄 + 오르트 + 탈\n레벨 제한: 21\n효과: 모든 저항 +43(화+48, 번+48, 냉+48, 독+48), 방어력 +50%, 피해 감소 10%\n※ 5막 퀘스트 보상으로 받은 룬으로 제작 가능",
+      "tags": ["runeword", "방패", "초반용", "올레지", "필수"],
+      "meta": { "base": "3소켓 방패", "runes": ["Ral", "Ort", "Tal"] }
+    },
+    {
+      "type": "runeword",
+      "name": "백색 (White)",
+      "description": "조합: 돌 + 포\n레벨 제한: 35\n효과: +3 독과 뼈 기술, 시전 속도 +20%, 적중 당 마나 +4, 활력 +10\n※ 네크로맨서 전용 지팡이에 적용",
+      "tags": ["runeword", "지팡이", "네크로맨서", "뼈넥", "시전속도"],
+      "meta": { "base": "2소켓 지팡이(네크)", "runes": ["Dol", "Io"] }
     },
     {
       "type": "runeword",
       "name": "치유 (Cure)",
-      "description": "조합: 샤엘 + 이오 + 탈\n레벨 제한: 35\n효과: 장착 시 1레벨 정화(클렌징) 오라 효과, 독 지속시간 75% 감소",
-      "tags": [
-        "runeword",
-        "투구",
-        "용병용",
-        "정화오라"
-      ],
-      "meta": {
-        "base": "3소켓 투구",
-        "runes": [
-          "Shael",
-          "Io",
-          "Tal"
-        ]
-      }
+      "description": "조합: 샤엘 + 이오 + 탈\n레벨 제한: 35\n효과: 장착 시 1레벨 정화(클렌징) 오라 효과, 독 지속시간 75% 감소, 타격 회복 속도 +20%",
+      "tags": ["runeword", "투구", "용병용", "정화오라"],
+      "meta": { "base": "3소켓 투구", "runes": ["Shael", "Io", "Tal"] }
     },
     {
       "type": "runeword",
       "name": "연기 (Smoke)",
-      "description": "조합: 네프 + 룸\n레벨 제한: 37\n효과: 모든 저항 +50, 타격 회복 속도 +20%, 원거리 공격 방어력 +280, 6레벨 약화(위큰) 충전",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "가성비",
-        "올레지"
-      ],
-      "meta": {
-        "base": "2소켓 갑옷",
-        "runes": [
-          "Nef",
-          "Lum"
-        ]
-      }
+      "description": "조합: 네프 + 룸\n레벨 제한: 37\n효과: 모든 저항 +50, 타격 회복 속도 +20%, 원거리 공격 방어력 +280, 방어력 +75%, 6레벨 약화(위큰) 충전",
+      "tags": ["runeword", "갑옷", "가성비", "올레지"],
+      "meta": { "base": "2소켓 갑옷", "runes": ["Nef", "Lum"] }
+    },
+    {
+      "type": "runeword",
+      "name": "복종 (Obedience)",
+      "description": "조합: 헬 + 코 + 줄 + 에드 + 팔\n레벨 제한: 41\n효과: 피해 +370%, 강한 타격 확률 40%, 모든 저항 +20~30, 방어력 +200~300, 착용 조건 -20%\n※ 용병 무기로 가성비 최고",
+      "tags": ["runeword", "폴암", "용병용", "가성비", "강타", "물리딜"],
+      "meta": { "base": "5소켓 폴암", "runes": ["Hel", "Ko", "Thul", "Eth", "Fal"] }
     },
     {
       "type": "runeword",
       "name": "현명 (Prudence)",
-      "description": "조합: 말 + 티르\n레벨 제한: 49\n효과: 방어력 +140~170% 증가, 모든 저항 +25~35, 타격 회복 속도 +25%, 내구도 1 회복(4초마다), 마력 재생 15%",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "내구도회복",
-        "벅큐빙용"
-      ],
-      "meta": {
-        "base": "2소켓 갑옷",
-        "runes": [
-          "Mal",
-          "Tir"
-        ]
-      }
+      "description": "조합: 말 + 티르\n레벨 제한: 49\n효과: 방어력 +140~170% 증가, 모든 저항 +25~35, 타격 회복 속도 +25%, 내구도 1 회복(4초마다), 마나 재생 15%",
+      "tags": ["runeword", "갑옷", "내구도회복"],
+      "meta": { "base": "2소켓 갑옷", "runes": ["Mal", "Tir"] }
     },
     {
       "type": "runeword",
       "name": "모자이크 (Mosaic)",
-      "description": "조합: 말 + 굴 + 앰\n레벨 제한: 53\n효과: 무술 기술 사용 시 50% 확률로 충전 소모되지 않음(쌍클러 시 100%), 냉기/화염/번개 기술 피해 +8~15% 증가",
-      "tags": [
-        "runeword",
-        "클러",
-        "암살자",
-        "핵심템",
-        "무술씬"
-      ],
-      "meta": {
-        "base": "3소켓 손톱(클러)",
-        "runes": [
-          "Mal",
-          "Gul",
-          "Amn"
-        ]
-      }
+      "description": "조합: 말 + 굴 + 앰\n레벨 제한: 53\n효과: 무술 기술 사용 시 50% 확률로 충전 소모되지 않음(쌍클러 시 100%), 냉기/화염/번개 기술 피해 +8~15% 증가\n※ D2R 2.5 패치에서 추가된 암살자 핵심 룬워드",
+      "tags": ["runeword", "클러", "암살자", "핵심템", "무술씬"],
+      "meta": { "base": "3소켓 손톱(클러)", "runes": ["Mal", "Gul", "Amn"] }
+    },
+    {
+      "type": "runeword",
+      "name": "참나무 심장 (Heart of the Oak)",
+      "description": "조합: 코 + 벡스 + 풀 + 줄\n레벨 제한: 55\n효과: +3 모든 스킬, 시전 속도 +40%, 모든 저항 +30~40, 적 처치 시 마나 +5, 4레벨 오크 현자(참나무 현자) 시전\n※ 캐스터 빌드 최고의 무기. 플레일/홀에 제작",
+      "tags": ["runeword", "철퇴", "홀", "캐스터", "종결템", "시전속도", "올스킬", "hoto"],
+      "meta": { "base": "4소켓 철퇴/홀", "runes": ["Ko", "Vex", "Pul", "Thul"] }
+    },
+    {
+      "type": "runeword",
+      "name": "명예의 사슬 (Chains of Honor)",
+      "description": "조합: 돌 + 움 + 베르 + 이스트\n레벨 제한: 63\n효과: +2 모든 스킬, 피해 8% 감소, 모든 저항 +65, 힘 +20, 악마에게 피해 +200%, 불사족에게 피해 +100%\n※ PvM 최고의 갑옷 룬워드 중 하나",
+      "tags": ["runeword", "갑옷", "종결템", "올레지", "올스킬", "coh"],
+      "meta": { "base": "4소켓 갑옷", "runes": ["Dol", "Um", "Ber", "Ist"] }
     },
     {
       "type": "runeword",
       "name": "소집 (Call to Arms)",
-      "description": "조합: 앰 + 랄 + 말 + 이스트 + 오움\n레벨 제한: 57\n효과: +1 모든 스킬, 전투 명령(배틀 커맨드), 전투 지시(배틀 오더스) 사용 가능",
-      "tags": [
-        "runeword",
-        "함성",
-        "스왑용",
-        "피뻥"
-      ],
-      "meta": {
-        "base": "5소켓 무기",
-        "runes": [
-          "Amn",
-          "Ral",
-          "Mal",
-          "Ist",
-          "Ohm"
-        ]
-      }
+      "description": "조합: 앰 + 랄 + 말 + 이스트 + 오움\n레벨 제한: 57\n효과: +1 모든 스킬, 전투 명령(배틀 커맨드) +2~6, 전투 지시(배틀 오더스) +1~6 사용 가능\n※ 스왑 무기로 필수. 생명력/마나 대폭 증가",
+      "tags": ["runeword", "무기", "함성", "스왑용", "피뻥", "cta"],
+      "meta": { "base": "5소켓 무기", "runes": ["Amn", "Ral", "Mal", "Ist", "Ohm"] }
     },
     {
       "type": "runeword",
       "name": "슬픔 (Grief)",
-      "description": "조합: 에드 + 티르 + 로 + 말 + 라르\n레벨 제한: 59\n효과: 피해 +340~400 증가, 공격 속도 +30~40%, 괴물 회복 방지",
-      "tags": [
-        "runeword",
-        "검",
-        "도끼",
-        "근거리",
-        "종결템"
-      ],
-      "meta": {
-        "base": "5소켓 검/도끼",
-        "runes": [
-          "Eth",
-          "Tir",
-          "Lo",
-          "Mal",
-          "Ral"
-        ]
-      }
+      "description": "조합: 에드 + 티르 + 로 + 말 + 랄\n레벨 제한: 59\n효과: 피해 +340~400 추가(표시되지 않음), 공격 속도 +30~40%, 대상의 방어력 -25%, 괴물 회복 방지\n※ 근접 물리 딜러 최강 무기. 페이즈 블레이드에 인기",
+      "tags": ["runeword", "검", "도끼", "근거리", "종결템", "물리딜"],
+      "meta": { "base": "5소켓 검/도끼", "runes": ["Eth", "Tir", "Lo", "Mal", "Ral"] }
     },
     {
       "type": "runeword",
       "name": "인내 (Fortitude)",
-      "description": "조합: 엘 + 솔 + 돌 + 로\n레벨 제한: 59\n효과: 피해 +300% 증가, 모든 저항 +25~30, 타격 시 20% 확률로 15레벨 흐리기(페이드) 시전",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "무기",
-        "물리딜러",
-        "용병용"
-      ],
-      "meta": {
-        "base": "4소켓 무기/갑옷",
-        "runes": [
-          "El",
-          "Sol",
-          "Dol",
-          "Lo"
-        ]
-      }
+      "description": "조합: 엘 + 솔 + 돌 + 로\n레벨 제한: 59\n효과: 피해 +300% 증가, 모든 저항 +25~30, 생명력 +8~12(캐릭 레벨당 0.25), 20% 확률 시전 15레벨 흐리기(페이드)\n※ 물리 딜러 및 용병 갑옷으로 최고",
+      "tags": ["runeword", "갑옷", "무기", "물리딜러", "용병용", "종결템"],
+      "meta": { "base": "4소켓 무기/갑옷", "runes": ["El", "Sol", "Dol", "Lo"] }
     },
     {
       "type": "runeword",
       "name": "무한 (Infinity)",
-      "description": "조합: 베르 + 말 + 베르 + 이스트\n레벨 제한: 63\n효과: 장착 시 12레벨 선고(컨빅션) 오라 효과, 강타 확률 40%",
-      "tags": [
-        "runeword",
-        "폴암",
-        "창",
-        "원소술사",
-        "선고오라"
-      ],
-      "meta": {
-        "base": "4소켓 폴암/창",
-        "runes": [
-          "Ber",
-          "Mal",
-          "Ber",
-          "Ist"
-        ]
-      }
+      "description": "조합: 베르 + 말 + 베르 + 이스트\n레벨 제한: 63\n효과: 장착 시 12레벨 선고(컨빅션) 오라 효과, 강타 확률 49%, 피해 +260~340% 증가, 번개 저항 -45~55%\n※ 원소 딜러 용병 무기 최종템. 면역 깨기 가능",
+      "tags": ["runeword", "폴암", "창", "원소술사", "선고오라", "종결템", "면역깨기"],
+      "meta": { "base": "4소켓 폴암/창", "runes": ["Ber", "Mal", "Ber", "Ist"] }
     },
     {
       "type": "runeword",
       "name": "수수께끼 (Enigma)",
-      "description": "조합: 자 + 아이드 + 베르\n레벨 제한: 65\n효과: +2 모든 스킬, +1 순간이동(텔레포트) 기술 부여, 캐릭터 레벨에 비례한 힘 증가",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "종결템",
-        "순간이동"
-      ],
-      "meta": {
-        "base": "3소켓 갑옷",
-        "runes": [
-          "Jah",
-          "Ith",
-          "Ber"
-        ]
-      }
+      "description": "조합: 자 + 아이드 + 베르\n레벨 제한: 65\n효과: +2 모든 스킬, +1 순간이동(텔레포트) 기술 부여, 힘 +(캐릭 레벨*0.75), 피해 8% 감소, 매직 아이템 드랍 증가\n※ 모든 클래스에 텔레포트 부여. 최고 인기 갑옷",
+      "tags": ["runeword", "갑옷", "종결템", "순간이동", "텔레포트", "올스킬"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Jah", "Ith", "Ber"] }
     },
     {
       "type": "runeword",
       "name": "신뢰 (Faith)",
-      "description": "조합: 오움 + 자 + 레몬 + 엘드\n레벨 제한: 65\n효과: 장착 시 12~15레벨 광신(파나티즘) 오라 효과, 모든 스킬 +1~2",
-      "tags": [
-        "runeword",
-        "활",
-        "아마존",
-        "종결템",
-        "광신오라"
-      ],
-      "meta": {
-        "base": "4소켓 활/크로스보우",
-        "runes": [
-          "Ohm",
-          "Jah",
-          "Lem",
-          "Eld"
-        ]
-      }
+      "description": "조합: 오움 + 자 + 렘 + 엘드\n레벨 제한: 65\n효과: 장착 시 12~15레벨 광신(파나티즘) 오라 효과, 모든 스킬 +1~2, 피해 +330% 증가, 명중률 +300%\n※ 보우마존/용병 활 최종템",
+      "tags": ["runeword", "활", "아마존", "종결템", "광신오라"],
+      "meta": { "base": "4소켓 활/크로스보우", "runes": ["Ohm", "Jah", "Lem", "Eld"] }
+    },
+    {
+      "type": "runeword",
+      "name": "죽음의 숨결 (Breath of the Dying)",
+      "description": "조합: 벡스 + 헬 + 엘 + 엘드 + 조드 + 에드\n레벨 제한: 69\n효과: 피해 +350~400% 증가, 대상 방어력 -25%, 모든 능력치 +30, 적 처치 시 12~15% 마나 훔침, 파괴 불가\n※ 최고급 무기 룬워드. 에더리얼 무기에 사용 권장",
+      "tags": ["runeword", "무기", "종결템", "파괴불가", "에더리얼", "botd"],
+      "meta": { "base": "6소켓 무기", "runes": ["Vex", "Hel", "El", "Eld", "Zod", "Eth"] }
+    },
+    {
+      "type": "runeword",
+      "name": "꿈 (Dream)",
+      "description": "조합: 포 + 자 + 풀\n레벨 제한: 65\n효과: 장착 시 15레벨 신성한 충격(홀리 쇼크) 오라 효과, 타격 회복 속도 +20~30%, 모든 저항 +5~20\n※ 투구+방패 둘 다 장착 시 오라 레벨 30. 드리머 팔라딘 핵심",
+      "tags": ["runeword", "투구", "방패", "팔라딘", "홀리쇼크", "드리머"],
+      "meta": { "base": "3소켓 투구/방패", "runes": ["Io", "Jah", "Pul"] }
+    },
+    {
+      "type": "runeword",
+      "name": "착란 (Delirium)",
+      "description": "조합: 렘 + 이스트 + 포\n레벨 제한: 51\n효과: 1% 확률로 들라이리움(변신) 시전, +2 모든 스킬, 타격 시 혼란 시전, 방어력 +261, 모든 저항 +10\n※ 소환 네크로맨서 투구로 인기",
+      "tags": ["runeword", "투구", "네크로맨서", "올스킬", "소환넥"],
+      "meta": { "base": "3소켓 투구", "runes": ["Lem", "Ist", "Io"] }
+    },
+    {
+      "type": "runeword",
+      "name": "추방 (Exile)",
+      "description": "조합: 벡스 + 오움 + 이스트 + 돌\n레벨 제한: 57\n효과: 장착 시 13~16레벨 성역(디파이언스) 오라, 수리 시 막기 +30%, 빙결되지 않음, 에더리얼 회복\n※ 저거넛/스마이터 팔라딘 방패",
+      "tags": ["runeword", "방패", "팔라딘", "스마이터", "성역오라"],
+      "meta": { "base": "4소켓 팔라딘 방패", "runes": ["Vex", "Ohm", "Ist", "Dol"] }
+    },
+    {
+      "type": "runeword",
+      "name": "불사조 (Phoenix)",
+      "description": "조합: 벡스 + 벡스 + 로 + 자\n레벨 제한: 65\n효과: 장착 시 10~15레벨 구원(리뎀션) 오라, 피해 +350~400% 증가, 최대 화염 흡수 +15~21%\n※ 방패/무기 모두 가능. 자벨린 아마존에 인기",
+      "tags": ["runeword", "방패", "무기", "구원오라", "자벨린", "아마존"],
+      "meta": { "base": "4소켓 무기/방패", "runes": ["Vex", "Vex", "Lo", "Jah"] }
+    },
+    {
+      "type": "runeword",
+      "name": "최후의 소원 (Last Wish)",
+      "description": "조합: 자 + 말 + 자 + 수르 + 자 + 베르\n레벨 제한: 65\n효과: 장착 시 17레벨 힘(마이트) 오라, 타격 시 15% 확률로 생명력 획득, 강한 타격 70%, 매직 아이템 얻을 확률 +330~375%\n※ 최고가 룬워드 중 하나",
+      "tags": ["runeword", "무기", "종결템", "힘오라", "강타"],
+      "meta": { "base": "6소켓 검/도끼/망치", "runes": ["Jah", "Mal", "Jah", "Sur", "Jah", "Ber"] }
+    },
+    {
+      "type": "runeword",
+      "name": "정의의 손 (Hand of Justice)",
+      "description": "조합: 수르 + 참 + 앰 + 로\n레벨 제한: 67\n효과: 장착 시 16레벨 신성한 화염(홀리 파이어) 오라, 피해 +33%, 대상 방어력 무시, 7% 마나 훔침",
+      "tags": ["runeword", "무기", "홀리파이어", "원소딜"],
+      "meta": { "base": "4소켓 무기", "runes": ["Sur", "Cham", "Amn", "Lo"] }
+    },
+    {
+      "type": "runeword",
+      "name": "파멸 (Doom)",
+      "description": "조합: 헬 + 오움 + 움 + 로 + 참\n레벨 제한: 67\n효과: 장착 시 12레벨 신성한 빙결(홀리 프리즈) 오라, 피해 +45%, 명중률 +20%, 모든 저항 +45~55\n※ 드루이드/야만용사에 인기",
+      "tags": ["runeword", "도끼", "폴암", "망치", "홀리프리즈"],
+      "meta": { "base": "5소켓 도끼/폴암/망치", "runes": ["Hel", "Ohm", "Um", "Lo", "Cham"] }
+    },
+    {
+      "type": "runeword",
+      "name": "사형집행인 (Kingslayer)",
+      "description": "조합: 말 + 움 + 굴 + 팔\n레벨 제한: 53\n효과: 피해 +230~270% 증가, 공격 속도 +25%, 상처 악화 33%, 강한 타격 확률 25%, 모든 저항 +15",
+      "tags": ["runeword", "검", "도끼", "근접", "강타"],
+      "meta": { "base": "4소켓 검/도끼", "runes": ["Mal", "Um", "Gul", "Fal"] }
+    },
+    {
+      "type": "runeword",
+      "name": "법의 집행자 (Lawbringer)",
+      "description": "조합: 앰 + 렘 + 코\n레벨 제한: 43\n효과: 타격 시 20% 확률로 20레벨 감소 저주(디크리피파이) 시전, 대상 방어력 무시, 피해 +150~210%, 불사족 처치 시 시체 사라짐\n※ 물리 딜러 보조 무기로 인기",
+      "tags": ["runeword", "검", "망치", "도끼", "감소저주", "불사족"],
+      "meta": { "base": "3소켓 검/망치/도끼", "runes": ["Amn", "Lem", "Ko"] }
+    },
+    {
+      "type": "runeword",
+      "name": "맹세 (Oath)",
+      "description": "조합: 샤엘 + 풀 + 말 + 룸\n레벨 제한: 49\n효과: 피해 +210~340% 증가, 공격 속도 +30%, 대상 방어력 무시, 에더리얼 불가\n※ 늑대 드루이드에 인기",
+      "tags": ["runeword", "검", "도끼", "철퇴", "물리딜", "가성비"],
+      "meta": { "base": "4소켓 검/도끼/철퇴", "runes": ["Shael", "Pul", "Mal", "Lum"] }
+    },
+    {
+      "type": "runeword",
+      "name": "죽음 (Death)",
+      "description": "조합: 헬 + 엘 + 벡스 + 오르트 + 굴\n레벨 제한: 55\n효과: 피해 +300~385% 증가, 치명타 100%, 강한 타격 확률 50%, 타격 시 빙하 폭발\n※ PvP 근접 무기로 강력",
+      "tags": ["runeword", "검", "도끼", "종결템", "치명타", "강타"],
+      "meta": { "base": "5소켓 검/도끼", "runes": ["Hel", "El", "Vex", "Ort", "Gul"] }
+    },
+    {
+      "type": "runeword",
+      "name": "바람 (Wind)",
+      "description": "조합: 수르 + 엘\n레벨 제한: 61\n효과: 피해 +120~160% 증가, 공격 속도 +40%, 타격 회복 속도 +15%, 대상 방어력 무시, +1 회오리(토네이도)\n※ 윈드 드루이드 스왑 무기",
+      "tags": ["runeword", "검", "드루이드", "공속"],
+      "meta": { "base": "2소켓 검", "runes": ["Sur", "El"] }
+    },
+    {
+      "type": "runeword",
+      "name": "돌 (Stone)",
+      "description": "조합: 샤엘 + 움 + 풀 + 룸\n레벨 제한: 47\n효과: 방어력 +290~320% 증가(놀라운 수치!), 모든 저항 +15, 활력 +16, 타격 회복 속도 +60%\n※ 용병 갑옷으로 적합",
+      "tags": ["runeword", "갑옷", "용병용", "방어력", "가성비"],
+      "meta": { "base": "4소켓 갑옷", "runes": ["Shael", "Um", "Pul", "Lum"] }
+    },
+    {
+      "type": "runeword",
+      "name": "빛나는 불꽃 (Flickering Flame)",
+      "description": "조합: 네프 + 풀 + 벡스\n레벨 제한: 55\n효과: 장착 시 4~8레벨 저항 화염(레지스트 파이어) 오라, 화염 기술 피해 +3(캐릭 레벨당), 화염 흡수 +10~15\n※ D2R 2.4에서 추가. 화염 빌드 핵심",
+      "tags": ["runeword", "투구", "화염빌드", "드루이드", "소서리스"],
+      "meta": { "base": "3소켓 투구", "runes": ["Nef", "Pul", "Vex"] }
+    },
+    {
+      "type": "runeword",
+      "name": "집착 (Obsession)",
+      "description": "조합: 조드 + 이스트 + 렘 + 룸 + 포 + 네프\n레벨 제한: 69\n효과: +4 모든 스킬, 시전 속도 +65%, 모든 저항 +60~70, 생명력 +15~25(캐릭 레벨당)\n※ D2R 2.4에서 추가. 소서리스 스태프 최종템",
+      "tags": ["runeword", "스태프", "소서리스", "종결템", "시전속도", "올스킬"],
+      "meta": { "base": "6소켓 스태프", "runes": ["Zod", "Ist", "Lem", "Lum", "Io", "Nef"] }
+    },
+    {
+      "type": "runeword",
+      "name": "불굴의 의지 (Unbending Will)",
+      "description": "조합: 팔 + 포 + 이르 + 엘드 + 엘 + 헬\n레벨 제한: 41\n효과: 피해 +330% 증가, 공격 속도 +20%, 타격 회복 속도 +20%, 생명력 흡수 8%, 모든 저항 +10~15\n※ D2R 2.4에서 추가. 가성비 근접 무기",
+      "tags": ["runeword", "검", "가성비", "물리딜", "초중반"],
+      "meta": { "base": "6소켓 검", "runes": ["Fal", "Io", "Ith", "Eld", "El", "Hel"] }
+    },
+    {
+      "type": "runeword",
+      "name": "안개 (Mist)",
+      "description": "조합: 참 + 샤엘 + 굴 + 줄 + 이르\n레벨 제한: 67\n효과: 장착 시 8~12레벨 집중(컨센트레이션) 오라, +3 모든 스킬, 공격 속도 +20%, 피해 +100% 증가\n※ D2R 2.4에서 추가. 보우마존 중급 활",
+      "tags": ["runeword", "활", "아마존", "집중오라", "올스킬"],
+      "meta": { "base": "5소켓 활", "runes": ["Cham", "Shael", "Gul", "Thul", "Ith"] }
+    },
+    {
+      "type": "runeword",
+      "name": "변신 (Metamorphosis)",
+      "description": "조합: 포 + 참 + 팔\n레벨 제한: 67\n효과: 장착 시 늑대인간/곰 변신 시 +25% 공격 속도, 변신 지속시간 무한, 레벨에 비례한 생명력 재생\n※ D2R 2.6에서 추가. 변신 드루이드 투구",
+      "tags": ["runeword", "투구", "드루이드", "변신", "늑대", "곰"],
+      "meta": { "base": "3소켓 투구", "runes": ["Io", "Cham", "Fal"] }
     },
     {
       "type": "runeword",
       "name": "문양 (Pattern)",
       "description": "조합: 탈 + 오르트 + 줄\n레벨 제한: 23\n효과: 막기 확률 +30%, 모든 저항 +15, 명중률 +10%, 화염/냉기/번개 피해 추가",
-      "tags": [
-        "runeword",
-        "클러",
-        "암살자",
-        "초반용",
-        "육성템"
-      ],
-      "meta": {
-        "base": "3소켓 손톱(클러)",
-        "runes": [
-          "Tal",
-          "Ort",
-          "Thul"
-        ]
-      }
+      "tags": ["runeword", "클러", "암살자", "초반용", "육성템"],
+      "meta": { "base": "3소켓 손톱(클러)", "runes": ["Tal", "Ort", "Thul"] }
     },
     {
       "type": "runeword",
       "name": "조화 (Harmony)",
-      "description": "조합: 티르 + 아이드 + 솔 + 코\n레벨 제한: 39\n효과: 장착 시 10레벨 비거(원기) 오라 효과, 화염/냉기/번개 피해 추가, 부활(리바이브) 기술 부여",
-      "tags": [
-        "runeword",
-        "활",
-        "아마존",
-        "이동속도",
-        "가성비"
-      ],
-      "meta": {
-        "base": "4소켓 활/크로스보우",
-        "runes": [
-          "Tir",
-          "Ith",
-          "Sol",
-          "Ko"
-        ]
-      }
+      "description": "조합: 티르 + 아이드 + 솔 + 코\n레벨 제한: 39\n효과: 장착 시 10레벨 활력(비거) 오라 효과, 화염/냉기/번개 피해 추가, 부활(리바이브) 기술 부여\n※ 이동속도 확보용으로 스왑에 인기",
+      "tags": ["runeword", "활", "아마존", "이동속도", "가성비", "스왑용"],
+      "meta": { "base": "4소켓 활/크로스보우", "runes": ["Tir", "Ith", "Sol", "Ko"] }
     },
     {
       "type": "runeword",
       "name": "투지 (Hustle)",
-      "description": "조합: 샤엘 + 코 + 엘드\n레벨 제한: 39\n효과: (무기) 타격 시 5% 확률로 1레벨 폭발적인 속도(버스트) 시전 / (갑옷) 이동 속도 +65%, 공격 속도 +40%, 타격 회복 속도 +20%",
-      "tags": [
-        "runeword",
-        "무기",
-        "갑옷",
-        "아마존",
-        "육성템",
-        "공속"
-      ],
-      "meta": {
-        "base": "3소켓 무기/갑옷",
-        "runes": [
-          "Shael",
-          "Ko",
-          "Eld"
-        ]
-      }
+      "description": "조합: 샤엘 + 코 + 엘드\n레벨 제한: 39\n효과: (무기) 타격 시 5% 확률로 1레벨 폭발적 속도 시전 / (갑옷) 이동 속도 +65%, 공격 속도 +40%, 타격 회복 속도 +20%, 모든 저항 +10\n※ D2R 2.4에서 추가. 이동속도 최고",
+      "tags": ["runeword", "무기", "갑옷", "이동속도", "공속"],
+      "meta": { "base": "3소켓 무기/갑옷", "runes": ["Shael", "Ko", "Eld"] }
     },
     {
       "type": "runeword",
       "name": "멜로디 (Melody)",
       "description": "조합: 샤엘 + 코 + 네프\n레벨 제한: 39\n효과: +3 보우 및 크로스보우 기술, 공격 속도 +20%, 피해 +50% 증가, 밀쳐내기",
-      "tags": [
-        "runeword",
-        "활",
-        "아마존",
-        "초반용",
-        "스킬"
-      ],
-      "meta": {
-        "base": "3소켓 활",
-        "runes": [
-          "Shael",
-          "Ko",
-          "Nef"
-        ]
-      }
+      "tags": ["runeword", "활", "아마존", "초반용", "스킬"],
+      "meta": { "base": "3소켓 활", "runes": ["Shael", "Ko", "Nef"] }
     },
     {
       "type": "runeword",
       "name": "배신 (Treachery)",
-      "description": "조합: 샤엘 + 줄 + 렘\n레벨 제한: 43\n효과: 타격 시 5% 확률로 15레벨 흐리기(페이드) 시전, 공격 속도 +45%, 냉기 저항 +30%",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "암살자",
-        "가성비",
-        "용병용"
-      ],
-      "meta": {
-        "base": "3소켓 갑옷",
-        "runes": [
-          "Shael",
-          "Thul",
-          "Lem"
-        ]
-      }
+      "description": "조합: 샤엘 + 줄 + 렘\n레벨 제한: 43\n효과: 타격 시 5% 확률로 15레벨 흐리기(페이드) 시전, 공격 속도 +45%, 냉기 저항 +30%, 독 지속시간 60% 감소\n※ 용병 갑옷 가성비 1위. 페이드 시전 시 올레지 +60%",
+      "tags": ["runeword", "갑옷", "암살자", "가성비", "용병용", "페이드"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Shael", "Thul", "Lem"] }
     },
     {
       "type": "runeword",
       "name": "지혜 (Wisdom)",
-      "description": "조합: 풀 + 아이드 + 엘드\n레벨 제한: 45\n효과: 관통 공격 +33%, 명중률 보너스 +15~25%, 적 처치 시 마나 +5, 빙결되지 않음",
-      "tags": [
-        "runeword",
-        "투구",
-        "아마존",
-        "관통",
-        "마나수급"
-      ],
-      "meta": {
-        "base": "3소켓 투구",
-        "runes": [
-          "Pul",
-          "Ith",
-          "Eld"
-        ]
-      }
+      "description": "조합: 풀 + 아이드 + 엘드\n레벨 제한: 45\n효과: 관통 공격 +33%, 명중률 보너스 +15~25%, 적 처치 시 마나 +5, 빙결되지 않음\n※ D2R 2.4에서 추가. 아마존 투구",
+      "tags": ["runeword", "투구", "아마존", "관통", "마나수급"],
+      "meta": { "base": "3소켓 투구", "runes": ["Pul", "Ith", "Eld"] }
     },
     {
       "type": "runeword",
       "name": "강제 (Duress)",
-      "description": "조합: 샤엘 + 움 + 줄\n레벨 제한: 47\n효과: 타격 회복 속도 +40%, 강타 확률 15%, 상처 악화 33%, 냉기 피해 추가, 모든 저항 +15",
-      "tags": [
-        "runeword",
-        "갑옷",
-        "암살자",
-        "밀리캐릭터",
-        "가성비"
-      ],
-      "meta": {
-        "base": "3소켓 갑옷",
-        "runes": [
-          "Shael",
-          "Um",
-          "Thul"
-        ]
-      }
+      "description": "조합: 샤엘 + 움 + 줄\n레벨 제한: 47\n효과: 타격 회복 속도 +40%, 강타 확률 15%, 상처 악화 33%, 냉기 피해 추가, 모든 저항 +15, 방어력 +160~200%",
+      "tags": ["runeword", "갑옷", "근접캐릭", "가성비", "강타"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Shael", "Um", "Thul"] }
     },
     {
       "type": "runeword",
       "name": "침묵 (Silence)",
-      "description": "조합: 돌 + 엘드 + 헬 + 이스트 + 티르 + 벡스\n레벨 제한: 55\n효과: 모든 기술 +2, 공격 속도 +20%, 모든 저항 +75, 타격 시 괴물 도망 25%, 눈먼 상태로 만듦",
-      "tags": [
-        "runeword",
-        "무기",
-        "아마존",
-        "생존용",
-        "올레지"
-      ],
-      "meta": {
-        "base": "6소켓 무기",
-        "runes": [
-          "Dol",
-          "Eld",
-          "Hel",
-          "Ist",
-          "Tir",
-          "Vex"
-        ]
-      }
+      "description": "조합: 돌 + 엘드 + 헬 + 이스트 + 티르 + 벡스\n레벨 제한: 55\n효과: 모든 기술 +2, 공격 속도 +20%, 모든 저항 +75, 적중 시 몬스터 도망 25%, 적중 시 시야 감소",
+      "tags": ["runeword", "무기", "올레지", "생존용"],
+      "meta": { "base": "6소켓 무기", "runes": ["Dol", "Eld", "Hel", "Ist", "Tir", "Vex"] }
     },
     {
       "type": "runeword",
       "name": "혼돈 (Chaos)",
-      "description": "조합: 팔 + 오움 + 움\n레벨 제한: 57\n효과: +1 소용돌이(휠윈드) 기술 부여, 타격 시 9% 확률로 11레벨 전기에너지 방출 시전, 상처 악화 25%",
-      "tags": [
-        "runeword",
-        "클러",
-        "암살자",
-        "혼돈씬",
-        "소용돌이"
-      ],
-      "meta": {
-        "base": "3소켓 손톱(클러)",
-        "runes": [
-          "Fal",
-          "Ohm",
-          "Um"
-        ]
-      }
-    },
-    {
-      "type": "item",
-      "name": "할리퀸 관모 (Harlequin Crest)",
-      "description": "레벨 제한: 62\n효과: +2 모든 스킬, 레벨 비례 생명력/마나 증가, 아이템 얻을 확률 50% 증가, 피해 감소 10%",
-      "tags": [
-        "unique",
-        "shako",
-        "샤코",
-        "투구"
-      ],
-      "meta": {
-        "rarity": "Unique",
-        "base": "Shako"
-      }
+      "description": "조합: 팔 + 오움 + 움\n레벨 제한: 57\n효과: +1 소용돌이(휠윈드) 기술 부여, 타격 시 9% 확률로 11레벨 전기 방출 시전, 상처 악화 25%, 피해 +240~290%",
+      "tags": ["runeword", "클러", "암살자", "혼돈씬", "소용돌이"],
+      "meta": { "base": "3소켓 손톱(클러)", "runes": ["Fal", "Ohm", "Um"] }
     },
     {
       "type": "runeword",
       "name": "분노 (Fury)",
       "description": "조합: 자 + 굴 + 에드\n레벨 제한: 65\n효과: 공격 속도 +40%, 피해 +209% 증가, 대상 방어력 무시, 상처 악화 66%, +5 광분(프렌지) 기술 부여",
-      "tags": [
-        "runeword",
-        "클러",
-        "암살자",
-        "근접",
-        "상처악화"
-      ],
-      "meta": {
-        "base": "3소켓 무기 (주로 클러)",
-        "runes": [
-          "Jah",
-          "Gul",
-          "Eth"
-        ]
-      }
+      "tags": ["runeword", "근접무기", "클러", "암살자", "상처악화"],
+      "meta": { "base": "3소켓 근접 무기", "runes": ["Jah", "Gul", "Eth"] }
     },
     {
       "type": "runeword",
       "name": "얼음 (Ice)",
       "description": "조합: 앰 + 샤엘 + 자 + 로\n레벨 제한: 65\n효과: 장착 시 18레벨 신성한 빙결(홀리 프리즈) 오라 효과, 냉기 기술 피해 +25~30% 증가, 대상의 방어력 무시",
-      "tags": [
-        "runeword",
-        "활",
-        "아마존",
-        "원소마",
-        "냉기피해"
-      ],
-      "meta": {
-        "base": "4소켓 활/크로스보우",
-        "runes": [
-          "Amn",
-          "Shael",
-          "Jah",
-          "Lo"
-        ]
-      }
+      "tags": ["runeword", "활", "아마존", "원소마", "냉기피해"],
+      "meta": { "base": "4소켓 활/크로스보우", "runes": ["Amn", "Shael", "Jah", "Lo"] }
     },
     {
       "type": "runeword",
       "name": "인동초/낙인 (Brand)",
-      "description": "조합: 자 + 로 + 말 + 굴\n레벨 제한: 65\n효과: 타격 시 35% 확률로 14레벨 뼈 창(본 스피어) 시전, 대상 방어력 무시, 피해 +270~340% 증가",
-      "tags": [
-        "runeword",
-        "활",
-        "아마존",
-        "뼈창",
-        "재미용"
-      ],
-      "meta": {
-        "base": "4소켓 활/크로스보우",
-        "runes": [
-          "Jah",
-          "Lo",
-          "Mal",
-          "Gul"
-        ]
-      }
+      "description": "조합: 자 + 로 + 말 + 굴\n레벨 제한: 65\n효과: 타격 시 35% 확률로 14레벨 뼈 창(본 스피어) 시전, 대상 방어력 무시, 피해 +260~340% 증가, 폭발 볼트",
+      "tags": ["runeword", "활", "아마존", "뼈창"],
+      "meta": { "base": "4소켓 활/크로스보우", "runes": ["Jah", "Lo", "Mal", "Gul"] }
     },
     {
       "type": "runeword",
       "name": "역병 (Plague)",
-      "description": "조합: 참 + 샤엘 + 움\n레벨 제한: 67\n효과: 장착 시 13~17레벨 정화(클렌징) 오라 효과, 모든 스킬 +1~2, 타격 시 20% 확률로 저항 감소(로워 레지스트) 시전",
-      "tags": [
-        "runeword",
-        "클러",
-        "암살자",
-        "정화오라",
-        "트랩씬"
-      ],
-      "meta": {
-        "base": "3소켓 검/손톱/단검",
-        "runes": [
-          "Cham",
-          "Shael",
-          "Um"
-        ]
-      }
+      "description": "조합: 참 + 샤엘 + 움\n레벨 제한: 67\n효과: 장착 시 13~17레벨 정화(클렌징) 오라 효과, 모든 스킬 +1~2, 타격 시 20% 확률로 저항 감소(로워 레지스트) 시전\n※ D2R 2.4에서 추가. 트랩 암살자에 인기",
+      "tags": ["runeword", "검", "클러", "단검", "암살자", "정화오라", "트랩씬"],
+      "meta": { "base": "3소켓 검/손톱/단검", "runes": ["Cham", "Shael", "Um"] }
+    },
+
+    {
+      "type": "unique",
+      "name": "할리퀸 관모 (Harlequin Crest / Shako)",
+      "description": "기본: 샤코 (투구)\n레벨 제한: 62\n효과: +2 모든 스킬, 생명력 +(캐릭 레벨*1.5), 마나 +(캐릭 레벨*1.5), 매직 아이템 드랍 50% 증가, 피해 감소 10%, 모든 능력치 +2\n※ 거의 모든 빌드에 사용되는 최고의 투구",
+      "tags": ["unique", "shako", "샤코", "투구", "종결템", "올스킬"],
+      "meta": { "rarity": "Unique", "base": "Shako" }
     },
     {
-      "type": "item",
+      "type": "unique",
       "name": "거미그물 띠 (Arachnid Mesh)",
-      "description": "효과: +1 모든 스킬, 시전 속도 +20%, 최대 마나 5% 증가 (추천 레벨: 80+)",
-      "tags": [
-        "unique",
-        "스웹",
-        "벨트",
-        "시전속도"
-      ],
-      "meta": {
-        "rarity": "Unique",
-        "base": "Spiderweb Sash"
-      }
+      "description": "기본: 스파이더웹 새시 (벨트)\n레벨 제한: 80\n효과: +1 모든 스킬, 시전 속도 +20%, 최대 마나 5% 증가, 감속 기술 부여\n※ 캐스터 클래스 최고의 벨트",
+      "tags": ["unique", "스웹", "벨트", "시전속도", "종결템", "캐스터"],
+      "meta": { "rarity": "Unique", "base": "Spiderweb Sash" }
     },
+    {
+      "type": "unique",
+      "name": "그리폰의 눈 (Griffon's Eye)",
+      "description": "기본: 다이아뎀 (투구)\n레벨 제한: 76\n효과: +1 모든 스킬, 시전 속도 +25%, 적의 번개 저항 -15~20%, 번개 기술 피해 +10~15%\n※ 번개 소서리스/자벨린 아마존 최고의 투구",
+      "tags": ["unique", "투구", "다이아뎀", "번개", "소서리스", "아마존", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Diadem" }
+    },
+    {
+      "type": "unique",
+      "name": "파괴의 군주 (Crown of Ages)",
+      "description": "기본: 코로나 (투구)\n레벨 제한: 82\n효과: 피해 감소 10~15%, 모든 저항 +20~30, 소켓 1~2개, 파괴 불가, 타격 회복 속도 +30%\n※ PvP 최고의 방어 투구",
+      "tags": ["unique", "투구", "코로나", "피해감소", "pvp", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Corona" }
+    },
+    {
+      "type": "unique",
+      "name": "전쟁의 여행자 (War Traveler)",
+      "description": "기본: 배틀 부츠\n레벨 제한: 42\n효과: 피해 +15~25 추가, 힘 +10, 활력 +10, 달리기/걷기 속도 +25%, 매직 아이템 드랍 30~50% 증가\n※ MF(매직파인드) 파밍 필수 부츠",
+      "tags": ["unique", "부츠", "매파", "파밍", "이동속도"],
+      "meta": { "rarity": "Unique", "base": "Battle Boots" }
+    },
+    {
+      "type": "unique",
+      "name": "찬스가드 (Chance Guards)",
+      "description": "기본: 체인 글로브\n레벨 제한: 15\n효과: 매직 아이템 드랍 25~40% 증가, 금 200% 증가, 명중률 +25, 방어력 +20~30\n※ MF 파밍 장갑 필수템",
+      "tags": ["unique", "장갑", "매파", "파밍", "글러브"],
+      "meta": { "rarity": "Unique", "base": "Chain Gloves" }
+    },
+    {
+      "type": "unique",
+      "name": "나겔 반지 (Nagelring)",
+      "description": "기본: 반지\n레벨 제한: 7\n효과: 매직 아이템 드랍 15~30% 증가, 명중률 +50~75, 공격자가 피해 3 받음\n※ 초반 MF 파밍 반지",
+      "tags": ["unique", "반지", "매파", "파밍"],
+      "meta": { "rarity": "Unique", "base": "Ring" }
+    },
+    {
+      "type": "unique",
+      "name": "타이탄의 복수 (Titan's Revenge)",
+      "description": "기본: 세리머니얼 자벨린\n레벨 제한: 42\n효과: +2 아마존 스킬, +2 자벨린/창 기술, 피해 +150~200%, 생명력/마나 흡수 5~9%, 달리기/걷기 속도 +30%, 보충됨\n※ 자벨린 아마존 핵심 무기",
+      "tags": ["unique", "자벨린", "아마존", "자벨마", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Ceremonial Javelin" }
+    },
+    {
+      "type": "unique",
+      "name": "오큘러스 (The Oculus)",
+      "description": "기본: 스워드 오브\n레벨 제한: 42\n효과: +3 소서리스 스킬, 시전 속도 +20%, 모든 저항 +20, 매직 아이템 드랍 50% 증가, 에너지 +20, 활력 +20\n※ 소서리스 중급 무기. 타격 시 텔레포트 주의",
+      "tags": ["unique", "오브", "소서리스", "시전속도", "매파"],
+      "meta": { "rarity": "Unique", "base": "Swirling Crystal" }
+    },
+    {
+      "type": "unique",
+      "name": "안다리엘의 얼굴 (Andariel's Visage)",
+      "description": "기본: 데몬헤드 (투구)\n레벨 제한: 83\n효과: +2 모든 스킬, 공격 속도 +20%, 생명력 흡수 8~10%, 힘 +25~30, 독 저항 -30%, 화염 저항 +70%\n※ 용병 투구 최고 인기. 라엘 보석으로 독저항 보완",
+      "tags": ["unique", "투구", "용병용", "종결템", "공격속도", "생명력흡수"],
+      "meta": { "rarity": "Unique", "base": "Demonhead" }
+    },
+    {
+      "type": "unique",
+      "name": "마라의 만화경 (Mara's Kaleidoscope)",
+      "description": "기본: 목걸이\n레벨 제한: 67\n효과: +2 모든 스킬, 모든 저항 +20~30, 모든 능력치 +5\n※ 거의 모든 빌드에 적합한 최고의 목걸이",
+      "tags": ["unique", "목걸이", "아뮬렛", "올스킬", "올레지", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Amulet" }
+    },
+    {
+      "type": "unique",
+      "name": "레이븐프로스트 (Ravenfrost)",
+      "description": "기본: 반지\n레벨 제한: 45\n효과: 냉기 피해 +15~45, 민첩 +15~20, 명중률 +150~250, 마나 +40, 냉기 흡수 +20%, 빙결되지 않음\n※ 빙결 방지 반지. 근접 캐릭터 필수",
+      "tags": ["unique", "반지", "빙결방지", "민첩", "필수템"],
+      "meta": { "rarity": "Unique", "base": "Ring" }
+    },
+    {
+      "type": "unique",
+      "name": "소환의 재 (Stone of Jordan / SoJ)",
+      "description": "기본: 반지\n레벨 제한: 29\n효과: +1 모든 스킬, 최대 마나 +25%, 번개 흡수 +20, 마나 +20\n※ D2 화폐 단위로 쓰이던 전설적 반지. 캐스터 필수",
+      "tags": ["unique", "반지", "soj", "올스킬", "마나", "캐스터", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Ring" }
+    },
+    {
+      "type": "unique",
+      "name": "톱니 이빨 (Stormshield)",
+      "description": "기본: 모나크 (방패)\n레벨 제한: 73\n효과: 피해 감소 35%, 냉기 저항 +60%, 번개 저항 +25%, 힘 +30, 막기 확률 증가\n※ 최고의 방어 방패. PvP 필수",
+      "tags": ["unique", "방패", "모나크", "피해감소", "pvp", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Monarch" }
+    },
+    {
+      "type": "unique",
+      "name": "이더리얼 예언가의 안대 (Ethereal Edge)",
+      "description": "기본: 실버 에지드 액스\n레벨 제한: 74\n효과: +270~320% 피해 증가, 공격속도 +25%, 악마에게 피해 +150%, 생명력 흡수 5~10%, 파괴 불가",
+      "tags": ["unique", "도끼", "물리딜", "악마사냥"],
+      "meta": { "rarity": "Unique", "base": "Silver-Edged Axe" }
+    },
+    {
+      "type": "unique",
+      "name": "독 독사의 묵주 (Mang Song's Lesson)",
+      "description": "기본: 아콘 스태프\n레벨 제한: 82\n효과: +5 모든 스킬, 적의 화/냉/번 저항 -7~15% 감소, 시전 속도 +50%, 마나 재생 +10%\n※ 소서리스 최고의 스태프. 매우 희귀",
+      "tags": ["unique", "스태프", "소서리스", "올스킬", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Archon Staff" }
+    },
+
+    {
+      "type": "set",
+      "name": "탈 라샤의 감싸기 (Tal Rasha's Wrappings)",
+      "description": "세트 아이템 5종:\n• 목걸이: +2 소서 스킬, 모든 저항 +33\n• 벨트: 매파 +15%, 민첩 +20\n• 갑옷: 매파 +88%, 모든 저항 +40 (풀셋)\n• 투구: 생명력/마나 +60, 모든 저항 +15\n• 오브: +2 소서 스킬, 원소 피해 추가\n\n풀셋 보너스: 모든 저항 +50, 매파 +150%, 생명력/마나 +150",
+      "tags": ["set", "소서리스", "탈라샤", "매파", "파밍", "인기셋"],
+      "meta": { "rarity": "Set", "pieces": 5, "class": "소서리스" }
+    },
+    {
+      "type": "set",
+      "name": "이모탈 킹 (Immortal King's Call)",
+      "description": "세트 아이템 6종:\n• 무기(석쇠): +200% 피해, 강타 40%\n• 투구: +2 야만 스킬, 매파 +25%\n• 갑옷: 모든 저항 +50\n• 장갑: 공속 +20%, 피해 +120%\n• 벨트: 생명력 +105, 번개 저항 +31\n• 부츠: 달리기 +40%\n\n풀셋 보너스: +3 야만 스킬, 치명타 +50%, 모든 저항 +50",
+      "tags": ["set", "야만용사", "바바리안", "ik", "풀셋", "인기셋"],
+      "meta": { "rarity": "Set", "pieces": 6, "class": "야만용사" }
+    },
+    {
+      "type": "set",
+      "name": "트랑-오울의 아바타 (Trang-Oul's Avatar)",
+      "description": "세트 아이템 5종:\n• 방패: 화염 저항 +40%, 독 저항 +78%\n• 갑옷: 방어력 +100, 독 기술 +25%\n• 장갑: 시전속도 +25%, 냉기 저항 +30%\n• 벨트: 생명력 재생 +66, 마나 재생 +40\n• 투구: 주문 재생 +20%, 능력치 +15\n\n풀셋 보너스: 뱀파이어 변신, +3 독과 뼈 기술, 시전속도 +60%",
+      "tags": ["set", "네크로맨서", "트랑", "독넥", "변신"],
+      "meta": { "rarity": "Set", "pieces": 5, "class": "네크로맨서" }
+    },
+    {
+      "type": "set",
+      "name": "그리스월드의 유산 (Griswold's Legacy)",
+      "description": "세트 아이템 4종:\n• 무기: +200% 피해, 소켓 3~4개\n• 투구: +2 팔라딘 스킬, 모든 저항 +5\n• 갑옷: 힘 +20, 모든 저항 +10\n• 방패: 막기 +65%, 모든 저항 +45\n\n풀셋 보너스: +3 팔라딘 전투 기술, 공속 +30%",
+      "tags": ["set", "팔라딘", "그리스월드", "풀셋"],
+      "meta": { "rarity": "Set", "pieces": 4, "class": "팔라딘" }
+    },
+    {
+      "type": "set",
+      "name": "알드르의 결의 (Aldur's Watchtower)",
+      "description": "세트 아이템 4종:\n• 무기: 철퇴 +200% 피해, +3 원소 기술\n• 투구: 생명력 +120, 모든 저항 +10\n• 갑옷: 소켓 2, 힘 +20\n• 부츠: 달리기/걷기 +40%, 화염 저항 +50%, 생명력 +50\n\n풀셋 보너스: +3 드루이드 스킬, 모든 저항 +50, 생명력 +150",
+      "tags": ["set", "드루이드", "알드르", "풀셋"],
+      "meta": { "rarity": "Set", "pieces": 4, "class": "드루이드" }
+    },
+    {
+      "type": "set",
+      "name": "나탈야의 쟁취 (Natalya's Odium)",
+      "description": "세트 아이템 4종:\n• 무기: 클러 +200% 피해, +3 섀도우 기술\n• 투구: 모든 저항 +10~20, 힘/민첩 +25\n• 갑옷: 방어력 +325, 소켓 1~3\n• 부츠: 달리기 +40%, 모든 저항 +15~25\n\n풀셋 보너스: +3 암살자 스킬, 피해 감소 15%, 마나 +100",
+      "tags": ["set", "암살자", "나탈야", "풀셋"],
+      "meta": { "rarity": "Set", "pieces": 4, "class": "암살자" }
+    },
+    {
+      "type": "set",
+      "name": "마비나의 전투 찬가 (M'avina's Battle Hymn)",
+      "description": "세트 아이템 5종:\n• 무기: 활 +188% 피해, 매파 +50%\n• 투구: 반절(리프레시) +30%, 마나 +25\n• 갑옷: 방어력 +350, 소켓 2\n• 장갑: 공속 +20%, 냉기 피해 추가\n• 벨트: 매파 +20%, 모든 저항 +5~10\n\n풀셋 보너스: +2 아마존 스킬, 피해 +100%",
+      "tags": ["set", "아마존", "마비나", "활마존", "풀셋"],
+      "meta": { "rarity": "Set", "pieces": 5, "class": "아마존" }
+    },
+
     {
       "type": "quest",
       "name": "악의 소굴 (Den of Evil)",
-      "description": "핏빛 황무지 동굴 내 모든 몬스터 소탕. (가는 길: 로그 캠프 앞마당 -> 핏빛 황무지 -> 악의 소굴) 보상: 스킬 포인트 +1, 능력치 및 스킬 초기화 1회 (추천 레벨: 1~3)",
-      "tags": [
-        "quest",
-        "act1",
-        "skill"
-      ],
-      "meta": {
-        "act": 1
-      }
+      "description": "핏빛 황무지 동굴 내 모든 몬스터 소탕.\n경로: 로그 캠프 → 핏빛 황무지 → 악의 소굴\n보상: 스킬 포인트 +1, 능력치 및 스킬 초기화 1회\n추천 레벨: 1~3",
+      "tags": ["quest", "act1", "skill", "리셋"],
+      "meta": { "act": 1 }
     },
     {
       "type": "quest",
       "name": "자매들의 매장지 (Sisters' Burial Grounds)",
-      "description": "차가운 평원 옆 매장지에서 핏빛 큰까마귀 처치. 보상: 용병 고용(로그) 가능 및 용병 1명 무료 제공 (추천 레벨: 4~6)",
-      "tags": [
-        "quest",
-        "act1",
-        "mercenary"
-      ],
-      "meta": {
-        "act": 1
-      }
+      "description": "차가운 평원 옆 매장지에서 핏빛 큰까마귀 처치.\n보상: 용병 고용(로그) 가능 및 용병 1명 무료 제공\n추천 레벨: 4~6",
+      "tags": ["quest", "act1", "mercenary"],
+      "meta": { "act": 1 }
     },
     {
       "type": "quest",
       "name": "케인을 찾아서 (Search for Cain)",
-      "description": "어둠의 숲 이니퓨스 나무에서 스크롤 획득 후 스토니 필드 바위산 활성화, 트리스트럼에서 케인 구조. 보상: 아이템 무료 식별(감별), 레어 반지 (추천 레벨: 6~10)",
-      "tags": [
-        "quest",
-        "act1",
-        "cain"
-      ],
-      "meta": {
-        "act": 1
-      }
+      "description": "어둠의 숲 이니퓨스 나무에서 스크롤 획득 → 스토니 필드 바위산 활성화 → 트리스트럼에서 케인 구조.\n보상: 아이템 무료 식별(감별), 레어 반지\n추천 레벨: 6~10",
+      "tags": ["quest", "act1", "cain", "식별"],
+      "meta": { "act": 1 }
     },
     {
       "type": "quest",
       "name": "잊힌 탑 (The Forgotten Tower)",
-      "description": "검은 습지에 있는 성채의 지하 5층에서 백작(카운테스) 처치. (가는 길: 검은 습지 -> 잊힌 탑 1~5층) 보상: 초반 룬어 제작을 위한 필수 룬 파밍 (탈, 에드, 랄 등) (추천 레벨: 7~11)",
-      "tags": [
-        "quest",
-        "act1",
-        "rune"
-      ],
-      "meta": {
-        "act": 1
-      }
+      "description": "검은 습지에 있는 성채의 지하 5층에서 카운테스 처치.\n경로: 검은 습지 → 잊힌 탑 1~5층\n보상: 초반 룬어 제작을 위한 필수 룬 파밍 (탈, 에드, 랄 등)\n추천 레벨: 7~11\n※ 룬 파밍 핵심 장소. 헬 난이도에서 Ist까지 드랍",
+      "tags": ["quest", "act1", "rune", "카운테스", "파밍"],
+      "meta": { "act": 1 }
     },
     {
       "type": "quest",
       "name": "도살장 (Sisters to the Slaughter)",
-      "description": "수도원 안쪽 카타콤 4층의 안다리엘 처치. (가는 길: 수도원 외곽 -> 병영 -> 감옥 -> 수도원 안쪽 -> 카타콤 1~4층) 보상: 액트 2 이동 가능 (추천 레벨: 12~14)",
-      "tags": [
-        "quest",
-        "act1",
-        "boss"
-      ],
-      "meta": {
-        "act": 1
-      }
+      "description": "수도원 안쪽 카타콤 4층의 안다리엘 처치.\n경로: 수도원 외곽 → 병영 → 감옥 → 수도원 안쪽 → 카타콤 1~4층\n보상: 액트 2 이동 가능\n추천 레벨: 12~14\n※ 노말 안다리엘 퀘스트 버그로 드랍률 향상 가능",
+      "tags": ["quest", "act1", "boss", "안다리엘"],
+      "meta": { "act": 1 }
     },
     {
       "type": "quest",
       "name": "라다먼트의 소굴 (Radament's Lair)",
-      "description": "루트 거레인 하수구 3층에 위치한 라다먼트 처치. (가는 길: 마을 내 하수구 입구 -> 하수구 1, 2층 -> 3층) 보상: 기술 책(스킬 포인트 +1), 상점 물건 가격 10% 하락 (추천 레벨: 15~17)",
-      "tags": [
-        "quest",
-        "act2",
-        "skill"
-      ],
-      "meta": {
-        "act": 2
-      }
+      "description": "루트 거레인 하수구 3층에 위치한 라다먼트 처치.\n경로: 마을 내 하수구 입구 → 하수구 1,2층 → 3층\n보상: 스킬 포인트 +1, 상점 가격 10% 하락\n추천 레벨: 15~17",
+      "tags": ["quest", "act2", "skill"],
+      "meta": { "act": 2 }
     },
     {
       "type": "quest",
       "name": "호라드림 지팡이 (The Horadric Staff)",
-      "description": "지팡이의 재료 3종을 찾아 조합. (가는 길: 1.메마른 언덕[망자의 전당 3층 - 함], 2.먼 오아시스[구더기 굴 3층 - 자루], 3.잊힌 도시[뱀의 골짜기/발톱 독사 사원 2층 - 머리리]) 보상: 탈 라샤의 방 입장 가능, 호라드림의 함(아이템 조합 기능) 획득 (추천 레벨: 17~20)",
-      "tags": [
-        "quest",
-        "act2",
-        "item"
-      ],
-      "meta": {
-        "act": 2
-      }
+      "description": "지팡이의 재료 3종을 찾아 조합.\n1. 메마른 언덕 → 망자의 전당 3층 (호라드림의 함)\n2. 먼 오아시스 → 구더기 굴 3층 (지팡이 자루)\n3. 잊힌 도시 → 뱀의 골짜기/발톱 독사 사원 2층 (머리)\n보상: 탈 라샤의 방 입장, 호라드림의 함(큐브) 획득\n추천 레벨: 17~20",
+      "tags": ["quest", "act2", "item", "큐브", "호라드림"],
+      "meta": { "act": 2 }
     },
     {
       "type": "quest",
       "name": "일곱 개의 무덤 (The Seven Tombs)",
-      "description": "신비술사의 보관소에서 소환사 처치 후 탈 라샤 무덤에서 듀리엘 처치. 보상: 액트 3 이동 가능 (추천 레벨: 20~22)",
-      "tags": [
-        "quest",
-        "act2",
-        "boss"
-      ],
-      "meta": {
-        "act": 2
-      }
+      "description": "신비술사의 보관소에서 소환사 처치 후 탈 라샤 무덤에서 듀리엘 처치.\n보상: 액트 3 이동 가능\n추천 레벨: 20~22\n※ 듀리엘의 홀리 프리즈가 매우 강력. 해동 포션 필수",
+      "tags": ["quest", "act2", "boss", "듀리엘"],
+      "meta": { "act": 2 }
     },
     {
       "type": "quest",
       "name": "황금새 (The Golden Bird)",
-      "description": "정예 몬스터 처치 후 얻은 비취 조각상을 알코어에게 전달. (가는 길: 마을 밖 첫 정예 몬스터 처치 -> 조각상 획득 -> 알코어 대화) 보상: 생명력(피) +20 영구 증가 (추천 레벨: 21~23)",
-      "tags": [
-        "quest",
-        "act3",
-        "life"
-      ],
-      "meta": {
-        "act": 3
-      }
+      "description": "정예 몬스터 처치 후 얻은 비취 조각상을 알코어에게 전달.\n경로: 마을 밖 첫 정예 몬스터 처치 → 조각상 획득 → 알코어 대화\n보상: 생명력(피) +20 영구 증가\n추천 레벨: 21~23",
+      "tags": ["quest", "act3", "life", "영구버프"],
+      "meta": { "act": 3 }
     },
     {
       "type": "quest",
       "name": "람 에센의 책 (Lam Esen's Tome)",
-      "description": "쿠라스트 시장의 버려진 유적에서 책 회수. (가는 길: 상부 쿠라스트 -> 쿠라스트 시장 -> 버려진 유적) 보상: 보너스 능력치(스탯) +5 (추천 레벨: 23~24)",
-      "tags": [
-        "quest",
-        "act3",
-        "stat"
-      ],
-      "meta": {
-        "act": 3
-      }
+      "description": "쿠라스트 시장의 버려진 유적에서 책 회수.\n경로: 상부 쿠라스트 → 쿠라스트 시장 → 버려진 유적\n보상: 보너스 능력치(스탯) +5\n추천 레벨: 23~24",
+      "tags": ["quest", "act3", "stat", "영구버프"],
+      "meta": { "act": 3 }
     },
     {
       "type": "quest",
       "name": "가디언 (The Guardian)",
-      "description": "증오의 사원 3층에서 메피스토 처치. (가는 길: 트라빈컬 -> 증오의 사원 1~3층) 보상: 액트 4 이동 가능 (추천 레벨: 24~26)",
-      "tags": [
-        "quest",
-        "act3",
-        "boss"
-      ],
-      "meta": {
-        "act": 3
-      }
+      "description": "증오의 사원 3층에서 메피스토 처치.\n경로: 트라빈컬 → 증오의 사원 1~3층\n보상: 액트 4 이동 가능\n추천 레벨: 24~26\n※ 메피스토 드랍이 매우 좋음. 모엣(해자) 트릭으로 안전 사냥 가능",
+      "tags": ["quest", "act3", "boss", "메피스토", "파밍"],
+      "meta": { "act": 3 }
     },
     {
       "type": "quest",
       "name": "타락한 천사 (The Fallen Angel)",
-      "description": "절망의 평원에 있는 이주알 처치. (가는 길: 지옥의 성채 -> 평원 외곽 -> 절망의 평원) 보상: 스킬 포인트 +2 (추천 레벨: 26~27)",
-      "tags": [
-        "quest",
-        "act4",
-        "izual"
-      ],
-      "meta": {
-        "act": 4
-      }
+      "description": "절망의 평원에 있는 이주알 처치.\n경로: 지옥의 성채 → 평원 외곽 → 절망의 평원\n보상: 스킬 포인트 +2\n추천 레벨: 26~27",
+      "tags": ["quest", "act4", "izual", "이주알", "skill"],
+      "meta": { "act": 4 }
     },
     {
       "type": "quest",
       "name": "지옥의 대장간 (Hellforge)",
-      "description": "불길의 강에 있는 대장간에서 메피스토의 영혼석 파괴. (가는 길: 절망의 평원 -> 저주받은 자들의 도시 -> 불길의 강) 보상: 난이도별 다양한 등급의 룬과 보석 (추천 레벨: 27~28)",
-      "tags": [
-        "quest",
-        "act4",
-        "rune"
-      ],
-      "meta": {
-        "act": 4
-      }
+      "description": "불길의 강에 있는 대장간에서 메피스토의 영혼석 파괴.\n경로: 절망의 평원 → 저주받은 자들의 도시 → 불길의 강\n보상: 난이도별 룬과 보석\n• 노말: 엘~앰\n• 나이트메어: 솔~움\n• 헬: 헬~굴\n추천 레벨: 27~28",
+      "tags": ["quest", "act4", "rune", "보석", "헬포지"],
+      "meta": { "act": 4 }
     },
     {
       "type": "quest",
       "name": "공포의 끝 (Terror's End)",
-      "description": "카오스 생츄어리(혼돈의 성역)에서 5개의 봉인을 풀고 디아블로 처치. 보상: 액트 5 이동 가능 (추천 레벨: 28~30)",
-      "tags": [
-        "quest",
-        "act4",
-        "boss"
-      ],
-      "meta": {
-        "act": 4
-      }
+      "description": "카오스 생츄어리(혼돈의 성역)에서 5개의 봉인을 풀고 디아블로 처치.\n보상: 액트 5 이동 가능\n추천 레벨: 28~30\n※ 카오스 런: 헬 난이도 최고의 경험치+아이템 파밍 장소",
+      "tags": ["quest", "act4", "boss", "디아블로", "카오스런"],
+      "meta": { "act": 4 }
     },
     {
       "type": "quest",
       "name": "하로가스 공성전 (Siege on Harrogath)",
-      "description": "핏빛 언덕의 감독관 쉔크 처치. (가는 길: 하로가스 정문 -> 핏빛 언덕 끝자락) 보상: 라주크의 아이템 홈(소켓) 추가 (추천 레벨: 31~32)",
-      "tags": [
-        "quest",
-        "act5",
-        "socket"
-      ],
-      "meta": {
-        "act": 5
-      }
+      "description": "핏빛 언덕의 감독관 쉔크 처치.\n경로: 하로가스 정문 → 핏빛 언덕 끝자락\n보상: 라주크의 아이템 소켓 추가\n• 유니크: 1소켓\n• 세트: 1소켓\n• 레어: 1소켓\n• 노말/매직: 아이템에 따라 1~N소켓\n추천 레벨: 31~32",
+      "tags": ["quest", "act5", "socket", "소켓", "라주크"],
+      "meta": { "act": 5 }
     },
     {
       "type": "quest",
       "name": "얼음 감옥 (Prison of Ice)",
-      "description": "수정 동굴 내 얼어붙은 강에서 앤야 구조. (가는 길: 아리앗 고원 -> 수정 동굴 -> 얼어붙은 강) 보상: 저항력(올레지) +10 영구 증가 스크롤 (추천 레벨: 32~34)",
-      "tags": [
-        "quest",
-        "act5",
-        "resistance"
-      ],
-      "meta": {
-        "act": 5
-      }
+      "description": "수정 동굴 내 얼어붙은 강에서 앤야 구조.\n경로: 아리앗 고원 → 수정 동굴 → 얼어붙은 강\n보상: 저항력(올레지) +10 영구 증가 스크롤, 앤야의 개인화 서비스\n추천 레벨: 32~34",
+      "tags": ["quest", "act5", "resistance", "올레지", "영구버프"],
+      "meta": { "act": 5 }
     },
     {
       "type": "quest",
       "name": "통과의례 (Rite of Passage)",
-      "description": "아리앗 정상에서 고대 야만전사 3인 처치. 보상: 대량의 경험치 획득 및 세계석 성채 입장 권한 (추천 레벨: 35~37)",
-      "tags": [
-        "quest",
-        "act5",
-        "ancient"
-      ],
-      "meta": {
-        "act": 5
-      }
+      "description": "아리앗 정상에서 고대 야만전사 3인 처치.\n보상: 대량의 경험치 획득 및 세계석 성채 입장 권한\n추천 레벨: 35~37 (헬: 레벨 75 이상 권장)\n※ 헬 난이도에서는 레벨 99달성 시 반드시 통과 필요. 랜덤 면역 주의",
+      "tags": ["quest", "act5", "ancient", "고대인", "레벨링"],
+      "meta": { "act": 5 }
     },
     {
       "type": "quest",
       "name": "파괴의 전야 (Eve of Destruction)",
-      "description": "세계석 성채 지하 3층 파괴의 보좌를 지나 바알 처치. 보상: 난이도 클리어 (추천 레벨: 38~40)",
-      "tags": [
-        "quest",
-        "act5",
-        "boss"
-      ],
-      "meta": {
-        "act": 5
-      }
+      "description": "세계석 성채 지하 3층 파괴의 보좌를 지나 바알 처치.\n보상: 난이도 클리어\n추천 레벨: 38~40 (헬: 레벨 80+)\n※ 바알 런: 세계석 성채에서 경험치 파밍. 바알 웨이브 5개",
+      "tags": ["quest", "act5", "boss", "바알", "바알런"],
+      "meta": { "act": 5 }
+    },
+
+    {
+      "type": "merc",
+      "name": "액트 1 용병 - 로그 (Rogue Scout)",
+      "description": "무기: 활\n오라/스킬: 화염 화살 / 냉기 화살 선택\n\n추천 장비:\n• 무기: 신뢰(Faith) - 광신 오라 제공\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 안다리엘의 얼굴\n\n특징: 광신 오라 제공 시 물리 딜러 최고의 용병\n적합 빌드: 보우마존, 제크마존, 물리 딜러 전반",
+      "tags": ["merc", "act1", "rogue", "활용병", "광신오라"],
+      "meta": { "weapon": "Bow", "act": 1 }
     },
     {
       "type": "merc",
-      "name": "액트 1 용병",
-      "description": "활 사용 (내면의 시야, 화살 사격 등), 룬어 '신뢰' 장착 시 파나티시즘 제공 가능",
-      "tags": [
-        "merc",
-        "act1",
-        "rogue",
-        "활용병"
-      ],
-      "meta": {
-        "weapon": "Bow"
-      }
+      "name": "액트 2 용병 - 사막 전사 (Desert Mercenary)",
+      "description": "무기: 폴암/창\n\n오라 종류 (고용 난이도에 따라 다름):\n• 전투(노말): 기도(프레이어) / 성역(디파이언스)\n• 공격(나이트메어): 축복 조준(블레스드 에임) / 힘(마이트)\n• 방어(헬): 신성한 빙결(홀리 프리즈) / 가시(쏜즈)\n\n추천 장비:\n• 무기: 무한(Infinity) / 통찰(Insight) / 복종(Obedience)\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 안다리엘의 얼굴 / 기욤의 투구\n\n※ 가장 인기 있는 용병. 힘(마이트) 오라 + 물리딜 / 신성한 빙결 + 안전파밍이 대표 조합",
+      "tags": ["merc", "act2", "사막용병", "폴암", "오라", "인기", "마이트", "홀리프리즈", "선고"],
+      "meta": { "weapon": "Polearm/Spear", "act": 2 }
     },
     {
       "type": "merc",
-      "name": "액트 5 용병",
-      "description": "검 사용 (강타, 기절 등), 최근 패치로 이도류 사용 및 강력한 탱킹 능력 보유",
-      "tags": [
-        "merc",
-        "act5",
-        "barbarian",
-        "바바용병"
-      ],
-      "meta": {
-        "weapon": "Sword"
-      }
+      "name": "액트 3 용병 - 아이언 울프 (Iron Wolf)",
+      "description": "무기: 검 + 방패\n원소 타입: 화염 / 냉기 / 번개 선택\n\n추천 장비:\n• 무기: 법의 집행자(Lawbringer) / 역병(Plague)\n• 방패: 스피릿(Spirit)\n• 갑옷: 배신(Treachery)\n• 투구: 착란(Delirium)\n\n특징: D2R 패치로 대폭 강화. 방패 착용으로 생존력 좋음\n적합 빌드: 캐스터 빌드 보조",
+      "tags": ["merc", "act3", "아이언울프", "마법사", "원소공격"],
+      "meta": { "weapon": "Sword + Shield", "act": 3 }
+    },
+    {
+      "type": "merc",
+      "name": "액트 5 용병 - 야만전사 (Barbarian)",
+      "description": "무기: 검 (이도류 가능)\n스킬: 강타(배쉬) / 기절(스턴)\n\n추천 장비:\n• 무기1: 슬픔(Grief) - 최고 물리 딜\n• 무기2: 법의 집행자(Lawbringer) - 감소 저주\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 기욤의 투구 / 안다리엘의 얼굴\n\n특징: D2R 패치로 이도류 사용 가능. 강력한 물리 딜과 탱킹\n적합 빌드: 캐스터 빌드의 물리 보조",
+      "tags": ["merc", "act5", "barbarian", "바바용병", "이도류", "강타"],
+      "meta": { "weapon": "Sword (Dual Wield)", "act": 5 }
+    },
+
+    {
+      "type": "area",
+      "name": "비밀 젖소 레벨 (Secret Cow Level)",
+      "description": "입장 조건: 바알 처치 후, 마을에서 위르트의 다리 + 포탈의 서 큐브 조합\n지역 레벨: 노말 28 / 나이트메어 64 / 헬 81\n\n특징:\n• 넓은 공터에 대량의 몬스터 밀집\n• 룬, 보석, 고급 베이스 아이템 파밍\n• 카우 킹 처치해도 재입장 가능 (D2R 변경사항)\n\n추천 빌드: 광역 딜 (자벨마, 해머딘, 블리자드 소서)",
+      "tags": ["area", "카우", "젖소", "파밍", "룬파밍", "cow"],
+      "meta": { "level": 81, "difficulty": "헬" }
+    },
+    {
+      "type": "area",
+      "name": "카오스 생츄어리 (Chaos Sanctuary)",
+      "description": "위치: 액트 4 - 혼돈의 성역 (디아블로 보스 방)\n지역 레벨: 헬 85\n\n특징:\n• 5개 봉인 해제 시 디아블로 소환\n• 봉인 해제 시 슈퍼 유니크 3마리 출현\n• 최고의 경험치 + 아이템 드랍 조합\n• 모든 TC87 아이템 드랍 가능\n\n면역: 화염/냉기/번개 면역 혼재\n추천 빌드: 해머딘, 번개 소서(인피니티), 자벨마",
+      "tags": ["area", "카오스", "chaos", "파밍", "경험치", "레벨85", "act4"],
+      "meta": { "level": 85, "act": 4 }
+    },
+    {
+      "type": "area",
+      "name": "세계석 성채 (Worldstone Keep)",
+      "description": "위치: 액트 5 - 세계석 성채 1~3층 + 파괴의 보좌\n지역 레벨: 헬 85\n\n특징:\n• 바알 런(Baal Run)의 무대\n• 바알 웨이브 5번 진행 후 바알 처치\n• 최고의 경험치 파밍 장소\n• 모든 TC87 아이템 드랍 가능\n\n면역: 다양한 면역 혼재\n추천 빌드: 해머딘, 자벨마, 스마이터",
+      "tags": ["area", "세계석", "바알런", "baal", "파밍", "경험치", "레벨85", "act5"],
+      "meta": { "level": 85, "act": 5 }
+    },
+    {
+      "type": "area",
+      "name": "잊힌 탑 (The Countess Tower)",
+      "description": "위치: 액트 1 - 검은 습지 → 잊힌 탑 5층\n지역 레벨: 헬 79~83\n\n특징:\n• 카운테스: 룬 전문 드랍 (헬에서 최대 Ist/Mal)\n• 룬 특수 드랍 테이블 보유\n• 열쇠(Key of Terror) 드랍 - 우버 이벤트용\n\n드랍 룬 범위:\n• 노말: 엘~랄\n• 나이트메어: 엘~이오/코\n• 헬: 엘~이스트(특수), Lo(일반)\n\n추천 빌드: 아무 빌드나 가능 (낮은 난이도)",
+      "tags": ["area", "카운테스", "countess", "룬파밍", "열쇠", "act1"],
+      "meta": { "level": 83, "act": 1 }
+    },
+    {
+      "type": "area",
+      "name": "고대의 터널 (Ancient Tunnels)",
+      "description": "위치: 액트 2 - 잊힌 도시 지하\n지역 레벨: 헬 85\n\n특징:\n• 냉기 면역 몬스터 없음!\n• 블리자드/냉기 소서리스 최고의 파밍 장소\n• 모든 TC87 아이템 드랍 가능\n• 밀집도 적당, 안전한 파밍\n\n면역: 냉기 면역 없음 (번개/화염/독 면역 존재)\n추천 빌드: 블리자드 소서리스, 냉기 빌드 전반",
+      "tags": ["area", "고대터널", "ancient tunnels", "파밍", "소서리스", "블리자드", "레벨85", "act2"],
+      "meta": { "level": 85, "act": 2 }
+    },
+    {
+      "type": "area",
+      "name": "구덩이 (The Pit)",
+      "description": "위치: 액트 1 - 타무에 고원 → 구덩이 1~2층\n지역 레벨: 헬 85\n\n특징:\n• 액트 1에 있는 레벨 85 지역\n• 접근이 매우 쉬움 (웨이포인트 근처)\n• 모든 TC87 아이템 드랍 가능\n• 비교적 약한 몬스터\n\n면역: 다양하나 대부분 한 가지만\n추천 빌드: 거의 모든 빌드 가능",
+      "tags": ["area", "구덩이", "pit", "파밍", "레벨85", "act1", "초보추천"],
+      "meta": { "level": 85, "act": 1 }
+    },
+    {
+      "type": "area",
+      "name": "니흘라탁 사원 (Nihlathak's Temple)",
+      "description": "위치: 액트 5 - 할로게이트 → 니흘라탁의 사원 → 고통의 전당\n지역 레벨: 헬 83~85\n\n특징:\n• 열쇠(Key of Destruction) 드랍 - 우버 이벤트용\n• 니흘라탁: 시체 폭발 주의!\n• 모든 TC87 아이템 드랍 가능\n\n추천 빌드: 해머딘, 텔레포트 있는 캐릭",
+      "tags": ["area", "니흘라탁", "nihlathak", "열쇠", "파밍", "레벨85", "act5"],
+      "meta": { "level": 85, "act": 5 }
+    },
+    {
+      "type": "area",
+      "name": "트라빈컬 (Travincal)",
+      "description": "위치: 액트 3 - 트라빈컬 (쿠라스트 의회)\n지역 레벨: 헬 83\n\n특징:\n• 의회 의원(Council Member) 3마리 + 수하\n• 고급 룬 드랍 확률 높음 (TC 특수 설정)\n• 매우 빠른 파밍 가능 (마을에서 가까움)\n• 금 파밍 겸용\n\n면역: 화염 면역 다수\n추천 빌드: 해머딘, 저거넛, 야만 호드릭",
+      "tags": ["area", "트라빈컬", "travincal", "의회", "룬파밍", "고룬", "act3"],
+      "meta": { "level": 83, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "메피스토 (Durance of Hate Lv3)",
+      "description": "위치: 액트 3 - 증오의 사원 3층\n지역 레벨: 헬 83\n\n특징:\n• 메피스토 보스 파밍 (최고의 유니크 드랍률)\n• 모엣 트릭: 해자 넘어서 안전하게 사냥\n• TC78까지 드랍 가능 (샤코, 오큘러스, SoJ 등)\n• 텔레포트 필수 (빠른 접근)\n\n주요 드랍: 샤코, 오큘러스, 전쟁여행자, SoJ 등\n추천 빌드: 블리자드/라이트닝 소서리스",
+      "tags": ["area", "메피스토", "mephisto", "보스파밍", "유니크", "드랍", "act3"],
+      "meta": { "level": 83, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "앤디 (Catacombs Lv4)",
+      "description": "위치: 액트 1 - 카타콤 4층\n지역 레벨: 헬 79\n\n특징:\n• 안다리엘 보스 파밍\n• 퀘스트 드랍 버그: 최초 처치 시 드랍률 향상 (모든 난이도)\n• TC69까지 드랍 가능\n• 열쇠(Key of Terror) 대안 파밍\n\n주요 드랍: SoJ, 레이븐프로스트, 각종 유니크 반지/아뮬렛\n추천 빌드: 거의 모든 빌드",
+      "tags": ["area", "안다리엘", "andariel", "보스파밍", "act1", "퀘스트버그"],
+      "meta": { "level": 79, "act": 1 }
+    },
+    {
+      "type": "area",
+      "name": "스토니 툼 (Stony Tomb)",
+      "description": "위치: 액트 2 - 바위투성이 황무지 → 스토니 툼 1~2층\n지역 레벨: 헬 85\n\n특징:\n• D2R에서 레벨 85로 상향된 지역\n• 비교적 접근 쉬움\n• 모든 TC87 아이템 드랍 가능\n• 몬스터 밀집도 보통\n\n추천 빌드: 대부분의 빌드 가능",
+      "tags": ["area", "스토니툼", "stony tomb", "파밍", "레벨85", "act2"],
+      "meta": { "level": 85, "act": 2 }
+    },
+    {
+      "type": "area",
+      "name": "아라킨 사원 (Arachnid Lair)",
+      "description": "위치: 액트 3 - 거미의 숲 → 아라킨 사원\n지역 레벨: 헬 85\n\n특징:\n• D2R에서 레벨 85로 상향\n• 거미그물 띠(Arachnid Mesh) 테마 매칭\n• 모든 TC87 아이템 드랍 가능\n\n추천 빌드: 대부분의 빌드 가능",
+      "tags": ["area", "아라킨", "거미", "arachnid", "파밍", "레벨85", "act3"],
+      "meta": { "level": 85, "act": 3 }
+    },
+
+    {
+      "type": "event",
+      "name": "테러 지역 (Terror Zones)",
+      "description": "D2R 시즌 2(2.5 패치)부터 도입된 시스템\n\n작동 방식:\n• 매 시간마다 특정 지역이 '테러 지역'으로 지정\n• 테러 지역의 몬스터 레벨이 캐릭터 레벨 +2~5로 상향\n• 최대 레벨 96~99까지 경험치 획득 가능\n• 기존 레벨 85 지역 외에도 다양한 곳에서 파밍 가능\n\n주요 장점:\n• 레벨 85+ 몬스터가 되므로 모든 아이템 드랍 가능\n• 파밍 장소 다양화 → 지루함 해소\n• 레벨 96~99 구간 레벨링 효율 대폭 향상\n\n활성화 조건: 해당 난이도의 바알 처치 완료",
+      "tags": ["event", "테러존", "terror zone", "시즌", "레벨링", "파밍", "2.5패치"],
+      "meta": { "patch": "2.5", "type": "상시" }
+    },
+    {
+      "type": "event",
+      "name": "선더 참 (Sunder Charms)",
+      "description": "D2R 시즌 2(2.5 패치)부터 추가된 그랜드 참\n\n종류 (5가지):\n• 냉기 파열: 냉기 면역 해제, 본인 냉기 저항 -75~-50%\n• 번개 파열: 번개 면역 해제, 본인 번개 저항 -75~-50%\n• 화염 파열: 화염 면역 해제, 본인 화염 저항 -75~-50%\n• 독 파열: 독 면역 해제, 본인 독 저항 -75~-50%\n• 마법 파열: 마법 면역 해제, 본인 마법 저항 -75~-50%\n\n획득: 테러 지역의 챔피언/유니크 몬스터에서만 드랍\n※ 면역 깨기의 혁명! 인피니티 없이도 면역 해제 가능",
+      "tags": ["event", "선더참", "sunder", "면역깨기", "그랜드참", "테러존", "2.5패치"],
+      "meta": { "patch": "2.5", "type": "아이템" }
+    },
+    {
+      "type": "event",
+      "name": "우버 트리스트럼 (Uber Tristram)",
+      "description": "판데모니엄 이벤트의 최종 단계\n\n준비 과정:\n1단계 - 열쇠 수집:\n• Key of Terror: 카운테스 (액트1)\n• Key of Hate: 소환사 (액트2)\n• Key of Destruction: 니흘라탁 (액트5)\n\n2단계 - 미니 우버 처치 (각 열쇠 3개씩 큐브 조합):\n• 우버 안다리엘 → 메피스토의 뇌\n• 우버 듀리엘 → 바알의 눈\n• 우버 이주알 → 디아블로의 뿔\n\n3단계 - 우버 트리스트럼:\n• 3개의 부위를 큐브 조합하여 포탈 개방\n• 우버 메피스토 + 우버 디아블로 + 우버 바알 동시 처치\n\n보상: 토치(Hellfire Torch) - 랜덤 클래스용 그랜드 참\n• +3 랜덤 클래스 스킬\n• +10~20 모든 능력치\n• +10~20 모든 저항\n\n추천 빌드: 스마이터 팔라딘 (생명력 탭 + 고저항 필수)",
+      "tags": ["event", "우버", "uber", "토치", "torch", "판데모니엄", "열쇠파밍", "스마이터"],
+      "meta": { "type": "엔드게임" }
+    },
+    {
+      "type": "event",
+      "name": "디클론 / 아니힐러스 (DClone / Annihilus)",
+      "description": "디아블로 클론 이벤트\n\nD2R 변경사항 (2.4 패치):\n• 기존: 서버에서 SoJ 판매 시 출현\n• D2R: 지역 채팅으로 진행 상황 표시, 특정 조건 달성 시 출현\n\n디아블로 클론 출현 조건:\n• 헬 난이도에서 특정 수의 SoJ가 상인에게 판매될 때\n• '지구가 흔들린다' 등의 메시지 표시\n\n보상: 아니힐러스 (Annihilus) - 소형 참\n• +1 모든 스킬\n• +10~20 모든 능력치\n• +10~20 모든 저항\n• +5~10% 경험치 획득 증가\n\n※ 캐릭터당 1개만 소지 가능. 모든 빌드의 필수 참",
+      "tags": ["event", "디클론", "dclone", "아니힐러스", "anni", "soj", "엔드게임"],
+      "meta": { "type": "엔드게임" }
+    },
+    {
+      "type": "event",
+      "name": "래더 시즌 (Ladder Season)",
+      "description": "D2R 래더(사다리) 시즌 시스템\n\n특징:\n• 주기적으로 리셋되는 경쟁 시스템\n• 래더 전용 룬워드가 비래더에서도 사용 가능 (D2R 변경)\n• 시즌 종료 시 캐릭터가 비래더로 이동\n\n래더 종류:\n• 일반 래더 (소프트코어)\n• 하드코어 래더\n• 각각 스탠다드/확장\n\n시즌별 주요 변경사항:\n• 시즌 1 (2.4): 새 룬워드, 클래스 밸런스\n• 시즌 2 (2.5): 테러존, 선더참\n• 시즌 3 (2.6): 추가 룬워드, 밸런스\n• 시즌 4 (2.7): 추가 컨텐츠\n• 시즌 5~7: 지속적인 밸런스 및 컨텐츠 업데이트\n\n※ D2R은 오리지널과 달리 래더 룬워드를 비래더에서도 제작 가능",
+      "tags": ["event", "래더", "ladder", "시즌", "경쟁", "리셋"],
+      "meta": { "type": "시즌" }
+    },
+    {
+      "type": "event",
+      "name": "큐브 레시피 주요 정리 (Horadric Cube Recipes)",
+      "description": "호라드림의 함(큐브) 주요 레시피 모음\n\n■ 룬 업그레이드:\n• 저급(엘~앰): 같은 룬 3개 = 한 단계 위 룬\n• 중급(솔~움): 같은 룬 3개 + 칩드 보석 = 위 룬\n• 고급(말~조드): 같은 룬 2개 + 보석 = 위 룬\n\n■ 소켓 관련:\n• 소켓 비우기: Hel 룬 + 포탈의 서 + 아이템\n• 소켓 추가(노말 무기): Ral + Amn + 완전 자수정 + 노말 무기\n• 소켓 추가(노말 갑옷): Tal + Thul + 완전 황옥 + 노말 갑옷\n• 소켓 추가(노말 방패): Tal + Amn + 완전 루비 + 노말 방패\n• 소켓 추가(노말 투구): Ral + Thul + 완전 사파이어 + 노말 투구\n\n■ 아이템 업그레이드:\n• 유니크 노말→익셉: Ral + Sol + 완전 에메랄드 + 노말 유니크\n• 유니크 익셉→엘리트: Lum + Pul + 완전 에메랄드 + 익셉 유니크\n\n■ 기타:\n• 3개의 완전 보석 + 매직 아이템 = 새 매직 아이템 (리롤)\n• 6개의 완전 보석 + 1개의 SOJ = 원본 서버에서 디클론 소환",
+      "tags": ["event", "큐브", "레시피", "호라드림", "소켓", "업그레이드", "룬업그레이드"],
+      "meta": { "type": "시스템" }
     }
   ]
 }

@@ -3,38 +3,372 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D2R 아이템 검색기 V1.0</title>
+    <title>D2R 아이템 도감 V2.0</title>
     <style>
-        body { font-family: sans-serif; background-color: #121212; color: #e0e0e0; max-width: 800px; margin: 0 auto; padding: 20px; }
-        h1 { color: #d4af37; text-align: center; } /* 디아블로 골드 색상 */
-        
-        .control-panel { background: #1e1e1e; padding: 15px; border-radius: 8px; margin-bottom: 20px; border: 1px solid #333; }
-        input, select, button { padding: 10px; margin: 5px 0; width: 100%; box-sizing: border-box; background: #333; color: white; border: 1px solid #555; }
-        button { cursor: pointer; background-color: #5d4037; font-weight: bold; }
-        button:hover { background-color: #795548; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        .tabs { display: flex; gap: 10px; margin-bottom: 10px; }
-        .tab-btn { flex: 1; background: #2c2c2c; }
-        .tab-btn.active { background: #d4af37; color: black; }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #0a0a0f;
+            color: #e0e0e0;
+            min-height: 100vh;
+        }
 
-        #results { display: grid; grid-template-columns: 1fr; gap: 10px; }
-        .item-card { background: #252525; padding: 15px; border: 1px solid #444; border-radius: 5px; }
-        .item-type { font-size: 0.8em; color: #aaa; text-transform: uppercase; margin-bottom: 5px; }
-        .item-name { font-size: 1.2em; font-weight: bold; color: #d4af37; margin-bottom: 10px; }
-        .item-detail { font-size: 0.9em; line-height: 1.5; white-space: pre-wrap; }
-        
-        /* 모달 스타일 (아이템 추가용) */
-        #addModal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); z-index: 1000; }
-        .modal-content { background: #1e1e1e; margin: 10% auto; padding: 20px; width: 90%; max-width: 500px; border-radius: 8px; border: 1px solid #d4af37; }
+        .header {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            padding: 20px 16px;
+            text-align: center;
+            border-bottom: 2px solid #d4af37;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header h1 {
+            color: #d4af37;
+            font-size: 1.5em;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
+        }
+        .header .subtitle {
+            color: #888;
+            font-size: 0.8em;
+            margin-top: 4px;
+        }
 
-        /* 로딩 오버레이 스타일 */
-        .loading-overlay {
-            position: fixed;
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            padding: 8px 16px;
+            background: #111118;
+            border-bottom: 1px solid #222;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            font-size: 0.75em;
+            color: #999;
+        }
+        .stat-item span {
+            color: #d4af37;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        .control-panel {
+            background: #13131f;
+            padding: 12px;
+            border-radius: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #2a2a3a;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 6px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        .tab-btn {
+            flex: 1;
+            min-width: 60px;
+            padding: 8px 4px;
+            background: #1e1e30;
+            color: #888;
+            border: 1px solid #2a2a3a;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.8em;
+            font-weight: 600;
+            transition: all 0.2s;
+            text-align: center;
+        }
+        .tab-btn:hover {
+            background: #2a2a40;
+            color: #ccc;
+        }
+        .tab-btn.active {
+            background: linear-gradient(135deg, #d4af37, #b8962e);
+            color: #000;
+            border-color: #d4af37;
+        }
+
+        .search-row {
+            display: flex;
+            gap: 8px;
+        }
+        #searchInput {
+            flex: 1;
+            padding: 10px 14px;
+            background: #1a1a2a;
+            color: #fff;
+            border: 1px solid #333;
+            border-radius: 8px;
+            font-size: 0.95em;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        #searchInput:focus {
+            border-color: #d4af37;
+        }
+        #searchInput::placeholder {
+            color: #555;
+        }
+
+        .btn-add {
+            padding: 10px 16px;
+            background: #2a2a40;
+            color: #d4af37;
+            border: 1px solid #d4af37;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9em;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .btn-add:hover {
+            background: #d4af37;
+            color: #000;
+        }
+
+        .result-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            padding: 0 4px;
+        }
+        .result-count {
+            font-size: 0.85em;
+            color: #666;
+        }
+        .sort-btn {
+            font-size: 0.8em;
+            color: #888;
+            background: none;
+            border: 1px solid #333;
+            padding: 4px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .sort-btn:hover { color: #d4af37; border-color: #d4af37; }
+
+        #results {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+        @media (min-width: 640px) {
+            #results { grid-template-columns: 1fr 1fr; }
+        }
+
+        .item-card {
+            background: #13131f;
+            padding: 14px;
+            border: 1px solid #2a2a3a;
+            border-radius: 8px;
+            transition: all 0.2s;
+            position: relative;
+            overflow: hidden;
+        }
+        .item-card:hover {
+            border-color: #444;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .item-card::before {
+            content: '';
+            position: absolute;
             top: 0;
             left: 0;
-            width: 100%;
+            width: 3px;
             height: 100%;
-            background: rgba(0, 0, 0, 0.7); /* 반투명 검은 배경 */
+        }
+        .item-card[data-type="rune"]::before { background: #ff6b35; }
+        .item-card[data-type="runeword"]::before { background: #d4af37; }
+        .item-card[data-type="unique"]::before { background: #c4a24e; }
+        .item-card[data-type="set"]::before { background: #00cc44; }
+        .item-card[data-type="quest"]::before { background: #6ba3ff; }
+        .item-card[data-type="merc"]::before { background: #ff6bff; }
+        .item-card[data-type="area"]::before { background: #44dddd; }
+        .item-card[data-type="event"]::before { background: #ff4444; }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+        }
+        .item-type {
+            font-size: 0.7em;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .type-rune { background: rgba(255,107,53,0.15); color: #ff6b35; }
+        .type-runeword { background: rgba(212,175,55,0.15); color: #d4af37; }
+        .type-unique { background: rgba(196,162,78,0.15); color: #c4a24e; }
+        .type-set { background: rgba(0,204,68,0.15); color: #00cc44; }
+        .type-quest { background: rgba(107,163,255,0.15); color: #6ba3ff; }
+        .type-merc { background: rgba(255,107,255,0.15); color: #ff6bff; }
+        .type-area { background: rgba(68,221,221,0.15); color: #44dddd; }
+        .type-event { background: rgba(255,68,68,0.15); color: #ff4444; }
+
+        .item-badge {
+            font-size: 0.65em;
+            color: #0f0;
+            border: 1px solid #0f0;
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+        .item-name {
+            font-size: 1.05em;
+            font-weight: bold;
+            color: #e8d5a3;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        .item-card[data-type="unique"] .item-name { color: #c4a24e; }
+        .item-card[data-type="set"] .item-name { color: #00cc44; }
+        .item-card[data-type="runeword"] .item-name { color: #d4af37; }
+
+        .item-detail {
+            font-size: 0.82em;
+            line-height: 1.6;
+            color: #aaa;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .item-tags {
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+        .tag {
+            font-size: 0.65em;
+            padding: 2px 6px;
+            background: #1a1a2a;
+            color: #666;
+            border-radius: 3px;
+            border: 1px solid #252535;
+        }
+
+        .item-meta {
+            margin-top: 8px;
+            padding-top: 8px;
+            border-top: 1px solid #1e1e30;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .meta-chip {
+            font-size: 0.72em;
+            padding: 3px 8px;
+            background: #1a1a2a;
+            border-radius: 4px;
+            color: #888;
+        }
+        .meta-chip b { color: #d4af37; }
+
+        .no-results {
+            text-align: center;
+            color: #555;
+            padding: 40px;
+            font-size: 0.95em;
+        }
+
+        .scroll-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 44px;
+            height: 44px;
+            background: rgba(212,175,55,0.9);
+            color: #000;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.2em;
+            font-weight: bold;
+            display: none;
+            z-index: 200;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+            transition: opacity 0.2s;
+        }
+        .scroll-top:hover { opacity: 0.8; }
+
+        #addModal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85);
+            z-index: 1000;
+        }
+        .modal-content {
+            background: #13131f;
+            margin: 8% auto;
+            padding: 24px;
+            width: 90%;
+            max-width: 500px;
+            border-radius: 12px;
+            border: 1px solid #d4af37;
+        }
+        .modal-content h2 {
+            color: #d4af37;
+            margin-bottom: 16px;
+            font-size: 1.1em;
+        }
+        .modal-content select,
+        .modal-content input,
+        .modal-content textarea {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 10px;
+            background: #1a1a2a;
+            color: #fff;
+            border: 1px solid #333;
+            border-radius: 6px;
+            font-size: 0.9em;
+        }
+        .modal-content textarea { resize: vertical; }
+        .modal-btns {
+            display: flex;
+            gap: 8px;
+        }
+        .modal-btns button {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.9em;
+        }
+        .btn-save {
+            background: #d4af37;
+            color: #000;
+        }
+        .btn-cancel {
+            background: #2a2a3a;
+            color: #aaa;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.85);
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -42,61 +376,94 @@
             z-index: 9999;
             color: white;
         }
-
-        /* 숨김 처리를 위한 유틸리티 클래스 */
-        .hidden {
-            display: none !important;
-        }
-
-        /* 간단한 회전 스피너 */
+        .hidden { display: none !important; }
         .spinner {
-            width: 50px;
-            height: 50px;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid #3498db; /* 포인트 컬러 */
+            width: 40px; height: 40px;
+            border: 3px solid #333;
+            border-top: 3px solid #d4af37;
             border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-bottom: 15px;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 12px;
         }
-
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
+        }
+        .loading-overlay p {
+            font-size: 0.9em;
+            color: #aaa;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 24px 16px;
+            color: #333;
+            font-size: 0.75em;
+            border-top: 1px solid #1a1a2a;
+            margin-top: 24px;
         }
     </style>
 </head>
 <body>
 
-    <h1>D2R 아이템 검색기</h1>
-
-    <div class="control-panel">
-        <div class="tabs">
-            <button class="tab-btn active" onclick="app.setCategory('all')">전체</button>
-            <button class="tab-btn" onclick="app.setCategory('rune')">룬</button>
-            <button class="tab-btn" onclick="app.setCategory('runeword')">룬어</button>
-            <button class="tab-btn" onclick="app.setCategory('quest')">퀘스트</button>
-            <button class="tab-btn" onclick="app.setCategory('merc')">용병</button>
-        </div>
-        <input type="text" id="searchInput" placeholder="검색어 입력 (예: 베르, 수수께끼, 2막)...">
-        <button onclick="app.openAddModal()">+ 신규 데이터 추가</button>
+    <div class="header">
+        <h1>D2R 아이템 도감</h1>
+        <div class="subtitle">Diablo II: Resurrected Database v2.0</div>
     </div>
 
-    <div id="results">
+    <div class="stats-bar" id="statsBar"></div>
+
+    <div class="container">
+        <div class="control-panel">
+            <div class="tabs" id="tabsContainer">
+                <button class="tab-btn active" data-cat="all">전체</button>
+                <button class="tab-btn" data-cat="rune">룬</button>
+                <button class="tab-btn" data-cat="runeword">룬워드</button>
+                <button class="tab-btn" data-cat="unique">유니크</button>
+                <button class="tab-btn" data-cat="set">세트</button>
+                <button class="tab-btn" data-cat="quest">퀘스트</button>
+                <button class="tab-btn" data-cat="merc">용병</button>
+                <button class="tab-btn" data-cat="area">지역</button>
+                <button class="tab-btn" data-cat="event">이벤트</button>
+            </div>
+            <div class="search-row">
+                <input type="text" id="searchInput" placeholder="검색 (예: 베르, 수수께끼, 카오스, 테러존...)">
+                <button class="btn-add" id="btnAdd">+ 추가</button>
+            </div>
         </div>
+
+        <div class="result-info">
+            <span class="result-count" id="resultCount"></span>
+            <button class="sort-btn" id="sortBtn">이름순</button>
+        </div>
+
+        <div id="results"></div>
+
+        <div class="footer">D2R Item Database - Vanilla JS</div>
+    </div>
+
+    <button class="scroll-top" id="scrollTop">&#9650;</button>
 
     <div id="addModal">
         <div class="modal-content">
-            <h2 style="color:#d4af37">데이터 추가</h2>
+            <h2>데이터 추가</h2>
             <select id="newType">
                 <option value="rune">룬</option>
-                <option value="runeword">룬어</option>
+                <option value="runeword">룬워드</option>
+                <option value="unique">유니크</option>
+                <option value="set">세트</option>
                 <option value="quest">퀘스트</option>
                 <option value="merc">용병</option>
+                <option value="area">지역</option>
+                <option value="event">이벤트</option>
             </select>
             <input type="text" id="newName" placeholder="이름 (예: 자 룬)">
-            <textarea id="newDesc" rows="5" style="width:100%; background:#333; color:white; border:1px solid #555;" placeholder="상세 정보 입력..."></textarea>
-            <button onclick="app.addItem()">저장</button>
-            <button onclick="app.closeAddModal()" style="background-color: #333;">취소</button>
+            <textarea id="newDesc" rows="5" placeholder="상세 정보 입력..."></textarea>
+            <input type="text" id="newTags" placeholder="태그 (쉼표로 구분, 예: 종결템,올스킬)">
+            <div class="modal-btns">
+                <button class="btn-save" id="btnSave">저장</button>
+                <button class="btn-cancel" id="btnCancel">취소</button>
+            </div>
         </div>
     </div>
 
@@ -105,5 +472,6 @@
         <p id="loadingText">데이터 업데이트 중...</p>
     </div>
 
-    <script src="app.js"></script> </body>
+    <script src="app.js"></script>
+</body>
 </html>
