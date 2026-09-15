@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 10으로 증가 (v9 캐시 사용자에게 호라존/변신 수정 반영)', () => {
-  assert.equal(version, 10);
+test('DB 버전이 11로 증가 (v10 캐시 사용자에게 성기사 클래스 반영)', () => {
+  assert.equal(version, 11);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -144,4 +144,72 @@ test('Metamorphosis 룬 표기(이오)와 실제 효과(마크 오브 울프/베
   assert.match(it.description, /Mark of the Wolf/);
   assert.match(it.description, /Mark of the Bear/);
   assert.ok(!it.description.includes('변신 지속시간 무한'));
+});
+
+// ── 성기사(Paladin) 클래스 추가 ──
+// 스킬 트리 설명의 "• 한글명 (English, 요구레벨)" 줄에서 영문 스킬명·레벨을 추출해 검증한다
+const PALADIN_TREES = {
+  'Combat Skills': ['Sacrifice', 'Smite', 'Holy Bolt', 'Zeal', 'Charge', 'Vengeance', 'Blessed Hammer',
+    'Conversion', 'Holy Shield', 'Fist of the Heavens'],
+  'Offensive Auras': ['Might', 'Holy Fire', 'Thorns', 'Blessed Aim', 'Concentration', 'Holy Freeze',
+    'Holy Shock', 'Sanctuary', 'Fanaticism', 'Conviction'],
+  'Defensive Auras': ['Prayer', 'Resist Fire', 'Defiance', 'Resist Cold', 'Cleansing', 'Resist Lightning',
+    'Vigor', 'Meditation', 'Redemption', 'Salvation'],
+};
+const skillLines = (desc) => [...desc.matchAll(/^• .+? \(([A-Za-z' ]+), (\d+)\)/gm)]
+  .map((m) => ({ name: m[1], level: Number(m[2]) }));
+const paladinItems = () => items.filter((i) => i.type === 'class' && i.tags.includes('성기사'));
+
+test('성기사 클래스 개요 항목 존재 (기본 스탯 포함)', () => {
+  const it = items.find((i) => i.type === 'class' && i.name.includes('(Paladin)'));
+  assert.ok(it, '성기사 개요 없음');
+  assert.equal(it.meta.type, '클래스');
+  assert.match(it.description, /힘 25 \/ 민첩 20 \/ 활력 25 \/ 에너지 15/);
+});
+
+test('성기사 스킬 트리 3개가 각각 정확히 10개 스킬을 올바른 순서로 가짐', () => {
+  for (const [tree, skills] of Object.entries(PALADIN_TREES)) {
+    const it = paladinItems().find((i) => i.name.includes(`(${tree})`));
+    assert.ok(it, `트리 없음: ${tree}`);
+    assert.equal(it.meta.type, '스킬트리');
+    assert.deepEqual(skillLines(it.description).map((s) => s.name), skills, tree);
+  }
+});
+
+test('성기사 스킬 요구 레벨은 1/6/12/18/24/30 경계값만 사용, 트리별 레벨 비내림차순', () => {
+  const allowed = [1, 6, 12, 18, 24, 30];
+  for (const it of paladinItems().filter((i) => i.meta.type === '스킬트리')) {
+    const levels = skillLines(it.description).map((s) => s.level);
+    for (const lv of levels) assert.ok(allowed.includes(lv), `${it.name}: ${lv}`);
+    assert.deepEqual(levels, [...levels].sort((a, b) => a - b), it.name);
+    assert.equal(levels[0], 1);
+    assert.equal(levels[levels.length - 1], 30);
+  }
+});
+
+test('성기사 스킬 30종 트리 간 중복 없음, 대표 스킬 레벨 정확', () => {
+  const all = paladinItems().flatMap((i) => skillLines(i.description));
+  assert.equal(all.length, 30);
+  assert.equal(new Set(all.map((s) => s.name)).size, 30);
+  const lv = Object.fromEntries(all.map((s) => [s.name, s.level]));
+  assert.equal(lv['Blessed Hammer'], 18);
+  assert.equal(lv['Fist of the Heavens'], 30);
+  assert.equal(lv['Concentration'], 18);
+  assert.equal(lv['Salvation'], 30);
+});
+
+test('악마술사 항목은 성기사 추가 후에도 4개 유지', () => {
+  assert.equal(items.filter((i) => i.type === 'class' && i.tags.includes('악마술사')).length, 4);
+  assert.equal(paladinItems().length, 4);
+});
+
+test("UI: class 타입 라벨이 '악마술사'가 아닌 '클래스'로 통합", () => {
+  const appJs = fs.readFileSync(path.join(root, 'app.js'), 'utf8');
+  const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+  assert.match(appJs, /class: \{ label: '클래스', cls: 'type-class' \}/);
+  assert.match(appJs, /event: '이벤트', class: '클래스'/);
+  assert.match(html, /data-cat="class">클래스</);
+  assert.match(html, /<option value="class">클래스</);
+  assert.ok(!/>악마술사</.test(html));
+  assert.ok(!/label: '악마술사'|class: '악마술사'/.test(appJs));
 });
