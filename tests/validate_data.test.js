@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 11로 증가 (v10 캐시 사용자에게 성기사 클래스 반영)', () => {
-  assert.equal(version, 11);
+test('DB 버전이 12로 증가 (v11 캐시 사용자에게 누락 퀘스트 9종 반영)', () => {
+  assert.equal(version, 12);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -212,4 +212,58 @@ test("UI: class 타입 라벨이 '악마술사'가 아닌 '클래스'로 통합"
   assert.match(html, /<option value="class">클래스</);
   assert.ok(!/>악마술사</.test(html));
   assert.ok(!/label: '악마술사'|class: '악마술사'/.test(appJs));
+});
+
+// ── 퀘스트 전체 27종 (기드빈 등 누락분 보강) ──
+// 원작 기준 막별 퀘스트 수: 1·2·3·5막 6개, 4막 3개
+const quests = () => items.filter((i) => i.type === 'quest');
+const questByEn = (en) => quests().find((i) => i.name.includes(`(${en})`));
+
+test('퀘스트는 총 27개, 막별 6/6/6/3/6개', () => {
+  assert.equal(quests().length, 27);
+  const count = {};
+  for (const q of quests()) count[q.meta.act] = (count[q.meta.act] || 0) + 1;
+  assert.deepEqual(count, { 1: 6, 2: 6, 3: 6, 4: 3, 5: 6 });
+});
+
+test('퀘스트 act 값은 1~5 정수 (0·6·문자열 불가)', () => {
+  for (const q of quests()) {
+    assert.ok(Number.isInteger(q.meta.act) && q.meta.act >= 1 && q.meta.act <= 5, q.name);
+    assert.ok(q.tags.includes(`act${q.meta.act}`), `act 태그 불일치: ${q.name}`);
+  }
+});
+
+test('누락 퀘스트 9종이 올바른 막에 추가됨', () => {
+  const expect = {
+    'Tools of the Trade': 1, 'The Tainted Sun': 2, 'The Arcane Sanctuary': 2, 'The Summoner': 2,
+    'The Blade of the Old Religion': 3, "Khalim's Will": 3, 'The Blackened Temple': 3,
+    'Rescue on Mount Arreat': 5, 'Betrayal of Harrogath': 5,
+  };
+  for (const [en, act] of Object.entries(expect)) {
+    const q = questByEn(en);
+    assert.ok(q, `퀘스트 없음: ${en}`);
+    assert.equal(q.meta.act, act, en);
+  }
+});
+
+test("'기드빈' 검색 시 3막 옛 종교의 칼날 퀘스트가 걸림", () => {
+  const hits = quests().filter((q) => q.tags.includes('기드빈') && q.description.includes('기드빈'));
+  assert.equal(hits.length, 1);
+  assert.equal(hits[0].meta.act, 3);
+  assert.match(hits[0].name, /Blade of the Old Religion/);
+});
+
+test('주요 보상 정확: 임뷰, 칼림 부위 4종, 아리앗 룬, 안야 개인화', () => {
+  assert.match(questByEn('Tools of the Trade').description, /찰시/);
+  const khalim = questByEn("Khalim's Will").description;
+  for (const p of ['눈', '뇌', '심장', '도리깨']) assert.ok(khalim.includes(p), p);
+  const arreat = questByEn('Rescue on Mount Arreat').description;
+  for (const r of ['Ral', 'Ort', 'Tal', 'Amn', 'Shael', 'Hel', 'Ko', 'Fal']) assert.ok(arreat.includes(r), r);
+  assert.match(questByEn('Betrayal of Harrogath').description, /개인화/);
+});
+
+test('퀘스트 영문명 중복 없음', () => {
+  const en = quests().map((q) => (q.name.match(/\(([^)]+)\)$/) || [])[1]);
+  assert.ok(en.every(Boolean), '영문명 표기 누락');
+  assert.equal(new Set(en).size, en.length);
 });
