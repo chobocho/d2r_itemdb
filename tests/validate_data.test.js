@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 12로 증가 (v11 캐시 사용자에게 누락 퀘스트 9종 반영)', () => {
-  assert.equal(version, 12);
+test('DB 버전이 13으로 증가 (v12 캐시 사용자에게 앤야 보상 정정 반영)', () => {
+  assert.equal(version, 13);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -266,4 +266,20 @@ test('퀘스트 영문명 중복 없음', () => {
   const en = quests().map((q) => (q.name.match(/\(([^)]+)\)$/) || [])[1]);
   assert.ok(en.every(Boolean), '영문명 표기 누락');
   assert.equal(new Set(en).size, en.length);
+});
+
+// ── 5막 앤야 관련 보상 정정 ──
+test('얼음 감옥 보상에 개인화 없음, 붉은 포탈·상점 개방 명시', () => {
+  const it = questByEn('Prison of Ice');
+  assert.ok(!it.description.includes('개인화'), '개인화는 하로가스의 배신 보상');
+  assert.match(it.description, /저항력\(올레지\) \+10/);
+  assert.match(it.description, /붉은 포탈/);
+});
+
+test("앤야 표기 통일 및 '안야' 검색 호환", () => {
+  for (const en of ['Prison of Ice', 'Betrayal of Harrogath']) {
+    const it = questByEn(en);
+    assert.ok(!it.description.includes('안야'), `표기 불일치: ${en}`);
+    assert.ok(it.tags.includes('앤야') && it.tags.includes('안야'), `태그 누락: ${en}`);
+  }
 });
