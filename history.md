@@ -1,5 +1,12 @@
 # 작업 이력
 
+### [2026-09-15 10:48] 배포용 단일 파일 빌드 스크립트 추가
+- **기획:** index.html 하나만 배포해도(file:// 포함) 동작하도록 app.js·JSON 인라인. app.js 무수정 위해 fetch shim 방식 채택.
+- **TC:** 정상 — 단일 산출물, app.js 인라인, 내장 JSON 원본 일치. 엣지 — 외부 URL 위임, BOM·U+FFFD, script 태그 짝, 잔여 파일 제거, 입력/태그 누락 시 실패.
+- **개발:** build.sh, tests/build.test.js, .gitignore, README.md
+- **검증:** 26 passed, 0 failed
+- **비고:** 빌드에 Node 필요. release/ 는 gitignore 처리.
+
 ### [2026-09-15 10:37] DB 버전 v9 → v10 증가
 - **기획:** v9 데이터를 캐시한 브라우저에도 호라존/변신 수정이 자동 반영되도록 버전 증가.
 - **TC:** 정상 — db_version 10 검증. 엣지 — 기존 v9 값이면 실패(RED 확인).

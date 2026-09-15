@@ -26,6 +26,14 @@ data.json        - 아이템 데이터베이스
 db_version.json  - 데이터 버전 관리
 ```
 
+## 배포 빌드
+
+```bash
+./build.sh   # release/index.html 단일 파일 생성 (Node 필요)
+```
+
+`app.js`·`data.json`·`db_version.json`을 `index.html`에 인라인하여, 파일 하나만 배포하거나 `file://`로 열어도 동작합니다. `release/`는 git에서 제외됩니다.
+
 ## 데이터 현황 (v10, 2026-09 · 현재 래더 시즌 15)
 
 | 카테고리 | 수량 |
