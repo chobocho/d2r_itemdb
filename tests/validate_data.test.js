@@ -125,3 +125,23 @@ test('악마술사 스킬 트리가 실제 스킬명 반영', () => {
   assert.ok(!all.includes('Summon Corrupted'));
   assert.ok(!all.includes('(Vane)'));
 });
+
+test("Horazon's Splendor 5피스 실제 구성 (단검/벨트 없음)", () => {
+  const it = byName("Horazon's Splendor");
+  assert.equal(it.meta.pieces, 5);
+  for (const p of ['Countenance', 'Dominion', 'Hold', 'Legacy', 'Secrets',
+    'Demonhead', 'Russet Armor', 'Demonhide Gloves', 'Mirrored Boots', 'Occult Codex']) {
+    assert.ok(it.description.includes(p), p);
+  }
+  assert.ok(!it.description.includes('(단검)'));
+  assert.ok(!it.description.includes('(벨트)'));
+});
+
+test('Metamorphosis 룬 표기(이오)와 실제 효과(마크 오브 울프/베어) 반영', () => {
+  const it = byName('(Metamorphosis)');
+  assert.deepEqual(it.meta.runes, ['Io', 'Cham', 'Fal']);
+  assert.match(it.description, /조합: 이오 \+ 참 \+ 팔/);
+  assert.match(it.description, /Mark of the Wolf/);
+  assert.match(it.description, /Mark of the Bear/);
+  assert.ok(!it.description.includes('변신 지속시간 무한'));
+});
