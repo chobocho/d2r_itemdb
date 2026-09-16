@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 13으로 증가 (v12 캐시 사용자에게 앤야 보상 정정 반영)', () => {
-  assert.equal(version, 13);
+test('DB 버전이 14로 증가 (v13 캐시 사용자에게 이벤트 탭 보강 반영)', () => {
+  assert.equal(version, 14);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -282,4 +282,51 @@ test("앤야 표기 통일 및 '안야' 검색 호환", () => {
     assert.ok(!it.description.includes('안야'), `표기 불일치: ${en}`);
     assert.ok(it.tags.includes('앤야') && it.tags.includes('안야'), `태그 누락: ${en}`);
   }
+});
+
+// ── 이벤트/시스템 탭 보강: 도박·제작·MF·플레이어 수 ──
+const events = () => items.filter((i) => i.type === 'event');
+const eventByEn = (en) => events().find((i) => i.name.includes(en));
+
+test('이벤트 항목 16개, 신규 4종 존재 및 meta.type 보유', () => {
+  assert.equal(events().length, 16);
+  for (const en of ['Gambling', 'Crafted Items', 'Magic Find', 'Players Setting']) {
+    const it = eventByEn(en);
+    assert.ok(it, `항목 없음: ${en}`);
+    assert.equal(typeof it.meta.type, 'string');
+    assert.ok(it.tags.includes('event'), en);
+  }
+});
+
+test('도박: 등급 확률과 아이템 레벨 범위 명시', () => {
+  const d = eventByEn('Gambling').description;
+  for (const s of ['1/2000', '2/2000', '10%', '캐릭터 레벨 -5', '+4']) assert.ok(d.includes(s), s);
+});
+
+test('제작 아이템: 4계열과 전용 완전 보석 매칭', () => {
+  const d = eventByEn('Crafted Items').description;
+  for (const [type, gem] of [['혈흔', '루비'], ['시전', '자수정'], ['타격', '사파이어'], ['안전', '에메랄드']]) {
+    assert.match(d, new RegExp(`${type}[^\\n]*${gem}`), `${type}-${gem}`);
+  }
+  assert.match(d, /주얼/);
+  assert.match(d, /매직/);
+});
+
+test('매직 파인드: 수확 체감 계수 250/500/600', () => {
+  const d = eventByEn('Magic Find').description;
+  for (const s of ['250', '500', '600']) assert.ok(d.includes(s), s);
+});
+
+test('플레이어 수 설정: /players 1~8 범위와 체력 증가', () => {
+  const d = eventByEn('Players Setting').description;
+  assert.match(d, /\/players/);
+  for (const s of ['1', '8', '체력']) assert.ok(d.includes(s), s);
+});
+
+test('큐브 레시피 보강: 젖소 포탈, 참회의 징표 4종 에센스, 보석 업그레이드', () => {
+  const d = byName('Horadric Cube Recipes').description;
+  assert.match(d, /위르투의 다리/);
+  assert.match(d, /참회의 징표/);
+  for (const e of ['고통', '증오', '공포', '파괴']) assert.ok(d.includes(e), `에센스: ${e}`);
+  assert.match(d, /완전하지 않은 보석 3개|같은 등급 보석 3개/);
 });
