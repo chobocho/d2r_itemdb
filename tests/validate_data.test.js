@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 16으로 증가 (v15 캐시 사용자에게 기존 세트 7종 수치 정정 반영)', () => {
-  assert.equal(version, 16);
+test('DB 버전이 17로 증가 (v16 캐시 사용자에게 신규 세트 25종 수치 정정 반영)', () => {
+  assert.equal(version, 17);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -497,4 +497,52 @@ test('부분 세트 보너스(2세트 등) 표기, 한글명 오역 정정 및 �
   const nat = setByEn("Natalya's Odium");
   assert.match(nat.name, /^나탈야의 증오 /);
   assert.ok(nat.tags.includes('쟁취'));
+});
+
+// ── 신규 세트 25종 수치 정정 (v15 기억 기반 수치 → Arreat Summit 원문) ──
+const pieceBlock = (en, piece) => {
+  const d = setByEn(en).description;
+  const m = d.match(new RegExp(`^• [^\n]*\\(${piece.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\)[^\n]*\n((?: {2}[^\n]*\n?)*)`, 'm'));
+  return m ? m[1] : '';
+};
+
+test('신규 25세트 모두 출처 명시 및 부분/풀세트 보너스 형식', () => {
+  for (const en of Object.keys(NEW_SETS)) {
+    const d = setByEn(en).description;
+    assert.match(d, /출처: Arreat Summit/, en);
+    assert.ok(!d.includes('세부 옵션 수치는 게임 내 확인 필요'), `미검증 문구 잔존: ${en}`);
+  }
+});
+
+test("사도 세트 갑옷은 'Dark Adherent'(더스크 쉬라우드, 요구 레벨 49), 없는 이름 제거", () => {
+  const lines = pieceLines(setByEn('The Disciple').description);
+  const armor = lines.find((p) => p.base === 'Dusk Shroud');
+  assert.deepEqual([armor.name, armor.level], ['Dark Adherent', 49]);
+  assert.ok(!items.some((i) => i.description.includes('Spiritual Custodian')));
+});
+
+test('샌더·사자비·카우 킹·시곤 풀세트 및 아이템 수치 정정', () => {
+  const sander = fullBonus(setByEn("Sander's Folly").description);
+  for (const x of ['+1 모든 스킬', '생명력 흡수 4%', '매직 아이템 발견 +50%', '마나 +50']) assert.ok(sander.includes(x), x);
+  assert.match(pieceBlock("Sazabi's Grand Tribute", "Sazabi's Cobalt Redeemer"), /공격 속도 \+40%/);
+  assert.ok(fullBonus(setByEn("Sazabi's Grand Tribute").description).includes('최대 생명력 +27%'));
+  const cow = fullBonus(setByEn("Cow King's Leathers").description);
+  for (const x of ['매직 아이템 발견 +100%', '골드 획득 +100%', '공격 속도 +30%']) assert.ok(cow.includes(x), x);
+  const sigon = fullBonus(setByEn("Sigon's Complete Steel").description);
+  for (const x of ['생명력 흡수 10%', '방어력 +100', '피해 감소 7']) assert.ok(sigon.includes(x), x);
+  assert.match(pieceBlock("Sigon's Complete Steel", "Sigon's Guard"), /\+1 모든 스킬/);
+});
+
+test('경계: 부분 세트 효과 개수는 구성 수 미만 (2세트 ~ N-1세트)', () => {
+  for (const en of Object.keys(NEW_SETS)) {
+    const d = setByEn(en).description;
+    for (const m of d.matchAll(/^• (\d)세트: /gm)) {
+      const n = Number(m[1]);
+      assert.ok(n >= 2 && n < NEW_SETS[en], `${en}: ${n}세트`);
+    }
+  }
+});
+
+test('천사의 예복: 패치 3.3 변경 안내 유지', () => {
+  assert.match(setByEn('Angelic Raiment').description, /패치 3\.3/);
 });
