@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 23으로 증가 (v22 캐시 사용자에게 지역·용병 보강 반영)', () => {
-  assert.equal(version, 23);
+test('DB 버전이 24로 증가 (v23 캐시 사용자에게 룬 정정 반영)', () => {
+  assert.equal(version, 24);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -799,4 +799,48 @@ test('용병: 2막 나이트메어·헬 오라 6종, 노말 3종 / 5막 이도�
   for (const sk of ['Frenzy', 'Bash', 'Battle Cry']) assert.ok(a5.includes(sk), sk);
   const a3 = mercByAct(3);
   for (const sk of ['Fire Ball', 'Glacial Spike', 'Static Field']) assert.ok(a3.includes(sk), sk);
+});
+
+// ── 룬 33종: 공식 한글명·옵션·요구 레벨 (D2R 게임 데이터) ──
+const runeItems = () => items.filter((i) => i.type === 'rune');
+const runeByEn = (en) => {
+  const it = runeItems().find((r) => r.name.endsWith(`(${en})`));
+  assert.ok(it, `룬 없음: ${en}`);
+  return it;
+};
+
+test('룬 공식 한글명 정정 (아이드·샤에·아이스트·조·차암) 및 옛 이름 검색 태그', () => {
+  const expect = { Ith: ['아이드 룬', '이르'], Shael: ['샤에 룬', '샤엘'], Ist: ['아이스트 룬', '이스트'], Jah: ['조 룬', '자'], Cham: ['차암 룬', '참'] };
+  for (const [en, [ko, old]] of Object.entries(expect)) {
+    const r = runeByEn(en);
+    assert.ok(r.name.startsWith(`${ko} (`), `${en}: ${r.name}`);
+    assert.ok(r.tags.includes(old), `옛 이름 태그 누락: ${old}`);
+  }
+});
+
+test('룬 옵션·요구 레벨 게임 데이터 일치 (엘·로·베르·조드)', () => {
+  const el = runeByEn('El').description;
+  assert.match(el, /^요구 레벨: 11$/m);
+  assert.ok(el.includes('명중률 +50') && el.includes('빛 반경 +1'));
+  assert.match(runeByEn('Lo').description, /최대 번개 저항 \+5%/);
+  const ber = runeByEn('Ber').description;
+  assert.match(ber, /무기: [^\n]*강타 확률 20%/);
+  assert.match(ber, /받는 피해 감소 8%/);
+  assert.match(runeByEn('Zod').description, /^요구 레벨: 69$/m);
+  assert.match(runeByEn('Zod').description, /파괴 불가/);
+});
+
+test('룬 경계: 33종, rank 1~33 중복 없음, 요구 레벨은 rank 순 비내림차순 (헬 룬은 요구 레벨 없음)', () => {
+  const rs = runeItems().slice().sort((a, b) => a.meta.rank - b.meta.rank);
+  assert.equal(rs.length, 33);
+  assert.deepEqual(rs.map((r) => r.meta.rank), Array.from({ length: 33 }, (_, i) => i + 1));
+  assert.match(runeByEn('Hel').description, /^요구 레벨: 없음$/m);
+  const lv = rs.filter((r) => !r.name.endsWith('(Hel)')).map((r) => {
+    const m = r.description.match(/^요구 레벨: (\d+)$/m);
+    assert.ok(m, `요구 레벨 표기 없음: ${r.name}`);
+    return Number(m[1]);
+  });
+  assert.equal(lv[0], 11);
+  assert.equal(lv[lv.length - 1], 69);
+  assert.deepEqual(lv, [...lv].sort((a, b) => a - b));
 });
