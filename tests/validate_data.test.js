@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 20으로 증가 (v19 캐시 사용자에게 패치 이력 반영)', () => {
-  assert.equal(version, 20);
+test('DB 버전이 21로 증가 (v20 캐시 사용자에게 유니크 요구 레벨·베이스명 정정 반영)', () => {
+  assert.equal(version, 21);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -704,4 +704,20 @@ test('선더 참 이벤트: 실제 6종 이름, 존재하지 않는 5종 목록 
     assert.ok(uniqueByEn(en), `유니크 항목과 연결: ${en}`);
   }
   assert.ok(!d.includes('종류 (5가지)'));
+});
+
+// ── 유니크 요구 레벨 = max(아이템 요구 레벨, 베이스 요구 레벨), 베이스는 게임 표시명 ──
+test('유니크 요구 레벨이 베이스 요구 레벨보다 낮지 않음 (경계: 64→65, 62→66, 60→66)', () => {
+  const lv = (en) => { uDesc(en); return uniqueByEn(en).meta.level; };
+  assert.equal(lv('Darkforce Spawn'), 65);
+  assert.equal(lv('Ghostflame'), 66);
+  assert.equal(lv("Astreon's Iron Ward"), 66);
+  assert.match(uDesc("Astreon's Iron Ward"), /^요구 레벨: 66$/m);
+});
+
+test('유니크 베이스명은 게임 내부 오탈자 대신 표시명 사용', () => {
+  const internal = ['Griffon Headress', 'Heirophant Trophy', 'Ornate Armor', 'Mithral Point', 'Colossal Sword',
+    'Long Siege Bow', 'Stilleto', 'Kriss', 'Saber'];
+  for (const u of uniques()) assert.ok(!internal.includes(u.meta.base), `${u.name}: ${u.meta.base}`);
+  assert.equal(uniqueByEn('Skewer of Krintiz').meta.base, 'Sabre');
 });

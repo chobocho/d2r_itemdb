@@ -831,9 +831,9 @@
     {
       "type": "unique",
       "name": "스큐어 오브 크린티즈 (Skewer of Krintiz)",
-      "description": "일반 검 유니크 — 베이스: 세이버 (Saber)\n요구 레벨: 10\n\n옵션:\n• 대상 방어력 무시\n• 힘 +10\n• 민첩 +10\n• 마나 흡수 7%\n• 피해 +50%\n• 피해 +3-7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 검 유니크 — 베이스: 세이버 (Sabre)\n요구 레벨: 10\n\n옵션:\n• 대상 방어력 무시\n• 힘 +10\n• 민첩 +10\n• 마나 흡수 7%\n• 피해 +50%\n• 피해 +3-7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "검", "일반", "세이버"],
-      "meta": { "rarity": "Unique", "base": "Saber", "level": 10 }
+      "meta": { "rarity": "Unique", "base": "Sabre", "level": 10 }
     },
     {
       "type": "unique",
@@ -922,9 +922,9 @@
     {
       "type": "unique",
       "name": "아사달의 단도 (The Jade Tan Do)",
-      "description": "일반 단검 유니크 — 베이스: 크리스 (Kriss)\n요구 레벨: 19\n\n옵션:\n• 명중률 +100-150\n• 빙결되지 않음\n• 독 피해 +180 (4초)\n• 독 저항 +95%\n• 최대 독 저항 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 단검 유니크 — 베이스: 크리스 (Kris)\n요구 레벨: 19\n\n옵션:\n• 명중률 +100-150\n• 빙결되지 않음\n• 독 피해 +180 (4초)\n• 독 저항 +95%\n• 최대 독 저항 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "단검", "일반", "크리스"],
-      "meta": { "rarity": "Unique", "base": "Kriss", "level": 19 }
+      "meta": { "rarity": "Unique", "base": "Kris", "level": 19 }
     },
     {
       "type": "unique",
@@ -1790,9 +1790,9 @@
     {
       "type": "unique",
       "name": "스톰스파이크 (Stormspike)",
-      "description": "확장 단검 유니크 — 베이스: 스틸레또 (Stilleto)\n요구 레벨: 41\n\n옵션:\n• 번개 피해 +1-120\n• 공격자에게 번개 피해 20\n• 피격 시 25% 확률로 레벨 3 차지드 볼트(Charged Bolt) 시전\n• 피해 +150%\n• 번개 저항 +1-99 (레벨당 1)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 단검 유니크 — 베이스: 스틸레또 (Stiletto)\n요구 레벨: 41\n\n옵션:\n• 번개 피해 +1-120\n• 공격자에게 번개 피해 20\n• 피격 시 25% 확률로 레벨 3 차지드 볼트(Charged Bolt) 시전\n• 피해 +150%\n• 번개 저항 +1-99 (레벨당 1)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "단검", "확장", "스틸레또"],
-      "meta": { "rarity": "Unique", "base": "Stilleto", "level": 41 }
+      "meta": { "rarity": "Unique", "base": "Stiletto", "level": 41 }
     },
     {
       "type": "unique",
@@ -1944,9 +1944,9 @@
     {
       "type": "unique",
       "name": "클리프킬러 (Cliffkiller)",
-      "description": "확장 활 유니크 — 베이스: 라지시즈보우 (Long Siege Bow)\n요구 레벨: 41\n\n옵션:\n• +2 아마존 스킬\n• 피해 +190-230%\n• 원거리 방어력 +80\n• 밀쳐내기\n• 생명력 +50\n• 최소 피해 +5-10\n• 최대 피해 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 활 유니크 — 베이스: 라지시즈보우 (Large Siege Bow)\n요구 레벨: 41\n\n옵션:\n• +2 아마존 스킬\n• 피해 +190-230%\n• 원거리 방어력 +80\n• 밀쳐내기\n• 생명력 +50\n• 최소 피해 +5-10\n• 최대 피해 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "활", "확장", "라지시즈보우"],
-      "meta": { "rarity": "Unique", "base": "Long Siege Bow", "level": 41 }
+      "meta": { "rarity": "Unique", "base": "Large Siege Bow", "level": 41 }
     },
     {
       "type": "unique",
@@ -2140,9 +2140,9 @@
     {
       "type": "unique",
       "name": "커프스모온 (Corpsemourn)",
-      "description": "확장 갑옷 유니크 — 베이스: 어네이트플레이트 (Ornate Armor)\n요구 레벨: 55\n\n옵션:\n• 힘 +8\n• 활력 +10\n• 냉기 저항 +35%\n• 피격 시 6% 확률로 레벨 2 아이언 메이든(Iron Maiden) 시전\n• 방어력 +150-180%\n• 화염 피해 +12-36\n• 레벨 5 커프스 익스플로젼(Corpse Explosion) (40회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 갑옷 유니크 — 베이스: 어네이트플레이트 (Ornate Plate)\n요구 레벨: 55\n\n옵션:\n• 힘 +8\n• 활력 +10\n• 냉기 저항 +35%\n• 피격 시 6% 확률로 레벨 2 아이언 메이든(Iron Maiden) 시전\n• 방어력 +150-180%\n• 화염 피해 +12-36\n• 레벨 5 커프스 익스플로젼(Corpse Explosion) (40회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "갑옷", "확장", "어네이트플레이트"],
-      "meta": { "rarity": "Unique", "base": "Ornate Armor", "level": 55 }
+      "meta": { "rarity": "Unique", "base": "Ornate Plate", "level": 55 }
     },
     {
       "type": "unique",
@@ -2518,9 +2518,9 @@
     {
       "type": "unique",
       "name": "호우먼컬러스 (Homunculus)",
-      "description": "확장 네크로맨서 방패 유니크 — 베이스: 하이어러팬트 트로피 (Heirophant Trophy)\n요구 레벨: 42\n\n옵션:\n• +2 네크로맨서 스킬\n• +2 저주 (네크로맨서 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +40%\n• 에너지 +20\n• 마나 재생 +33%\n• 처치 시 마나 +5\n• 모든 저항 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 네크로맨서 방패 유니크 — 베이스: 하이어러팬트 트로피 (Hierophant Trophy)\n요구 레벨: 42\n\n옵션:\n• +2 네크로맨서 스킬\n• +2 저주 (네크로맨서 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +40%\n• 에너지 +20\n• 마나 재생 +33%\n• 처치 시 마나 +5\n• 모든 저항 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "네크로맨서 방패", "확장", "하이어러팬트 트로피", "네크로맨서"],
-      "meta": { "rarity": "Unique", "base": "Heirophant Trophy", "level": 42 }
+      "meta": { "rarity": "Unique", "base": "Hierophant Trophy", "level": 42 }
     },
     {
       "type": "unique",
@@ -2840,9 +2840,9 @@
     {
       "type": "unique",
       "name": "타크포스 스폰 (Darkforce Spawn)",
-      "description": "엘리트 네크로맨서 방패 유니크 — 베이스: 블러드로드 스컬 (Bloodlord Skull)\n요구 레벨: 64\n\n옵션:\n• 방어력 +140-180%\n• 시전 속도 +30%\n• 최대 마나 +10%\n• +1-3 저주 (네크로맨서 전용)\n• +1-3 포이즌 & 본 스펠 (네크로맨서 전용)\n• +1-3 소환 스킬 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 네크로맨서 방패 유니크 — 베이스: 블러드로드 스컬 (Bloodlord Skull)\n요구 레벨: 65\n\n옵션:\n• 방어력 +140-180%\n• 시전 속도 +30%\n• 최대 마나 +10%\n• +1-3 저주 (네크로맨서 전용)\n• +1-3 포이즌 & 본 스펠 (네크로맨서 전용)\n• +1-3 소환 스킬 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "블러드로드 스컬", "네크로맨서", "엔드게임"],
-      "meta": { "rarity": "Unique", "base": "Bloodlord Skull", "level": 64 }
+      "meta": { "rarity": "Unique", "base": "Bloodlord Skull", "level": 65 }
     },
     {
       "type": "unique",
@@ -2861,9 +2861,9 @@
     {
       "type": "unique",
       "name": "고스트플레임 (Ghostflame)",
-      "description": "엘리트 단검 유니크 — 베이스: 레전드 스파이크 (Legend Spike)\n요구 레벨: 62\n\n옵션:\n• 피해 +190-240%\n• 대상 방어력 무시\n• 마법 피해 +108\n• 마나 흡수 10-15%\n• 무형(수리 불가)\n• 파괴 불가\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 단검 유니크 — 베이스: 레전드 스파이크 (Legend Spike)\n요구 레벨: 66\n\n옵션:\n• 피해 +190-240%\n• 대상 방어력 무시\n• 마법 피해 +108\n• 마나 흡수 10-15%\n• 무형(수리 불가)\n• 파괴 불가\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "단검", "엘리트", "레전드 스파이크", "엔드게임"],
-      "meta": { "rarity": "Unique", "base": "Legend Spike", "level": 62 }
+      "meta": { "rarity": "Unique", "base": "Legend Spike", "level": 66 }
     },
     {
       "type": "unique",
@@ -3148,9 +3148,9 @@
     {
       "type": "unique",
       "name": "애스트리언의 아이언 워드 (Astreon's Iron Ward)",
-      "description": "엘리트 셉터 유니크 — 베이스: 캐듀시어스 (Caduceus)\n요구 레벨: 60\n\n옵션:\n• 피해 +240-290%\n• 대상 둔화 25%\n• 명중률 +150-200%\n• 공격 속도 +10%\n• 마법 피해 +80-240\n• 피해 감소 4-7\n• 피해 +40-85\n• +2-4 소환 스킬 (팔라딘 전용)\n• 강타 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 셉터 유니크 — 베이스: 캐듀시어스 (Caduceus)\n요구 레벨: 66\n\n옵션:\n• 피해 +240-290%\n• 대상 둔화 25%\n• 명중률 +150-200%\n• 공격 속도 +10%\n• 마법 피해 +80-240\n• 피해 감소 4-7\n• 피해 +40-85\n• +2-4 소환 스킬 (팔라딘 전용)\n• 강타 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "엘리트", "캐듀시어스", "엔드게임"],
-      "meta": { "rarity": "Unique", "base": "Caduceus", "level": 60 }
+      "meta": { "rarity": "Unique", "base": "Caduceus", "level": 66 }
     },
     {
       "type": "unique",
@@ -3288,8 +3288,8 @@
     {
       "type": "unique",
       "name": "수호자의 담즙 (Defender's Bile)",
-      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 본 아머(Bone Armor) 시전\n• 독 스킬 피해 +5-10%\n• 독 피해 +95 (1초)\n• 적 독 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "description": "콜로살 주얼 유니크 — 베이스: Grand Charm (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 본 아머(Bone Armor) 시전\n• 독 스킬 피해 +5-10%\n• 독 피해 +95 (1초)\n• 적 독 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "Grand Charm", "엔드게임"],
       "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
     },
     {
