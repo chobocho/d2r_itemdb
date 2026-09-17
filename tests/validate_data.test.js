@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 26으로 증가 (v25 캐시 사용자에게 룬워드 전체 정정 반영)', () => {
-  assert.equal(version, 26);
+test('DB 버전이 27로 증가 (v26 캐시 사용자에게 유니크·세트·스킬 D2R 번역 반영)', () => {
+  assert.equal(version, 27);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -493,10 +493,10 @@ test('부분 세트 보너스(2세트 등) 표기, 한글명 오역 정정 및 �
     assert.match(setByEn(en).description, /^• 2세트: /m, en);
   }
   const aldur = setByEn("Aldur's Watchtower");
-  assert.match(aldur.name, /^알드르의 감시탑 /);
+  assert.match(aldur.name, /^알두르의 감시탑 /);
   assert.ok(aldur.tags.includes('결의'));
   const nat = setByEn("Natalya's Odium");
-  assert.match(nat.name, /^나탈야의 증오 /);
+  assert.match(nat.name, /^나탈랴의 혐오 /);
   assert.ok(nat.tags.includes('쟁취'));
 });
 
@@ -587,7 +587,7 @@ test('유니크: 렌더링 오류 문자열 없음 (None, 음수 범위 --, 빈 
 test('대표 유니크 수치·공식 한글명: 샤코, 소조, 애니, 토치, 블랙텅', () => {
   const shako = uniqueByEn('Harlequin Crest');
   assert.ok(shako, '샤코 없음');
-  assert.match(shako.name, /^할리퀸 크레스트 /);
+  assert.match(shako.name, /^할리퀸 관모 /);
   assert.equal(shako.meta.base, 'Shako');
   assert.equal(shako.meta.level, 62);
   for (const o of ['+2 모든 스킬', '매직 아이템 발견 +50%', '받는 피해 감소 10%', '모든 능력치 +2']) assert.ok(shako.description.includes(o), o);
@@ -600,9 +600,9 @@ test('대표 유니크 수치·공식 한글명: 샤코, 소조, 애니, 토치,
 });
 
 test('스킬 트리·오라·충전 옵션 렌더링: 아리앗의 페이스, 울프하울, 에이져래쓰', () => {
-  assert.ok(uDesc("Arreat's Face").includes('+2 전투 스킬 (야만용사 전용)'));
+  assert.ok(uDesc("Arreat's Face").includes('+2 전투 기술 (야만용사 전용)'));
   assert.ok(uDesc('Wolfhowl').includes('+2-3 함성 (야만용사 전용)'));
-  assert.ok(uDesc('Azurewrath').includes('장착 시 레벨 10-13 생츄어리(Sanctuary) 오라'));
+  assert.ok(uDesc('Azurewrath').includes('장착 시 레벨 10-13 성역(Sanctuary) 오라'));
 });
 
 test('선더 참 6종·레인보우 패시트 8변형·패치 3.3 로그스 보우', () => {
@@ -871,4 +871,40 @@ test('투지(광란/히스테리아): 무기·갑옷 두 변형 효과 모두 �
   assert.match(d, /룬워드 효과 \(갑옷 제작 시\):/);
   assert.ok(d.includes('Burst of Speed') && d.includes('달리기/걷기 +65%'));
   for (const r of runewords()) assert.ok(!/^※ D2R \d$|^※ D2R 2\s*$/m.test(r.description), r.name);
+});
+
+// ── 유니크·세트·스킬 이름 D2R 번역 (레거시 번역은 검색 태그로 유지) ──
+test('유니크 D2R 번역명: 요르단의 반지·어나이얼러스·지옥불 횃불, 레거시명은 태그', () => {
+  const expect = { 'The Stone of Jordan': ['요르단의 반지', '더 스톤 오브 조던'], Annihilus: ['어나이얼러스', '애니힐러스'],
+    'Hellfire Torch': ['지옥불 횃불', '지옥의 횃불'], 'Harlequin Crest': ['할리퀸 관모', '할리퀸 크레스트'] };
+  for (const [en, [ko, legacy]] of Object.entries(expect)) {
+    const u = uniqueByEn(en);
+    assert.ok(u && u.name.startsWith(`${ko} (`), `${en}: ${u && u.name}`);
+    assert.ok(u.tags.includes(legacy), `레거시명 태그 누락: ${legacy}`);
+  }
+});
+
+test('세트 D2R 번역명: 불멸왕·시곤의 온전한 강철·탈 라샤의 수의, 아이템명 불멸왕의 파석추', () => {
+  assert.match(setByEn('Immortal King').name, /^불멸왕 /);
+  assert.ok(setByEn('Immortal King').tags.includes('이모탈 킹'));
+  assert.match(setByEn("Sigon's Complete Steel").name, /^시곤의 온전한 강철 /);
+  assert.match(setByEn("Tal Rasha's Wrappings").name, /^탈 라샤의 수의 /);
+  assert.match(setByEn('Immortal King').description, /^• 불멸왕의 파석추 \(Immortal King's Stone Crusher\)/m);
+});
+
+test('스킬 트리 옵션: 성기사 전투 기술 오기(소환 스킬) 정정, D2R 트리명 사용', () => {
+  const all = [...uniques(), ...sets(), ...runewords()].map((i) => i.description).join('\n');
+  assert.ok(!all.includes('소환 스킬 (팔라딘 전용)'), '성기사에게 소환 트리는 없음');
+  assert.ok(!/오오라 \(/.test(all), '레거시 표기 오오라 잔존');
+  assert.match(uDesc('Herald of Zakarum'), /\+\d(-\d)? 전투 기술 \(팔라딘 전용\)/);
+  assert.match(setByEn("Griswold's Legacy").description, /2세트 \+2 전투 기술 \(팔라딘 전용\)/);
+});
+
+test('스킬명 D2R 번역: 레거시 음역(컨센트레이션·생츄어리·텔레포트) 옵션 표기 없음, 용병·성기사 트리 반영', () => {
+  const all = [...uniques(), ...sets(), ...runewords(), ...items.filter((i) => i.type === 'merc')].map((i) => i.description).join('\n');
+  for (const legacy of ['컨센트레이션(', '생츄어리(', '텔레포트(', '파나티시즘(', '이너 사이트(']) assert.ok(!all.includes(legacy), legacy);
+  assert.match(mercByAct(2), /위세\(Might\)/);
+  const combat = items.find((i) => i.type === 'class' && i.name.includes('(Combat Skills)')).description;
+  assert.match(combat, /^• 축복받은 망치 \(Blessed Hammer, 18\)/m);
+  assert.ok(!combat.includes('강타터'), '단어 경계 무시 치환 흔적');
 });
