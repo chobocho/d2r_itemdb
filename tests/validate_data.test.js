@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 15로 증가 (v14 캐시 사용자에게 누락 세트 25종 반영)', () => {
-  assert.equal(version, 15);
+test('DB 버전이 16으로 증가 (v15 캐시 사용자에게 기존 세트 7종 수치 정정 반영)', () => {
+  assert.equal(version, 16);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -407,8 +407,94 @@ test('확장팩 고레벨 세트 대표 구성·요구 레벨 정확', () => {
 });
 
 test('기존 세트 9종은 신규 추가 후에도 유지', () => {
-  for (const en of ["Tal Rasha's Wrappings", "Immortal King's Call", "Trang-Oul's Avatar", "Griswold's Legacy",
+  for (const en of ["Tal Rasha's Wrappings", 'Immortal King', "Trang-Oul's Avatar", "Griswold's Legacy",
     "Aldur's Watchtower", "Natalya's Odium", "M'avina's Battle Hymn", "Bane's Garments", "Horazon's Splendor"]) {
     assert.ok(setByEn(en), en);
   }
+});
+
+// ── 기존 세트 7종 수치 정정 (출처: Arreat Summit) ──
+// 원작 기준 구성: 영문 아이템명 → [베이스, 요구 레벨]
+const LEGACY_SETS = {
+  "Tal Rasha's Wrappings": {
+    "Tal Rasha's Lidless Eye": ['Swirling Crystal', 65], "Tal Rasha's Horadric Crest": ['Death Mask', 66],
+    "Tal Rasha's Guardianship": ['Lacquered Plate', 71], "Tal Rasha's Fine-Spun Cloth": ['Mesh Belt', 53],
+    "Tal Rasha's Adjudication": ['Amulet', 67],
+  },
+  'Immortal King': {
+    "Immortal King's Will": ['Avenger Guard', 47], "Immortal King's Stone Crusher": ['Ogre Maul', 76],
+    "Immortal King's Soul Cage": ['Sacred Armor', 76], "Immortal King's Detail": ['War Belt', 29],
+    "Immortal King's Forge": ['War Gauntlets', 30], "Immortal King's Pillar": ['War Boots', 31],
+  },
+  "Trang-Oul's Avatar": {
+    "Trang-Oul's Guise": ['Bone Visage', 65], "Trang-Oul's Scales": ['Chaos Armor', 49],
+    "Trang-Oul's Wing": ['Cantor Trophy', 54], "Trang-Oul's Girth": ['Troll Belt', 62],
+    "Trang-Oul's Claws": ['Heavy Bracers', 45],
+  },
+  "Griswold's Legacy": {
+    "Griswold's Heart": ['Ornate Plate', 45], "Griswold's Valor": ['Corona', 69],
+    "Griswold's Redemption": ['Caduceus', 66], "Griswold's Honor": ['Vortex Shield', 68],
+  },
+  "Aldur's Watchtower": {
+    "Aldur's Stony Gaze": ["Hunter's Guise", 36], "Aldur's Advance": ['Battle Boots', 45],
+    "Aldur's Deception": ['Shadow Plate', 76], "Aldur's Rhythm": ['Jagged Star', 42],
+  },
+  "Natalya's Odium": {
+    "Natalya's Totem": ['Grim Helm', 59], "Natalya's Mark": ['Scissors Suwayyah', 79],
+    "Natalya's Shadow": ['Loricated Mail', 73], "Natalya's Soul": ['Mesh Boots', 25],
+  },
+  "M'avina's Battle Hymn": {
+    "M'avina's True Sight": ['Diadem', 64], "M'avina's Caster": ['Grand Matron Bow', 70],
+    "M'avina's Embrace": ['Kraken Shell', 70], "M'avina's Icy Clutch": ['Battle Gauntlets', 32],
+    "M'avina's Tenet": ['Sharkskin Belt', 45],
+  },
+};
+// 설명에서 "• 풀세트: ..." 줄만 추출
+const fullBonus = (desc) => (desc.match(/^• 풀세트: (.+)$/m) || [])[1] || '';
+
+test('기존 세트 7종: 구성 아이템·베이스·요구 레벨이 원작과 일치, pieces 일치', () => {
+  for (const [en, expect] of Object.entries(LEGACY_SETS)) {
+    const it = setByEn(en);
+    assert.ok(it, `세트 없음: ${en}`);
+    const got = Object.fromEntries(pieceLines(it.description).map((p) => [p.name, [p.base, p.level]]));
+    assert.deepEqual(got, expect, en);
+    assert.equal(it.meta.pieces, Object.keys(expect).length, en);
+    assert.match(it.description, /출처: Arreat Summit/, en);
+  }
+});
+
+test("이모탈 킹 정식 세트명 'Immortal King' 사용, 오기 'Immortal King's Call' 제거", () => {
+  assert.ok(!items.some((i) => i.name.includes("Immortal King's Call")));
+  assert.ok(setByEn('Immortal King').tags.includes('ik'));
+});
+
+test('탈 라샤 풀세트: +3 소서리스 스킬·MF 65%·모든 저항 50, 오기 수치(매파 150%) 제거', () => {
+  const d = setByEn("Tal Rasha's Wrappings").description;
+  const full = fullBonus(d);
+  for (const s of ['+3 소서리스 스킬', '매직 아이템 발견 +65%', '모든 저항 +50', '생명력 +150']) assert.ok(full.includes(s), s);
+  assert.ok(!d.includes('매파 +150%'));
+  assert.match(d, /Tal Rasha's Guardianship[^\n]*\n {2}[^\n]*매직 아이템 발견 \+88%/);
+});
+
+test('세트별 핵심 수치 정정 (IK 강타·트랑 뱀파이어·나탈야 피해 감소·그리스월드·알드르·마비나)', () => {
+  assert.match(setByEn('Immortal King').description, /Stone Crusher[^\n]*\n {2}[^\n]*강타 확률 35-40%/);
+  assert.ok(fullBonus(setByEn('Immortal King').description).includes('+3 야만용사 스킬'));
+  assert.ok(fullBonus(setByEn("Trang-Oul's Avatar").description).includes('뱀파이어'));
+  assert.ok(fullBonus(setByEn("Natalya's Odium").description).includes('피해 30% 감소'));
+  assert.ok(fullBonus(setByEn("Griswold's Legacy").description).includes('+3 팔라딘 스킬'));
+  assert.ok(fullBonus(setByEn("Aldur's Watchtower").description).includes('+3 드루이드 스킬'));
+  assert.ok(fullBonus(setByEn("M'avina's Battle Hymn").description).includes('매직 아이템 발견 +100%'));
+});
+
+test('부분 세트 보너스(2세트 등) 표기, 한글명 오역 정정 및 옛 이름 검색 호환', () => {
+  for (const en of ["Tal Rasha's Wrappings", 'Immortal King', "Trang-Oul's Avatar", "Griswold's Legacy",
+    "Aldur's Watchtower", "Natalya's Odium", "M'avina's Battle Hymn"]) {
+    assert.match(setByEn(en).description, /^• 2세트: /m, en);
+  }
+  const aldur = setByEn("Aldur's Watchtower");
+  assert.match(aldur.name, /^알드르의 감시탑 /);
+  assert.ok(aldur.tags.includes('결의'));
+  const nat = setByEn("Natalya's Odium");
+  assert.match(nat.name, /^나탈야의 증오 /);
+  assert.ok(nat.tags.includes('쟁취'));
 });
