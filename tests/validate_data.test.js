@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 29로 증가 (v28 캐시 사용자에게 지역명 D2R 표기 반영)', () => {
-  assert.equal(version, 29);
+test('DB 버전이 30으로 증가 (v29 캐시 사용자에게 룬 출처 중복 제거 반영)', () => {
+  assert.equal(version, 30);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -1007,4 +1007,23 @@ test('용병: 2막만 D2R 표기 사막 용병, 이전 표기 태그 유지 / 1�
   assert.equal(merc(1).name, '액트 1 용병 - 로그 (Rogue Scout)');
   assert.equal(merc(3).name, '액트 3 용병 - 아이언 울프 (Iron Wolf)');
   assert.equal(merc(5).name, '액트 5 용병 - 야만전사 (Barbarian)');
+});
+
+// ── 설명 내 ※ 주석 줄 중복 (룬 재생성 시 출처 줄이 두 번 붙은 문제) ──
+test('모든 항목 설명에 같은 ※ 주석 줄이 두 번 이상 없음', () => {
+  for (const it of items) {
+    const notes = it.description.split('\n').filter((l) => l.startsWith('※'));
+    assert.equal(new Set(notes).size, notes.length, it.name);
+  }
+});
+
+test('룬 33종: 출처 줄 정확히 1개로 설명 끝에 위치, 옵션 줄은 보존', () => {
+  const SRC = '※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)';
+  assert.equal(runeItems().length, 33);
+  for (const r of runeItems()) {
+    assert.equal(r.description.split(SRC).length - 1, 1, r.name);
+    assert.ok(r.description.endsWith(`\n${SRC}`), r.name);
+    // 헬 룬은 요구 레벨 '없음', 슬롯 무관 옵션은 '공통:' 표기
+    assert.match(r.description, /^요구 레벨: (\d+|없음)\n(무기|공통): /, r.name);
+  }
 });
