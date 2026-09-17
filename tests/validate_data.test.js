@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 25로 증가 (v24 캐시 사용자에게 룬 이름 D2R 번역 반영)', () => {
-  assert.equal(version, 25);
+test('DB 버전이 26으로 증가 (v25 캐시 사용자에게 룬워드 전체 정정 반영)', () => {
+  assert.equal(version, 26);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -631,9 +631,9 @@ const rwByEn = (en) => {
   return it;
 };
 
-test('룬워드: 기존 63 + 신규 35 = 98종, 게임 데이터 항목 35종', () => {
+test('룬워드: 98종 전체가 게임 데이터 기반', () => {
   assert.equal(runewords().length, 98);
-  assert.equal(runewords().filter((r) => r.description.includes(GAMEDATA_NOTE)).length, 35);
+  assert.equal(runewords().filter((r) => r.description.includes(GAMEDATA_NOTE)).length, 98);
   assert.ok(rwByEn('Enigma') && rwByEn('Infinity'), '기존 룬워드 유지');
 });
 
@@ -655,11 +655,11 @@ test('룬워드 영문명 중복 없음', () => {
 });
 
 test('신규 룬워드 대표 수치: 자존심·불멸·야수·웰쓰·드레곤', () => {
-  assert.match(rwByEn('Pride').description, /장착 시 레벨 16-20 컨센트레이션\(Concentration\) 오라/);
+  assert.match(rwByEn('Pride').description, /장착 시 레벨 16-20 집중\(Concentration\) 오라/);
   const eternity = rwByEn('Eternity').description;
-  assert.match(eternity, /레벨 8 리바이브\(Revive\) \(88회 충전\)/);
+  assert.match(eternity, /레벨 8 부활\(Revive\) \(88회 충전\)/);
   assert.match(eternity, /룬 옵션 \(무기 장착 시 추가\):[^\n]*생명력 흡수 7%/);
-  assert.match(rwByEn('Beast').description, /장착 시 레벨 9 파나티시즘\(Fanaticism\) 오라/);
+  assert.match(rwByEn('Beast').description, /장착 시 레벨 9 광신\(Fanaticism\) 오라/);
   const wealth = rwByEn('Wealth').description;
   assert.ok(wealth.includes('골드 획득 +250%') && wealth.includes('매직 아이템 발견 +100%'));
   assert.match(rwByEn('Dragon').description, /원래 래더 전용/);
@@ -843,4 +843,32 @@ test('룬 경계: 33종, rank 1~33 중복 없음, 요구 레벨은 rank 순 비�
   assert.equal(lv[0], 11);
   assert.equal(lv[lv.length - 1], 69);
   assert.deepEqual(lv, [...lv].sort((a, b) => a - b));
+});
+
+// ── 룬워드 이름·스킬명 D2R 번역, 룬 표기 일관성 ──
+test('룬워드 한글명은 D2R 번역 (집행자·착란·슬픔·긍지·영원·소집·악의), 이전 표기는 태그', () => {
+  const expect = { Lawbringer: '집행자', Delirium: '착란', Grief: '슬픔', Pride: '긍지', Eternity: '영원', 'Call to Arms': '소집', Malice: '악의' };
+  for (const [en, ko] of Object.entries(expect)) assert.ok(rwByEn(en).name.startsWith(`${ko} (`), `${en}: ${rwByEn(en).name}`);
+  assert.ok(rwByEn('Pride').tags.includes('자존심'));
+  assert.ok(rwByEn('Lawbringer').tags.includes('법의 집행자'));
+  for (const bad of ['대표위원', '법률위반', '원환', '드레곤', '스트랭쓰', '웰쓰', '래쓰']) {
+    assert.ok(!runewords().some((r) => r.name.includes(bad)), bad);
+  }
+});
+
+test('룬워드 조합의 한글 룬 이름 = 룬 항목 이름 (98종 전체 일관성)', () => {
+  const runeKo = Object.fromEntries(runeItems().map((r) => [(r.name.match(/\(([^()]+)\)$/) || [])[1], r.name.split(' 룬')[0]]));
+  for (const r of runewords()) {
+    const m = r.description.match(/^조합: (.+) \(([^()]+)\)$/m);
+    assert.ok(m, `조합 표기 없음: ${r.name}`);
+    assert.deepEqual(m[1].split(' + '), r.meta.runes.map((en) => runeKo[en]), r.name);
+  }
+});
+
+test('투지(광란/히스테리아): 무기·갑옷 두 변형 효과 모두 표기, 사용 팁 문장 깨짐 없음', () => {
+  const d = byName('Hustle').description;
+  assert.match(d, /룬워드 효과 \(무기 제작 시\):/);
+  assert.match(d, /룬워드 효과 \(갑옷 제작 시\):/);
+  assert.ok(d.includes('Burst of Speed') && d.includes('달리기/걷기 +65%'));
+  for (const r of runewords()) assert.ok(!/^※ D2R \d$|^※ D2R 2\s*$/m.test(r.description), r.name);
 });
