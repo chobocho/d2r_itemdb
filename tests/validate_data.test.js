@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 24로 증가 (v23 캐시 사용자에게 룬 정정 반영)', () => {
-  assert.equal(version, 24);
+test('DB 버전이 25로 증가 (v24 캐시 사용자에게 룬 이름 D2R 번역 반영)', () => {
+  assert.equal(version, 25);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -809,8 +809,8 @@ const runeByEn = (en) => {
   return it;
 };
 
-test('룬 공식 한글명 정정 (아이드·샤에·아이스트·조·차암) 및 옛 이름 검색 태그', () => {
-  const expect = { Ith: ['아이드 룬', '이르'], Shael: ['샤에 룬', '샤엘'], Ist: ['아이스트 룬', '이스트'], Jah: ['조 룬', '자'], Cham: ['차암 룬', '참'] };
+test('룬 한글명은 D2R 번역 (아이드·이오·샤엘·이스트·자·참), 이전 표기는 검색 태그', () => {
+  const expect = { Ith: ['아이드 룬', '이르'], Io: ['이오 룬', '포'], Shael: ['샤엘 룬', '샤에'], Ist: ['이스트 룬', '아이스트'], Jah: ['자 룬', '조'], Cham: ['참 룬', '차암'] };
   for (const [en, [ko, old]] of Object.entries(expect)) {
     const r = runeByEn(en);
     assert.ok(r.name.startsWith(`${ko} (`), `${en}: ${r.name}`);

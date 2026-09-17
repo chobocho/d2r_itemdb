@@ -3,231 +3,231 @@
     {
       "type": "rune",
       "name": "엘 룬 (El)",
-      "description": "요구 레벨: 11\n무기: 빛 반경 +1, 명중률 +50\n갑옷·투구·방패: 빛 반경 +1, 방어력 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 11\n무기: 빛 반경 +1, 명중률 +50\n갑옷·투구·방패: 빛 반경 +1, 방어력 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "1번", "el", "엘"],
       "meta": { "rank": 1, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "엘드 룬 (Eld)",
-      "description": "요구 레벨: 11\n무기: 언데드 대상 명중률 +50, 언데드 대상 피해 +75%\n갑옷·투구: 지구력 소모 감소 15%\n방패: 막기 확률 +7%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 11\n무기: 언데드 대상 명중률 +50, 언데드 대상 피해 +75%\n갑옷·투구: 지구력 소모 감소 15%\n방패: 막기 확률 +7%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "2번", "eld", "엘드"],
       "meta": { "rank": 2, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "티르 룬 (Tir)",
-      "description": "요구 레벨: 13\n공통: 처치 시 마나 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 13\n공통: 처치 시 마나 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "3번", "tir", "티르"],
       "meta": { "rank": 3, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "네프 룬 (Nef)",
-      "description": "요구 레벨: 13\n무기: 밀쳐내기\n갑옷·투구·방패: 원거리 방어력 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 13\n무기: 밀쳐내기\n갑옷·투구·방패: 원거리 방어력 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "4번", "nef", "네프"],
       "meta": { "rank": 4, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "에드 룬 (Eth)",
-      "description": "요구 레벨: 15\n무기: 대상 방어력 -25%\n갑옷·투구·방패: 마나 재생 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 15\n무기: 대상 방어력 -25%\n갑옷·투구·방패: 마나 재생 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "5번", "eth", "에드"],
       "meta": { "rank": 5, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "아이드 룬 (Ith)",
-      "description": "요구 레벨: 15\n무기: 최대 피해 +9\n갑옷·투구·방패: 받은 피해 마나 전환 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 15\n무기: 최대 피해 +9\n갑옷·투구·방패: 받은 피해 마나 전환 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "6번", "ith", "이르", "아이드"],
       "meta": { "rank": 6, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "탈 룬 (Tal)",
-      "description": "요구 레벨: 17\n무기: 독 피해 +75 (5초)\n갑옷·투구: 독 저항 +30%\n방패: 독 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 17\n무기: 독 피해 +75 (5초)\n갑옷·투구: 독 저항 +30%\n방패: 독 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "7번", "tal", "탈"],
       "meta": { "rank": 7, "dropRate": "매우 높음" }
     },
     {
       "type": "rune",
       "name": "랄 룬 (Ral)",
-      "description": "요구 레벨: 19\n무기: 화염 피해 +5-30\n갑옷·투구: 화염 저항 +30%\n방패: 화염 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 19\n무기: 화염 피해 +5-30\n갑옷·투구: 화염 저항 +30%\n방패: 화염 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "8번", "ral", "랄"],
       "meta": { "rank": 8, "dropRate": "높음" }
     },
     {
       "type": "rune",
       "name": "오르트 룬 (Ort)",
-      "description": "요구 레벨: 21\n무기: 번개 피해 +1-50\n갑옷·투구: 번개 저항 +30%\n방패: 번개 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 21\n무기: 번개 피해 +1-50\n갑옷·투구: 번개 저항 +30%\n방패: 번개 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "9번", "ort", "오르트"],
       "meta": { "rank": 9, "dropRate": "높음" }
     },
     {
       "type": "rune",
       "name": "주울 룬 (Thul)",
-      "description": "요구 레벨: 23\n무기: 냉기 피해 +3-14 (3초)\n갑옷·투구: 냉기 저항 +30%\n방패: 냉기 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 23\n무기: 냉기 피해 +3-14 (3초)\n갑옷·투구: 냉기 저항 +30%\n방패: 냉기 저항 +35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "10번", "thul", "주울"],
       "meta": { "rank": 10, "dropRate": "높음" }
     },
     {
       "type": "rune",
       "name": "앰 룬 (Amn)",
-      "description": "요구 레벨: 25\n무기: 생명력 흡수 7%\n갑옷·투구·방패: 공격자 피해 반사 14\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 25\n무기: 생명력 흡수 7%\n갑옷·투구·방패: 공격자 피해 반사 14\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "11번", "amn", "앰"],
       "meta": { "rank": 11, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "솔 룬 (Sol)",
-      "description": "요구 레벨: 27\n무기: 최소 피해 +9\n갑옷·투구·방패: 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 27\n무기: 최소 피해 +9\n갑옷·투구·방패: 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "12번", "sol", "솔"],
       "meta": { "rank": 12, "dropRate": "보통" }
     },
     {
       "type": "rune",
-      "name": "샤에 룬 (Shael)",
-      "description": "요구 레벨: 29\n무기: 공격 속도 +20%\n갑옷·투구: 타격 회복 +20%\n방패: 막기 속도 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "name": "샤엘 룬 (Shael)",
+      "description": "요구 레벨: 29\n무기: 공격 속도 +20%\n갑옷·투구: 타격 회복 +20%\n방패: 막기 속도 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "13번", "shael", "샤엘", "샤에"],
       "meta": { "rank": 13, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "돌 룬 (Dol)",
-      "description": "요구 레벨: 31\n무기: 타격 시 몬스터 도주 32%\n갑옷·투구·방패: 생명력 재생 +7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 31\n무기: 타격 시 몬스터 도주 32%\n갑옷·투구·방패: 생명력 재생 +7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "14번", "dol", "돌"],
       "meta": { "rank": 14, "dropRate": "보통" }
     },
     {
       "type": "rune",
       "name": "헬 룬 (Hel)",
-      "description": "요구 레벨: 없음\n무기: 요구치 -20%\n갑옷·투구·방패: 요구치 -15%\n\n※ 소켓 빼기 큐브 레시피에 사용\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 없음\n무기: 요구치 -20%\n갑옷·투구·방패: 요구치 -15%\n\n※ 소켓 빼기 큐브 레시피에 사용\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "15번", "hel", "소켓빼기", "헬"],
       "meta": { "rank": 15, "dropRate": "낮음" }
     },
     {
       "type": "rune",
-      "name": "포 룬 (Io)",
-      "description": "요구 레벨: 35\n공통: 활력 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["rune", "16번", "io", "포"],
+      "name": "이오 룬 (Io)",
+      "description": "요구 레벨: 35\n공통: 활력 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["rune", "16번", "io", "포", "이오"],
       "meta": { "rank": 16, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "룸 룬 (Lum)",
-      "description": "요구 레벨: 37\n공통: 에너지 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 37\n공통: 에너지 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "17번", "lum", "룸"],
       "meta": { "rank": 17, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "코 룬 (Ko)",
-      "description": "요구 레벨: 39\n공통: 민첩 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 39\n공통: 민첩 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "18번", "ko", "코"],
       "meta": { "rank": 18, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "팔 룬 (Fal)",
-      "description": "요구 레벨: 41\n공통: 힘 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 41\n공통: 힘 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "19번", "fal", "팔"],
       "meta": { "rank": 19, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "렘 룬 (Lem)",
-      "description": "요구 레벨: 43\n무기: 골드 획득 +75%\n갑옷·투구·방패: 골드 획득 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 43\n무기: 골드 획득 +75%\n갑옷·투구·방패: 골드 획득 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "20번", "lem", "삥", "렘"],
       "meta": { "rank": 20, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "풀 룬 (Pul)",
-      "description": "요구 레벨: 45\n무기: 악마 대상 명중률 +100, 악마 대상 피해 +75%\n갑옷·투구·방패: 방어력 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 45\n무기: 악마 대상 명중률 +100, 악마 대상 피해 +75%\n갑옷·투구·방패: 방어력 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "21번", "pul", "중급", "풀"],
       "meta": { "rank": 21, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "우움 룬 (Um)",
-      "description": "요구 레벨: 47\n무기: 상처 악화 확률 25%\n갑옷·투구: 모든 저항 +15\n방패: 모든 저항 +22\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 47\n무기: 상처 악화 확률 25%\n갑옷·투구: 모든 저항 +15\n방패: 모든 저항 +22\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "22번", "um", "중급", "우움"],
       "meta": { "rank": 22, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "말 룬 (Mal)",
-      "description": "요구 레벨: 49\n무기: 몬스터 회복 방지\n갑옷·투구·방패: 마법 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 49\n무기: 몬스터 회복 방지\n갑옷·투구·방패: 마법 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "23번", "mal", "중급", "말"],
       "meta": { "rank": 23, "dropRate": "낮음" }
     },
     {
       "type": "rune",
-      "name": "아이스트 룬 (Ist)",
-      "description": "요구 레벨: 51\n무기: 매직 아이템 발견 +30%\n갑옷·투구·방패: 매직 아이템 발견 +25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "name": "이스트 룬 (Ist)",
+      "description": "요구 레벨: 51\n무기: 매직 아이템 발견 +30%\n갑옷·투구·방패: 매직 아이템 발견 +25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "24번", "ist", "중급", "매파", "이스트", "아이스트"],
       "meta": { "rank": 24, "dropRate": "낮음" }
     },
     {
       "type": "rune",
       "name": "굴 룬 (Gul)",
-      "description": "요구 레벨: 53\n무기: 명중률 +20%\n갑옷·투구·방패: 최대 독 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 53\n무기: 명중률 +20%\n갑옷·투구·방패: 최대 독 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "25번", "gul", "굴"],
       "meta": { "rank": 25, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "벡스 룬 (Vex)",
-      "description": "요구 레벨: 55\n무기: 마나 흡수 7%\n갑옷·투구·방패: 최대 화염 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 55\n무기: 마나 흡수 7%\n갑옷·투구·방패: 최대 화염 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "26번", "vex", "고급", "벡스"],
       "meta": { "rank": 26, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "오움 룬 (Ohm)",
-      "description": "요구 레벨: 57\n무기: 피해 +50%\n갑옷·투구·방패: 최대 냉기 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 57\n무기: 피해 +50%\n갑옷·투구·방패: 최대 냉기 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "27번", "ohm", "고급", "오움"],
       "meta": { "rank": 27, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "로 룬 (Lo)",
-      "description": "요구 레벨: 59\n무기: 치명적 공격 20%\n갑옷·투구·방패: 최대 번개 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 59\n무기: 치명적 공격 20%\n갑옷·투구·방패: 최대 번개 저항 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "28번", "lo", "고급", "로"],
       "meta": { "rank": 28, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "수르 룬 (Sur)",
-      "description": "요구 레벨: 61\n무기: 타격 시 대상 실명 +1\n갑옷·투구: 최대 마나 +5%\n방패: 마나 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 61\n무기: 타격 시 대상 실명 +1\n갑옷·투구: 최대 마나 +5%\n방패: 마나 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "29번", "sur", "고급", "수르"],
       "meta": { "rank": 29, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
       "name": "베르 룬 (Ber)",
-      "description": "요구 레벨: 63\n무기: 강타 확률 20%\n갑옷·투구·방패: 받는 피해 감소 8%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 63\n무기: 강타 확률 20%\n갑옷·투구·방패: 받는 피해 감소 8%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "30번", "ber", "고급", "베르"],
       "meta": { "rank": 30, "dropRate": "매우 낮음" }
     },
     {
       "type": "rune",
-      "name": "조 룬 (Jah)",
-      "description": "요구 레벨: 65\n무기: 대상 방어력 무시\n갑옷·투구: 최대 생명력 +5%\n방패: 생명력 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "name": "자 룬 (Jah)",
+      "description": "요구 레벨: 65\n무기: 대상 방어력 무시\n갑옷·투구: 최대 생명력 +5%\n방패: 생명력 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "31번", "jah", "고급", "자", "조"],
       "meta": { "rank": 31, "dropRate": "극악" }
     },
     {
       "type": "rune",
-      "name": "차암 룬 (Cham)",
-      "description": "요구 레벨: 67\n무기: 대상 빙결 +3\n갑옷·투구·방패: 빙결되지 않음\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "name": "참 룬 (Cham)",
+      "description": "요구 레벨: 67\n무기: 대상 빙결 +3\n갑옷·투구·방패: 빙결되지 않음\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "32번", "cham", "고급", "참", "차암"],
       "meta": { "rank": 32, "dropRate": "극악" }
     },
     {
       "type": "rune",
       "name": "조드 룬 (Zod)",
-      "description": "요구 레벨: 69\n공통: 파괴 불가\n\n※ 가장 희귀한 룬, 에더리얼 아이템에 사용 시 내구도 파괴 방지\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "요구 레벨: 69\n공통: 파괴 불가\n\n※ 가장 희귀한 룬, 에더리얼 아이템에 사용 시 내구도 파괴 방지\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["rune", "33번", "zod", "고급", "파괴불가", "에더리얼", "조드"],
       "meta": { "rank": 33, "dropRate": "극악" }
     },
