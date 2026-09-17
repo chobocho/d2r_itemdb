@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 27로 증가 (v26 캐시 사용자에게 유니크·세트·스킬 D2R 번역 반영)', () => {
-  assert.equal(version, 27);
+test('DB 버전이 28로 증가 (v27 캐시 사용자에게 클래스명 D2R 표기 반영)', () => {
+  assert.equal(version, 28);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -469,10 +469,10 @@ test("이모탈 킹 정식 세트명 'Immortal King' 사용, 오기 'Immortal Ki
   assert.ok(setByEn('Immortal King').tags.includes('ik'));
 });
 
-test('탈 라샤 풀세트: +3 소서리스 스킬·MF 65%·모든 저항 50, 오기 수치(매파 150%) 제거', () => {
+test('탈 라샤 풀세트: +3 원소술사 스킬·MF 65%·모든 저항 50, 오기 수치(매파 150%) 제거', () => {
   const d = setByEn("Tal Rasha's Wrappings").description;
   const full = fullBonus(d);
-  for (const s of ['+3 소서리스 스킬', '매직 아이템 발견 +65%', '모든 저항 +50', '생명력 +150']) assert.ok(full.includes(s), s);
+  for (const s of ['+3 원소술사 스킬', '매직 아이템 발견 +65%', '모든 저항 +50', '생명력 +150']) assert.ok(full.includes(s), s);
   assert.ok(!d.includes('매파 +150%'));
   assert.match(d, /Tal Rasha's Guardianship[^\n]*\n {2}[^\n]*매직 아이템 발견 \+88%/);
 });
@@ -482,7 +482,7 @@ test('세트별 핵심 수치 정정 (IK 강타·트랑 뱀파이어·나탈야 
   assert.ok(fullBonus(setByEn('Immortal King').description).includes('+3 야만용사 스킬'));
   assert.ok(fullBonus(setByEn("Trang-Oul's Avatar").description).includes('뱀파이어'));
   assert.ok(fullBonus(setByEn("Natalya's Odium").description).includes('받는 피해 감소 30%'));
-  assert.ok(fullBonus(setByEn("Griswold's Legacy").description).includes('+3 팔라딘 스킬'));
+  assert.ok(fullBonus(setByEn("Griswold's Legacy").description).includes('+3 성기사 스킬'));
   assert.ok(fullBonus(setByEn("Aldur's Watchtower").description).includes('+3 드루이드 스킬'));
   assert.ok(fullBonus(setByEn("M'avina's Battle Hymn").description).includes('매직 아이템 발견 +100%'));
 });
@@ -894,10 +894,10 @@ test('세트 D2R 번역명: 불멸왕·시곤의 온전한 강철·탈 라샤의
 
 test('스킬 트리 옵션: 성기사 전투 기술 오기(소환 스킬) 정정, D2R 트리명 사용', () => {
   const all = [...uniques(), ...sets(), ...runewords()].map((i) => i.description).join('\n');
-  assert.ok(!all.includes('소환 스킬 (팔라딘 전용)'), '성기사에게 소환 트리는 없음');
+  assert.ok(!/소환 스킬 \((팔라딘|성기사) 전용\)/.test(all), '성기사에게 소환 트리는 없음');
   assert.ok(!/오오라 \(/.test(all), '레거시 표기 오오라 잔존');
-  assert.match(uDesc('Herald of Zakarum'), /\+\d(-\d)? 전투 기술 \(팔라딘 전용\)/);
-  assert.match(setByEn("Griswold's Legacy").description, /2세트 \+2 전투 기술 \(팔라딘 전용\)/);
+  assert.match(uDesc('Herald of Zakarum'), /\+\d(-\d)? 전투 기술 \(성기사 전용\)/);
+  assert.match(setByEn("Griswold's Legacy").description, /2세트 \+2 전투 기술 \(성기사 전용\)/);
 });
 
 test('스킬명 D2R 번역: 레거시 음역(컨센트레이션·생츄어리·텔레포트) 옵션 표기 없음, 용병·성기사 트리 반영', () => {
@@ -907,4 +907,30 @@ test('스킬명 D2R 번역: 레거시 음역(컨센트레이션·생츄어리·�
   const combat = items.find((i) => i.type === 'class' && i.name.includes('(Combat Skills)')).description;
   assert.match(combat, /^• 축복받은 망치 \(Blessed Hammer, 18\)/m);
   assert.ok(!combat.includes('강타터'), '단어 경계 무시 치환 흔적');
+});
+
+// ── 클래스명 D2R 표기 (원소술사·강령술사·성기사·암살자), 이전 표기는 태그로만 유지 ──
+const LEGACY_CLASS = { 소서리스: '원소술사', 네크로맨서: '강령술사', 팔라딘: '성기사', 어쌔신: '암살자' };
+
+test('이름·설명·meta 에 이전 클래스 표기 없음', () => {
+  for (const it of items) {
+    const text = `${it.name}\n${it.description}\n${JSON.stringify(it.meta || {})}`;
+    for (const old of Object.keys(LEGACY_CLASS)) assert.ok(!text.includes(old), `${it.name}: ${old}`);
+  }
+});
+
+test('이전 클래스 태그를 가진 항목은 D2R 표기 태그도 보유 (검색 호환)', () => {
+  let checked = 0;
+  for (const it of items) {
+    for (const [old, now] of Object.entries(LEGACY_CLASS)) {
+      if (it.tags.includes(old)) { assert.ok(it.tags.includes(now), `${it.name}: ${now}`); checked++; }
+    }
+  }
+  assert.ok(checked > 0, '이전 표기 태그가 모두 사라짐');
+});
+
+test('클래스 표기 적용 예: 탈 라샤 meta.class·트랑-오울 스킬·추방 성기사 방패', () => {
+  assert.equal(setByEn("Tal Rasha's Wrappings").meta.class, '원소술사');
+  assert.ok(fullBonus(setByEn("Trang-Oul's Avatar").description).includes('+3 강령술사 스킬'));
+  assert.match(rwByEn('Exile').meta.base, /성기사 방패/);
 });

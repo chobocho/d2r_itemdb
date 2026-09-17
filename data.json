@@ -291,8 +291,8 @@
     {
       "type": "runeword",
       "name": "순백 (White)",
-      "description": "조합: 돌 + 이오 (Dol + Io)\n레벨 제한: 35\n적용: 2소켓 완드\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• +3 독과 뼈 (네크로맨서 전용)\n• 마법 피해 감소 4\n• 시전 속도 +20%\n• 마나 +13\n• +3 뼈 갑옷(Bone Armor) (네크로맨서 전용)\n• +2 뼈 창(Bone Spear) (네크로맨서 전용)\n• +4 해골 숙련(Skeleton Mastery) (네크로맨서 전용)\n룬 옵션 (무기 장착 시 추가): 타격 시 몬스터 도주 32%, 활력 +10\n\n※ 네크로맨서 전용 지팡이에 적용\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["runeword", "지팡이", "네크로맨서", "뼈넥", "시전속도", "룬워드", "완드", "백색", "순백"],
+      "description": "조합: 돌 + 이오 (Dol + Io)\n레벨 제한: 35\n적용: 2소켓 완드\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• +3 독과 뼈 (강령술사 전용)\n• 마법 피해 감소 4\n• 시전 속도 +20%\n• 마나 +13\n• +3 뼈 갑옷(Bone Armor) (강령술사 전용)\n• +2 뼈 창(Bone Spear) (강령술사 전용)\n• +4 해골 숙련(Skeleton Mastery) (강령술사 전용)\n룬 옵션 (무기 장착 시 추가): 타격 시 몬스터 도주 32%, 활력 +10\n\n※ 강령술사 전용 지팡이에 적용\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "지팡이", "네크로맨서", "뼈넥", "시전속도", "룬워드", "완드", "백색", "순백", "강령술사"],
       "meta": { "base": "2소켓 완드", "runes": ["Dol", "Io"], "level": 35 }
     },
     {
@@ -396,23 +396,23 @@
     {
       "type": "runeword",
       "name": "꿈 (Dream)",
-      "description": "조합: 이오 + 자 + 풀 (Io + Jah + Pul)\n레벨 제한: 65\n적용: 3소켓 투구/방패\n도입: 원작 — 원래 래더 전용, D2R에서는 비래더에서도 제작 가능\n\n룬워드 효과:\n• 방어력 +150-220\n• 피격 시 10% 확률로 레벨 15 혼란(Confuse) 시전\n• 마나 +0-61 (레벨당 0.625)\n• 모든 저항 +5-20\n• 타격 회복 +20-30%\n• 장착 시 레벨 15 신성한 충격(Holy Shock) 오라\n• 매직 아이템 발견 +12-25%\n룬 옵션 (갑옷·투구 장착 시 추가): 활력 +10, 최대 생명력 +5%, 방어력 +30%\n룬 옵션 (방패 장착 시 추가): 활력 +10, 생명력 +50, 방어력 +30%\n\n※ 투구+방패 둘 다 장착 시 오라 레벨 30. 드리머 팔라딘 핵심\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["runeword", "투구", "방패", "팔라딘", "홀리쇼크", "드리머", "룬워드", "꿈"],
+      "description": "조합: 이오 + 자 + 풀 (Io + Jah + Pul)\n레벨 제한: 65\n적용: 3소켓 투구/방패\n도입: 원작 — 원래 래더 전용, D2R에서는 비래더에서도 제작 가능\n\n룬워드 효과:\n• 방어력 +150-220\n• 피격 시 10% 확률로 레벨 15 혼란(Confuse) 시전\n• 마나 +0-61 (레벨당 0.625)\n• 모든 저항 +5-20\n• 타격 회복 +20-30%\n• 장착 시 레벨 15 신성한 충격(Holy Shock) 오라\n• 매직 아이템 발견 +12-25%\n룬 옵션 (갑옷·투구 장착 시 추가): 활력 +10, 최대 생명력 +5%, 방어력 +30%\n룬 옵션 (방패 장착 시 추가): 활력 +10, 생명력 +50, 방어력 +30%\n\n※ 투구+방패 둘 다 장착 시 오라 레벨 30. 드리머 성기사 핵심\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "투구", "방패", "팔라딘", "홀리쇼크", "드리머", "룬워드", "꿈", "성기사"],
       "meta": { "base": "3소켓 투구/방패", "runes": ["Io", "Jah", "Pul"], "level": 65 }
     },
     {
       "type": "runeword",
       "name": "착란 (Delirium)",
-      "description": "조합: 렘 + 이스트 + 이오 (Lem + Ist + Io)\n레벨 제한: 51\n적용: 3소켓 투구\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 타격 시 11% 확률로 레벨 18 혼란(Confuse) 시전\n• 레벨 17 유혹(Attract) (60회 충전)\n• 피격 시 14% 확률로 레벨 13 공포(Terror) 시전\n• 방어력 +261\n• 피격 시 6% 확률로 레벨 14 정신 폭발(Mind Blast) 시전\n• 피격 시 1% 확률로 레벨 50 착란(Delirium) 시전\n• +2 모든 스킬\n룬 옵션 (갑옷·투구 장착 시 추가): 골드 획득 +50%, 매직 아이템 발견 +25%, 활력 +10\n\n※ 소환 네크로맨서 투구로 인기\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["runeword", "투구", "네크로맨서", "올스킬", "소환넥", "룬워드", "착란"],
+      "description": "조합: 렘 + 이스트 + 이오 (Lem + Ist + Io)\n레벨 제한: 51\n적용: 3소켓 투구\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 타격 시 11% 확률로 레벨 18 혼란(Confuse) 시전\n• 레벨 17 유혹(Attract) (60회 충전)\n• 피격 시 14% 확률로 레벨 13 공포(Terror) 시전\n• 방어력 +261\n• 피격 시 6% 확률로 레벨 14 정신 폭발(Mind Blast) 시전\n• 피격 시 1% 확률로 레벨 50 착란(Delirium) 시전\n• +2 모든 스킬\n룬 옵션 (갑옷·투구 장착 시 추가): 골드 획득 +50%, 매직 아이템 발견 +25%, 활력 +10\n\n※ 소환 강령술사 투구로 인기\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "투구", "네크로맨서", "올스킬", "소환넥", "룬워드", "착란", "강령술사"],
       "meta": { "base": "3소켓 투구", "runes": ["Lem", "Ist", "Io"], "level": 51 }
     },
     {
       "type": "runeword",
       "name": "추방 (Exile)",
-      "description": "조합: 벡스 + 오움 + 이스트 + 돌 (Vex + Ohm + Ist + Dol)\n레벨 제한: 57\n적용: 4소켓 팔라딘 방패\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 막기 속도 +30%\n• 대상 빙결 +1\n• 방어력 +220-260%\n• 장착 시 레벨 13-16 인내(Defiance) 오라\n• +2 공격 오라 (팔라딘 전용)\n• 타격 시 15% 확률로 레벨 5 생명력 추출(Life Tap) 시전\n• 내구도 자동 회복 (4초마다 1)\n룬 옵션 (방패 장착 시 추가): 최대 화염 저항 +5%, 최대 냉기 저항 +5%, 매직 아이템 발견 +25%, 생명력 재생 +7\n\n※ 저거넛/스마이터 팔라딘 방패\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["runeword", "방패", "팔라딘", "스마이터", "성역오라", "룬워드", "팔라딘 방패", "추방"],
-      "meta": { "base": "4소켓 팔라딘 방패", "runes": ["Vex", "Ohm", "Ist", "Dol"], "level": 57 }
+      "description": "조합: 벡스 + 오움 + 이스트 + 돌 (Vex + Ohm + Ist + Dol)\n레벨 제한: 57\n적용: 4소켓 성기사 방패\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 막기 속도 +30%\n• 대상 빙결 +1\n• 방어력 +220-260%\n• 장착 시 레벨 13-16 인내(Defiance) 오라\n• +2 공격 오라 (성기사 전용)\n• 타격 시 15% 확률로 레벨 5 생명력 추출(Life Tap) 시전\n• 내구도 자동 회복 (4초마다 1)\n룬 옵션 (방패 장착 시 추가): 최대 화염 저항 +5%, 최대 냉기 저항 +5%, 매직 아이템 발견 +25%, 생명력 재생 +7\n\n※ 저거넛/스마이터 성기사 방패\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "방패", "팔라딘", "스마이터", "성역오라", "룬워드", "팔라딘 방패", "추방", "성기사"],
+      "meta": { "base": "4소켓 성기사 방패", "runes": ["Vex", "Ohm", "Ist", "Dol"], "level": 57 }
     },
     {
       "type": "runeword",
@@ -488,14 +488,14 @@
       "type": "runeword",
       "name": "꺼져가는 불길 (Flickering Flame)",
       "description": "조합: 네프 + 풀 + 벡스 (Nef + Pul + Vex)\n레벨 제한: 55\n적용: 3소켓 투구\n도입: D2R 패치 2.4 — 래더 전용으로 추가, 패치 2.6부터 비래더 제작 가능\n\n룬워드 효과:\n• +3 화염 스킬\n• 장착 시 레벨 4-8 화염 저항(Resist Fire) 오라\n• 적 화염 저항 -10~-15%\n• 마나 +50-75\n• 빙결 지속시간 절반\n• 독 지속시간 감소 50%\n룬 옵션 (갑옷·투구 장착 시 추가): 원거리 방어력 +30, 방어력 +30%, 최대 화염 저항 +5%\n\n※ 화염 빌드 핵심\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["runeword", "투구", "화염빌드", "드루이드", "소서리스", "룬워드", "빛나는 불꽃", "꺼져가는 불길"],
+      "tags": ["runeword", "투구", "화염빌드", "드루이드", "소서리스", "룬워드", "빛나는 불꽃", "꺼져가는 불길", "원소술사"],
       "meta": { "base": "3소켓 투구", "runes": ["Nef", "Pul", "Vex"], "level": 55 }
     },
     {
       "type": "runeword",
       "name": "집착 (Obsession)",
-      "description": "조합: 조드 + 이스트 + 렘 + 룸 + 이오 + 네프 (Zod + Ist + Lem + Lum + Io + Nef)\n레벨 제한: 69\n적용: 6소켓 지팡이\n도입: D2R 패치 2.4 — 래더 전용으로 추가, 패치 2.6부터 비래더 제작 가능\n\n룬워드 효과:\n• +4 모든 스킬\n• 피격 시 24% 확률로 레벨 10 약화(Weaken) 시전\n• 시전 속도 +65%\n• 타격 회복 +60%\n• 모든 저항 +60-70\n• 최대 생명력 +15-25%\n• 마나 재생 +15-30%\n룬 옵션 (무기 장착 시 추가): 파괴 불가, 매직 아이템 발견 +30%, 골드 획득 +75%, 에너지 +10, 활력 +10, 밀쳐내기\n\n※ 소서리스 스태프 최종템\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["runeword", "스태프", "소서리스", "종결템", "시전속도", "올스킬", "룬워드", "지팡이", "집착"],
+      "description": "조합: 조드 + 이스트 + 렘 + 룸 + 이오 + 네프 (Zod + Ist + Lem + Lum + Io + Nef)\n레벨 제한: 69\n적용: 6소켓 지팡이\n도입: D2R 패치 2.4 — 래더 전용으로 추가, 패치 2.6부터 비래더 제작 가능\n\n룬워드 효과:\n• +4 모든 스킬\n• 피격 시 24% 확률로 레벨 10 약화(Weaken) 시전\n• 시전 속도 +65%\n• 타격 회복 +60%\n• 모든 저항 +60-70\n• 최대 생명력 +15-25%\n• 마나 재생 +15-30%\n룬 옵션 (무기 장착 시 추가): 파괴 불가, 매직 아이템 발견 +30%, 골드 획득 +75%, 에너지 +10, 활력 +10, 밀쳐내기\n\n※ 원소술사 스태프 최종템\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "스태프", "소서리스", "종결템", "시전속도", "올스킬", "룬워드", "지팡이", "집착", "원소술사"],
       "meta": { "base": "6소켓 지팡이", "runes": ["Zod", "Ist", "Lem", "Lum", "Io", "Nef"], "level": 69 }
     },
     {
@@ -712,28 +712,28 @@
     {
       "type": "unique",
       "name": "이로의 횃불 (Torch of Iro)",
-      "description": "일반 완드 유니크 — 베이스: 원드 (Wand)\n요구 레벨: 5\n\n옵션:\n• +1 네크로맨서 스킬\n• 생명력 흡수 6%\n• 화염 피해 +5-9\n• 빛 반경 +3\n• 에너지 +10\n• 마나 재생 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 완드 유니크 — 베이스: 원드 (Wand)\n요구 레벨: 5\n\n옵션:\n• +1 강령술사 스킬\n• 생명력 흡수 6%\n• 화염 피해 +5-9\n• 빛 반경 +3\n• 에너지 +10\n• 마나 재생 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "일반", "원드", "토치 오브 이로"],
       "meta": { "rarity": "Unique", "base": "Wand", "level": 5 }
     },
     {
       "type": "unique",
       "name": "소용돌이 (Maelstrom)",
-      "description": "일반 완드 유니크 — 베이스: 유 원드 (Yew Wand)\n요구 레벨: 14\n\n옵션:\n• 번개 피해 +1-9\n• 번개 저항 +40%\n• 마나 +13\n• 시전 속도 +30%\n• +1-3 시체 폭발(Corpse Explosion) (네크로맨서 전용)\n• +1-3 공포(Terror) (네크로맨서 전용)\n• +1-3 피해 증폭(Amplify Damage) (네크로맨서 전용)\n• +1-3 가시 박힌 철관(Iron Maiden) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 완드 유니크 — 베이스: 유 원드 (Yew Wand)\n요구 레벨: 14\n\n옵션:\n• 번개 피해 +1-9\n• 번개 저항 +40%\n• 마나 +13\n• 시전 속도 +30%\n• +1-3 시체 폭발(Corpse Explosion) (강령술사 전용)\n• +1-3 공포(Terror) (강령술사 전용)\n• +1-3 피해 증폭(Amplify Damage) (강령술사 전용)\n• +1-3 가시 박힌 철관(Iron Maiden) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "일반", "유 원드", "유원드", "메일스트럼"],
       "meta": { "rarity": "Unique", "base": "Yew Wand", "level": 14 }
     },
     {
       "type": "unique",
       "name": "새김등뼈 (Gravenspine)",
-      "description": "일반 완드 유니크 — 베이스: 본 원드 (Bone Wand)\n요구 레벨: 20\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 냉기 피해 +4-8\n• 힘 +10\n• 민첩 +10\n• 마나 흡수 5%\n• +2 네크로맨서 스킬\n• 마나 +25-50\n• 시전 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 완드 유니크 — 베이스: 본 원드 (Bone Wand)\n요구 레벨: 20\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 냉기 피해 +4-8\n• 힘 +10\n• 민첩 +10\n• 마나 흡수 5%\n• +2 강령술사 스킬\n• 마나 +25-50\n• 시전 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "일반", "본 원드", "본원드", "그레이븐스파인"],
       "meta": { "rarity": "Unique", "base": "Bone Wand", "level": 20 }
     },
     {
       "type": "unique",
       "name": "우메의 탄식 (Ume's Lament)",
-      "description": "일반 완드 유니크 — 베이스: 그림 원드 (Grim Wand)\n요구 레벨: 28\n\n옵션:\n• +2 네크로맨서 스킬\n• 마나 +40\n• 시전 속도 +20%\n• 타격 시 몬스터 도주 64%\n• +3 공포(Terror) (네크로맨서 전용)\n• +2 노화(Decrepify) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 완드 유니크 — 베이스: 그림 원드 (Grim Wand)\n요구 레벨: 28\n\n옵션:\n• +2 강령술사 스킬\n• 마나 +40\n• 시전 속도 +20%\n• 타격 시 몬스터 도주 64%\n• +3 공포(Terror) (강령술사 전용)\n• +2 노화(Decrepify) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "일반", "그림 원드", "그림원드", "우메즈 러먼트"],
       "meta": { "rarity": "Unique", "base": "Grim Wand", "level": 28 }
     },
@@ -754,14 +754,14 @@
     {
       "type": "unique",
       "name": "녹슨손잡이 (Rusthandle)",
-      "description": "일반 셉터 유니크 — 베이스: 그랜드 셉터 (Grand Scepter)\n요구 레벨: 17\n\n옵션:\n• +1 팔라딘 스킬\n• 피해 +3-7\n• 마법 피해 감소 1\n• 생명력 흡수 8%\n• 피해 +50-60%\n• 언데드 대상 피해 +50-60%\n• +1-3 복수(Vengeance) (팔라딘 전용)\n• +3 가시(Thorns) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 셉터 유니크 — 베이스: 그랜드 셉터 (Grand Scepter)\n요구 레벨: 17\n\n옵션:\n• +1 성기사 스킬\n• 피해 +3-7\n• 마법 피해 감소 1\n• 생명력 흡수 8%\n• 피해 +50-60%\n• 언데드 대상 피해 +50-60%\n• +1-3 복수(Vengeance) (성기사 전용)\n• +3 가시(Thorns) (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "일반", "그랜드 셉터", "그랜드셉터", "러스트 핸들"],
       "meta": { "rarity": "Unique", "base": "Grand Scepter", "level": 17 }
     },
     {
       "type": "unique",
       "name": "폭풍눈 (Stormeye)",
-      "description": "일반 셉터 유니크 — 베이스: 워 셉터 (War Scepter)\n요구 레벨: 23\n\n옵션:\n• 번개 피해 +1-6\n• 냉기 피해 +3-5 (3초)\n• 생명력 재생 +10\n• 피해 +80-120%\n• +3-5 번개 저항(Resist Lightning) (팔라딘 전용)\n• +3 신성한 충격(Holy Shock) (팔라딘 전용)\n• +1 천상의 주먹(Fist of the Heavens) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 셉터 유니크 — 베이스: 워 셉터 (War Scepter)\n요구 레벨: 23\n\n옵션:\n• 번개 피해 +1-6\n• 냉기 피해 +3-5 (3초)\n• 생명력 재생 +10\n• 피해 +80-120%\n• +3-5 번개 저항(Resist Lightning) (성기사 전용)\n• +3 신성한 충격(Holy Shock) (성기사 전용)\n• +1 천상의 주먹(Fist of the Heavens) (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "일반", "워 셉터", "워셉터", "스톰아이"],
       "meta": { "rarity": "Unique", "base": "War Scepter", "level": 23 }
     },
@@ -782,7 +782,7 @@
     {
       "type": "unique",
       "name": "피오름 (Bloodrise)",
-      "description": "일반 둔기 유니크 — 베이스: 모닝스타 (Morning Star)\n요구 레벨: 15\n\n옵션:\n• 피해 +120%\n• 명중률 +50%\n• 상처 악화 확률 25%\n• 빛 반경 +2\n• 공격 속도 +10%\n• +3 희생(Sacrifice) (팔라딘 전용)\n• 생명력 흡수 5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 둔기 유니크 — 베이스: 모닝스타 (Morning Star)\n요구 레벨: 15\n\n옵션:\n• 피해 +120%\n• 명중률 +50%\n• 상처 악화 확률 25%\n• 빛 반경 +2\n• 공격 속도 +10%\n• +3 희생(Sacrifice) (성기사 전용)\n• 생명력 흡수 5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "둔기", "일반", "모닝스타", "블러드라이즈"],
       "meta": { "rarity": "Unique", "base": "Morning Star", "level": 15 }
     },
@@ -880,7 +880,7 @@
     {
       "type": "unique",
       "name": "키네밀의 송곳 (Kinemil's Awl)",
-      "description": "일반 검 유니크 — 베이스: 자이언트 소드 (Giant Sword)\n요구 레벨: 23\n\n옵션:\n• 화염 피해 +6-20\n• 명중률 +100-150\n• 마나 +20\n• 피해 +80-100%\n• +6 신성한 불꽃(Holy Fire) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 검 유니크 — 베이스: 자이언트 소드 (Giant Sword)\n요구 레벨: 23\n\n옵션:\n• 화염 피해 +6-20\n• 명중률 +100-150\n• 마나 +20\n• 피해 +80-100%\n• +6 신성한 불꽃(Holy Fire) (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "검", "일반", "자이언트 소드", "자이언트소드", "키네밀즈 얼"],
       "meta": { "rarity": "Unique", "base": "Giant Sword", "level": 23 }
     },
@@ -1013,7 +1013,7 @@
     {
       "type": "unique",
       "name": "재앙의 재 (Bane Ash)",
-      "description": "일반 지팡이 유니크 — 베이스: 숏스태프 (Short Staff)\n요구 레벨: 5\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 화염 피해 +4-6\n• 화염 저항 +50%\n• 마나 +30\n• 시전 속도 +20%\n• +5 화염탄(Fire Bolt) (소서리스 전용)\n• +2 온기(Warmth) (소서리스 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 지팡이 유니크 — 베이스: 숏스태프 (Short Staff)\n요구 레벨: 5\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 화염 피해 +4-6\n• 화염 저항 +50%\n• 마나 +30\n• 시전 속도 +20%\n• +5 화염탄(Fire Bolt) (원소술사 전용)\n• +2 온기(Warmth) (원소술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "지팡이", "일반", "숏스태프", "베인 애쉬"],
       "meta": { "rarity": "Unique", "base": "Short Staff", "level": 5 }
     },
@@ -1027,21 +1027,21 @@
     {
       "type": "unique",
       "name": "라자루스의 첨탑 (Spire of Lazarus)",
-      "description": "일반 지팡이 유니크 — 베이스: 나알드 스태프 (Gnarled Staff)\n요구 레벨: 18\n\n옵션:\n• 번개 저항 +75%\n• 피해 감소 5\n• 에너지 +15\n• +1 연쇄 번개(Chain Lightning) (소서리스 전용)\n• +2 번개(Lightning) (소서리스 전용)\n• +3 전자기장(Static Field) (소서리스 전용)\n• 마나 재생 +43%\n• 번개 피해 +1-28\n• +1 소서리스 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 지팡이 유니크 — 베이스: 나알드 스태프 (Gnarled Staff)\n요구 레벨: 18\n\n옵션:\n• 번개 저항 +75%\n• 피해 감소 5\n• 에너지 +15\n• +1 연쇄 번개(Chain Lightning) (원소술사 전용)\n• +2 번개(Lightning) (원소술사 전용)\n• +3 전자기장(Static Field) (원소술사 전용)\n• 마나 재생 +43%\n• 번개 피해 +1-28\n• +1 원소술사 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "지팡이", "일반", "나알드 스태프", "나알드스태프", "스파이어 오브 라자루스"],
       "meta": { "rarity": "Unique", "base": "Gnarled Staff", "level": 18 }
     },
     {
       "type": "unique",
       "name": "불도마뱀 (The Salamander)",
-      "description": "일반 지팡이 유니크 — 베이스: 배틀 스태프 (Battle Staff)\n요구 레벨: 21\n\n옵션:\n• 화염 피해 +15-32\n• 화염 저항 +30%\n• +1 화염벽(Fire Wall) (소서리스 전용)\n• +2 화염구(Fire Ball) (소서리스 전용)\n• +3 온기(Warmth) (소서리스 전용)\n• +2 화염 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 지팡이 유니크 — 베이스: 배틀 스태프 (Battle Staff)\n요구 레벨: 21\n\n옵션:\n• 화염 피해 +15-32\n• 화염 저항 +30%\n• +1 화염벽(Fire Wall) (원소술사 전용)\n• +2 화염구(Fire Ball) (원소술사 전용)\n• +3 온기(Warmth) (원소술사 전용)\n• +2 화염 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "지팡이", "일반", "배틀 스태프", "배틀스태프", "더 샐러맨더"],
       "meta": { "rarity": "Unique", "base": "Battle Staff", "level": 21 }
     },
     {
       "type": "unique",
       "name": "무쇠 장봉 (The Iron Jang Bong)",
-      "description": "일반 지팡이 유니크 — 베이스: 워 스태프 (War Staff)\n요구 레벨: 28\n\n옵션:\n• 방어력 +30\n• 시전 속도 +20%\n• 피해 +100%\n• 명중률 +50%\n• +2 번개 파장(Nova) (소서리스 전용)\n• +2 불길(Blaze) (소서리스 전용)\n• +3 서릿발(Frost Nova) (소서리스 전용)\n• +2 소서리스 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 지팡이 유니크 — 베이스: 워 스태프 (War Staff)\n요구 레벨: 28\n\n옵션:\n• 방어력 +30\n• 시전 속도 +20%\n• 피해 +100%\n• 명중률 +50%\n• +2 번개 파장(Nova) (원소술사 전용)\n• +2 불길(Blaze) (원소술사 전용)\n• +3 서릿발(Frost Nova) (원소술사 전용)\n• +2 원소술사 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "지팡이", "일반", "워 스태프", "워스태프", "풍사의 철장봉"],
       "meta": { "rarity": "Unique", "base": "War Staff", "level": 28 }
     },
@@ -1160,7 +1160,7 @@
     {
       "type": "unique",
       "name": "벌레두개골 (Wormskull)",
-      "description": "일반 투구 유니크 — 베이스: 본 헬름 (Bone Helm)\n요구 레벨: 21\n\n옵션:\n• +1 네크로맨서 스킬\n• 생명력 흡수 5%\n• 마나 +10\n• 독 저항 +25%\n• 독 피해 +80 (8초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 투구 유니크 — 베이스: 본 헬름 (Bone Helm)\n요구 레벨: 21\n\n옵션:\n• +1 강령술사 스킬\n• 생명력 흡수 5%\n• 마나 +10\n• 독 저항 +25%\n• 독 피해 +80 (8초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "투구", "일반", "본 헬름", "본헬름", "웜스컬"],
       "meta": { "rarity": "Unique", "base": "Bone Helm", "level": 21 }
     },
@@ -1174,7 +1174,7 @@
     {
       "type": "unique",
       "name": "언데드 왕관 (Undead Crown)",
-      "description": "일반 투구 유니크 — 베이스: 크라운 (Crown)\n요구 레벨: 29\n\n옵션:\n• 생명력 흡수 5%\n• 방어력 +40\n• 독 저항 +50%\n• 빙결 지속시간 절반\n• 방어력 +30-60%\n• 언데드 대상 피해 +50%\n• 언데드 대상 명중률 +50-100\n• +3 해골 숙련(Skeleton Mastery) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 투구 유니크 — 베이스: 크라운 (Crown)\n요구 레벨: 29\n\n옵션:\n• 생명력 흡수 5%\n• 방어력 +40\n• 독 저항 +50%\n• 빙결 지속시간 절반\n• 방어력 +30-60%\n• 언데드 대상 피해 +50%\n• 언데드 대상 명중률 +50-100\n• +3 해골 숙련(Skeleton Mastery) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "투구", "일반", "크라운", "언데드 크라운"],
       "meta": { "rarity": "Unique", "base": "Crown", "level": 29 }
     },
@@ -1328,7 +1328,7 @@
     {
       "type": "unique",
       "name": "강철격돌 (Steelclash)",
-      "description": "일반 방패 유니크 — 베이스: 카이트 쉴드 (Kite Shield)\n요구 레벨: 17\n\n옵션:\n• 막기 확률 +25%\n• +1 팔라딘 스킬\n• 피해 감소 3\n• 빛 반경 +3\n• 방어력 +60-100%\n• 막기 속도 +20%\n• 모든 저항 +15\n• 방어력 +20\n• 내구도 +15-20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 방패 유니크 — 베이스: 카이트 쉴드 (Kite Shield)\n요구 레벨: 17\n\n옵션:\n• 막기 확률 +25%\n• +1 성기사 스킬\n• 피해 감소 3\n• 빛 반경 +3\n• 방어력 +60-100%\n• 막기 속도 +20%\n• 모든 저항 +15\n• 방어력 +20\n• 내구도 +15-20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "방패", "일반", "카이트 쉴드", "카이트쉴드", "스틸클래쉬"],
       "meta": { "rarity": "Unique", "base": "Kite Shield", "level": 17 }
     },
@@ -1412,7 +1412,7 @@
     {
       "type": "unique",
       "name": "둔부찢개 (Tearhaunch)",
-      "description": "일반 신발 유니크 — 베이스: 그리브 (Greaves)\n요구 레벨: 29\n\n옵션:\n• 방어력 +35\n• 힘 +5\n• 민첩 +5\n• 달리기/걷기 +20%\n• 모든 저항 +10\n• 방어력 +60-80%\n• +2 원기(Vigor) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "일반 신발 유니크 — 베이스: 그리브 (Greaves)\n요구 레벨: 29\n\n옵션:\n• 방어력 +35\n• 힘 +5\n• 민첩 +5\n• 달리기/걷기 +20%\n• 모든 저항 +10\n• 방어력 +60-80%\n• +2 원기(Vigor) (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "신발", "일반", "그리브", "티어헌치"],
       "meta": { "rarity": "Unique", "base": "Greaves", "level": 29 }
     },
@@ -1573,21 +1573,21 @@
     {
       "type": "unique",
       "name": "카린 파편 (Carin Shard)",
-      "description": "확장 완드 유니크 — 베이스: 페트리파이드 원드 (Petrified Wand)\n요구 레벨: 35\n\n옵션:\n• 생명력 +1-123 (레벨당 1.25)\n• 시전 속도 +10%\n• 마나 +1-123 (레벨당 1.25)\n• 타격 회복 +30%\n• 생명력 재생 +5\n• +1 네크로맨서 스킬\n• +2 소환 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 완드 유니크 — 베이스: 페트리파이드 원드 (Petrified Wand)\n요구 레벨: 35\n\n옵션:\n• 생명력 +1-123 (레벨당 1.25)\n• 시전 속도 +10%\n• 마나 +1-123 (레벨당 1.25)\n• 타격 회복 +30%\n• 생명력 재생 +5\n• +1 강령술사 스킬\n• +2 소환 (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "확장", "페트리파이드 원드", "페트러파이드원드", "캐린 샤드"],
       "meta": { "rarity": "Unique", "base": "Petrified Wand", "level": 35 }
     },
     {
       "type": "unique",
       "name": "레오릭 왕의 팔 (Arm of King Leoric)",
-      "description": "확장 완드 유니크 — 베이스: 툼 원드 (Tomb Wand)\n요구 레벨: 36\n\n옵션:\n• +2 소환 (네크로맨서 전용)\n• 피격 시 5% 확률로 레벨 10 뼈 영혼(Bone Spirit) 시전\n• 마나 +1-123 (레벨당 1.25)\n• 피격 시 10% 확률로 레벨 2 뼈 감옥(Bone Prison) 시전\n• 시전 속도 +10%\n• +2 독과 뼈 (네크로맨서 전용)\n• +2 공포(Terror) (네크로맨서 전용)\n• +2 해골 마법학자 되살리기(Raise Skeletal Mage) (네크로맨서 전용)\n• +3 해골 숙련(Skeleton Mastery) (네크로맨서 전용)\n• +3 해골 되살리기(Raise Skeleton) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 완드 유니크 — 베이스: 툼 원드 (Tomb Wand)\n요구 레벨: 36\n\n옵션:\n• +2 소환 (강령술사 전용)\n• 피격 시 5% 확률로 레벨 10 뼈 영혼(Bone Spirit) 시전\n• 마나 +1-123 (레벨당 1.25)\n• 피격 시 10% 확률로 레벨 2 뼈 감옥(Bone Prison) 시전\n• 시전 속도 +10%\n• +2 독과 뼈 (강령술사 전용)\n• +2 공포(Terror) (강령술사 전용)\n• +2 해골 마법학자 되살리기(Raise Skeletal Mage) (강령술사 전용)\n• +3 해골 숙련(Skeleton Mastery) (강령술사 전용)\n• +3 해골 되살리기(Raise Skeleton) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "확장", "툼 원드", "툼원드", "암 오브 킹 로릭"],
       "meta": { "rarity": "Unique", "base": "Tomb Wand", "level": 36 }
     },
     {
       "type": "unique",
       "name": "검은손 열쇠 (Blackhand Key)",
-      "description": "확장 완드 유니크 — 베이스: 그레이브 원드 (Grave Wand)\n요구 레벨: 41\n\n옵션:\n• +1 저주 (네크로맨서 전용)\n• 받은 피해 마나 전환 20%\n• 생명력 +50\n• 빛 반경 -2\n• 시전 속도 +30%\n• 화염 저항 +37%\n• +2 네크로맨서 스킬\n• 레벨 13 섬뜩한 호신부(Grim Ward) (30회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 완드 유니크 — 베이스: 그레이브 원드 (Grave Wand)\n요구 레벨: 41\n\n옵션:\n• +1 저주 (강령술사 전용)\n• 받은 피해 마나 전환 20%\n• 생명력 +50\n• 빛 반경 -2\n• 시전 속도 +30%\n• 화염 저항 +37%\n• +2 강령술사 스킬\n• 레벨 13 섬뜩한 호신부(Grim Ward) (30회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "확장", "그레이브 원드", "그레이브원드", "블랙핸드 키"],
       "meta": { "rarity": "Unique", "base": "Grave Wand", "level": 41 }
     },
@@ -1601,21 +1601,21 @@
     {
       "type": "unique",
       "name": "자카룸의 손 (Zakarum's Hand)",
-      "description": "확장 셉터 유니크 — 베이스: 룬 셉터 (Rune Scepter)\n요구 레벨: 37\n\n옵션:\n• 마나 흡수 8%\n• 대상 방어력 무시\n• 마나 재생 +10%\n• 지구력 회복 +15%\n• 타격 시 6% 확률로 레벨 5 눈보라(Blizzard) 시전\n• 피해 +180-220%\n• 공격 속도 +30%\n• +2 신성한 빙결(Holy Freeze) (팔라딘 전용)\n• +2 신성한 충격(Holy Shock) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 셉터 유니크 — 베이스: 룬 셉터 (Rune Scepter)\n요구 레벨: 37\n\n옵션:\n• 마나 흡수 8%\n• 대상 방어력 무시\n• 마나 재생 +10%\n• 지구력 회복 +15%\n• 타격 시 6% 확률로 레벨 5 눈보라(Blizzard) 시전\n• 피해 +180-220%\n• 공격 속도 +30%\n• +2 신성한 빙결(Holy Freeze) (성기사 전용)\n• +2 신성한 충격(Holy Shock) (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "확장", "룬 셉터", "룬셉터", "자카럼의 핸드"],
       "meta": { "rarity": "Unique", "base": "Rune Scepter", "level": 37 }
     },
     {
       "type": "unique",
       "name": "썩은 뿌리개 (The Fetid Sprinkler)",
-      "description": "확장 셉터 유니크 — 베이스: 홀리 워터 스프링클러 (Holy Water Sprinkler)\n요구 레벨: 38\n\n옵션:\n• +2 팔라딘 스킬\n• 타격 시 5% 확률로 레벨 1 노화(Decrepify) 시전\n• 타격 시 10% 확률로 레벨 1 혼란(Confuse) 시전\n• 독 피해 +160 (4초)\n• 피해 +160-190%\n• 명중률 +150-200\n• 피해 +15-25\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 셉터 유니크 — 베이스: 홀리 워터 스프링클러 (Holy Water Sprinkler)\n요구 레벨: 38\n\n옵션:\n• +2 성기사 스킬\n• 타격 시 5% 확률로 레벨 1 노화(Decrepify) 시전\n• 타격 시 10% 확률로 레벨 1 혼란(Confuse) 시전\n• 독 피해 +160 (4초)\n• 피해 +160-190%\n• 명중률 +150-200\n• 피해 +15-25\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "확장", "홀리 워터 스프링클러", "홀리워터스프린클러", "페티드 스프링클러"],
       "meta": { "rarity": "Unique", "base": "Holy Water Sprinkler", "level": 38 }
     },
     {
       "type": "unique",
       "name": "축복받은 빛의 손 (Hand of Blessed Light)",
-      "description": "확장 셉터 유니크 — 베이스: 디바인 셉터 (Divine Scepter)\n요구 레벨: 42\n\n옵션:\n• +2 팔라딘 스킬\n• 피해 +130-160%\n• 명중률 +100%\n• 방어력 +50\n• 마나 재생 +15%\n• 빛 반경 +4\n• 피해 +20-45\n• +4 신성한 빛줄기(Holy Bolt) (팔라딘 전용)\n• +2 천상의 주먹(Fist of the Heavens) (팔라딘 전용)\n• 타격 시 5% 확률로 레벨 4 천상의 주먹(Fist of the Heavens) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 셉터 유니크 — 베이스: 디바인 셉터 (Divine Scepter)\n요구 레벨: 42\n\n옵션:\n• +2 성기사 스킬\n• 피해 +130-160%\n• 명중률 +100%\n• 방어력 +50\n• 마나 재생 +15%\n• 빛 반경 +4\n• 피해 +20-45\n• +4 신성한 빛줄기(Holy Bolt) (성기사 전용)\n• +2 천상의 주먹(Fist of the Heavens) (성기사 전용)\n• 타격 시 5% 확률로 레벨 4 천상의 주먹(Fist of the Heavens) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "확장", "디바인 셉터", "디바인셉터", "핸드 오브 블레스드 라이트"],
       "meta": { "rarity": "Unique", "base": "Divine Scepter", "level": 42 }
     },
@@ -1720,7 +1720,7 @@
     {
       "type": "unique",
       "name": "아틀란티안 (The Atlantean)",
-      "description": "확장 검 유니크 — 베이스: 에인션트 소드 (Ancient Sword)\n요구 레벨: 42\n\n옵션:\n• 내구도 +100\n• 방어력 +75\n• 힘 +16\n• 민첩 +12\n• 활력 +8\n• 피해 +200-250%\n• +2 팔라딘 스킬\n• 명중률 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 검 유니크 — 베이스: 에인션트 소드 (Ancient Sword)\n요구 레벨: 42\n\n옵션:\n• 내구도 +100\n• 방어력 +75\n• 힘 +16\n• 민첩 +12\n• 활력 +8\n• 피해 +200-250%\n• +2 성기사 스킬\n• 명중률 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "검", "확장", "에인션트 소드", "에인션트소드", "애틀랜티언"],
       "meta": { "rarity": "Unique", "base": "Ancient Sword", "level": 42 }
     },
@@ -1748,7 +1748,7 @@
     {
       "type": "unique",
       "name": "구름가르개 (Cloudcrack)",
-      "description": "확장 검 유니크 — 베이스: 고딕 소드 (Gothic Sword)\n요구 레벨: 45\n\n옵션:\n• 타격 시 6% 확률로 레벨 7 천상의 주먹(Fist of the Heavens) 시전\n• 번개 피해 +1-240\n• 방어력 +30\n• 빛 반경 +2\n• 최대 번개 저항 +10%\n• 피해 +150-200%\n• 공격자에게 번개 피해 15\n• +2 공격 오라 (팔라딘 전용)\n• +2 방어 오라 (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 검 유니크 — 베이스: 고딕 소드 (Gothic Sword)\n요구 레벨: 45\n\n옵션:\n• 타격 시 6% 확률로 레벨 7 천상의 주먹(Fist of the Heavens) 시전\n• 번개 피해 +1-240\n• 방어력 +30\n• 빛 반경 +2\n• 최대 번개 저항 +10%\n• 피해 +150-200%\n• 공격자에게 번개 피해 15\n• +2 공격 오라 (성기사 전용)\n• +2 방어 오라 (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "검", "확장", "고딕 소드", "고딕소드", "클라우드크랙"],
       "meta": { "rarity": "Unique", "base": "Gothic Sword", "level": 45 }
     },
@@ -1769,7 +1769,7 @@
     {
       "type": "unique",
       "name": "척추적출자 (Spineripper)",
-      "description": "확장 단검 유니크 — 베이스: 포이나드 (Poignard)\n요구 레벨: 32\n\n옵션:\n• 대상 방어력 무시\n• 생명력 흡수 8%\n• 몬스터 회복 방지\n• 공격 속도 +15%\n• 민첩 +10\n• 피해 +200-240%\n• 피해 +15-27\n• +1 네크로맨서 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 단검 유니크 — 베이스: 포이나드 (Poignard)\n요구 레벨: 32\n\n옵션:\n• 대상 방어력 무시\n• 생명력 흡수 8%\n• 몬스터 회복 방지\n• 공격 속도 +15%\n• 민첩 +10\n• 피해 +200-240%\n• 피해 +15-27\n• +1 강령술사 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "단검", "확장", "포이나드", "스파인리퍼"],
       "meta": { "rarity": "Unique", "base": "Poignard", "level": 32 }
     },
@@ -1783,7 +1783,7 @@
     {
       "type": "unique",
       "name": "블랙보그의 날붙이 (Blackbog's Sharp)",
-      "description": "확장 단검 유니크 — 베이스: 싱쿠디아 (Cinquedeas)\n요구 레벨: 38\n\n옵션:\n• 대상 둔화 50%\n• 방어력 +50\n• 피해 +15-45\n• 공격 속도 +30%\n• 독 피해 +488 (10초)\n• +5 맹독 단도(Poison Dagger) (네크로맨서 전용)\n• +4 맹독 폭발(Poison Explosion) (네크로맨서 전용)\n• +4 맹독 확산(Poison Nova) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 단검 유니크 — 베이스: 싱쿠디아 (Cinquedeas)\n요구 레벨: 38\n\n옵션:\n• 대상 둔화 50%\n• 방어력 +50\n• 피해 +15-45\n• 공격 속도 +30%\n• 독 피해 +488 (10초)\n• +5 맹독 단도(Poison Dagger) (강령술사 전용)\n• +4 맹독 폭발(Poison Explosion) (강령술사 전용)\n• +4 맹독 확산(Poison Nova) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "단검", "확장", "싱쿠디아", "블랙보그의 샤프"],
       "meta": { "rarity": "Unique", "base": "Cinquedeas", "level": 38 }
     },
@@ -1825,7 +1825,7 @@
     {
       "type": "unique",
       "name": "명예의 첨탑 (Spire of Honor)",
-      "description": "확장 창 유니크 — 베이스: 랜스 (Lance)\n요구 레벨: 39\n\n옵션:\n• 명중률 +25%\n• 빛 반경 +3\n• 생명력 재생 +20\n• 타격 회복 +20%\n• 피해 +20-40\n• 악마 대상 피해 +1-148% (레벨당 1.5)\n• 피해 +150-200%\n• +3 전투 기술 (팔라딘 전용)\n• 방어력 +25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 창 유니크 — 베이스: 랜스 (Lance)\n요구 레벨: 39\n\n옵션:\n• 명중률 +25%\n• 빛 반경 +3\n• 생명력 재생 +20\n• 타격 회복 +20%\n• 피해 +20-40\n• 악마 대상 피해 +1-148% (레벨당 1.5)\n• 피해 +150-200%\n• +3 전투 기술 (성기사 전용)\n• 방어력 +25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "창", "확장", "랜스", "스파이어 오브 아너"],
       "meta": { "rarity": "Unique", "base": "Lance", "level": 39 }
     },
@@ -1867,7 +1867,7 @@
     {
       "type": "unique",
       "name": "사신의 불타는 망자 (Grim's Burning Dead)",
-      "description": "확장 폴암 유니크 — 베이스: 그림 싸이드 (Grim Scythe)\n요구 레벨: 45\n\n옵션:\n• 화염 피해 +131-232\n• 화염 저항 +45%\n• 피해 +140-180%\n• 공격자 피해 반사 8\n• 요구치 -50%\n• +3 네크로맨서 스킬\n• 대상 방어력 -50%\n• 방어력 +20%\n• 명중률 +200-250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 폴암 유니크 — 베이스: 그림 싸이드 (Grim Scythe)\n요구 레벨: 45\n\n옵션:\n• 화염 피해 +131-232\n• 화염 저항 +45%\n• 피해 +140-180%\n• 공격자 피해 반사 8\n• 요구치 -50%\n• +3 강령술사 스킬\n• 대상 방어력 -50%\n• 방어력 +20%\n• 명중률 +200-250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "폴암", "확장", "그림 싸이드", "그림싸이드", "그림의 버닝 데드"],
       "meta": { "rarity": "Unique", "base": "Grim Scythe", "level": 45 }
     },
@@ -1888,14 +1888,14 @@
     {
       "type": "unique",
       "name": "찬란한 분노 (Chromatic Ire)",
-      "description": "확장 지팡이 유니크 — 베이스: 시더 스태프 (Cedar Staff)\n요구 레벨: 35\n\n옵션:\n• +3 소서리스 스킬\n• 모든 저항 +20-40\n• 시전 속도 +20%\n• 공격자에게 번개 피해 20\n• 최대 생명력 +20-25%\n• +1 화염 숙련(Fire Mastery) (소서리스 전용)\n• +1 번개 숙련(Lightning Mastery) (소서리스 전용)\n• +1 냉기 숙련(Cold Mastery) (소서리스 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 지팡이 유니크 — 베이스: 시더 스태프 (Cedar Staff)\n요구 레벨: 35\n\n옵션:\n• +3 원소술사 스킬\n• 모든 저항 +20-40\n• 시전 속도 +20%\n• 공격자에게 번개 피해 20\n• 최대 생명력 +20-25%\n• +1 화염 숙련(Fire Mastery) (원소술사 전용)\n• +1 번개 숙련(Lightning Mastery) (원소술사 전용)\n• +1 냉기 숙련(Cold Mastery) (원소술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "지팡이", "확장", "시더 스태프", "시더스태프", "크로마틱 아이어"],
       "meta": { "rarity": "Unique", "base": "Cedar Staff", "level": 35 }
     },
     {
       "type": "unique",
       "name": "왜곡창 (Warpspear)",
-      "description": "확장 지팡이 유니크 — 베이스: 고딕 스태프 (Gothic Staff)\n요구 레벨: 39\n\n옵션:\n• +3 소서리스 스킬\n• 대상 방어력 무시\n• +3 순간이동(Teleport) (소서리스 전용)\n• +3 염력(Telekinesis) (소서리스 전용)\n• +3 마력 보호막(Energy Shield) (소서리스 전용)\n• 원거리 방어력 +250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 지팡이 유니크 — 베이스: 고딕 스태프 (Gothic Staff)\n요구 레벨: 39\n\n옵션:\n• +3 원소술사 스킬\n• 대상 방어력 무시\n• +3 순간이동(Teleport) (원소술사 전용)\n• +3 염력(Telekinesis) (원소술사 전용)\n• +3 마력 보호막(Energy Shield) (원소술사 전용)\n• 원거리 방어력 +250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "지팡이", "확장", "고딕 스태프", "고딕스태프", "워프스피어"],
       "meta": { "rarity": "Unique", "base": "Gothic Staff", "level": 39 }
     },
@@ -1972,7 +1972,7 @@
     {
       "type": "unique",
       "name": "고름 쏘개 (Pus Spitter)",
-      "description": "확장 석궁 유니크 — 베이스: 시즈 크로스보우 (Siege Crossbow)\n요구 레벨: 36\n\n옵션:\n• 독 피해 +150 (8초)\n• 타격 시 4% 확률로 레벨 1 저항 감소(Lower Resist) 시전\n• +2 네크로맨서 스킬\n• 요구치 -60%\n• 피격 시 9% 확률로 레벨 6 맹독 확산(Poison Nova) 시전\n• 공격 속도 +10%\n• 피해 +150-220%\n• 명중률 +1-123 (레벨당 1.25)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 석궁 유니크 — 베이스: 시즈 크로스보우 (Siege Crossbow)\n요구 레벨: 36\n\n옵션:\n• 독 피해 +150 (8초)\n• 타격 시 4% 확률로 레벨 1 저항 감소(Lower Resist) 시전\n• +2 강령술사 스킬\n• 요구치 -60%\n• 피격 시 9% 확률로 레벨 6 맹독 확산(Poison Nova) 시전\n• 공격 속도 +10%\n• 피해 +150-220%\n• 명중률 +1-123 (레벨당 1.25)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "석궁", "확장", "시즈 크로스보우", "시즈크로스보우", "퍼스 스피터"],
       "meta": { "rarity": "Unique", "base": "Siege Crossbow", "level": 36 }
     },
@@ -2112,7 +2112,7 @@
     {
       "type": "unique",
       "name": "수호 천사 (Guardian Angel)",
-      "description": "확장 갑옷 유니크 — 베이스: 템플러 코트 (Templar Coat)\n요구 레벨: 45\n\n옵션:\n• 빛 반경 +4\n• +1 팔라딘 스킬\n• 방어력 +180-200%\n• 막기 속도 +30%\n• 최대 모든 저항 +15%\n• 악마 대상 명중률 +0-61 (레벨당 0.625)\n• 막기 확률 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 갑옷 유니크 — 베이스: 템플러 코트 (Templar Coat)\n요구 레벨: 45\n\n옵션:\n• 빛 반경 +4\n• +1 성기사 스킬\n• 방어력 +180-200%\n• 막기 속도 +30%\n• 최대 모든 저항 +15%\n• 악마 대상 명중률 +0-61 (레벨당 0.625)\n• 막기 확률 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "갑옷", "확장", "템플러 코트", "템플라코트", "가디안 엔젤"],
       "meta": { "rarity": "Unique", "base": "Templar Coat", "level": 45 }
     },
@@ -2154,7 +2154,7 @@
     {
       "type": "unique",
       "name": "적출자 (Visceratuant)",
-      "description": "확장 방패 유니크 — 베이스: 디펜더 (Defender)\n요구 레벨: 28\n\n옵션:\n• +1 소서리스 스킬\n• 막기 속도 +30%\n• 막기 확률 +30%\n• 방어력 +100-150%\n• 공격자에게 번개 피해 10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 방패 유니크 — 베이스: 디펜더 (Defender)\n요구 레벨: 28\n\n옵션:\n• +1 원소술사 스킬\n• 막기 속도 +30%\n• 막기 확률 +30%\n• 방어력 +100-150%\n• 공격자에게 번개 피해 10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "방패", "확장", "디펜더", "비서러턴트"],
       "meta": { "rarity": "Unique", "base": "Defender", "level": 28 }
     },
@@ -2301,7 +2301,7 @@
     {
       "type": "unique",
       "name": "눈싸움 (Snowclash)",
-      "description": "확장 벨트 유니크 — 베이스: 배틀 벨트 (Battle Belt)\n요구 레벨: 42\n\n옵션:\n• 피격 시 5% 확률로 레벨 0 눈보라(Blizzard) 시전\n• 냉기 피해 흡수 +15\n• 최대 냉기 저항 +15%\n• 냉기 피해 +13-21 (3초)\n• 방어력 +130-170%\n• +2 눈보라(Blizzard) (소서리스 전용)\n• +3 빙하 가시(Glacial Spike) (소서리스 전용)\n• +2 냉기 갑옷(Chilling Armor) (소서리스 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "확장 벨트 유니크 — 베이스: 배틀 벨트 (Battle Belt)\n요구 레벨: 42\n\n옵션:\n• 피격 시 5% 확률로 레벨 0 눈보라(Blizzard) 시전\n• 냉기 피해 흡수 +15\n• 최대 냉기 저항 +15%\n• 냉기 피해 +13-21 (3초)\n• 방어력 +130-170%\n• +2 눈보라(Blizzard) (원소술사 전용)\n• +3 빙하 가시(Glacial Spike) (원소술사 전용)\n• +2 냉기 갑옷(Chilling Armor) (원소술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "벨트", "확장", "배틀 벨트", "배틀벨트", "스노우클래쉬"],
       "meta": { "rarity": "Unique", "base": "Battle Belt", "level": 42 }
     },
@@ -2518,8 +2518,8 @@
     {
       "type": "unique",
       "name": "호문쿨루스 (Homunculus)",
-      "description": "확장 네크로맨서 방패 유니크 — 베이스: 하이어러팬트 트로피 (Hierophant Trophy)\n요구 레벨: 42\n\n옵션:\n• +2 네크로맨서 스킬\n• +2 저주 (네크로맨서 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +40%\n• 에너지 +20\n• 마나 재생 +33%\n• 처치 시 마나 +5\n• 모든 저항 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "네크로맨서 방패", "확장", "하이어러팬트 트로피", "네크로맨서", "호우먼컬러스"],
+      "description": "확장 강령술사 방패 유니크 — 베이스: 하이어러팬트 트로피 (Hierophant Trophy)\n요구 레벨: 42\n\n옵션:\n• +2 강령술사 스킬\n• +2 저주 (강령술사 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +40%\n• 에너지 +20\n• 마나 재생 +33%\n• 처치 시 마나 +5\n• 모든 저항 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "네크로맨서 방패", "확장", "하이어러팬트 트로피", "네크로맨서", "호우먼컬러스", "강령술사"],
       "meta": { "rarity": "Unique", "base": "Hierophant Trophy", "level": 42 }
     },
     {
@@ -2546,15 +2546,15 @@
     {
       "type": "unique",
       "name": "망울 (The Oculus)",
-      "description": "확장 소서리스 오브 유니크 — 베이스: 스월링 크리스탈 (Swirling Crystal)\n요구 레벨: 42\n\n옵션:\n• +3 소서리스 스킬\n• 피격 시 25% 확률로 레벨 1 순간이동(Teleport) 시전\n• 모든 저항 +20\n• 시전 속도 +30%\n• 방어력 +20%\n• 활력 +20\n• 에너지 +20\n• 처치 시 마나 +5\n• 매직 아이템 발견 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "소서리스 오브", "확장", "스월링 크리스탈", "소서리스", "오브", "시전속도", "매파", "오큘러스"],
+      "description": "확장 원소술사 오브 유니크 — 베이스: 스월링 크리스탈 (Swirling Crystal)\n요구 레벨: 42\n\n옵션:\n• +3 원소술사 스킬\n• 피격 시 25% 확률로 레벨 1 순간이동(Teleport) 시전\n• 모든 저항 +20\n• 시전 속도 +30%\n• 방어력 +20%\n• 활력 +20\n• 에너지 +20\n• 처치 시 마나 +5\n• 매직 아이템 발견 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "소서리스 오브", "확장", "스월링 크리스탈", "소서리스", "오브", "시전속도", "매파", "오큘러스", "원소술사"],
       "meta": { "rarity": "Unique", "base": "Swirling Crystal", "level": 42 }
     },
     {
       "type": "unique",
       "name": "자카룸의 전령 (Herald of Zakarum)",
-      "description": "확장 팔라딘 방패 유니크 — 베이스: 길디드 쉴드 (Gilded Shield)\n요구 레벨: 42\n\n옵션:\n• +2 팔라딘 스킬\n• +2 전투 기술 (팔라딘 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +30%\n• 힘 +20\n• 활력 +20\n• 명중률 +20%\n• 모든 저항 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "팔라딘 방패", "확장", "길디드 쉴드", "팔라딘", "헤럴드 오브 자카럼"],
+      "description": "확장 성기사 방패 유니크 — 베이스: 길디드 쉴드 (Gilded Shield)\n요구 레벨: 42\n\n옵션:\n• +2 성기사 스킬\n• +2 전투 기술 (성기사 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +30%\n• 힘 +20\n• 활력 +20\n• 명중률 +20%\n• 모든 저항 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "팔라딘 방패", "확장", "길디드 쉴드", "팔라딘", "헤럴드 오브 자카럼", "성기사"],
       "meta": { "rarity": "Unique", "base": "Gilded Shield", "level": 42 }
     },
     {
@@ -2644,7 +2644,7 @@
     {
       "type": "unique",
       "name": "죽음의 거미줄 (Death's Web)",
-      "description": "엘리트 완드 유니크 — 베이스: 언어스드 원드 (Unearthed Wand)\n요구 레벨: 66\n\n옵션:\n• +2 모든 스킬\n• 적 독 저항 -40~-50%\n• 처치 시 생명력 +7-12\n• 처치 시 마나 +7-12\n• +1-2 독과 뼈 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 완드 유니크 — 베이스: 언어스드 원드 (Unearthed Wand)\n요구 레벨: 66\n\n옵션:\n• +2 모든 스킬\n• 적 독 저항 -40~-50%\n• 처치 시 생명력 +7-12\n• 처치 시 마나 +7-12\n• +1-2 독과 뼈 (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "엘리트", "언어스드 원드", "엔드게임", "데쓰 웹"],
       "meta": { "rarity": "Unique", "base": "Unearthed Wand", "level": 66 }
     },
@@ -2665,7 +2665,7 @@
     {
       "type": "unique",
       "name": "천사의 찬송가 (Seraph's Hymn)",
-      "description": "목걸이 유니크 — 베이스: 목걸이 (Amulet)\n요구 레벨: 65\n\n옵션:\n• +2 모든 스킬\n• +1-2 방어 오라 (팔라딘 전용)\n• 악마 대상 피해 +25-50%\n• 언데드 대상 피해 +25-50%\n• 악마 대상 명중률 +150-250\n• 언데드 대상 명중률 +150-250\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "목걸이 유니크 — 베이스: 목걸이 (Amulet)\n요구 레벨: 65\n\n옵션:\n• +2 모든 스킬\n• +1-2 방어 오라 (성기사 전용)\n• 악마 대상 피해 +25-50%\n• 언데드 대상 피해 +25-50%\n• 악마 대상 명중률 +150-250\n• 언데드 대상 명중률 +150-250\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "목걸이", "엔드게임", "아뮬렛", "세라프의 힘"],
       "meta": { "rarity": "Unique", "base": "Amulet", "level": 65 }
     },
@@ -2785,7 +2785,7 @@
       "type": "unique",
       "name": "망 송의 가르침 (Mang Song's Lesson)",
       "description": "엘리트 지팡이 유니크 — 베이스: 아콘 스태프 (Archon Staff)\n요구 레벨: 82\n\n옵션:\n• +5 모든 스킬\n• 적 화염 저항 -7~-15%\n• 적 번개 저항 -7~-15%\n• 적 냉기 저항 -7~-15%\n• 마나 재생 +10%\n• 시전 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "지팡이", "엘리트", "아콘 스태프", "엔드게임", "스태프", "소서리스", "올스킬", "종결템", "망 송의 레슨"],
+      "tags": ["unique", "유니크", "지팡이", "엘리트", "아콘 스태프", "엔드게임", "스태프", "소서리스", "올스킬", "종결템", "망 송의 레슨", "원소술사"],
       "meta": { "rarity": "Unique", "base": "Archon Staff", "level": 82 }
     },
     {
@@ -2833,15 +2833,15 @@
     {
       "type": "unique",
       "name": "알마 네그라 (Alma Negra)",
-      "description": "엘리트 팔라딘 방패 유니크 — 베이스: 세이크리드 론다쉬 (Sacred Rondache)\n요구 레벨: 77\n\n옵션:\n• 방어력 +180-210%\n• 막기 속도 +30%\n• +1-2 팔라딘 스킬\n• 막기 확률 +20%\n• 마법 피해 감소 5-9\n• 명중률 +40-75%\n• 피해 +40-75%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "팔라딘 방패", "엘리트", "세이크리드 론다쉬", "팔라딘", "엔드게임"],
+      "description": "엘리트 성기사 방패 유니크 — 베이스: 세이크리드 론다쉬 (Sacred Rondache)\n요구 레벨: 77\n\n옵션:\n• 방어력 +180-210%\n• 막기 속도 +30%\n• +1-2 성기사 스킬\n• 막기 확률 +20%\n• 마법 피해 감소 5-9\n• 명중률 +40-75%\n• 피해 +40-75%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "팔라딘 방패", "엘리트", "세이크리드 론다쉬", "팔라딘", "엔드게임", "성기사"],
       "meta": { "rarity": "Unique", "base": "Sacred Rondache", "level": 77 }
     },
     {
       "type": "unique",
       "name": "어둠의 종자 (Darkforce Spawn)",
-      "description": "엘리트 네크로맨서 방패 유니크 — 베이스: 블러드로드 스컬 (Bloodlord Skull)\n요구 레벨: 65\n\n옵션:\n• 방어력 +140-180%\n• 시전 속도 +30%\n• 최대 마나 +10%\n• +1-3 저주 (네크로맨서 전용)\n• +1-3 독과 뼈 (네크로맨서 전용)\n• +1-3 소환 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "블러드로드 스컬", "네크로맨서", "엔드게임", "타크포스 스폰"],
+      "description": "엘리트 강령술사 방패 유니크 — 베이스: 블러드로드 스컬 (Bloodlord Skull)\n요구 레벨: 65\n\n옵션:\n• 방어력 +140-180%\n• 시전 속도 +30%\n• 최대 마나 +10%\n• +1-3 저주 (강령술사 전용)\n• +1-3 독과 뼈 (강령술사 전용)\n• +1-3 소환 (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "블러드로드 스컬", "네크로맨서", "엔드게임", "타크포스 스폰", "강령술사"],
       "meta": { "rarity": "Unique", "base": "Bloodlord Skull", "level": 65 }
     },
     {
@@ -2883,7 +2883,7 @@
       "type": "unique",
       "name": "그리폰의 눈 (Griffon's Eye)",
       "description": "엘리트 서클릿 유니크 — 베이스: 다이어뎀 (Diadem)\n요구 레벨: 76\n\n옵션:\n• 방어력 +100-200\n• 시전 속도 +25%\n• +1 모든 스킬\n• 번개 스킬 피해 +10-15%\n• 적 번개 저항 -15~-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "서클릿", "엘리트", "다이어뎀", "엔드게임", "투구", "다이아뎀", "번개", "소서리스", "아마존", "종결템", "그리폰의 아이"],
+      "tags": ["unique", "유니크", "서클릿", "엘리트", "다이어뎀", "엔드게임", "투구", "다이아뎀", "번개", "소서리스", "아마존", "종결템", "그리폰의 아이", "원소술사"],
       "meta": { "rarity": "Unique", "base": "Diadem", "level": 76 }
     },
     {
@@ -2910,8 +2910,8 @@
     {
       "type": "unique",
       "name": "뼈불길 (Boneflame)",
-      "description": "엘리트 네크로맨서 방패 유니크 — 베이스: 써큐버스 스컬 (Succubus Skull)\n요구 레벨: 72\n\n옵션:\n• 방어력 +120-150%\n• 달리기/걷기 +20%\n• 피격 시 15% 확률로 레벨 3 공포(Terror) 시전\n• +2-3 네크로맨서 스킬\n• 모든 저항 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "써큐버스 스컬", "네크로맨서", "엔드게임", "본플레임"],
+      "description": "엘리트 강령술사 방패 유니크 — 베이스: 써큐버스 스컬 (Succubus Skull)\n요구 레벨: 72\n\n옵션:\n• 방어력 +120-150%\n• 달리기/걷기 +20%\n• 피격 시 15% 확률로 레벨 3 공포(Terror) 시전\n• +2-3 강령술사 스킬\n• 모든 저항 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "써큐버스 스컬", "네크로맨서", "엔드게임", "본플레임", "강령술사"],
       "meta": { "rarity": "Unique", "base": "Succubus Skull", "level": 72 }
     },
     {
@@ -2945,8 +2945,8 @@
     {
       "type": "unique",
       "name": "용비늘 (Dragonscale)",
-      "description": "엘리트 팔라딘 방패 유니크 — 베이스: 자카룸 쉴드 (Zakarum Shield)\n요구 레벨: 80\n\n옵션:\n• 방어력 +170-200%\n• 화염 피해 흡수 +10-20%\n• 최대 화염 저항 +5%\n• 힘 +15-25\n• 화염 피해 +211-371\n• +10 히드라(Hydra)\n• 화염 스킬 피해 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "팔라딘 방패", "엘리트", "자카룸 쉴드", "팔라딘", "엔드게임", "자카럼 쉴드", "드래곤스케일"],
+      "description": "엘리트 성기사 방패 유니크 — 베이스: 자카룸 쉴드 (Zakarum Shield)\n요구 레벨: 80\n\n옵션:\n• 방어력 +170-200%\n• 화염 피해 흡수 +10-20%\n• 최대 화염 저항 +5%\n• 힘 +15-25\n• 화염 피해 +211-371\n• +10 히드라(Hydra)\n• 화염 스킬 피해 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "팔라딘 방패", "엘리트", "자카룸 쉴드", "팔라딘", "엔드게임", "자카럼 쉴드", "드래곤스케일", "성기사"],
       "meta": { "rarity": "Unique", "base": "Zakarum Shield", "level": 80 }
     },
     {
@@ -2973,7 +2973,7 @@
     {
       "type": "unique",
       "name": "뼈그늘 (Boneshade)",
-      "description": "엘리트 완드 유니크 — 베이스: 리치 원드 (Lich Wand)\n요구 레벨: 79\n\n옵션:\n• +2 네크로맨서 스킬\n• 시전 속도 +25%\n• +4-5 이빨(Teeth) (네크로맨서 전용)\n• +4-5 뼈 갑옷(Bone Armor) (네크로맨서 전용)\n• +2-3 뼈 창(Bone Spear) (네크로맨서 전용)\n• +1-2 뼈 영혼(Bone Spirit) (네크로맨서 전용)\n• +2-3 뼈의 벽(Bone Wall) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 완드 유니크 — 베이스: 리치 원드 (Lich Wand)\n요구 레벨: 79\n\n옵션:\n• +2 강령술사 스킬\n• 시전 속도 +25%\n• +4-5 이빨(Teeth) (강령술사 전용)\n• +4-5 뼈 갑옷(Bone Armor) (강령술사 전용)\n• +2-3 뼈 창(Bone Spear) (강령술사 전용)\n• +1-2 뼈 영혼(Bone Spirit) (강령술사 전용)\n• +2-3 뼈의 벽(Bone Wall) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "완드", "엘리트", "리치 원드", "엔드게임", "본쉐이드"],
       "meta": { "rarity": "Unique", "base": "Lich Wand", "level": 79 }
     },
@@ -2987,8 +2987,8 @@
     {
       "type": "unique",
       "name": "죽음의 깊이 (Death's Fathom)",
-      "description": "엘리트 소서리스 오브 유니크 — 베이스: 디멘셔널 샤드 (Dimensional Shard)\n요구 레벨: 73\n\n옵션:\n• +3 소서리스 스킬\n• 냉기 스킬 피해 +15-30%\n• 시전 속도 +20%\n• 화염 저항 +25-40%\n• 번개 저항 +25-40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "소서리스 오브", "엘리트", "디멘셔널 샤드", "소서리스", "엔드게임", "데쓰 패썸"],
+      "description": "엘리트 원소술사 오브 유니크 — 베이스: 디멘셔널 샤드 (Dimensional Shard)\n요구 레벨: 73\n\n옵션:\n• +3 원소술사 스킬\n• 냉기 스킬 피해 +15-30%\n• 시전 속도 +20%\n• 화염 저항 +25-40%\n• 번개 저항 +25-40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "소서리스 오브", "엘리트", "디멘셔널 샤드", "소서리스", "엔드게임", "데쓰 패썸", "원소술사"],
       "meta": { "rarity": "Unique", "base": "Dimensional Shard", "level": 73 }
     },
     {
@@ -3015,7 +3015,7 @@
     {
       "type": "unique",
       "name": "오르무스의 장포 (Ormus' Robes)",
-      "description": "엘리트 갑옷 유니크 — 베이스: 더스크 슈라우드 (Dusk Shroud)\n요구 레벨: 75\n\n옵션:\n• 방어력 +10-20\n• 시전 속도 +20%\n• 화염 스킬 피해 +10-15%\n• 냉기 스킬 피해 +10-15%\n• 번개 스킬 피해 +10-15%\n• 마나 재생 +10-15%\n• +3 무작위 소서리스 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 더스크 슈라우드 (Dusk Shroud)\n요구 레벨: 75\n\n옵션:\n• 방어력 +10-20\n• 시전 속도 +20%\n• 화염 스킬 피해 +10-15%\n• 냉기 스킬 피해 +10-15%\n• 번개 스킬 피해 +10-15%\n• 마나 재생 +10-15%\n• +3 무작위 원소술사 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "갑옷", "엘리트", "더스크 슈라우드", "엔드게임", "오르무스 로브"],
       "meta": { "rarity": "Unique", "base": "Dusk Shroud", "level": 75 }
     },
@@ -3064,15 +3064,15 @@
     {
       "type": "unique",
       "name": "기사단의 위세 (Templar's Might)",
-      "description": "엘리트 갑옷 유니크 — 베이스: 세이크리드 아머 (Sacred Armor)\n요구 레벨: 74\n\n옵션:\n• 방어력 +170-220%\n• 타격 회복 +20%\n• 원거리 방어력 +250-300\n• 최대 지구력 +40-50\n• 힘 +10-15\n• 활력 +10-15\n• +1-2 공격 오라 (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 세이크리드 아머 (Sacred Armor)\n요구 레벨: 74\n\n옵션:\n• 방어력 +170-220%\n• 타격 회복 +20%\n• 원거리 방어력 +250-300\n• 최대 지구력 +40-50\n• 힘 +10-15\n• 활력 +10-15\n• +1-2 공격 오라 (성기사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "갑옷", "엘리트", "세이크리드 아머", "엔드게임", "템플러의 마이트"],
       "meta": { "rarity": "Unique", "base": "Sacred Armor", "level": 74 }
     },
     {
       "type": "unique",
       "name": "에슈타의 성미 (Eschuta's Temper)",
-      "description": "엘리트 소서리스 오브 유니크 — 베이스: 엘드리치 오브 (Eldritch Orb)\n요구 레벨: 72\n\n옵션:\n• +1-3 소서리스 스킬\n• 시전 속도 +40%\n• 화염 스킬 피해 +10-20%\n• 번개 스킬 피해 +10-20%\n• 에너지 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
-      "tags": ["unique", "유니크", "소서리스 오브", "엘리트", "엘드리치 오브", "소서리스", "엔드게임", "엘드리치오브", "에슈타스 템퍼"],
+      "description": "엘리트 원소술사 오브 유니크 — 베이스: 엘드리치 오브 (Eldritch Orb)\n요구 레벨: 72\n\n옵션:\n• +1-3 원소술사 스킬\n• 시전 속도 +40%\n• 화염 스킬 피해 +10-20%\n• 번개 스킬 피해 +10-20%\n• 에너지 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "소서리스 오브", "엘리트", "엘드리치 오브", "소서리스", "엔드게임", "엘드리치오브", "에슈타스 템퍼", "원소술사"],
       "meta": { "rarity": "Unique", "base": "Eldritch Orb", "level": 72 }
     },
     {
@@ -3092,14 +3092,14 @@
     {
       "type": "unique",
       "name": "골수걸음 (Marrowwalk)",
-      "description": "엘리트 신발 유니크 — 베이스: 본위브 부츠 (Boneweave Boots)\n요구 레벨: 66\n\n옵션:\n• 방어력 +170-200%\n• 달리기/걷기 +20%\n• 레벨 33 뼈 감옥(Bone Prison) (13회 충전)\n• 레벨 12 생명력 추출(Life Tap) (10회 충전)\n• 지구력 회복 +10%\n• 마나 재생 +10%\n• 빙결 지속시간 절반\n• 힘 +10-20\n• 민첩 +17\n• +1-2 해골 숙련(Skeleton Mastery) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 신발 유니크 — 베이스: 본위브 부츠 (Boneweave Boots)\n요구 레벨: 66\n\n옵션:\n• 방어력 +170-200%\n• 달리기/걷기 +20%\n• 레벨 33 뼈 감옥(Bone Prison) (13회 충전)\n• 레벨 12 생명력 추출(Life Tap) (10회 충전)\n• 지구력 회복 +10%\n• 마나 재생 +10%\n• 빙결 지속시간 절반\n• 힘 +10-20\n• 민첩 +17\n• +1-2 해골 숙련(Skeleton Mastery) (강령술사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "신발", "엘리트", "본위브 부츠", "엔드게임", "메로우워커"],
       "meta": { "rarity": "Unique", "base": "Boneweave Boots", "level": 66 }
     },
     {
       "type": "unique",
       "name": "천상의 빛 (Heaven's Light)",
-      "description": "엘리트 셉터 유니크 — 베이스: 마이티 셉터 (Mighty Scepter)\n요구 레벨: 61\n\n옵션:\n• 피해 +250-300%\n• 공격 속도 +20%\n• 대상 방어력 -33%\n• 빛 반경 +3\n• 악마 처치 시 생명력 +15-20\n• 강타 확률 33%\n• 소켓 1-3개\n• +2-3 팔라딘 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 셉터 유니크 — 베이스: 마이티 셉터 (Mighty Scepter)\n요구 레벨: 61\n\n옵션:\n• 피해 +250-300%\n• 공격 속도 +20%\n• 대상 방어력 -33%\n• 빛 반경 +3\n• 악마 처치 시 생명력 +15-20\n• 강타 확률 33%\n• 소켓 1-3개\n• +2-3 성기사 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "엘리트", "마이티 셉터", "엔드게임", "마이티 샙터", "헤븐의 라이트"],
       "meta": { "rarity": "Unique", "base": "Mighty Scepter", "level": 61 }
     },
@@ -3148,7 +3148,7 @@
     {
       "type": "unique",
       "name": "아스트레온의 무쇠 호신부 (Astreon's Iron Ward)",
-      "description": "엘리트 셉터 유니크 — 베이스: 카두세우스 (Caduceus)\n요구 레벨: 66\n\n옵션:\n• 피해 +240-290%\n• 대상 둔화 25%\n• 명중률 +150-200%\n• 공격 속도 +10%\n• 마법 피해 +80-240\n• 피해 감소 4-7\n• 피해 +40-85\n• +2-4 전투 기술 (팔라딘 전용)\n• 강타 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 셉터 유니크 — 베이스: 카두세우스 (Caduceus)\n요구 레벨: 66\n\n옵션:\n• 피해 +240-290%\n• 대상 둔화 25%\n• 명중률 +150-200%\n• 공격 속도 +10%\n• 마법 피해 +80-240\n• 피해 감소 4-7\n• 피해 +40-85\n• +2-4 전투 기술 (성기사 전용)\n• 강타 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "엘리트", "카두세우스", "엔드게임", "캐듀시어스", "애스트리언의 아이언 워드"],
       "meta": { "rarity": "Unique", "base": "Caduceus", "level": 66 }
     },
@@ -3211,7 +3211,7 @@
     {
       "type": "unique",
       "name": "구원자 (The Redeemer)",
-      "description": "엘리트 셉터 유니크 — 베이스: 마이티 셉터 (Mighty Scepter)\n요구 레벨: 72\n\n옵션:\n• 피해 +250-300%\n• 악마 대상 피해 +200-250%\n• +2 팔라딘 스킬\n• 요구치 -60%\n• +2-4 속죄(Redemption) (팔라딘 전용)\n• +2-4 신성한 빛줄기(Holy Bolt) (팔라딘 전용)\n• 빛 반경 +3\n• 대상 방어력 -33%\n• 피해 +60-120\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "엘리트 셉터 유니크 — 베이스: 마이티 셉터 (Mighty Scepter)\n요구 레벨: 72\n\n옵션:\n• 피해 +250-300%\n• 악마 대상 피해 +200-250%\n• +2 성기사 스킬\n• 요구치 -60%\n• +2-4 속죄(Redemption) (성기사 전용)\n• +2-4 신성한 빛줄기(Holy Bolt) (성기사 전용)\n• 빛 반경 +3\n• 대상 방어력 -33%\n• 피해 +60-120\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["unique", "유니크", "셉터", "엘리트", "마이티 셉터", "엔드게임", "마이티 샙터", "리디머르"],
       "meta": { "rarity": "Unique", "base": "Mighty Scepter", "level": 72 }
     },
@@ -3331,9 +3331,9 @@
     {
       "type": "set",
       "name": "탈 라샤의 수의 (Tal Rasha's Wrappings)",
-      "description": "소서리스용 엘리트 세트 — 오브는 소서리스 전용 (확장팩)\n구성 아이템 (5종):\n• 탈 라샤의 고운 띠 (Tal Rasha's Fine-Spun Cloth) — 메쉬 벨트 (Mesh Belt, 벨트), 요구 레벨 53\n  요구치 -20%, 마나 +30, 민첩 +20, 받은 피해 마나 전환 37%, 매직 아이템 발견 +10-15%\n  └ 세트 효과: 2세트 방어력 +60 / 3세트 시전 속도 +10%\n• 탈 라샤의 선고 (Tal Rasha's Adjudication) — 목걸이 (Amulet, 목걸이), 요구 레벨 67\n  번개 저항 +33%, +2 소서리스 스킬, 생명력 +50, 번개 피해 +3-32, 마나 +42\n  └ 세트 효과: 4세트 시전 속도 +10%\n• 탈 라샤의 잠들지 않는 눈 (Tal Rasha's Lidless Eye) — 스월링 크리스탈 (Swirling Crystal, 소서리스 오브), 요구 레벨 65\n  생명력 +57, 마나 +77, 에너지 +10, 시전 속도 +20%, +1-2 화염 숙련(Fire Mastery) (소서리스 전용), +1-2 번개 숙련(Lightning Mastery) (소서리스 전용), +1-2 냉기 숙련(Cold Mastery) (소서리스 전용)\n  └ 세트 효과: 2세트 +1 소서리스 스킬 / 3세트 적 화염 저항 -15% / 4세트 적 번개 저항 -15% / 풀세트 냉기 스킬 피해 +15%\n• 탈 라샤의 보호 (Tal Rasha's Guardianship) — 래커드 플레이트 (Lacquered Plate, 갑옷), 요구 레벨 71\n  요구치 -60%, 마법 피해 감소 15, 매직 아이템 발견 +88%, 냉기 저항 +40%, 화염 저항 +40%, 번개 저항 +40%, 방어력 +400\n  └ 세트 효과: 2세트 시전 속도 +10%\n• 탈 라샤의 호라드림 관모 (Tal Rasha's Horadric Crest) — 데스 마스크 (Death Mask, 투구), 요구 레벨 66\n  마나 +30, 생명력 +60, 방어력 +45, 모든 저항 +15, 생명력 흡수 10%, 마나 흡수 10%\n\n세트 보너스:\n• 2세트: 생명력 재생 +10\n• 3세트: 매직 아이템 발견 +65%\n• 4세트: 타격 회복 +25%\n• 풀세트: 생명력 재생 +10, 매직 아이템 발견 +65%, 타격 회복 +25%, 모든 저항 +50, +3 소서리스 스킬, 방어력 +150, 생명력 +150, 원거리 방어력 +50, 세트 오라 표시(외형)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "소서리스", "탈라샤", "매파", "파밍", "인기셋", "탈라샤의래핑스", "탈 라샤의 감싸기"],
-      "meta": { "rarity": "Set", "pieces": 5, "class": "소서리스" }
+      "description": "원소술사용 엘리트 세트 — 오브는 원소술사 전용 (확장팩)\n구성 아이템 (5종):\n• 탈 라샤의 고운 띠 (Tal Rasha's Fine-Spun Cloth) — 메쉬 벨트 (Mesh Belt, 벨트), 요구 레벨 53\n  요구치 -20%, 마나 +30, 민첩 +20, 받은 피해 마나 전환 37%, 매직 아이템 발견 +10-15%\n  └ 세트 효과: 2세트 방어력 +60 / 3세트 시전 속도 +10%\n• 탈 라샤의 선고 (Tal Rasha's Adjudication) — 목걸이 (Amulet, 목걸이), 요구 레벨 67\n  번개 저항 +33%, +2 원소술사 스킬, 생명력 +50, 번개 피해 +3-32, 마나 +42\n  └ 세트 효과: 4세트 시전 속도 +10%\n• 탈 라샤의 잠들지 않는 눈 (Tal Rasha's Lidless Eye) — 스월링 크리스탈 (Swirling Crystal, 원소술사 오브), 요구 레벨 65\n  생명력 +57, 마나 +77, 에너지 +10, 시전 속도 +20%, +1-2 화염 숙련(Fire Mastery) (원소술사 전용), +1-2 번개 숙련(Lightning Mastery) (원소술사 전용), +1-2 냉기 숙련(Cold Mastery) (원소술사 전용)\n  └ 세트 효과: 2세트 +1 원소술사 스킬 / 3세트 적 화염 저항 -15% / 4세트 적 번개 저항 -15% / 풀세트 냉기 스킬 피해 +15%\n• 탈 라샤의 보호 (Tal Rasha's Guardianship) — 래커드 플레이트 (Lacquered Plate, 갑옷), 요구 레벨 71\n  요구치 -60%, 마법 피해 감소 15, 매직 아이템 발견 +88%, 냉기 저항 +40%, 화염 저항 +40%, 번개 저항 +40%, 방어력 +400\n  └ 세트 효과: 2세트 시전 속도 +10%\n• 탈 라샤의 호라드림 관모 (Tal Rasha's Horadric Crest) — 데스 마스크 (Death Mask, 투구), 요구 레벨 66\n  마나 +30, 생명력 +60, 방어력 +45, 모든 저항 +15, 생명력 흡수 10%, 마나 흡수 10%\n\n세트 보너스:\n• 2세트: 생명력 재생 +10\n• 3세트: 매직 아이템 발견 +65%\n• 4세트: 타격 회복 +25%\n• 풀세트: 생명력 재생 +10, 매직 아이템 발견 +65%, 타격 회복 +25%, 모든 저항 +50, +3 원소술사 스킬, 방어력 +150, 생명력 +150, 원거리 방어력 +50, 세트 오라 표시(외형)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
+      "tags": ["set", "소서리스", "탈라샤", "매파", "파밍", "인기셋", "탈라샤의래핑스", "탈 라샤의 감싸기", "원소술사"],
+      "meta": { "rarity": "Set", "pieces": 5, "class": "원소술사" }
     },
     {
       "type": "set",
@@ -3345,16 +3345,16 @@
     {
       "type": "set",
       "name": "트래그울의 화신 (Trang-Oul's Avatar)",
-      "description": "네크로맨서용 세트 — 방패는 네크로맨서 전용 (확장팩)\n구성 아이템 (5종):\n• 트래그울의 허울 (Trang-Oul's Guise) — 본 비지즈 (Bone Visage, 투구), 요구 레벨 65\n  방어력 +80-100, 타격 회복 +25%, 공격자 피해 반사 20, 마나 +150, 생명력 재생 +5\n• 트래그울의 비늘 (Trang-Oul's Scales) — 카오스 아머 (Chaos Armor, 갑옷), 요구 레벨 49\n  요구치 -40%, 원거리 방어력 +100, 독 저항 +40%, +2 소환 (네크로맨서 전용), 달리기/걷기 +40%, 방어력 +150%\n  └ 세트 효과: 3세트 번개 저항 +50% / 풀세트 받는 피해 감소 25%\n• 트래그울의 날개 (Trang-Oul's Wing) — 캔터 트로피 (Cantor Trophy, 네크로맨서 방패), 요구 레벨 54\n  방어력 +125, 힘 +25, 민첩 +15, 화염 저항 +38-45%, 막기 확률 +30%, 독 저항 +40%, +2 독과 뼈 (네크로맨서 전용)\n  └ 세트 효과: 3세트 적 독 저항 -25% / 4세트 생명력 재생 +15\n• 트래그울의 발톱 (Trang-Oul's Claws) — 헤비 브레이서 (Heavy Bracers, 장갑), 요구 레벨 45\n  방어력 +30, 시전 속도 +20%, 냉기 저항 +30%, +2 저주 (네크로맨서 전용), 독 스킬 피해 +25%\n• 트래그울의 끈 (Trang-Oul's Girth) — 트롤 벨트 (Troll Belt, 벨트), 요구 레벨 62\n  방어력 +75-100, 최대 지구력 +30, 생명력 재생 +5, 생명력 +66, 빙결되지 않음, 요구치 -40%, 마나 +25-50\n  └ 세트 효과: 3세트 냉기 저항 +40%\n\n세트 보너스:\n• 2세트: 마나 재생 +15%, +18 화염구(Fire Ball)\n• 3세트: 마나 재생 +15%, +13 화염벽(Fire Wall)\n• 4세트: 마나 재생 +15%, +10 운석 낙하(Meteor)\n• 풀세트: 마나 재생 +60%, +18 화염구(Fire Ball), +13 화염벽(Fire Wall), +10 운석 낙하(Meteor), 모든 저항 +50, +3 네크로맨서 스킬, 마나 +100, 방어력 +200, +3 화염 숙련(Fire Mastery), 생명력 흡수 20%, 뱀파이어로 변신(외형)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "네크로맨서", "트랑", "독넥", "변신", "트랑-울의아바타", "트랑-오울의 아바타"],
-      "meta": { "rarity": "Set", "pieces": 5, "class": "네크로맨서" }
+      "description": "강령술사용 세트 — 방패는 강령술사 전용 (확장팩)\n구성 아이템 (5종):\n• 트래그울의 허울 (Trang-Oul's Guise) — 본 비지즈 (Bone Visage, 투구), 요구 레벨 65\n  방어력 +80-100, 타격 회복 +25%, 공격자 피해 반사 20, 마나 +150, 생명력 재생 +5\n• 트래그울의 비늘 (Trang-Oul's Scales) — 카오스 아머 (Chaos Armor, 갑옷), 요구 레벨 49\n  요구치 -40%, 원거리 방어력 +100, 독 저항 +40%, +2 소환 (강령술사 전용), 달리기/걷기 +40%, 방어력 +150%\n  └ 세트 효과: 3세트 번개 저항 +50% / 풀세트 받는 피해 감소 25%\n• 트래그울의 날개 (Trang-Oul's Wing) — 캔터 트로피 (Cantor Trophy, 강령술사 방패), 요구 레벨 54\n  방어력 +125, 힘 +25, 민첩 +15, 화염 저항 +38-45%, 막기 확률 +30%, 독 저항 +40%, +2 독과 뼈 (강령술사 전용)\n  └ 세트 효과: 3세트 적 독 저항 -25% / 4세트 생명력 재생 +15\n• 트래그울의 발톱 (Trang-Oul's Claws) — 헤비 브레이서 (Heavy Bracers, 장갑), 요구 레벨 45\n  방어력 +30, 시전 속도 +20%, 냉기 저항 +30%, +2 저주 (강령술사 전용), 독 스킬 피해 +25%\n• 트래그울의 끈 (Trang-Oul's Girth) — 트롤 벨트 (Troll Belt, 벨트), 요구 레벨 62\n  방어력 +75-100, 최대 지구력 +30, 생명력 재생 +5, 생명력 +66, 빙결되지 않음, 요구치 -40%, 마나 +25-50\n  └ 세트 효과: 3세트 냉기 저항 +40%\n\n세트 보너스:\n• 2세트: 마나 재생 +15%, +18 화염구(Fire Ball)\n• 3세트: 마나 재생 +15%, +13 화염벽(Fire Wall)\n• 4세트: 마나 재생 +15%, +10 운석 낙하(Meteor)\n• 풀세트: 마나 재생 +60%, +18 화염구(Fire Ball), +13 화염벽(Fire Wall), +10 운석 낙하(Meteor), 모든 저항 +50, +3 강령술사 스킬, 마나 +100, 방어력 +200, +3 화염 숙련(Fire Mastery), 생명력 흡수 20%, 뱀파이어로 변신(외형)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
+      "tags": ["set", "네크로맨서", "트랑", "독넥", "변신", "트랑-울의아바타", "트랑-오울의 아바타", "강령술사"],
+      "meta": { "rarity": "Set", "pieces": 5, "class": "강령술사" }
     },
     {
       "type": "set",
       "name": "그리스월드의 유산 (Griswold's Legacy)",
-      "description": "팔라딘용 세트 — 방패는 팔라딘 전용 (확장팩)\n구성 아이템 (4종):\n• 그리스월드의 용맹 (Griswold's Valor) — 코로나 (Corona, 투구), 요구 레벨 69\n  방어력 +50-75%, 냉기 피해 흡수 +0-24 (레벨당 0.25), 소켓 2개, 요구치 -40%, 매직 아이템 발견 +20-30%, 모든 저항 +5\n  └ 세트 효과: 2세트 +2 공격 오라 (팔라딘 전용)\n• 그리스월드의 심장 (Griswold's Heart) — 오네이트 플레이트 (Ornate Plate, 갑옷), 요구 레벨 45\n  방어력 +500, +2 방어 오라 (팔라딘 전용), 소켓 3개, 힘 +20, 요구치 -40%\n• 그리스월드의 구원 (Griswold's Redemption) — 카두세우스 (Caduceus, 셉터), 요구 레벨 66\n  피해 +200-240%, 공격 속도 +40%, 언데드 대상 피해 +200%, 요구치 -20%, 소켓 3-4개\n  └ 세트 효과: 2세트 +2 전투 기술 (팔라딘 전용) / 3세트 피해 +10-20 / 풀세트 피해 +10-20\n• 그리스월드의 명예 (Griswold's Honor) — 볼텍스 쉴드 (Vortex Shield, 팔라딘 방패), 요구 레벨 68\n  방어력 +108, 소켓 3개, 막기 속도 +65%, 막기 확률 +20%, 모든 저항 +45\n\n세트 보너스:\n• 2세트: 힘 +20\n• 3세트: 민첩 +30\n• 풀세트: 힘 +20, 민첩 +30, 모든 저항 +50, +3 팔라딘 스킬, 명중률 +200, 생명력 +150, 타격 회복 +30%, 세트 오라 표시(외형)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "팔라딘", "그리스월드", "풀셋", "그리스월드의리가시"],
-      "meta": { "rarity": "Set", "pieces": 4, "class": "팔라딘" }
+      "description": "성기사용 세트 — 방패는 성기사 전용 (확장팩)\n구성 아이템 (4종):\n• 그리스월드의 용맹 (Griswold's Valor) — 코로나 (Corona, 투구), 요구 레벨 69\n  방어력 +50-75%, 냉기 피해 흡수 +0-24 (레벨당 0.25), 소켓 2개, 요구치 -40%, 매직 아이템 발견 +20-30%, 모든 저항 +5\n  └ 세트 효과: 2세트 +2 공격 오라 (성기사 전용)\n• 그리스월드의 심장 (Griswold's Heart) — 오네이트 플레이트 (Ornate Plate, 갑옷), 요구 레벨 45\n  방어력 +500, +2 방어 오라 (성기사 전용), 소켓 3개, 힘 +20, 요구치 -40%\n• 그리스월드의 구원 (Griswold's Redemption) — 카두세우스 (Caduceus, 셉터), 요구 레벨 66\n  피해 +200-240%, 공격 속도 +40%, 언데드 대상 피해 +200%, 요구치 -20%, 소켓 3-4개\n  └ 세트 효과: 2세트 +2 전투 기술 (성기사 전용) / 3세트 피해 +10-20 / 풀세트 피해 +10-20\n• 그리스월드의 명예 (Griswold's Honor) — 볼텍스 쉴드 (Vortex Shield, 성기사 방패), 요구 레벨 68\n  방어력 +108, 소켓 3개, 막기 속도 +65%, 막기 확률 +20%, 모든 저항 +45\n\n세트 보너스:\n• 2세트: 힘 +20\n• 3세트: 민첩 +30\n• 풀세트: 힘 +20, 민첩 +30, 모든 저항 +50, +3 성기사 스킬, 명중률 +200, 생명력 +150, 타격 회복 +30%, 세트 오라 표시(외형)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
+      "tags": ["set", "팔라딘", "그리스월드", "풀셋", "그리스월드의리가시", "성기사"],
+      "meta": { "rarity": "Set", "pieces": 4, "class": "성기사" }
     },
     {
       "type": "set",
@@ -3387,8 +3387,8 @@
     {
       "type": "set",
       "name": "아르카나의 속임수 (Arcanna's Tricks)",
-      "description": "초반 시전자 세트 — 마나·시전 속도 (오리지널)\n구성 아이템 (4종):\n• 아르카나의 징조 (Arcanna's Sign) — 목걸이 (Amulet, 목걸이), 요구 레벨 15\n  마나 +15, 마나 재생 +20%\n  └ 세트 효과: 2세트 매직 아이템 발견 +50% / 3세트 화염 저항 +20%\n• 아르카나의 죽음마법봉 (Arcanna's Deathwand) — 워 스태프 (War Staff, 지팡이), 요구 레벨 15\n  +1 소서리스 스킬, 치명적 공격 25%\n  └ 세트 효과: 2세트 마나 +50 / 3세트 마나 재생 +5%\n• 아르카나의 머리 (Arcanna's Head) — 스컬 캡 (Skull Cap, 투구), 요구 레벨 15\n  생명력 재생 +4, 공격자 피해 반사 2\n  └ 세트 효과: 2세트 방어력 +3-297 (레벨당 3) / 3세트 번개 저항 +15%\n• 아르카나의 살점 (Arcanna's Flesh) — 라이트 플레이트 (Light Plate, 갑옷), 요구 레벨 15\n  빛 반경 +2, 피해 감소 3\n  └ 세트 효과: 2세트 방어력 +100 / 3세트 에너지 +10\n\n세트 보너스:\n• 2세트: 마나 +50\n• 3세트: 생명력 +50, 마나 재생 +12%\n• 풀세트: 마나 +50, 생명력 +50, 마나 재생 +12%, 시전 속도 +20%, 마나 흡수 5%, 마나 +25, +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "오리지널", "아르카나", "소서리스", "아칸나트릭스"],
+      "description": "초반 시전자 세트 — 마나·시전 속도 (오리지널)\n구성 아이템 (4종):\n• 아르카나의 징조 (Arcanna's Sign) — 목걸이 (Amulet, 목걸이), 요구 레벨 15\n  마나 +15, 마나 재생 +20%\n  └ 세트 효과: 2세트 매직 아이템 발견 +50% / 3세트 화염 저항 +20%\n• 아르카나의 죽음마법봉 (Arcanna's Deathwand) — 워 스태프 (War Staff, 지팡이), 요구 레벨 15\n  +1 원소술사 스킬, 치명적 공격 25%\n  └ 세트 효과: 2세트 마나 +50 / 3세트 마나 재생 +5%\n• 아르카나의 머리 (Arcanna's Head) — 스컬 캡 (Skull Cap, 투구), 요구 레벨 15\n  생명력 재생 +4, 공격자 피해 반사 2\n  └ 세트 효과: 2세트 방어력 +3-297 (레벨당 3) / 3세트 번개 저항 +15%\n• 아르카나의 살점 (Arcanna's Flesh) — 라이트 플레이트 (Light Plate, 갑옷), 요구 레벨 15\n  빛 반경 +2, 피해 감소 3\n  └ 세트 효과: 2세트 방어력 +100 / 3세트 에너지 +10\n\n세트 보너스:\n• 2세트: 마나 +50\n• 3세트: 생명력 +50, 마나 재생 +12%\n• 풀세트: 마나 +50, 생명력 +50, 마나 재생 +12%, 시전 속도 +20%, 마나 흡수 5%, 마나 +25, +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
+      "tags": ["set", "세트", "공용", "오리지널", "아르카나", "소서리스", "아칸나트릭스", "원소술사"],
       "meta": { "rarity": "Set", "pieces": 4, "class": "공용" }
     },
     {
@@ -3409,14 +3409,14 @@
       "type": "set",
       "name": "카탄의 덫 (Cathan's Traps)",
       "description": "초반 시전자 세트 — 저항·시전 속도 (오리지널)\n구성 아이템 (5종):\n• 카탄의 지배 (Cathan's Rule) — 배틀 스태프 (Battle Staff, 지팡이), 요구 레벨 11\n  +1 화염 스킬, 최대 화염 피해 +10\n  └ 세트 효과: 2세트 마나 +50 / 3세트 모든 저항 +10\n• 카탄의 그물망 (Cathan's Mesh) — 체인 메일 (Chain Mail, 갑옷), 요구 레벨 11\n  방어력 +15, 요구치 -50%\n  └ 세트 효과: 2세트 공격자 피해 반사 5 / 3세트 화염 저항 +30%\n• 카탄의 얼굴 (Cathan's Visage) — 마스크 (Mask, 투구), 요구 레벨 11\n  마나 +20, 냉기 저항 +25%\n  └ 세트 효과: 2세트 방어력 +2-198 (레벨당 2)\n• 카탄의 인장 (Cathan's Sigil) — 목걸이 (Amulet, 목걸이), 요구 레벨 11\n  타격 회복 +10%, 공격자에게 번개 피해 5\n  └ 세트 효과: 2세트 명중률 +50 / 3세트 매직 아이템 발견 +25%\n• 카탄의 문장 (Cathan's Seal) — 반지 (Ring, 반지), 요구 레벨 11\n  생명력 흡수 6%, 피해 감소 2\n  └ 세트 효과: 2세트 힘 +10\n\n세트 보너스:\n• 2세트: 화염 피해 +15-20, 마나 재생 +16%\n• 3세트: 번개 저항 +25%\n• 풀세트: 화염 피해 +15-20, 마나 재생 +16%, 번개 저항 +25%, 명중률 +60, 마법 피해 감소 3, 모든 저항 +25, 시전 속도 +10%, 마나 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "오리지널", "카탄", "소서리스", "캐산트랩", "카탄의 함정"],
+      "tags": ["set", "세트", "공용", "오리지널", "카탄", "소서리스", "캐산트랩", "카탄의 함정", "원소술사"],
       "meta": { "rarity": "Set", "pieces": 5, "class": "공용" }
     },
     {
       "type": "set",
       "name": "시버브의 예복 (Civerb's Vestments)",
       "description": "초반 공용 세트 — 아이템 조합별 개별 보너스 (오리지널)\n구성 아이템 (3종):\n• 시버브의 수호물 (Civerb's Ward) — 라지 쉴드 (Large Shield, 방패), 요구 레벨 9\n  방어력 +15, 막기 확률 +15%\n  └ 세트 효과: 시버브의 우상 착용 시 마나 +21-22 / 시버브의 곤봉 착용 시 독 저항 +25-26%\n• 시버브의 우상 (Civerb's Icon) — 목걸이 (Amulet, 목걸이), 요구 레벨 9\n  마나 재생 +40%, 생명력 재생 +4\n  └ 세트 효과: 2세트 냉기 저항 +25% / 풀세트 방어력 +25\n• 시버브의 곤봉 (Civerb's Cudgel) — 그랜드 셉터 (Grand Scepter, 셉터), 요구 레벨 9\n  명중률 +75, 최대 피해 +17-23, 최대 피해 +1-99 (레벨당 1)\n\n세트 보너스:\n• 2세트: 화염 저항 +25%\n• 풀세트: 화염 저항 +25%, 힘 +15, 언데드 대상 피해 +200%, 번개 저항 +25%, 명중률 +25%, 방어력 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "오리지널", "시버브", "팔라딘", "시버브베스트먼트"],
+      "tags": ["set", "세트", "공용", "오리지널", "시버브", "팔라딘", "시버브베스트먼트", "성기사"],
       "meta": { "rarity": "Set", "pieces": 3, "class": "공용" }
     },
     {
@@ -3443,8 +3443,8 @@
     {
       "type": "set",
       "name": "지옥불 도구 (Infernal Tools)",
-      "description": "초반 네크로맨서 세트 (오리지널)\n구성 아이템 (3종):\n• 지옥불 두개골 (Infernal Cranium) — 캡 (Cap, 투구), 요구 레벨 5\n  모든 저항 +10, 받은 피해 마나 전환 20%\n  └ 세트 효과: 2세트 방어력 +2-198 (레벨당 2)\n• 지옥불 횃불 (Infernal Torch) — 그림 원드 (Grim Wand, 완드), 요구 레벨 5\n  최소 피해 +8, +1 네크로맨서 스킬\n  └ 세트 효과: 2세트 명중률 +2-247 (레벨당 2.5)\n• 지옥불 징조 (Infernal Sign) — 헤비 벨트 (Heavy Belt, 벨트), 요구 레벨 5\n  방어력 +25, 생명력 +20\n  └ 세트 효과: 2세트 독 저항 +25% / 풀세트 빙결 지속시간 절반\n\n세트 보너스:\n• 2세트: 독 피해 +8 (3.2초)\n• 풀세트: 독 피해 +8 (3.2초), 마나 +10, 명중률 +20%, +1 네크로맨서 스킬, 상처 악화 확률 20%, 마나 흡수 6%, 최대 마나 +20%, 빙결되지 않음\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "오리지널", "인퍼널", "네크로맨서", "인퍼널툴스", "지옥의 도구"],
+      "description": "초반 강령술사 세트 (오리지널)\n구성 아이템 (3종):\n• 지옥불 두개골 (Infernal Cranium) — 캡 (Cap, 투구), 요구 레벨 5\n  모든 저항 +10, 받은 피해 마나 전환 20%\n  └ 세트 효과: 2세트 방어력 +2-198 (레벨당 2)\n• 지옥불 횃불 (Infernal Torch) — 그림 원드 (Grim Wand, 완드), 요구 레벨 5\n  최소 피해 +8, +1 강령술사 스킬\n  └ 세트 효과: 2세트 명중률 +2-247 (레벨당 2.5)\n• 지옥불 징조 (Infernal Sign) — 헤비 벨트 (Heavy Belt, 벨트), 요구 레벨 5\n  방어력 +25, 생명력 +20\n  └ 세트 효과: 2세트 독 저항 +25% / 풀세트 빙결 지속시간 절반\n\n세트 보너스:\n• 2세트: 독 피해 +8 (3.2초)\n• 풀세트: 독 피해 +8 (3.2초), 마나 +10, 명중률 +20%, +1 강령술사 스킬, 상처 악화 확률 20%, 마나 흡수 6%, 최대 마나 +20%, 빙결되지 않음\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
+      "tags": ["set", "세트", "공용", "오리지널", "인퍼널", "네크로맨서", "인퍼널툴스", "지옥의 도구", "강령술사"],
       "meta": { "rarity": "Set", "pieces": 3, "class": "공용" }
     },
     {
@@ -3464,8 +3464,8 @@
     {
       "type": "set",
       "name": "밀라브레가의 상징 (Milabrega's Regalia)",
-      "description": "초반 팔라딘 세트 — +2 팔라딘 스킬 (오리지널)\n구성 아이템 (4종):\n• 밀라브레가의 보주 (Milabrega's Orb) — 카이트 쉴드 (Kite Shield, 방패), 요구 레벨 17\n  매직 아이템 발견 +20%, 방어력 +25\n  └ 세트 효과: 2세트 생명력 +50 / 3세트 방어력 +50%\n• 밀라브레가의 막대 (Milabrega's Rod) — 워 셉터 (War Scepter, 셉터), 요구 레벨 17\n  +1 팔라딘 스킬, 피해 +50%, 빛 반경 +2\n• 밀라브레가의 머리관 (Milabrega's Diadem) — 크라운 (Crown, 투구), 요구 레벨 17\n  생명력 +15, 마나 +15\n  └ 세트 효과: 2세트 냉기 저항 +40%\n• 밀라브레가의 장포 (Milabrega's Robe) — 에인션트 아머 (Ancient Armor, 갑옷), 요구 레벨 17\n  공격자 피해 반사 3, 피해 감소 2\n  └ 세트 효과: 2세트 방어력 +100%\n\n세트 보너스:\n• 2세트: 명중률 +75, 최대 번개 피해 +2-198 (레벨당 2)\n• 3세트: 명중률 +125, 빙결되지 않음\n• 풀세트: 명중률 +200, 최대 번개 피해 +2-198 (레벨당 2), 빙결되지 않음, 생명력 흡수 8%, +2 팔라딘 스킬, 마나 흡수 10%, 독 저항 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "오리지널", "밀라브레가", "팔라딘", "밀라브레가리게일리어", "밀라브레가의 왕권"],
+      "description": "초반 성기사 세트 — +2 성기사 스킬 (오리지널)\n구성 아이템 (4종):\n• 밀라브레가의 보주 (Milabrega's Orb) — 카이트 쉴드 (Kite Shield, 방패), 요구 레벨 17\n  매직 아이템 발견 +20%, 방어력 +25\n  └ 세트 효과: 2세트 생명력 +50 / 3세트 방어력 +50%\n• 밀라브레가의 막대 (Milabrega's Rod) — 워 셉터 (War Scepter, 셉터), 요구 레벨 17\n  +1 성기사 스킬, 피해 +50%, 빛 반경 +2\n• 밀라브레가의 머리관 (Milabrega's Diadem) — 크라운 (Crown, 투구), 요구 레벨 17\n  생명력 +15, 마나 +15\n  └ 세트 효과: 2세트 냉기 저항 +40%\n• 밀라브레가의 장포 (Milabrega's Robe) — 에인션트 아머 (Ancient Armor, 갑옷), 요구 레벨 17\n  공격자 피해 반사 3, 피해 감소 2\n  └ 세트 효과: 2세트 방어력 +100%\n\n세트 보너스:\n• 2세트: 명중률 +75, 최대 번개 피해 +2-198 (레벨당 2)\n• 3세트: 명중률 +125, 빙결되지 않음\n• 풀세트: 명중률 +200, 최대 번개 피해 +2-198 (레벨당 2), 빙결되지 않음, 생명력 흡수 8%, +2 성기사 스킬, 마나 흡수 10%, 독 저항 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
+      "tags": ["set", "세트", "공용", "오리지널", "밀라브레가", "팔라딘", "밀라브레가리게일리어", "밀라브레가의 왕권", "성기사"],
       "meta": { "rarity": "Set", "pieces": 4, "class": "공용" }
     },
     {
@@ -3507,7 +3507,7 @@
       "type": "set",
       "name": "천상의 동포 (Heaven's Brethren)",
       "description": "고레벨 근접 세트 — +2 모든 스킬 (확장팩)\n구성 아이템 (4종):\n• 단군의 가르침 (Dangoon's Teaching) — 리인포스드 메이스 (Reinforced Mace, 둔기), 요구 레벨 68\n  최대 피해 +1-148 (레벨당 1.5), 공격 속도 +40%, 타격 시 10% 확률로 레벨 3 서릿발(Frost Nova) 시전, 화염 피해 +20-30\n• 태백의 영예 (Taebaek's Glory) — 워드 (Ward, 방패), 요구 레벨 81\n  방어력 +50, 마나 +100, 번개 저항 +30%, 공격자 피해 반사 30, 파괴 불가, 막기 확률 +25%, 막기 속도 +30%\n• 해모수의 견고 (Haemosu's Adamant) — 퀴래스 (Cuirass, 갑옷), 요구 레벨 44\n  방어력 +500, 원거리 방어력 +35, 생명력 +75, 근접 방어력 +40, 요구치 -20%\n• 온달의 사랑 (Ondal's Almighty) — 스파이어드 헬름 (Spired Helm, 투구), 요구 레벨 69\n  방어력 +50, 요구치 -40%, 타격 시 10% 확률로 레벨 3 약화(Weaken) 시전, 힘 +10, 민첩 +15, 타격 회복 +24%\n\n세트 보너스:\n• 2세트: 생명력 흡수 10%\n• 3세트: 생명력 재생 +30, 최대 화염 피해 +3-297 (레벨당 3)\n• 풀세트: 생명력 흡수 10%, 생명력 재생 +30, 최대 화염 피해 +3-297 (레벨당 3), 모든 저항 +50, +2 모든 스킬, 빙결되지 않음, 빛 반경 +5, 받는 피해 감소 24%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "확장팩", "천상", "단군", "태백", "팔라딘", "천인의형제", "천상의 형제"],
+      "tags": ["set", "세트", "공용", "확장팩", "천상", "단군", "태백", "팔라딘", "천인의형제", "천상의 형제", "성기사"],
       "meta": { "rarity": "Set", "pieces": 4, "class": "공용" }
     },
     {
@@ -3521,7 +3521,7 @@
       "type": "set",
       "name": "나즈의 고대 흔적 (Naj's Ancient Vestige)",
       "description": "고레벨 시전자 세트 — 텔레포트 지팡이 (확장팩)\n구성 아이템 (3종):\n• 나즈의 수수께끼 (Naj's Puzzler) — 엘더 스태프 (Elder Staff, 지팡이), 요구 레벨 78\n  에너지 +35, 피해 +150%, 레벨 11 순간이동(Teleport) (69회 충전), 시전 속도 +30%, 번개 피해 +6-45, 마나 +70, +1 모든 스킬\n• 나즈의 경판갑 (Naj's Light Plate) — 헬포지 플레이트 (Hellforge Plate, 갑옷), 요구 레벨 71\n  요구치 -60%, 생명력 +65, 모든 저항 +25, 받은 피해 마나 전환 45%, +1 모든 스킬, 방어력 +300\n• 나즈의 띠관 (Naj's Circlet) — 써클릿 (Circlet, 서클릿), 요구 레벨 28\n  방어력 +75, 화염 피해 +25-35, 빛 반경 +5, 힘 +15, 피격 시 12% 확률로 레벨 5 연쇄 번개(Chain Lightning) 시전\n\n세트 보너스:\n• 2세트: 방어력 +175, 매직 아이템 발견 +1-148% (레벨당 1.5)\n• 풀세트: 방어력 +175, 매직 아이템 발견 +1-148% (레벨당 1.5), +1 모든 스킬, 생명력 재생 +20, 민첩 +15, 모든 저항 +50, 힘 +20, 마나 +100, +2 화염 스킬, 최대 생명력 +12%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "확장팩", "나즈", "소서리스", "엔드게임", "나즈앤션트베스티지", "나즈의 고대 유물"],
+      "tags": ["set", "세트", "공용", "확장팩", "나즈", "소서리스", "엔드게임", "나즈앤션트베스티지", "나즈의 고대 유물", "원소술사"],
       "meta": { "rarity": "Set", "pieces": 3, "class": "공용" }
     },
     {
@@ -3535,7 +3535,7 @@
       "type": "set",
       "name": "샌더의 어리석음 (Sander's Folly)",
       "description": "중반 공용 세트 — MF·+1 모든 스킬 (확장팩)\n구성 아이템 (4종):\n• 샌더의 귀감 (Sander's Paragon) — 캡 (Cap, 투구), 요구 레벨 25\n  매직 아이템 발견 +35%, 공격자 피해 반사 8, 방어력 +1-99 (레벨당 1)\n• 샌더의 사석 (Sander's Riprap) — 헤비 부츠 (Heavy Boots, 신발), 요구 레벨 20\n  달리기/걷기 +40%, 명중률 +100, 힘 +5, 민첩 +10\n• 샌더의 금기 (Sander's Taboo) — 헤비 글러브 (Heavy Gloves, 장갑), 요구 레벨 28\n  방어력 +20-25, 공격 속도 +20%, 생명력 +40, 독 피해 +9-11 (3초)\n• 샌더의 미신 (Sander's Superstition) — 본 원드 (Bone Wand, 완드), 요구 레벨 25\n  피해 +75%, 마나 +25, 마나 흡수 8%, 시전 속도 +20%, 냉기 피해 +25-75 (2초)\n\n세트 보너스:\n• 2세트: 방어력 +50\n• 3세트: 명중률 +75\n• 풀세트: 방어력 +50, 명중률 +75, +1 모든 스킬, 매직 아이템 발견 +50%, 마나 +50, 생명력 흡수 4%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data). 부분 보너스는 착용한 세트 아이템 수 기준",
-      "tags": ["set", "세트", "공용", "확장팩", "샌더", "네크로맨서", "mf", "샌더의폴리", "샌더의 우행"],
+      "tags": ["set", "세트", "공용", "확장팩", "샌더", "네크로맨서", "mf", "샌더의폴리", "샌더의 우행", "강령술사"],
       "meta": { "rarity": "Set", "pieces": 4, "class": "공용" }
     },
     {
@@ -3803,8 +3803,8 @@
     {
       "type": "area",
       "name": "고대의 터널 (Ancient Tunnels)",
-      "description": "위치: 액트 2 - 잊힌 도시 지하\n지역 레벨: 헬 85\n\n특징:\n• 냉기 면역 몬스터 없음!\n• 블리자드/냉기 소서리스 최고의 파밍 장소\n• 모든 TC87 아이템 드랍 가능\n• 밀집도 적당, 안전한 파밍\n\n면역: 냉기 면역 없음 (번개/화염/독 면역 존재)\n추천 빌드: 블리자드 소서리스, 냉기 빌드 전반",
-      "tags": ["area", "고대터널", "ancient tunnels", "파밍", "소서리스", "블리자드", "레벨85", "act2"],
+      "description": "위치: 액트 2 - 잊힌 도시 지하\n지역 레벨: 헬 85\n\n특징:\n• 냉기 면역 몬스터 없음!\n• 블리자드/냉기 원소술사 최고의 파밍 장소\n• 모든 TC87 아이템 드랍 가능\n• 밀집도 적당, 안전한 파밍\n\n면역: 냉기 면역 없음 (번개/화염/독 면역 존재)\n추천 빌드: 블리자드 원소술사, 냉기 빌드 전반",
+      "tags": ["area", "고대터널", "ancient tunnels", "파밍", "소서리스", "블리자드", "레벨85", "act2", "원소술사"],
       "meta": { "level": 85, "act": 2 }
     },
     {
@@ -3831,7 +3831,7 @@
     {
       "type": "area",
       "name": "메피스토 (Durance of Hate Lv3)",
-      "description": "위치: 액트 3 - 증오의 사원 3층\n지역 레벨: 헬 83\n\n특징:\n• 메피스토 보스 파밍 (최고의 유니크 드랍률)\n• 모엣 트릭: 해자 넘어서 안전하게 사냥\n• TC78까지 드랍 가능 (샤코, 오큘러스, SoJ 등)\n• 텔레포트 필수 (빠른 접근)\n\n주요 드랍: 샤코, 오큘러스, 전쟁여행자, SoJ 등\n추천 빌드: 블리자드/라이트닝 소서리스",
+      "description": "위치: 액트 3 - 증오의 사원 3층\n지역 레벨: 헬 83\n\n특징:\n• 메피스토 보스 파밍 (최고의 유니크 드랍률)\n• 모엣 트릭: 해자 넘어서 안전하게 사냥\n• TC78까지 드랍 가능 (샤코, 오큘러스, SoJ 등)\n• 텔레포트 필수 (빠른 접근)\n\n주요 드랍: 샤코, 오큘러스, 전쟁여행자, SoJ 등\n추천 빌드: 블리자드/라이트닝 원소술사",
       "tags": ["area", "메피스토", "mephisto", "보스파밍", "유니크", "드랍", "act3"],
       "meta": { "level": 83, "act": 3 }
     },
@@ -3979,7 +3979,7 @@
     {
       "type": "event",
       "name": "우버 트리스트럼 (Uber Tristram)",
-      "description": "판데모니엄 이벤트의 최종 단계\n\n준비 과정:\n1단계 - 열쇠 수집:\n• Key of Terror: 카운테스 (액트1)\n• Key of Hate: 소환사 (액트2)\n• Key of Destruction: 니흘라탁 (액트5)\n\n2단계 - 미니 우버 처치 (각 열쇠 3개씩 큐브 조합):\n• 우버 안다리엘 → 메피스토의 뇌\n• 우버 듀리엘 → 바알의 눈\n• 우버 이주알 → 디아블로의 뿔\n\n3단계 - 우버 트리스트럼:\n• 3개의 부위를 큐브 조합하여 포탈 개방\n• 우버 메피스토 + 우버 디아블로 + 우버 바알 동시 처치\n\n보상: 토치(Hellfire Torch) - 랜덤 클래스용 그랜드 참\n• +3 랜덤 클래스 스킬\n• +10~20 모든 능력치\n• +10~20 모든 저항\n\n추천 빌드: 스마이터 팔라딘 (생명력 탭 + 고저항 필수)",
+      "description": "판데모니엄 이벤트의 최종 단계\n\n준비 과정:\n1단계 - 열쇠 수집:\n• Key of Terror: 카운테스 (액트1)\n• Key of Hate: 소환사 (액트2)\n• Key of Destruction: 니흘라탁 (액트5)\n\n2단계 - 미니 우버 처치 (각 열쇠 3개씩 큐브 조합):\n• 우버 안다리엘 → 메피스토의 뇌\n• 우버 듀리엘 → 바알의 눈\n• 우버 이주알 → 디아블로의 뿔\n\n3단계 - 우버 트리스트럼:\n• 3개의 부위를 큐브 조합하여 포탈 개방\n• 우버 메피스토 + 우버 디아블로 + 우버 바알 동시 처치\n\n보상: 토치(Hellfire Torch) - 랜덤 클래스용 그랜드 참\n• +3 랜덤 클래스 스킬\n• +10~20 모든 능력치\n• +10~20 모든 저항\n\n추천 빌드: 스마이터 성기사 (생명력 탭 + 고저항 필수)",
       "tags": ["event", "우버", "uber", "토치", "torch", "판데모니엄", "열쇠파밍", "스마이터"],
       "meta": { "type": "엔드게임" }
     },
@@ -4079,9 +4079,9 @@
     {
       "type": "runeword",
       "name": "경계 (Vigilance)",
-      "description": "조합: 돌 + 굴 (Dol + Gul)\n레벨 제한: 53\n적용: 2소켓 그리모어/방패/네크로맨서 방패/팔라딘 방패\n도입: DLC '악마술사의 군림' (패치 3.0)\n\n룬워드 효과:\n• 피격 시 5% 확률로 레벨 10 Ring of Fire 시전\n• 달리기/걷기 +10%\n• 막기 속도 +30%\n• 생명력 +20-40\n• 마나 +20-40\n• 모든 저항 +25-35\n• 방어력 +75-100%\n룬 옵션 (무기 장착 시 추가): 타격 시 몬스터 도주 32%, 명중률 +20%\n룬 옵션 (방패 장착 시 추가): 생명력 재생 +7, 최대 독 저항 +5%\n\n※ 악마술사 전용 오프핸드 '그리모어'에도 적용 가능한 최초의 룬워드\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 돌 + 굴 (Dol + Gul)\n레벨 제한: 53\n적용: 2소켓 그리모어/방패/강령술사 방패/성기사 방패\n도입: DLC '악마술사의 군림' (패치 3.0)\n\n룬워드 효과:\n• 피격 시 5% 확률로 레벨 10 Ring of Fire 시전\n• 달리기/걷기 +10%\n• 막기 속도 +30%\n• 생명력 +20-40\n• 마나 +20-40\n• 모든 저항 +25-35\n• 방어력 +75-100%\n룬 옵션 (무기 장착 시 추가): 타격 시 몬스터 도주 32%, 명중률 +20%\n룬 옵션 (방패 장착 시 추가): 생명력 재생 +7, 최대 독 저항 +5%\n\n※ 악마술사 전용 오프핸드 '그리모어'에도 적용 가능한 최초의 룬워드\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "방패", "그리모어", "악마술사", "dlc", "3.0패치", "오프핸드", "룬워드", "네크로맨서 방패", "팔라딘 방패", "경계"],
-      "meta": { "base": "2소켓 그리모어/방패/네크로맨서 방패/팔라딘 방패", "runes": ["Dol", "Gul"], "level": 53, "patch": "3.0" }
+      "meta": { "base": "2소켓 그리모어/방패/강령술사 방패/성기사 방패", "runes": ["Dol", "Gul"], "level": 53, "patch": "3.0" }
     },
     {
       "type": "runeword",
@@ -4114,7 +4114,7 @@
     {
       "type": "runeword",
       "name": "뼈 (Bone)",
-      "description": "조합: 솔 + 우움 + 우움 (Sol + Um + Um)\n레벨 제한: 47\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 15% 확률로 레벨 10 뼈 창(Bone Spear) 시전\n• 피격 시 15% 확률로 레벨 10 뼈 갑옷(Bone Armor) 시전\n• +2 네크로맨서 스킬\n• 마나 +100-150\n룬 옵션 (갑옷·투구 장착 시 추가): 피해 감소 7, 모든 저항 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 솔 + 우움 + 우움 (Sol + Um + Um)\n레벨 제한: 47\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 15% 확률로 레벨 10 뼈 창(Bone Spear) 시전\n• 피격 시 15% 확률로 레벨 10 뼈 갑옷(Bone Armor) 시전\n• +2 강령술사 스킬\n• 마나 +100-150\n룬 옵션 (갑옷·투구 장착 시 추가): 피해 감소 7, 모든 저항 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "룬워드", "갑옷", "본", "뼈"],
       "meta": { "base": "3소켓 갑옷", "runes": ["Sol", "Um", "Um"], "level": 47 }
     },
@@ -4149,7 +4149,7 @@
     {
       "type": "runeword",
       "name": "깨우침 (Enlightenment)",
-      "description": "조합: 풀 + 랄 + 솔 (Pul + Ral + Sol)\n레벨 제한: 45\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 5% 확률로 레벨 15 화염구(Fire Ball) 시전\n• 피격 시 5% 확률로 레벨 15 불길(Blaze) 시전\n• +2 소서리스 스킬\n• +1 온기(Warmth)\n룬 옵션 (갑옷·투구 장착 시 추가): 방어력 +30%, 화염 저항 +30%, 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 풀 + 랄 + 솔 (Pul + Ral + Sol)\n레벨 제한: 45\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 5% 확률로 레벨 15 화염구(Fire Ball) 시전\n• 피격 시 5% 확률로 레벨 15 불길(Blaze) 시전\n• +2 원소술사 스킬\n• +1 온기(Warmth)\n룬 옵션 (갑옷·투구 장착 시 추가): 방어력 +30%, 화염 저항 +30%, 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "룬워드", "갑옷", "계몽", "깨우침"],
       "meta": { "base": "3소켓 갑옷", "runes": ["Pul", "Ral", "Sol"], "level": 45 }
     },
@@ -4177,7 +4177,7 @@
     {
       "type": "runeword",
       "name": "신성한 천둥 (Holy Thunder)",
-      "description": "조합: 에드 + 랄 + 오르트 + 탈 (Eth + Ral + Ort + Tal)\n레벨 제한: 21\n적용: 4소켓 셉터\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 피해 +60%\n• 번개 피해 +20-60\n• 최대 피해 +10\n• 번개 저항 +60%\n• 최대 번개 저항 +5%\n• +3 신성한 충격(Holy Shock) (팔라딘 전용)\n• 레벨 7 연쇄 번개(Chain Lightning) (60회 충전)\n룬 옵션 (무기 장착 시 추가): 대상 방어력 -25%, 화염 피해 +5-30, 번개 피해 +1-50, 독 피해 +75 (5초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 에드 + 랄 + 오르트 + 탈 (Eth + Ral + Ort + Tal)\n레벨 제한: 21\n적용: 4소켓 셉터\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 피해 +60%\n• 번개 피해 +20-60\n• 최대 피해 +10\n• 번개 저항 +60%\n• 최대 번개 저항 +5%\n• +3 신성한 충격(Holy Shock) (성기사 전용)\n• 레벨 7 연쇄 번개(Chain Lightning) (60회 충전)\n룬 옵션 (무기 장착 시 추가): 대상 방어력 -25%, 화염 피해 +5-30, 번개 피해 +1-50, 독 피해 +75 (5초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "룬워드", "셉터", "신성한 번개", "신성한 천둥"],
       "meta": { "base": "4소켓 셉터", "runes": ["Eth", "Ral", "Ort", "Tal"], "level": 21 }
     },
@@ -4198,7 +4198,7 @@
     {
       "type": "runeword",
       "name": "잎새 (Leaf)",
-      "description": "조합: 티르 + 랄 (Tir + Ral)\n레벨 제한: 19\n적용: 2소켓 지팡이\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• +3 화염 스킬\n• 방어력 +2-198 (레벨당 2)\n• 냉기 저항 +33%\n• +3 지옥불(Inferno) (소서리스 전용)\n• +3 화염탄(Fire Bolt) (소서리스 전용)\n• +3 온기(Warmth) (소서리스 전용)\n룬 옵션 (무기 장착 시 추가): 처치 시 마나 +2, 화염 피해 +5-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 티르 + 랄 (Tir + Ral)\n레벨 제한: 19\n적용: 2소켓 지팡이\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• +3 화염 스킬\n• 방어력 +2-198 (레벨당 2)\n• 냉기 저항 +33%\n• +3 지옥불(Inferno) (원소술사 전용)\n• +3 화염탄(Fire Bolt) (원소술사 전용)\n• +3 온기(Warmth) (원소술사 전용)\n룬 옵션 (무기 장착 시 추가): 처치 시 마나 +2, 화염 피해 +5-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "룬워드", "지팡이", "꽃잎", "잎새"],
       "meta": { "base": "2소켓 지팡이", "runes": ["Tir", "Ral"], "level": 19 }
     },
@@ -4212,7 +4212,7 @@
     {
       "type": "runeword",
       "name": "기억 (Memory)",
-      "description": "조합: 룸 + 이오 + 솔 + 에드 (Lum + Io + Sol + Eth)\n레벨 제한: 37\n적용: 4소켓 지팡이\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 최대 마나 +20%\n• 마법 피해 감소 7\n• 방어력 +50%\n• 시전 속도 +33%\n• +3 소서리스 스킬\n• +3 마력 보호막(Energy Shield) (소서리스 전용)\n• +2 전자기장(Static Field) (소서리스 전용)\n룬 옵션 (무기 장착 시 추가): 에너지 +10, 활력 +10, 최소 피해 +9, 대상 방어력 -25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 룸 + 이오 + 솔 + 에드 (Lum + Io + Sol + Eth)\n레벨 제한: 37\n적용: 4소켓 지팡이\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 최대 마나 +20%\n• 마법 피해 감소 7\n• 방어력 +50%\n• 시전 속도 +33%\n• +3 원소술사 스킬\n• +3 마력 보호막(Energy Shield) (원소술사 전용)\n• +2 전자기장(Static Field) (원소술사 전용)\n룬 옵션 (무기 장착 시 추가): 에너지 +10, 활력 +10, 최소 피해 +9, 대상 방어력 -25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "룬워드", "지팡이", "기억"],
       "meta": { "base": "4소켓 지팡이", "runes": ["Lum", "Io", "Sol", "Eth"], "level": 37 }
     },
@@ -4254,7 +4254,7 @@
     {
       "type": "runeword",
       "name": "원칙 (Principle)",
-      "description": "조합: 랄 + 굴 + 엘드 (Ral + Gul + Eld)\n레벨 제한: 53\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 100% 확률로 레벨 5 신성한 빛줄기(Holy Bolt) 시전\n• +2 팔라딘 스킬\n• 생명력 +100-150\n• 언데드 대상 피해 +50%\n룬 옵션 (갑옷·투구 장착 시 추가): 화염 저항 +30%, 최대 독 저항 +5%, 지구력 소모 감소 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "description": "조합: 랄 + 굴 + 엘드 (Ral + Gul + Eld)\n레벨 제한: 53\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 100% 확률로 레벨 5 신성한 빛줄기(Holy Bolt) 시전\n• +2 성기사 스킬\n• 생명력 +100-150\n• 언데드 대상 피해 +50%\n룬 옵션 (갑옷·투구 장착 시 추가): 화염 저항 +30%, 최대 독 저항 +5%, 지구력 소모 감소 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
       "tags": ["runeword", "룬워드", "갑옷", "원리원칙", "원칙"],
       "meta": { "base": "3소켓 갑옷", "runes": ["Ral", "Gul", "Eld"], "level": 53 }
     },
@@ -4446,7 +4446,7 @@
     {
       "type": "class",
       "name": "악마술사 (Warlock) — 클래스 개요",
-      "description": "DLC '악마술사의 군림' (2026년 2월 출시) 신규 플레이어블 클래스\n어쌔신, 드루이드(2001년 LOD) 이후 25년 만의 신규 클래스\n\n핵심 메카닉 — 염동력 무기 조작:\n• 무기를 손에 들지 않고 염동력(Telekinesis)으로 공중에 띄워 사용\n• 양손 무기를 사용하면서 한 손이 자유로워 오프핸드 아이템 착용 가능\n• 전용 오프핸드 아이템: 그리모어(Grimoire) — 방패 역할 + 스킬 강화\n\n기본 스탯 (패치 3.1.1):\n• 힘 15 / 민첩 20 / 에너지 20 / 활력 25\n• 레벨당 생명력 +2 / 에너지 포인트당 마나 1.5배\n\n스킬 트리 3가지:\n• 악마 결속 (Demon Spells): 소환 빌드 — 염소인간/오염된 자/더럽히는 자 소환, 악마 지배·아군화\n• 기괴 (Eldritch Spells): 근접 딜러 — 염동력 무기, 헥스(Hex) 저주\n• 혼돈 (Chaos Spells): 캐스터 — 화염, 엔트로피(미아즈마), 인장(Sigil)\n• 트리당 10개, 총 30개 스킬\n\n전용 아이템:\n• 그리모어 (Grimoire): 일반/예외/정예 등급, 단검 스태프모드 보유\n• 단검: 랜덤으로 +1~3 악마술사 스킬 스태프모드 부여",
+      "description": "DLC '악마술사의 군림' (2026년 2월 출시) 신규 플레이어블 클래스\n암살자, 드루이드(2001년 LOD) 이후 25년 만의 신규 클래스\n\n핵심 메카닉 — 염동력 무기 조작:\n• 무기를 손에 들지 않고 염동력(Telekinesis)으로 공중에 띄워 사용\n• 양손 무기를 사용하면서 한 손이 자유로워 오프핸드 아이템 착용 가능\n• 전용 오프핸드 아이템: 그리모어(Grimoire) — 방패 역할 + 스킬 강화\n\n기본 스탯 (패치 3.1.1):\n• 힘 15 / 민첩 20 / 에너지 20 / 활력 25\n• 레벨당 생명력 +2 / 에너지 포인트당 마나 1.5배\n\n스킬 트리 3가지:\n• 악마 결속 (Demon Spells): 소환 빌드 — 염소인간/오염된 자/더럽히는 자 소환, 악마 지배·아군화\n• 기괴 (Eldritch Spells): 근접 딜러 — 염동력 무기, 헥스(Hex) 저주\n• 혼돈 (Chaos Spells): 캐스터 — 화염, 엔트로피(미아즈마), 인장(Sigil)\n• 트리당 10개, 총 30개 스킬\n\n전용 아이템:\n• 그리모어 (Grimoire): 일반/예외/정예 등급, 단검 스태프모드 보유\n• 단검: 랜덤으로 +1~3 악마술사 스킬 스태프모드 부여",
       "tags": ["class", "악마술사", "워락", "warlock", "dlc", "3.0패치", "신규클래스"],
       "meta": { "patch": "3.0", "type": "클래스" }
     },
@@ -4475,7 +4475,7 @@
     {
       "type": "class",
       "name": "성기사 (Paladin) — 클래스 개요",
-      "description": "오리지널 디아블로 II부터 등장한 기본 플레이어블 클래스 (기존 DB 표기: 팔라딘)\n자카룸 교단의 성전사 — 근접 전투와 아군 전체에 적용되는 오라(Aura)가 핵심\n\n핵심 메카닉 — 오라:\n• 오라는 한 번에 하나만 활성화, 파티원·용병·소환수에게도 적용\n• 전용 방패: 성기사 방패 — 원소 저항·스킬 옵션 부여, 소켓 확률 높음\n• 언데드·악마 대상 추가 피해 스킬 다수\n\n기본 스탯:\n• 힘 25 / 민첩 20 / 활력 25 / 에너지 15\n• 레벨당 생명력 +2 / 활력 포인트당 생명력 +3\n• 레벨당 마나 +1.5 / 에너지 포인트당 마나 +1.5\n\n스킬 트리 3가지:\n• 전투 기술 (Combat Skills): 근접·주문 공격 — 해머, 강타, 열의, 천상의 주먹\n• 공격 오라 (Offensive Auras): 피해·명중 강화, 원소 오라, 적 저항 감소\n• 방어 오라 (Defensive Auras): 회복·저항·이동 속도 등 생존 보조\n• 트리당 10개, 총 30개 스킬\n\n전용 아이템:\n• 성기사 방패: 타지/론다쉬/헤럴딕 실드/에어린 실드/크라운 실드 (예외·정예 등급 포함)\n• 세트: 그리스월드의 유산 (Griswold's Legacy)\n\n대표 빌드: 해머딘, 스마이터, 질럿, 천상의 주먹(FoH), 오라딘",
+      "description": "오리지널 디아블로 II부터 등장한 기본 플레이어블 클래스 (기존 DB 표기: 성기사)\n자카룸 교단의 성전사 — 근접 전투와 아군 전체에 적용되는 오라(Aura)가 핵심\n\n핵심 메카닉 — 오라:\n• 오라는 한 번에 하나만 활성화, 파티원·용병·소환수에게도 적용\n• 전용 방패: 성기사 방패 — 원소 저항·스킬 옵션 부여, 소켓 확률 높음\n• 언데드·악마 대상 추가 피해 스킬 다수\n\n기본 스탯:\n• 힘 25 / 민첩 20 / 활력 25 / 에너지 15\n• 레벨당 생명력 +2 / 활력 포인트당 생명력 +3\n• 레벨당 마나 +1.5 / 에너지 포인트당 마나 +1.5\n\n스킬 트리 3가지:\n• 전투 기술 (Combat Skills): 근접·주문 공격 — 해머, 강타, 열의, 천상의 주먹\n• 공격 오라 (Offensive Auras): 피해·명중 강화, 원소 오라, 적 저항 감소\n• 방어 오라 (Defensive Auras): 회복·저항·이동 속도 등 생존 보조\n• 트리당 10개, 총 30개 스킬\n\n전용 아이템:\n• 성기사 방패: 타지/론다쉬/헤럴딕 실드/에어린 실드/크라운 실드 (예외·정예 등급 포함)\n• 세트: 그리스월드의 유산 (Griswold's Legacy)\n\n대표 빌드: 해머딘, 스마이터, 질럿, 천상의 주먹(FoH), 오라딘",
       "tags": ["class", "성기사", "팔라딘", "paladin", "기본클래스", "오라"],
       "meta": { "type": "클래스" }
     },
