@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 19로 증가 (v18 캐시 사용자에게 누락 룬워드 반영)', () => {
-  assert.equal(version, 19);
+test('DB 버전이 20으로 증가 (v19 캐시 사용자에게 패치 이력 반영)', () => {
+  assert.equal(version, 20);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -288,8 +288,9 @@ test("앤야 표기 통일 및 '안야' 검색 호환", () => {
 const events = () => items.filter((i) => i.type === 'event');
 const eventByEn = (en) => events().find((i) => i.name.includes(en));
 
-test('이벤트 항목 16개, 신규 4종 존재 및 meta.type 보유', () => {
-  assert.equal(events().length, 16);
+// v20: 패치 이력 8종(1.0~3.0) 추가로 16 → 24
+test('이벤트 항목 24개, 신규 4종 존재 및 meta.type 보유', () => {
+  assert.equal(events().length, 24);
   for (const en of ['Gambling', 'Crafted Items', 'Magic Find', 'Players Setting']) {
     const it = eventByEn(en);
     assert.ok(it, `항목 없음: ${en}`);
@@ -663,4 +664,44 @@ test('신규 룬워드 대표 수치: 자존심·불멸·야수·웰쓰·드레�
   assert.ok(wealth.includes('골드 획득 +250%') && wealth.includes('매직 아이템 발견 +100%'));
   assert.match(rwByEn('Dragon').description, /원래 래더 전용/);
   assert.match(rwByEn('Dragon').description, /룬 옵션 \(방패 장착 시 추가\)/);
+});
+
+// ── D2R 패치 이력 (출시 1.0 ~ 3.3) ──
+const PATCHES = [['1.0', '2021-09-23'], ['2.3', '2021-12-02'], ['2.4', '2022-04-14'], ['2.5', '2022-09-22'],
+  ['2.6', '2023-02-15'], ['2.7', '2023-05-02'], ['2.8', '2024-12-03'], ['3.0', '2026-02-11'], ['3.2', '2026-05-22'],
+  ['3.3', '2026-08-18']];
+const patchEvent = (v) => {
+  const it = events().find((e) => e.meta && e.meta.type === '패치' && e.meta.patch === v);
+  assert.ok(it, `패치 항목 없음: ${v}`);
+  return it;
+};
+
+test('패치 이력: 1.0~3.3 각 패치 항목 존재, 날짜 명시, 패치 버전 중복 없음', () => {
+  for (const [v, date] of PATCHES) assert.ok(patchEvent(v).description.includes(date), `${v}: ${date}`);
+  const vs = events().filter((e) => e.meta && e.meta.type === '패치').map((e) => e.meta.patch);
+  assert.equal(new Set(vs).size, vs.length);
+});
+
+test('패치 이력: 버전 순서와 날짜 순서 일치 (경계: 출시일 최초, 3.3 최신)', () => {
+  const firstDate = (v) => patchEvent(v).description.match(/\d{4}-\d{2}-\d{2}/)[0];
+  const dates = PATCHES.map(([v]) => firstDate(v));
+  assert.deepEqual(dates, [...dates].sort());
+});
+
+test('2.4·2.6·3.0 신규 룬워드 목록, 3.0 악마술사', () => {
+  const d24 = patchEvent('2.4').description;
+  for (const rw of ['Flickering Flame', 'Mist', 'Obsession', 'Pattern', 'Plague', 'Unbending Will', 'Wisdom']) assert.ok(d24.includes(rw), rw);
+  const d26 = patchEvent('2.6').description;
+  for (const rw of ['Bulwark', 'Cure', 'Ground', 'Hearth', 'Temper', 'Hustle', 'Mosaic', 'Metamorphosis']) assert.ok(d26.includes(rw), rw);
+  const d30 = patchEvent('3.0').description;
+  for (const x of ['악마술사', 'Authority', 'Coven', 'Void', 'Vigilance', 'Ritual']) assert.ok(d30.includes(x), x);
+});
+
+test('선더 참 이벤트: 실제 6종 이름, 존재하지 않는 5종 목록 제거', () => {
+  const d = byName('(Sunder Charms)').description;
+  for (const en of ['Cold Rupture', 'Flame Rift', 'Crack of the Heavens', 'Rotting Fissure', 'Bone Break', 'Black Cleft']) {
+    assert.ok(d.includes(en), en);
+    assert.ok(uniqueByEn(en), `유니크 항목과 연결: ${en}`);
+  }
+  assert.ok(!d.includes('종류 (5가지)'));
 });
