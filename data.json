@@ -3992,6 +3992,251 @@
       "tags": ["runeword", "갑옷", "악마술사", "dlc", "3.0패치"],
       "meta": { "base": "3소켓 갑옷", "runes": ["Hel", "Shael", "Ral"], "patch": "3.0" }
     },
+    {
+      "type": "runeword",
+      "name": "야수 (Beast)",
+      "description": "조합: 베르 + 티르 + 우움 + 말 + 룸 (Ber + Tir + Um + Mal + Lum)\n레벨 제한: 63\n적용: 5소켓 도끼/셉터/해머\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 공격 속도 +40%\n• 장착 시 레벨 9 파나티시즘(Fanaticism) 오라\n• 피해 +240-270%\n• 힘 +25-40\n• 레벨 13 그리즐리(Summon Grizzly) (5회 충전)\n• +3 워베어(Werebear)\n• +3 변신술(Lycanthropy)\n룬 옵션 (무기 장착 시 추가): 강타 확률 20%, 처치 시 마나 +2, 상처 악화 확률 25%, 몬스터 회복 방지, 에너지 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "도끼", "셉터", "해머", "엔드게임"],
+      "meta": { "base": "5소켓 도끼/셉터/해머", "runes": ["Ber", "Tir", "Um", "Mal", "Lum"], "level": 63 }
+    },
+    {
+      "type": "runeword",
+      "name": "블랙 (Black)",
+      "description": "조합: 주울 + 포 + 네프 (Thul + Io + Nef)\n레벨 제한: 35\n적용: 3소켓 곤봉/해머/둔기\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 강타 확률 40%\n• 피해 +120%\n• 공격 속도 +15%\n• 마법 피해 감소 2\n• 명중률 +200\n• 레벨 4 커프스 익스플로젼(Corpse Explosion) (12회 충전)\n룬 옵션 (무기 장착 시 추가): 냉기 피해 +3-14 (3초), 활력 +10, 밀쳐내기\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "곤봉", "해머", "둔기"],
+      "meta": { "base": "3소켓 곤봉/해머/둔기", "runes": ["Thul", "Io", "Nef"], "level": 35 }
+    },
+    {
+      "type": "runeword",
+      "name": "본 (Bone)",
+      "description": "조합: 솔 + 우움 + 우움 (Sol + Um + Um)\n레벨 제한: 47\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 15% 확률로 레벨 10 본 스피어(Bone Spear) 시전\n• 피격 시 15% 확률로 레벨 10 본 아머(Bone Armor) 시전\n• +2 네크로맨서 스킬\n• 마나 +100-150\n룬 옵션 (갑옷·투구 장착 시 추가): 피해 감소 7, 모든 저항 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Sol", "Um", "Um"], "level": 47 }
+    },
+    {
+      "type": "runeword",
+      "name": "검은딸기 (Bramble)",
+      "description": "조합: 랄 + 오움 + 수르 + 에드 (Ral + Ohm + Sur + Eth)\n레벨 제한: 61\n적용: 4소켓 갑옷\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 타격 회복 +50%\n• 방어력 +300\n• 장착 시 레벨 15-21 쏜즈(Thorns) 오라\n• 처치 시 생명력 +13\n• 독 스킬 피해 +25-50%\n• 독 저항 +100%\n• 레벨 13 스피리트 오브 바브(Spirit of Barbs) (33회 충전)\n룬 옵션 (갑옷·투구 장착 시 추가): 화염 저항 +30%, 최대 냉기 저항 +5%, 최대 마나 +5%, 마나 재생 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷", "엔드게임"],
+      "meta": { "base": "4소켓 갑옷", "runes": ["Ral", "Ohm", "Sur", "Eth"], "level": 61 }
+    },
+    {
+      "type": "runeword",
+      "name": "초승달 룬워드 (Crescent Moon)",
+      "description": "조합: 샤에 + 우움 + 티르 (Shael + Um + Tir)\n레벨 제한: 47\n적용: 3소켓 도끼/검/폴암\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 적 번개 저항 -35%\n• 대상 방어력 무시\n• 피해 +180-220%\n• 마법 피해 흡수 +9-11\n• 레벨 18 스피리트 울프(Summon Spirit Wolf) (30회 충전)\n• 타격 시 7% 확률로 레벨 13 스태틱 필드(Static Field) 시전\n• 타격 시 10% 확률로 레벨 17 체인 라이트닝(Chain Lightning) 시전\n룬 옵션 (무기 장착 시 추가): 공격 속도 +20%, 상처 악화 확률 25%, 처치 시 마나 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "도끼", "검", "폴암"],
+      "meta": { "base": "3소켓 도끼/검/폴암", "runes": ["Shael", "Um", "Tir"], "level": 47 }
+    },
+    {
+      "type": "runeword",
+      "name": "파괴 (Destruction)",
+      "description": "조합: 벡스 + 로 + 베르 + 조 + 코 (Vex + Lo + Ber + Jah + Ko)\n레벨 제한: 65\n적용: 5소켓 폴암/검\n도입: 원작 패치 1.10 — 원래 래더 전용, 현재 비래더에서도 제작 가능\n\n룬워드 효과:\n• 피해 +350%\n• 마법 피해 +100-180\n• 타격 시 5% 확률로 레벨 23 몰튼 보울더(Molten Boulder) 시전\n• 사망 시 100% 확률로 레벨 45 메테오(Meteor) 시전\n• 공격 시 15% 확률로 레벨 22 노바(Nova) 시전\n• 타격 시 23% 확률로 레벨 12 볼케이노(Volcano) 시전\n• 몬스터 회복 방지\n룬 옵션 (무기 장착 시 추가): 마나 흡수 7%, 치명적 공격 20%, 강타 확률 20%, 대상 방어력 무시, 민첩 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "폴암", "검", "구래더", "엔드게임"],
+      "meta": { "base": "5소켓 폴암/검", "runes": ["Vex", "Lo", "Ber", "Jah", "Ko"], "level": 65 }
+    },
+    {
+      "type": "runeword",
+      "name": "드레곤 (Dragon)",
+      "description": "조합: 수르 + 로 + 솔 (Sur + Lo + Sol)\n레벨 제한: 61\n적용: 3소켓 갑옷/방패\n도입: 원작 패치 1.10 — 원래 래더 전용, 현재 비래더에서도 제작 가능\n\n룬워드 효과:\n• 방어력 +360\n• 원거리 방어력 +230\n• 힘 +0-37 (레벨당 0.375)\n• 타격 시 12% 확률로 레벨 15 하이드라(Hydra) 시전\n• 피격 시 20% 확률로 레벨 18 베넘(Venom) 시전\n• 장착 시 레벨 14 홀리 파이어(Holy Fire) 오라\n• 모든 능력치 +3-5\n룬 옵션 (갑옷·투구 장착 시 추가): 최대 마나 +5%, 최대 번개 저항 +5%, 피해 감소 7\n룬 옵션 (방패 장착 시 추가): 마나 +50, 최대 번개 저항 +5%, 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷", "방패", "구래더", "엔드게임"],
+      "meta": { "base": "3소켓 갑옷/방패", "runes": ["Sur", "Lo", "Sol"], "level": 61 }
+    },
+    {
+      "type": "runeword",
+      "name": "계몽 (Enlightenment)",
+      "description": "조합: 풀 + 랄 + 솔 (Pul + Ral + Sol)\n레벨 제한: 45\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 5% 확률로 레벨 15 파이어 볼(Fire Ball) 시전\n• 피격 시 5% 확률로 레벨 15 블레이즈(Blaze) 시전\n• +2 소서리스 스킬\n• +1 웜쓰(Warmth)\n룬 옵션 (갑옷·투구 장착 시 추가): 방어력 +30%, 화염 저항 +30%, 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Pul", "Ral", "Sol"], "level": 45 }
+    },
+    {
+      "type": "runeword",
+      "name": "불멸 (Eternity)",
+      "description": "조합: 앰 + 베르 + 아이스트 + 솔 + 수르 (Amn + Ber + Ist + Sol + Sur)\n레벨 제한: 63\n적용: 5소켓 근접 무기\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 피해 +260-310%\n• 파괴 불가\n• 대상 둔화 33%\n• 레벨 8 리바이브(Revive) (88회 충전)\n• 생명력 재생 +16\n• 마나 재생 +16%\n• 빙결되지 않음\n룬 옵션 (무기 장착 시 추가): 생명력 흡수 7%, 강타 확률 20%, 매직 아이템 발견 +30%, 최소 피해 +9, 타격 시 대상 실명 +1\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "근접 무기", "엔드게임"],
+      "meta": { "base": "5소켓 근접 무기", "runes": ["Amn", "Ber", "Ist", "Sol", "Sur"], "level": 63 }
+    },
+    {
+      "type": "runeword",
+      "name": "기근 (Famine)",
+      "description": "조합: 팔 + 오움 + 오르트 + 조 (Fal + Ohm + Ort + Jah)\n레벨 제한: 65\n적용: 4소켓 도끼/해머\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 피해 +270-320%\n• 생명력 흡수 12%\n• 공격 속도 +30%\n• 몬스터 회복 방지\n• 마법 피해 +180-200\n• 화염·번개·냉기 피해 +50-200\n• 무형(수리 불가)\n룬 옵션 (무기 장착 시 추가): 힘 +10, 피해 +50%, 번개 피해 +1-50, 대상 방어력 무시\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "도끼", "해머", "엔드게임"],
+      "meta": { "base": "4소켓 도끼/해머", "runes": ["Fal", "Ohm", "Ort", "Jah"], "level": 65 }
+    },
+    {
+      "type": "runeword",
+      "name": "우울 (Gloom)",
+      "description": "조합: 팔 + 우움 + 풀 (Fal + Um + Pul)\n레벨 제한: 47\n적용: 3소켓 갑옷\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 방어력 +170-230%\n• 모든 저항 +30\n• 피격 시 15% 확률로 레벨 3 딤 비젼(Dim Vision) 시전\n• 타격 회복 +10%\n• 받은 피해 마나 전환 5%\n• 빛 반경 -3\n• 빙결 지속시간 절반\n룬 옵션 (갑옷·투구 장착 시 추가): 힘 +10, 모든 저항 +15, 방어력 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Fal", "Um", "Pul"], "level": 47 }
+    },
+    {
+      "type": "runeword",
+      "name": "신성한 번개 (Holy Thunder)",
+      "description": "조합: 에드 + 랄 + 오르트 + 탈 (Eth + Ral + Ort + Tal)\n레벨 제한: 21\n적용: 4소켓 셉터\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 피해 +60%\n• 번개 피해 +20-60\n• 최대 피해 +10\n• 번개 저항 +60%\n• 최대 번개 저항 +5%\n• +3 홀리 쇼크(Holy Shock) (팔라딘 전용)\n• 레벨 7 체인 라이트닝(Chain Lightning) (60회 충전)\n룬 옵션 (무기 장착 시 추가): 대상 방어력 -25%, 화염 피해 +5-30, 번개 피해 +1-50, 독 피해 +75 (5초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "셉터"],
+      "meta": { "base": "4소켓 셉터", "runes": ["Eth", "Ral", "Ort", "Tal"], "level": 21 }
+    },
+    {
+      "type": "runeword",
+      "name": "명예 (Honor)",
+      "description": "조합: 앰 + 엘 + 아이드 + 티르 + 솔 (Amn + El + Ith + Tir + Sol)\n레벨 제한: 27\n적용: 5소켓 근접 무기\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 피해 +160%\n• 생명력 재생 +10\n• +1 모든 스킬\n• 명중률 +200\n• 치명적 공격 25%\n• 힘 +10\n룬 옵션 (무기 장착 시 추가): 생명력 흡수 7%, 빛 반경 +1, 명중률 +50, 최대 피해 +9, 처치 시 마나 +2, 최소 피해 +9\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "근접 무기"],
+      "meta": { "base": "5소켓 근접 무기", "runes": ["Amn", "El", "Ith", "Tir", "Sol"], "level": 27 }
+    },
+    {
+      "type": "runeword",
+      "name": "왕의 자비 (King's Grace)",
+      "description": "조합: 앰 + 랄 + 주울 (Amn + Ral + Thul)\n레벨 제한: 25\n적용: 3소켓 검/셉터\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 피해 +100%\n• 명중률 +150\n• 악마 대상 피해 +100%\n• 언데드 대상 피해 +50%\n• 악마 대상 명중률 +100\n• 언데드 대상 명중률 +100\n룬 옵션 (무기 장착 시 추가): 생명력 흡수 7%, 화염 피해 +5-30, 냉기 피해 +3-14 (3초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "검", "셉터"],
+      "meta": { "base": "3소켓 검/셉터", "runes": ["Amn", "Ral", "Thul"], "level": 25 }
+    },
+    {
+      "type": "runeword",
+      "name": "꽃잎 (Leaf)",
+      "description": "조합: 티르 + 랄 (Tir + Ral)\n레벨 제한: 19\n적용: 2소켓 지팡이\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• +3 화염 스킬\n• 방어력 +2-198 (레벨당 2)\n• 냉기 저항 +33%\n• +3 인페르노(Inferno) (소서리스 전용)\n• +3 파이어 볼트(Fire Bolt) (소서리스 전용)\n• +3 웜쓰(Warmth) (소서리스 전용)\n룬 옵션 (무기 장착 시 추가): 처치 시 마나 +2, 화염 피해 +5-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "지팡이"],
+      "meta": { "base": "2소켓 지팡이", "runes": ["Tir", "Ral"], "level": 19 }
+    },
+    {
+      "type": "runeword",
+      "name": "용맹한자 (Lionheart)",
+      "description": "조합: 헬 + 룸 + 팔 (Hel + Lum + Fal)\n레벨 제한: 41\n적용: 3소켓 갑옷\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 힘 +15\n• 활력 +20\n• 민첩 +15\n• 피해 +20%\n• 생명력 +50\n• 모든 저항 +30\n룬 옵션 (갑옷·투구 장착 시 추가): 요구치 -15%, 에너지 +10, 힘 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Hel", "Lum", "Fal"], "level": 41 }
+    },
+    {
+      "type": "runeword",
+      "name": "기억 (Memory)",
+      "description": "조합: 룸 + 포 + 솔 + 에드 (Lum + Io + Sol + Eth)\n레벨 제한: 37\n적용: 4소켓 지팡이\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 최대 마나 +20%\n• 마법 피해 감소 7\n• 방어력 +50%\n• 시전 속도 +33%\n• +3 소서리스 스킬\n• +3 에너지 쉴드(Energy Shield) (소서리스 전용)\n• +2 스태틱 필드(Static Field) (소서리스 전용)\n룬 옵션 (무기 장착 시 추가): 에너지 +10, 활력 +10, 최소 피해 +9, 대상 방어력 -25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "지팡이"],
+      "meta": { "base": "4소켓 지팡이", "runes": ["Lum", "Io", "Sol", "Eth"], "level": 37 }
+    },
+    {
+      "type": "runeword",
+      "name": "신화 (Myth)",
+      "description": "조합: 헬 + 앰 + 네프 (Hel + Amn + Nef)\n레벨 제한: 25\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 10% 확률로 레벨 1 타운트(Taunt) 시전\n• 피격 시 3% 확률로 레벨 1 하울(Howl) 시전\n• +2 야만용사 스킬\n• 생명력 재생 +10\n룬 옵션 (갑옷·투구 장착 시 추가): 요구치 -15%, 공격자 피해 반사 14, 원거리 방어력 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Hel", "Amn", "Nef"], "level": 25 }
+    },
+    {
+      "type": "runeword",
+      "name": "천저 (Nadir)",
+      "description": "조합: 네프 + 티르 (Nef + Tir)\n레벨 제한: 13\n적용: 2소켓 투구\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 방어력 +50%\n• 방어력 +10\n• 빛 반경 -3\n• 레벨 13 클럭 오브 쉐도우(Cloak of Shadows) (9회 충전)\n• 골드 획득 -33%\n• 힘 +5\n룬 옵션 (갑옷·투구 장착 시 추가): 원거리 방어력 +30, 처치 시 마나 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "투구"],
+      "meta": { "base": "2소켓 투구", "runes": ["Nef", "Tir"], "level": 13 }
+    },
+    {
+      "type": "runeword",
+      "name": "열정 (Passion)",
+      "description": "조합: 돌 + 오르트 + 엘드 + 렘 (Dol + Ort + Eld + Lem)\n레벨 제한: 43\n적용: 4소켓 무기\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 피해 +160-210%\n• +1 질(Zeal)\n• 명중률 +50-80%\n• +1 버서크(Berserk)\n• 공격 속도 +25%\n• 레벨 3 하트 오브 울버린(Heart of Wolverine) (12회 충전)\n• 타격 시 대상 실명 +10\n룬 옵션 (무기 장착 시 추가): 타격 시 몬스터 도주 32%, 번개 피해 +1-50, 언데드 대상 명중률 +50, 언데드 대상 피해 +75%, 골드 획득 +75%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "무기"],
+      "meta": { "base": "4소켓 무기", "runes": ["Dol", "Ort", "Eld", "Lem"], "level": 43 }
+    },
+    {
+      "type": "runeword",
+      "name": "평화 (Peace)",
+      "description": "조합: 샤에 + 주울 + 앰 (Shael + Thul + Amn)\n레벨 제한: 29\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 2% 확률로 레벨 15 발키리(Valkyrie) 시전\n• 피격 시 4% 확률로 레벨 5 슬로우 미사일(Slow Missiles) 시전\n• +2 아마존 스킬\n• +2 크리티컬 스트라이크(Critical Strike)\n룬 옵션 (갑옷·투구 장착 시 추가): 타격 회복 +20%, 냉기 저항 +30%, 공격자 피해 반사 14\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Shael", "Thul", "Amn"], "level": 29 }
+    },
+    {
+      "type": "runeword",
+      "name": "자존심 (Pride)",
+      "description": "조합: 차암 + 수르 + 포 + 로 (Cham + Sur + Io + Lo)\n레벨 제한: 67\n적용: 4소켓 폴암/창\n도입: 원작 패치 1.10 — 원래 래더 전용, 현재 비래더에서도 제작 가능\n\n룬워드 효과:\n• 악마 대상 피해 +1-99% (레벨당 1)\n• 번개 피해 +50-280\n• 명중률 +260-300%\n• 장착 시 레벨 16-20 컨센트레이션(Concentration) 오라\n• 피격 시 25% 확률로 레벨 17 파이어 월(Fire Wall) 시전\n• 생명력 재생 +8\n• 골드 획득 +1-185% (레벨당 1.875)\n룬 옵션 (무기 장착 시 추가): 대상 빙결 +3, 타격 시 대상 실명 +1, 활력 +10, 치명적 공격 20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "폴암", "창", "구래더", "엔드게임"],
+      "meta": { "base": "4소켓 폴암/창", "runes": ["Cham", "Sur", "Io", "Lo"], "level": 67 }
+    },
+    {
+      "type": "runeword",
+      "name": "원리원칙 (Principle)",
+      "description": "조합: 랄 + 굴 + 엘드 (Ral + Gul + Eld)\n레벨 제한: 53\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 100% 확률로 레벨 5 홀리 볼트(Holy Bolt) 시전\n• +2 팔라딘 스킬\n• 생명력 +100-150\n• 언데드 대상 피해 +50%\n룬 옵션 (갑옷·투구 장착 시 추가): 화염 저항 +30%, 최대 독 저항 +5%, 지구력 소모 감소 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Ral", "Gul", "Eld"], "level": 53 }
+    },
+    {
+      "type": "runeword",
+      "name": "찬란한 빛 (Radiance)",
+      "description": "조합: 네프 + 솔 + 아이드 (Nef + Sol + Ith)\n레벨 제한: 27\n적용: 3소켓 투구\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 빛 반경 +5\n• 에너지 +10\n• 활력 +10\n• 마법 피해 감소 3\n• 마나 +33\n• 방어력 +75%\n룬 옵션 (갑옷·투구 장착 시 추가): 원거리 방어력 +30, 피해 감소 7, 받은 피해 마나 전환 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "투구"],
+      "meta": { "base": "3소켓 투구", "runes": ["Nef", "Sol", "Ith"], "level": 27 }
+    },
+    {
+      "type": "runeword",
+      "name": "비 (Rain)",
+      "description": "조합: 오르트 + 말 + 아이드 (Ort + Mal + Ith)\n레벨 제한: 49\n적용: 3소켓 갑옷\n도입: 원작 패치 1.11\n\n룬워드 효과:\n• 타격 시 5% 확률로 레벨 15 트위스터(Twister) 시전\n• 피격 시 5% 확률로 레벨 15 사이클론 아머(Cyclone Armor) 시전\n• +2 드루이드 스킬\n• 마나 +100-150\n룬 옵션 (갑옷·투구 장착 시 추가): 번개 저항 +30%, 마법 피해 감소 7, 받은 피해 마나 전환 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Ort", "Mal", "Ith"], "level": 49 }
+    },
+    {
+      "type": "runeword",
+      "name": "제왕 운시 (Rhyme)",
+      "description": "조합: 샤에 + 에드 (Shael + Eth)\n레벨 제한: 29\n적용: 2소켓 방패\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 막기 속도 +20%\n• 막기 확률 +20%\n• 모든 저항 +25\n• 빙결되지 않음\n• 골드 획득 +50%\n• 매직 아이템 발견 +25%\n룬 옵션 (방패 장착 시 추가): 막기 속도 +20%, 마나 재생 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "방패"],
+      "meta": { "base": "2소켓 방패", "runes": ["Shael", "Eth"], "level": 29 }
+    },
+    {
+      "type": "runeword",
+      "name": "균열 (Rift)",
+      "description": "조합: 헬 + 코 + 렘 + 굴 (Hel + Ko + Lem + Gul)\n레벨 제한: 53\n적용: 4소켓 폴암/셉터\n도입: 원작 패치 1.10 — 원래 래더 전용, 현재 비래더에서도 제작 가능\n\n룬워드 효과:\n• 마법 피해 +160-250\n• 화염 피해 +60-180\n• 받은 피해 마나 전환 38%\n• 타격 시 20% 확률로 레벨 16 토네이도(Tornado) 시전\n• 공격 시 16% 확률로 레벨 21 프로즌 오브(Frozen Orb) 시전\n• 레벨 15 아이언 메이든(Iron Maiden) (40회 충전)\n• 모든 능력치 +5-10\n룬 옵션 (무기 장착 시 추가): 요구치 -20%, 민첩 +10, 골드 획득 +75%, 명중률 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "폴암", "셉터", "구래더"],
+      "meta": { "base": "4소켓 폴암/셉터", "runes": ["Hel", "Ko", "Lem", "Gul"], "level": 53 }
+    },
+    {
+      "type": "runeword",
+      "name": "성역 (Sanctuary)",
+      "description": "조합: 코 + 코 + 말 (Ko + Ko + Mal)\n레벨 제한: 49\n적용: 3소켓 방패\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 막기 확률 +20%\n• 막기 속도 +20%\n• 방어력 +130-160%\n• 원거리 방어력 +250\n• 모든 저항 +50-70\n• 타격 회복 +20%\n• 레벨 12 슬로우 미사일(Slow Missiles) (60회 충전)\n룬 옵션 (방패 장착 시 추가): 민첩 +20, 마법 피해 감소 7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "방패"],
+      "meta": { "base": "3소켓 방패", "runes": ["Ko", "Ko", "Mal"], "level": 49 }
+    },
+    {
+      "type": "runeword",
+      "name": "스플렌더 (Splendor)",
+      "description": "조합: 에드 + 룸 (Eth + Lum)\n레벨 제한: 37\n적용: 2소켓 방패\n도입: 원작 패치 1.10\n\n룬워드 효과:\n• 빛 반경 +3\n• 골드 획득 +50%\n• 매직 아이템 발견 +20%\n• 방어력 +60-100%\n• 막기 속도 +20%\n• 시전 속도 +10%\n• +1 모든 스킬\n룬 옵션 (방패 장착 시 추가): 마나 재생 +15%, 에너지 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "방패"],
+      "meta": { "base": "2소켓 방패", "runes": ["Eth", "Lum"], "level": 37 }
+    },
+    {
+      "type": "runeword",
+      "name": "스틸 (Steel)",
+      "description": "조합: 티르 + 엘 (Tir + El)\n레벨 제한: 13\n적용: 2소켓 검/도끼/둔기\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 공격 속도 +25%\n• 최소 피해 +3\n• 최대 피해 +3\n• 상처 악화 확률 50%\n• 피해 +20%\n룬 옵션 (무기 장착 시 추가): 처치 시 마나 +2, 빛 반경 +1, 명중률 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "검", "도끼", "둔기"],
+      "meta": { "base": "2소켓 검/도끼/둔기", "runes": ["Tir", "El"], "level": 13 }
+    },
+    {
+      "type": "runeword",
+      "name": "스트랭쓰 (Strength)",
+      "description": "조합: 앰 + 티르 (Amn + Tir)\n레벨 제한: 25\n적용: 2소켓 근접 무기\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 힘 +20\n• 피해 +35%\n• 활력 +10\n• 강타 확률 25%\n룬 옵션 (무기 장착 시 추가): 생명력 흡수 7%, 처치 시 마나 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "근접 무기"],
+      "meta": { "base": "2소켓 근접 무기", "runes": ["Amn", "Tir"], "level": 25 }
+    },
+    {
+      "type": "runeword",
+      "name": "베넘 (Venom)",
+      "description": "조합: 탈 + 돌 + 말 (Tal + Dol + Mal)\n레벨 제한: 49\n적용: 3소켓 무기\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 독 피해 +213 (7초)\n• 대상 방어력 무시\n• 레벨 15 포이즌 익스플로젼(Poison Explosion) (27회 충전)\n• 레벨 13 포이즌 노바(Poison Nova) (11회 충전)\n• 마나 흡수 7%\n룬 옵션 (무기 장착 시 추가): 독 피해 +75 (5초), 타격 시 몬스터 도주 32%, 몬스터 회복 방지\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "무기"],
+      "meta": { "base": "3소켓 무기", "runes": ["Tal", "Dol", "Mal"], "level": 49 }
+    },
+    {
+      "type": "runeword",
+      "name": "이유있는 항변 (Voice of Reason)",
+      "description": "조합: 렘 + 코 + 엘 + 엘드 (Lem + Ko + El + Eld)\n레벨 제한: 43\n적용: 4소켓 검/둔기\n도입: 원작 패치 1.10 — 원래 래더 전용, 현재 비래더에서도 제작 가능\n\n룬워드 효과:\n• 악마 대상 피해 +220-350%\n• 언데드 대상 피해 +280-300%\n• 냉기 피해 +100-220\n• 적 냉기 저항 -24%\n• 타격 시 18% 확률로 레벨 20 아이스 블래스트(Ice Blast) 시전\n• 타격 시 15% 확률로 레벨 13 프로즌 오브(Frozen Orb) 시전\n• 빙결되지 않음\n룬 옵션 (무기 장착 시 추가): 골드 획득 +75%, 민첩 +10, 빛 반경 +1, 명중률 +50, 언데드 대상 명중률 +50, 언데드 대상 피해 +75%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "검", "둔기", "구래더"],
+      "meta": { "base": "4소켓 검/둔기", "runes": ["Lem", "Ko", "El", "Eld"], "level": 43 }
+    },
+    {
+      "type": "runeword",
+      "name": "웰쓰 (Wealth)",
+      "description": "조합: 렘 + 코 + 티르 (Lem + Ko + Tir)\n레벨 제한: 43\n적용: 3소켓 갑옷\n도입: 원작 패치 1.09\n\n룬워드 효과:\n• 골드 획득 +250%\n• 매직 아이템 발견 +100%\n룬 옵션 (갑옷·투구 장착 시 추가): 골드 획득 +50%, 민첩 +10, 처치 시 마나 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "갑옷"],
+      "meta": { "base": "3소켓 갑옷", "runes": ["Lem", "Ko", "Tir"], "level": 43 }
+    },
+    {
+      "type": "runeword",
+      "name": "래쓰 (Wrath)",
+      "description": "조합: 풀 + 룸 + 베르 + 말 (Pul + Lum + Ber + Mal)\n레벨 제한: 63\n적용: 4소켓 원거리 무기\n도입: 원작 패치 1.10 — 원래 래더 전용, 현재 비래더에서도 제작 가능\n\n룬워드 효과:\n• 악마 대상 피해 +300%\n• 언데드 대상 피해 +250-300%\n• 번개 피해 +41-240\n• 마법 피해 +85-120\n• 타격 시 5% 확률로 레벨 10 라이프 탭(Life Tap) 시전\n• 타격 시 30% 확률로 레벨 1 디크리피파이(Decrepify) 시전\n• 빙결되지 않음\n룬 옵션 (무기 장착 시 추가): 악마 대상 명중률 +100, 악마 대상 피해 +75%, 에너지 +10, 강타 확률 20%, 몬스터 회복 방지\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["runeword", "룬워드", "원거리 무기", "구래더", "엔드게임"],
+      "meta": { "base": "4소켓 원거리 무기", "runes": ["Pul", "Lum", "Ber", "Mal"], "level": 63 }
+    },
 
     {
       "type": "unique",

@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 18로 증가 (v17 캐시 사용자에게 유니크 전체 반영)', () => {
-  assert.equal(version, 18);
+test('DB 버전이 19로 증가 (v18 캐시 사용자에게 누락 룬워드 반영)', () => {
+  assert.equal(version, 19);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -620,4 +620,47 @@ test('유니크 기존 오기 이름 제거 (소환의 재·톱니 이빨 등)',
   for (const bad of ['소환의 재', '톱니 이빨', 'Stone of Jordan / SoJ', 'Harlequin Crest / Shako', '독 독사의 묵주']) {
     assert.ok(!uniques().some((u) => u.name.includes(bad)), bad);
   }
+});
+
+// ── 누락 룬워드 35종 (D2R 게임 데이터 기준) ──
+const runewords = () => items.filter((i) => i.type === 'runeword');
+const rwByEn = (en) => {
+  const it = runewords().find((i) => i.name.endsWith(`(${en})`));
+  assert.ok(it, `룬워드 없음: ${en}`);
+  return it;
+};
+
+test('룬워드: 기존 63 + 신규 35 = 98종, 게임 데이터 항목 35종', () => {
+  assert.equal(runewords().length, 98);
+  assert.equal(runewords().filter((r) => r.description.includes(GAMEDATA_NOTE)).length, 35);
+  assert.ok(rwByEn('Enigma') && rwByEn('Infinity'), '기존 룬워드 유지');
+});
+
+test('룬워드: 소켓 수 = 룬 개수 (2룬 강철~5룬 불멸 경계), 레벨 = 최고 룬 요구 레벨', () => {
+  for (const r of runewords().filter((x) => x.description.includes(GAMEDATA_NOTE))) {
+    const sockets = Number((r.meta.base.match(/^(\d)소켓/) || [])[1]);
+    assert.equal(sockets, r.meta.runes.length, r.name);
+    assert.ok(Number.isInteger(r.meta.level) && r.meta.level >= 1 && r.meta.level <= 99, r.name);
+  }
+  assert.deepEqual(rwByEn('Steel').meta.runes, ['Tir', 'El']);
+  assert.equal(rwByEn('Eternity').meta.runes.length, 5);
+  assert.equal(rwByEn('Eternity').meta.level, 63);
+  assert.equal(rwByEn('Pride').meta.level, 67);
+});
+
+test('룬워드 영문명 중복 없음', () => {
+  const en = runewords().map((r) => (r.name.match(/\(([^()]*)\)$/) || [])[1]).filter(Boolean);
+  assert.equal(new Set(en).size, en.length);
+});
+
+test('신규 룬워드 대표 수치: 자존심·불멸·야수·웰쓰·드레곤', () => {
+  assert.match(rwByEn('Pride').description, /장착 시 레벨 16-20 컨센트레이션\(Concentration\) 오라/);
+  const eternity = rwByEn('Eternity').description;
+  assert.match(eternity, /레벨 8 리바이브\(Revive\) \(88회 충전\)/);
+  assert.match(eternity, /룬 옵션 \(무기 장착 시 추가\):[^\n]*생명력 흡수 7%/);
+  assert.match(rwByEn('Beast').description, /장착 시 레벨 9 파나티시즘\(Fanaticism\) 오라/);
+  const wealth = rwByEn('Wealth').description;
+  assert.ok(wealth.includes('골드 획득 +250%') && wealth.includes('매직 아이템 발견 +100%'));
+  assert.match(rwByEn('Dragon').description, /원래 래더 전용/);
+  assert.match(rwByEn('Dragon').description, /룬 옵션 \(방패 장착 시 추가\)/);
 });
