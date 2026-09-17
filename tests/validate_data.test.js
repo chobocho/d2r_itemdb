@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 22로 증가 (v21 캐시 사용자에게 세트 D2R 수치 반영)', () => {
-  assert.equal(version, 22);
+test('DB 버전이 23으로 증가 (v22 캐시 사용자에게 지역·용병 보강 반영)', () => {
+  assert.equal(version, 23);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -742,4 +742,61 @@ test('풀세트 보너스는 부분 보너스 누적 합산 (IK 명중률 450, �
 test('세트 공식 한글명 검색 태그 (사이곤 컴플릿스틸·임모틀 킹)', () => {
   assert.ok(setByEn("Sigon's Complete Steel").tags.includes('사이곤컴플릿스틸'));
   assert.ok(setByEn('Immortal King').tags.includes('임모틀킹'));
+});
+
+// ── 지역·용병 보강 (지역 레벨·용병 스킬: D2R 게임 데이터) ──
+const areas = () => items.filter((i) => i.type === 'area');
+const areaByEn = (en) => {
+  const it = areas().find((a) => a.name.includes(`(${en})`));
+  assert.ok(it, `지역 없음: ${en}`);
+  return it;
+};
+const mercByAct = (act) => {
+  const it = items.find((i) => i.type === 'merc' && i.meta.act === act);
+  assert.ok(it, `용병 없음: 액트 ${act}`);
+  return it.description;
+};
+
+test('기존 지역 헬 레벨 정정: 카운테스 79·트라빈컬 82·니흘라탁 84·안다리엘 73', () => {
+  assert.equal(areaByEn('The Countess Tower').meta.level, 79);
+  assert.equal(areaByEn('Travincal').meta.level, 82);
+  assert.equal(areaByEn("Nihlathak's Temple").meta.level, 84);
+  assert.equal(areaByEn('Catacombs Lv4').meta.level, 73);
+  for (const a of areas()) assert.ok(!a.description.includes('D2R에서 레벨 85로 상향') && !a.description.includes('D2R에서 85로 상향'), a.name);
+  assert.ok(!areaByEn('Secret Cow Level').description.includes('재입장 가능'));
+});
+
+const NEW_AREAS = {
+  Mausoleum: [1, 85], 'Underground Passage Level 2': [1, 85], 'Maggot Lair Level 3': [2, 85], 'Arcane Sanctuary': [2, 79],
+  'Swampy Pit': [3, 85], 'Kurast Sewers': [3, 85], 'Kurast Temples': [3, 85], 'Lower Kurast': [3, 80],
+  'Plains of Despair': [4, 83], 'City of the Damned': [4, 84], 'River of Flame': [4, 85], 'Drifter Cavern': [5, 85],
+  'Icy Cellar': [5, 85], 'Red Portal Areas': [5, 85], 'Arreat Summit': [5, 87],
+};
+
+test('신규 파밍 지역 15곳: 액트·헬 지역 레벨이 게임 데이터와 일치', () => {
+  for (const [en, [act, lvl]] of Object.entries(NEW_AREAS)) {
+    const a = areaByEn(en);
+    assert.equal(a.meta.act, act, en);
+    assert.equal(a.meta.level, lvl, en);
+    assert.match(a.description, new RegExp(`헬 ${lvl}`), en);
+  }
+  assert.equal(areas().length, 12 + 15);
+});
+
+test('지역 경계: 모든 지역 meta.level 1~99 정수, 레벨85 태그는 헬 85 지역에만', () => {
+  for (const a of areas()) {
+    assert.ok(Number.isInteger(a.meta.level) && a.meta.level >= 1 && a.meta.level <= 99, a.name);
+    if (a.tags.includes('레벨85')) assert.equal(a.meta.level, 85, a.name);
+  }
+});
+
+test('용병: 2막 나이트메어·헬 오라 6종, 노말 3종 / 5막 이도류형 / 3막 원소별 스킬', () => {
+  const a2 = mercByAct(2);
+  for (const aura of ['Prayer', 'Defiance', 'Blessed Aim', 'Thorns', 'Holy Freeze', 'Might']) assert.ok(a2.includes(aura), aura);
+  assert.match(a2, /노말:[^\n]*Prayer[^\n]*Defiance[^\n]*Blessed Aim/);
+  assert.ok(!/노말:[^\n]*(Might|Holy Freeze|Thorns)/.test(a2), '노말에는 3종만');
+  const a5 = mercByAct(5);
+  for (const sk of ['Frenzy', 'Bash', 'Battle Cry']) assert.ok(a5.includes(sk), sk);
+  const a3 = mercByAct(3);
+  for (const sk of ['Fire Ball', 'Glacial Spike', 'Static Field']) assert.ok(a3.includes(sk), sk);
 });

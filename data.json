@@ -3746,28 +3746,28 @@
     {
       "type": "merc",
       "name": "액트 1 용병 - 로그 (Rogue Scout)",
-      "description": "무기: 활\n오라/스킬: 화염 화살 / 냉기 화살 선택\n\n추천 장비:\n• 무기: 신뢰(Faith) - 광신 오라 제공\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 안다리엘의 얼굴\n\n특징: 광신 오라 제공 시 물리 딜러 최고의 용병\n적합 빌드: 보우마존, 제크마존, 물리 딜러 전반",
+      "description": "무기: 활\n타입 (헬 기준 스킬):\n• 화염형: 이너 사이트(Inner Sight), 파이어 애로우 (Fire Arrow), 익스플로딩 애로우(Exploding Arrow)\n• 냉기형: 이너 사이트(Inner Sight), 콜드 애로우(Cold Arrow), 프리징 애로우(Freezing Arrow)\n\n추천 장비:\n• 무기: 신뢰(Faith) - 광신 오라 제공\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 안다리엘의 얼굴\n\n특징: 광신 오라 제공 시 물리 딜러 최고의 용병\n적합 빌드: 보우마존, 제크마존, 물리 딜러 전반\n\n※ 용병 스킬 출처: D2R 게임 데이터 테이블 (패치 3.3)",
       "tags": ["merc", "act1", "rogue", "활용병", "광신오라"],
       "meta": { "weapon": "Bow", "act": 1 }
     },
     {
       "type": "merc",
       "name": "액트 2 용병 - 사막 전사 (Desert Mercenary)",
-      "description": "무기: 폴암/창\n\n오라 종류 (고용 난이도에 따라 다름):\n• 전투(노말): 기도(프레이어) / 성역(디파이언스)\n• 공격(나이트메어): 축복 조준(블레스드 에임) / 힘(마이트)\n• 방어(헬): 신성한 빙결(홀리 프리즈) / 가시(쏜즈)\n\n추천 장비:\n• 무기: 무한(Infinity) / 통찰(Insight) / 복종(Obedience)\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 안다리엘의 얼굴 / 기욤의 투구\n\n※ 가장 인기 있는 용병. 힘(마이트) 오라 + 물리딜 / 신성한 빙결 + 안전파밍이 대표 조합",
+      "description": "무기: 폴암/창\n\n오라 (고용 난이도별 선택지 — 패치 2.4 용병 개편 이후):\n• 노말: 프레이어(Prayer), 디파이언스(Defiance), 블레시드 에임(Blessed Aim)\n• 나이트메어: 프레이어(Prayer), 디파이언스(Defiance), 블레시드 에임(Blessed Aim), 쏜즈(Thorns), 홀리 프리즈(Holy Freeze), 마이트(Might)\n• 헬: 프레이어(Prayer), 디파이언스(Defiance), 블레시드 에임(Blessed Aim), 쏜즈(Thorns), 홀리 프리즈(Holy Freeze), 마이트(Might)\n※ 공통 공격 스킬: 잽(Jab)\n\n추천 장비:\n• 무기: 무한(Infinity) / 통찰(Insight) / 복종(Obedience)\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 안다리엘의 얼굴 / 기욤의 투구\n\n※ 가장 인기 있는 용병. 힘(마이트) 오라 + 물리딜 / 신성한 빙결 + 안전파밍이 대표 조합\n\n※ 용병 스킬 출처: D2R 게임 데이터 테이블 (패치 3.3)",
       "tags": ["merc", "act2", "사막용병", "폴암", "오라", "인기", "마이트", "홀리프리즈", "선고"],
       "meta": { "weapon": "Polearm/Spear", "act": 2 }
     },
     {
       "type": "merc",
       "name": "액트 3 용병 - 아이언 울프 (Iron Wolf)",
-      "description": "무기: 검 + 방패\n원소 타입: 화염 / 냉기 / 번개 선택\n\n추천 장비:\n• 무기: 법의 집행자(Lawbringer) / 역병(Plague)\n• 방패: 스피릿(Spirit)\n• 갑옷: 배신(Treachery)\n• 투구: 착란(Delirium)\n\n특징: D2R 패치로 대폭 강화. 방패 착용으로 생존력 좋음\n적합 빌드: 캐스터 빌드 보조",
+      "description": "무기: 검 + 방패\n원소 타입 (헬 기준 스킬):\n• 화염형: 파이어 볼트(Fire Bolt), 파이어 볼(Fire Ball), 인첸트(Enchant)\n• 냉기형: 글래셜 스파이크(Glacial Spike), 칠링 아머(Chilling Armor), 아이스 블래스트(Ice Blast)\n• 번개형: 차지드 볼트(Charged Bolt), 라이트닝(Lightning), 스태틱 필드(Static Field)\n\n추천 장비:\n• 무기: 법의 집행자(Lawbringer) / 역병(Plague)\n• 방패: 스피릿(Spirit)\n• 갑옷: 배신(Treachery)\n• 투구: 착란(Delirium)\n\n특징: D2R 패치로 대폭 강화. 방패 착용으로 생존력 좋음\n적합 빌드: 캐스터 빌드 보조\n\n※ 용병 스킬 출처: D2R 게임 데이터 테이블 (패치 3.3)",
       "tags": ["merc", "act3", "아이언울프", "마법사", "원소공격"],
       "meta": { "weapon": "Sword + Shield", "act": 3 }
     },
     {
       "type": "merc",
       "name": "액트 5 용병 - 야만전사 (Barbarian)",
-      "description": "무기: 검 (이도류 가능)\n스킬: 강타(배쉬) / 기절(스턴)\n\n추천 장비:\n• 무기1: 슬픔(Grief) - 최고 물리 딜\n• 무기2: 법의 집행자(Lawbringer) - 감소 저주\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 기욤의 투구 / 안다리엘의 얼굴\n\n특징: D2R 패치로 이도류 사용 가능. 강력한 물리 딜과 탱킹\n적합 빌드: 캐스터 빌드의 물리 보조",
+      "description": "무기: 검 (이도류 가능)\n타입 (헬 기준 스킬):\n• 양손검형: 배쉬(Bash), 스턴(Stun), 배틀 크라이(Battle Cry)\n• 한손검 이도류형: 프렌지(Frenzy), 아이언 스킨(Iron Skin), 타운트(Taunt)\n\n추천 장비:\n• 무기1: 슬픔(Grief) - 최고 물리 딜\n• 무기2: 법의 집행자(Lawbringer) - 감소 저주\n• 갑옷: 인내(Fortitude) / 배신(Treachery)\n• 투구: 기욤의 투구 / 안다리엘의 얼굴\n\n특징: D2R 패치로 이도류 사용 가능. 강력한 물리 딜과 탱킹\n적합 빌드: 캐스터 빌드의 물리 보조\n\n※ 용병 스킬 출처: D2R 게임 데이터 테이블 (패치 3.3)",
       "tags": ["merc", "act5", "barbarian", "바바용병", "이도류", "강타"],
       "meta": { "weapon": "Sword (Dual Wield)", "act": 5 }
     },
@@ -3775,7 +3775,7 @@
     {
       "type": "area",
       "name": "비밀 젖소 레벨 (Secret Cow Level)",
-      "description": "입장 조건: 바알 처치 후, 마을에서 위르트의 다리 + 포탈의 서 큐브 조합\n지역 레벨: 노말 28 / 나이트메어 64 / 헬 81\n\n특징:\n• 넓은 공터에 대량의 몬스터 밀집\n• 룬, 보석, 고급 베이스 아이템 파밍\n• 카우 킹 처치해도 재입장 가능 (D2R 변경사항)\n\n추천 빌드: 광역 딜 (자벨마, 해머딘, 블리자드 소서)",
+      "description": "입장 조건: 바알 처치 후, 마을에서 위르트의 다리 + 포탈의 서 큐브 조합\n지역 레벨: 노말 28 / 나이트메어 64 / 헬 81\n\n특징:\n• 넓은 공터에 대량의 몬스터 밀집\n• 룬, 보석, 고급 베이스 아이템 파밍\n• 카우 킹을 처치하면 해당 난이도에서 포탈을 다시 열 수 없음 — 파밍 시 카우 킹은 피하는 것이 일반적\n\n추천 빌드: 광역 딜 (자벨마, 해머딘, 블리자드 소서)",
       "tags": ["area", "카우", "젖소", "파밍", "룬파밍", "cow"],
       "meta": { "level": 81, "difficulty": "헬" }
     },
@@ -3796,9 +3796,9 @@
     {
       "type": "area",
       "name": "잊힌 탑 (The Countess Tower)",
-      "description": "위치: 액트 1 - 검은 습지 → 잊힌 탑 5층\n지역 레벨: 헬 79~83\n\n특징:\n• 카운테스: 룬 전문 드랍 (헬에서 최대 Ist/Mal)\n• 룬 특수 드랍 테이블 보유\n• 열쇠(Key of Terror) 드랍 - 우버 이벤트용\n\n드랍 룬 범위:\n• 노말: 엘~랄\n• 나이트메어: 엘~이오/코\n• 헬: 엘~이스트(특수), Lo(일반)\n\n추천 빌드: 아무 빌드나 가능 (낮은 난이도)",
+      "description": "위치: 액트 1 - 검은 습지 → 잊힌 탑 5층\n지역 레벨: 헬 75~79 (타워 지하 1~5층, 카운테스는 5층)\n\n특징:\n• 카운테스: 룬 전문 드랍 (헬에서 최대 Ist/Mal)\n• 룬 특수 드랍 테이블 보유\n• 열쇠(Key of Terror) 드랍 - 우버 이벤트용\n\n드랍 룬 범위:\n• 노말: 엘~랄\n• 나이트메어: 엘~이오/코\n• 헬: 엘~이스트(특수), Lo(일반)\n\n추천 빌드: 아무 빌드나 가능 (낮은 난이도)",
       "tags": ["area", "카운테스", "countess", "룬파밍", "열쇠", "act1"],
-      "meta": { "level": 83, "act": 1 }
+      "meta": { "level": 79, "act": 1 }
     },
     {
       "type": "area",
@@ -3817,16 +3817,16 @@
     {
       "type": "area",
       "name": "니흘라탁 사원 (Nihlathak's Temple)",
-      "description": "위치: 액트 5 - 할로게이트 → 니흘라탁의 사원 → 고통의 전당\n지역 레벨: 헬 83~85\n\n특징:\n• 열쇠(Key of Destruction) 드랍 - 우버 이벤트용\n• 니흘라탁: 시체 폭발 주의!\n• 모든 TC87 아이템 드랍 가능\n\n추천 빌드: 해머딘, 텔레포트 있는 캐릭",
-      "tags": ["area", "니흘라탁", "nihlathak", "열쇠", "파밍", "레벨85", "act5"],
-      "meta": { "level": 85, "act": 5 }
+      "description": "위치: 액트 5 - 할로게이트 → 니흘라탁의 사원 → 고통의 전당\n지역 레벨: 헬 83~84 (사원 83, 고통의 전당·보우트의 전당 84)\n\n특징:\n• 열쇠(Key of Destruction) 드랍 - 우버 이벤트용\n• 니흘라탁: 시체 폭발 주의!\n• 모든 TC87 아이템 드랍 가능\n\n추천 빌드: 해머딘, 텔레포트 있는 캐릭",
+      "tags": ["area", "니흘라탁", "nihlathak", "열쇠", "파밍", "act5"],
+      "meta": { "level": 84, "act": 5 }
     },
     {
       "type": "area",
       "name": "트라빈컬 (Travincal)",
-      "description": "위치: 액트 3 - 트라빈컬 (쿠라스트 의회)\n지역 레벨: 헬 83\n\n특징:\n• 의회 의원(Council Member) 3마리 + 수하\n• 고급 룬 드랍 확률 높음 (TC 특수 설정)\n• 매우 빠른 파밍 가능 (마을에서 가까움)\n• 금 파밍 겸용\n\n면역: 화염 면역 다수\n추천 빌드: 해머딘, 저거넛, 야만 호드릭",
+      "description": "위치: 액트 3 - 트라빈컬 (쿠라스트 의회)\n지역 레벨: 헬 82\n\n특징:\n• 의회 의원(Council Member) 3마리 + 수하\n• 고급 룬 드랍 확률 높음 (TC 특수 설정)\n• 매우 빠른 파밍 가능 (마을에서 가까움)\n• 금 파밍 겸용\n\n면역: 화염 면역 다수\n추천 빌드: 해머딘, 저거넛, 야만 호드릭",
       "tags": ["area", "트라빈컬", "travincal", "의회", "룬파밍", "고룬", "act3"],
-      "meta": { "level": 83, "act": 3 }
+      "meta": { "level": 82, "act": 3 }
     },
     {
       "type": "area",
@@ -3838,23 +3838,128 @@
     {
       "type": "area",
       "name": "앤디 (Catacombs Lv4)",
-      "description": "위치: 액트 1 - 카타콤 4층\n지역 레벨: 헬 79\n\n특징:\n• 안다리엘 보스 파밍\n• 퀘스트 드랍 버그: 최초 처치 시 드랍률 향상 (모든 난이도)\n• TC69까지 드랍 가능\n• 열쇠(Key of Terror) 대안 파밍\n\n주요 드랍: SoJ, 레이븐프로스트, 각종 유니크 반지/아뮬렛\n추천 빌드: 거의 모든 빌드",
+      "description": "위치: 액트 1 - 카타콤 4층\n지역 레벨: 헬 73\n\n특징:\n• 안다리엘 보스 파밍\n• 퀘스트 드랍 버그: 최초 처치 시 드랍률 향상 (모든 난이도)\n• TC69까지 드랍 가능\n• 열쇠(Key of Terror) 대안 파밍\n\n주요 드랍: SoJ, 레이븐프로스트, 각종 유니크 반지/아뮬렛\n추천 빌드: 거의 모든 빌드",
       "tags": ["area", "안다리엘", "andariel", "보스파밍", "act1", "퀘스트버그"],
-      "meta": { "level": 79, "act": 1 }
+      "meta": { "level": 73, "act": 1 }
     },
     {
       "type": "area",
       "name": "스토니 툼 (Stony Tomb)",
-      "description": "위치: 액트 2 - 바위투성이 황무지 → 스토니 툼 1~2층\n지역 레벨: 헬 85\n\n특징:\n• D2R에서 레벨 85로 상향된 지역\n• 비교적 접근 쉬움\n• 모든 TC87 아이템 드랍 가능\n• 몬스터 밀집도 보통\n\n추천 빌드: 대부분의 빌드 가능",
+      "description": "위치: 액트 2 - 바위투성이 황무지 → 스토니 툼 1~2층\n지역 레벨: 헬 85\n\n특징:\n• 원작 확장팩(1.10)부터 헬 레벨 85 지역\n• 비교적 접근 쉬움\n• 모든 TC87 아이템 드랍 가능\n• 몬스터 밀집도 보통\n\n추천 빌드: 대부분의 빌드 가능",
       "tags": ["area", "스토니툼", "stony tomb", "파밍", "레벨85", "act2"],
       "meta": { "level": 85, "act": 2 }
     },
     {
       "type": "area",
       "name": "아라킨 사원 (Arachnid Lair)",
-      "description": "위치: 액트 3 - 거미의 숲 → 아라킨 사원\n지역 레벨: 헬 85\n\n특징:\n• D2R에서 레벨 85로 상향\n• 거미그물 띠(Arachnid Mesh) 테마 매칭\n• 모든 TC87 아이템 드랍 가능\n\n추천 빌드: 대부분의 빌드 가능",
+      "description": "위치: 액트 3 - 거미의 숲 → 아라킨 사원\n지역 레벨: 헬 85\n\n특징:\n• 원작 확장팩(1.10)부터 헬 레벨 85 지역 (게임 내 명칭: 어래크니드 동굴)\n• 거미그물 띠(Arachnid Mesh) 테마 매칭\n• 모든 TC87 아이템 드랍 가능\n\n추천 빌드: 대부분의 빌드 가능",
       "tags": ["area", "아라킨", "거미", "arachnid", "파밍", "레벨85", "act3"],
       "meta": { "level": 85, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "머설리엄 (Mausoleum)",
+      "description": "위치: 액트 1 - 차가운 평원 → 매장지 → 머설리엄\n지역 레벨: 노말 3 / 나이트메어 37 / 헬 85\n\n특징:\n• 헬 레벨 85 — 모든 아이템 등급 드랍 가능\n• 언데드 위주, 규모가 작아 빠른 반복 파밍에 적합\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "머설리엄", "mausoleum", "act1", "파밍", "레벨85", "언데드"],
+      "meta": { "level": 85, "act": 1 }
+    },
+    {
+      "type": "area",
+      "name": "지하통로 2층 (Underground Passage Level 2)",
+      "description": "위치: 액트 1 - 돌밭 → 지하통로 2층\n지역 레벨: 노말 4 / 나이트메어 38 / 헬 85\n\n특징:\n• 헬 레벨 85 (1층은 69)\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "지하통로", "underground passage level 2", "act1", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 1 }
+    },
+    {
+      "type": "area",
+      "name": "마고트 동굴 3층 (Maggot Lair Level 3)",
+      "description": "위치: 액트 2 - 머나먼 오아시스 → 마고트 동굴 3층\n지역 레벨: 노말 17 / 나이트메어 46 / 헬 85\n\n특징:\n• 헬 레벨 85 (1~2층은 84)\n• 좁은 통로 구조라 관통·원거리 빌드에 유리\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "마고트", "maggot lair level 3", "act2", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 2 }
+    },
+    {
+      "type": "area",
+      "name": "아케인 생츄어리 (Arcane Sanctuary)",
+      "description": "위치: 액트 2 - 궁전 지하 → 아케인 생츄어리 (소환사)\n지역 레벨: 노말 14 / 나이트메어 48 / 헬 79\n\n특징:\n• 소환사(The Summoner) 처치 — 헬에서 증오의 열쇠(Key of Hate) 드랍 (우버 이벤트용)\n• 텔레포트로 빠른 이동 가능\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "아케인", "arcane sanctuary", "act2", "파밍", "소환사", "열쇠"],
+      "meta": { "level": 79, "act": 2 }
+    },
+    {
+      "type": "area",
+      "name": "스웜피 피트 1~3층 (Swampy Pit)",
+      "description": "위치: 액트 3 - 플레이어 정글 → 스웜피 피트\n지역 레벨: 노말 21 / 나이트메어 51 / 헬 85\n\n특징:\n• 1~3층 모두 헬 레벨 85\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "스웜피", "swampy pit", "act3", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "쿠라스트 하수구 1~2층 (Kurast Sewers)",
+      "description": "위치: 액트 3 - 쿠라스트 바자 / 상부 쿠라스트 → 하수구\n지역 레벨: 노말 23~24 / 나이트메어 52~53 / 헬 85\n\n특징:\n• 1~2층 모두 헬 레벨 85\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "쿠라스트", "kurast sewers", "act3", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "쿠라스트 사원 6곳 (Kurast Temples)",
+      "description": "위치: 액트 3 - 쿠라스트 바자·상부 쿠라스트·쿠라스트 둑길의 소형 사원\n지역 레벨: 노말 23~24 / 나이트메어 53~54 / 헬 85\n\n특징:\n• 폐허의 사원, 버려진 신전, 잊혀진 유적, 잊혀진 사원, 폐허의 신전, 버려진 유적\n• 모두 헬 레벨 85, 규모가 매우 작아 순회 파밍에 적합\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "쿠라스트", "kurast temples", "act3", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "남부 쿠라스트 (Lower Kurast)",
+      "description": "위치: 액트 3 - 남부 쿠라스트\n지역 레벨: 노말 22 / 나이트메어 52 / 헬 80\n\n특징:\n• 오두막의 대형 상자(슈퍼 체스트) 순회로 골드·아이템 파밍\n• 몬스터를 거의 상대하지 않아도 되는 저위험 파밍\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "남부", "lower kurast", "act3", "파밍", "상자", "골드파밍"],
+      "meta": { "level": 80, "act": 3 }
+    },
+    {
+      "type": "area",
+      "name": "절망의 평원 (Plains of Despair)",
+      "description": "위치: 액트 4 - 외부 회랑 → 절망의 평원 (이주얼)\n지역 레벨: 노말 26 / 나이트메어 56 / 헬 83\n\n특징:\n• 이주얼(Izual) 처치 — 퀘스트 보상 스킬 포인트 2\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "절망의", "plains of despair", "act4", "파밍", "이주얼"],
+      "meta": { "level": 83, "act": 4 }
+    },
+    {
+      "type": "area",
+      "name": "지옥 망령의 도시 (City of the Damned)",
+      "description": "위치: 액트 4 - 절망의 평원 → 지옥 망령의 도시\n지역 레벨: 노말 27 / 나이트메어 57 / 헬 84\n\n특징:\n• 헬 레벨 84, 웨이포인트 보유\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "지옥", "city of the damned", "act4", "파밍"],
+      "meta": { "level": 84, "act": 4 }
+    },
+    {
+      "type": "area",
+      "name": "불길의 강 (River of Flame)",
+      "description": "위치: 액트 4 - 지옥 망령의 도시 → 불길의 강\n지역 레벨: 노말 27 / 나이트메어 57 / 헬 85\n\n특징:\n• 헬 레벨 85 — 카오스 생츄어리 직전 지역\n• 헬포지(Hellforge) 퀘스트: 헬 난이도 보상으로 룬 드랍\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "불길의", "river of flame", "act4", "파밍", "레벨85", "헬포지"],
+      "meta": { "level": 85, "act": 4 }
+    },
+    {
+      "type": "area",
+      "name": "드리프터 동굴 (Drifter Cavern)",
+      "description": "위치: 액트 5 - 빙하 길 → 드리프터 동굴\n지역 레벨: 노말 29 / 나이트메어 61 / 헬 85\n\n특징:\n• 헬 레벨 85\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "드리프터", "drifter cavern", "act5", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 5 }
+    },
+    {
+      "type": "area",
+      "name": "아이시 셀라 (Icy Cellar)",
+      "description": "위치: 액트 5 - 고대인의 길 → 아이시 셀라\n지역 레벨: 노말 29 / 나이트메어 62 / 헬 85\n\n특징:\n• 헬 레벨 85, 웨이포인트(고대인의 길) 인접\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "아이시", "icy cellar", "act5", "파밍", "레벨85"],
+      "meta": { "level": 85, "act": 5 }
+    },
+    {
+      "type": "area",
+      "name": "붉은 포탈 지역 (어배던·피트 오브 아케런·인퍼널 피트) (Red Portal Areas)",
+      "description": "위치: 액트 5 - 얼음 감옥 퀘스트 완료 후 열리는 붉은 포탈 3곳\n지역 레벨: 노말 39 / 나이트메어 60~62 / 헬 85\n\n특징:\n• 어배던(Abaddon), 피트 오브 아케런(Pit of Acheron), 인퍼널 피트(Infernal Pit)\n• 모두 헬 레벨 85\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "붉은", "red portal areas", "act5", "파밍", "레벨85", "붉은포탈", "앤야"],
+      "meta": { "level": 85, "act": 5 }
+    },
+    {
+      "type": "area",
+      "name": "아리앗 정상 (Arreat Summit)",
+      "description": "위치: 액트 5 - 아리앗 정상 (고대인 3인)\n지역 레벨: 노말 37 / 나이트메어 68 / 헬 87\n\n특징:\n• 헬 지역 레벨 87 — 게임 내 최고 레벨 지역 중 하나\n• 고대인 처치 후 세계석 성채 진입\n\n※ 지역 레벨 출처: D2R 게임 데이터 테이블 (패치 3.3, 확장팩 지역 레벨 기준)",
+      "tags": ["area", "아리앗", "arreat summit", "act5", "파밍", "고대인"],
+      "meta": { "level": 87, "act": 5 }
     },
 
     {
