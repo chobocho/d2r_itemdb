@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 14로 증가 (v13 캐시 사용자에게 이벤트 탭 보강 반영)', () => {
-  assert.equal(version, 14);
+test('DB 버전이 15로 증가 (v14 캐시 사용자에게 누락 세트 25종 반영)', () => {
+  assert.equal(version, 15);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -329,4 +329,86 @@ test('큐브 레시피 보강: 젖소 포탈, 참회의 징표 4종 에센스, �
   assert.match(d, /참회의 징표/);
   for (const e of ['고통', '증오', '공포', '파괴']) assert.ok(d.includes(e), `에센스: ${e}`);
   assert.match(d, /완전하지 않은 보석 3개|같은 등급 보석 3개/);
+});
+
+// ── 세트 전체 34종 (오리지널 16 + 확장팩 16 + DLC 2, 사곤/시곤 등 누락분 보강) ──
+// 구성 줄 형식: "• 한글명 (English) — 베이스 한글 (Base, 부위), 요구 레벨 N"
+const sets = () => items.filter((i) => i.type === 'set');
+const setByEn = (en) => sets().find((i) => i.name.includes(`(${en})`));
+const pieceLines = (desc) => [...desc.matchAll(/^• .+? \(([^)]+)\) — .+? \(([A-Za-z' -]+), [^)]+\), 요구 레벨 (\d+)$/gm)]
+  .map((m) => ({ name: m[1], base: m[2], level: Number(m[3]) }));
+
+// 신규 25세트: 영문 세트명 → 구성 수
+const NEW_SETS = {
+  "Angelic Raiment": 4, "Arcanna's Tricks": 4, 'Arctic Gear': 4, "Berserker's Arsenal": 3,
+  "Cathan's Traps": 5, "Civerb's Vestments": 3, "Cleglaw's Brace": 3, "Death's Disguise": 3,
+  "Hsarus' Defense": 3, 'Infernal Tools': 3, "Iratha's Finery": 4, "Isenhart's Armory": 4,
+  "Milabrega's Regalia": 4, "Sigon's Complete Steel": 6, "Tancred's Battlegear": 5, "Vidala's Rig": 4,
+  "Bul-Kathos' Children": 2, "Cow King's Leathers": 3, "Heaven's Brethren": 4, "Hwanin's Majesty": 4,
+  "Naj's Ancient Vestige": 3, "Orphan's Call": 4, "Sander's Folly": 4, "Sazabi's Grand Tribute": 3,
+  'The Disciple': 5,
+};
+
+test('세트는 총 34개 (기존 9 + 신규 25)', () => {
+  assert.equal(sets().length, 34);
+});
+
+test('신규 25세트 존재, 구성 줄 수 = meta.pieces = 원작 구성 수', () => {
+  for (const [en, pieces] of Object.entries(NEW_SETS)) {
+    const it = setByEn(en);
+    assert.ok(it, `세트 없음: ${en}`);
+    assert.equal(it.meta.pieces, pieces, en);
+    assert.equal(pieceLines(it.description).length, pieces, `구성 줄 수: ${en}`);
+    assert.ok(it.tags.includes('set') && it.tags.includes('세트'), `태그: ${en}`);
+    assert.match(it.description, /풀세트:/, `풀세트 보너스 누락: ${en}`);
+  }
+});
+
+test('신규 세트 pieces 는 2~6 정수, 요구 레벨은 1~99 정수 (0·100 불가)', () => {
+  for (const en of Object.keys(NEW_SETS)) {
+    const it = setByEn(en);
+    assert.ok(Number.isInteger(it.meta.pieces) && it.meta.pieces >= 2 && it.meta.pieces <= 6, en);
+    for (const p of pieceLines(it.description)) {
+      assert.ok(Number.isInteger(p.level) && p.level >= 1 && p.level <= 99, `${en}: ${p.name}`);
+    }
+  }
+});
+
+test('세트 영문명 및 세트 아이템 영문명 전체 중복 없음', () => {
+  const en = sets().map((s) => (s.name.match(/\(([^)]+)\)$/) || [])[1]);
+  assert.ok(en.every(Boolean), '영문명 표기 누락');
+  assert.equal(new Set(en).size, en.length);
+  const pieces = Object.keys(NEW_SETS).flatMap((n) => pieceLines(setByEn(n).description).map((p) => p.name));
+  assert.equal(new Set(pieces).size, pieces.length);
+});
+
+test("시곤의 강철: 6피스 구성·베이스·요구 레벨 6, '사곤'/'시곤' 검색 가능", () => {
+  const it = setByEn("Sigon's Complete Steel");
+  assert.ok(it.tags.includes('사곤') && it.tags.includes('시곤'));
+  const expect = {
+    "Sigon's Visor": 'Great Helm', "Sigon's Shelter": 'Gothic Plate', "Sigon's Guard": 'Tower Shield',
+    "Sigon's Gage": 'Gauntlets', "Sigon's Sabot": 'Greaves', "Sigon's Wrap": 'Plated Belt',
+  };
+  const lines = pieceLines(it.description);
+  assert.deepEqual(Object.fromEntries(lines.map((p) => [p.name, p.base])), expect);
+  for (const p of lines) assert.equal(p.level, 6, p.name);
+});
+
+test('확장팩 고레벨 세트 대표 구성·요구 레벨 정확', () => {
+  const lv = (en) => Object.fromEntries(pieceLines(setByEn(en).description).map((p) => [p.name, [p.base, p.level]]));
+  assert.deepEqual(lv("Bul-Kathos' Children"), {
+    "Bul-Kathos' Sacred Charge": ['Colossus Blade', 63], "Bul-Kathos' Tribal Guardian": ['Mythical Sword', 66],
+  });
+  assert.deepEqual(lv("Heaven's Brethren")["Taebaek's Glory"], ['Ward', 81]);
+  assert.deepEqual(lv("Naj's Ancient Vestige")["Naj's Puzzler"], ['Elder Staff', 78]);
+  assert.deepEqual(lv('The Disciple').Credendum, ['Mithril Coil', 65]);
+  assert.deepEqual(lv("Orphan's Call")["Magnus' Skin"], ['Sharkskin Gloves', 37]);
+  assert.deepEqual(lv("Cow King's Leathers")["Cow King's Hooves"], ['Heavy Boots', 13]);
+});
+
+test('기존 세트 9종은 신규 추가 후에도 유지', () => {
+  for (const en of ["Tal Rasha's Wrappings", "Immortal King's Call", "Trang-Oul's Avatar", "Griswold's Legacy",
+    "Aldur's Watchtower", "Natalya's Odium", "M'avina's Battle Hymn", "Bane's Garments", "Horazon's Splendor"]) {
+    assert.ok(setByEn(en), en);
+  }
 });
