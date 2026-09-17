@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 21로 증가 (v20 캐시 사용자에게 유니크 요구 레벨·베이스명 정정 반영)', () => {
-  assert.equal(version, 21);
+test('DB 버전이 22로 증가 (v21 캐시 사용자에게 세트 D2R 수치 반영)', () => {
+  assert.equal(version, 22);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -460,7 +460,7 @@ test('기존 세트 7종: 구성 아이템·베이스·요구 레벨이 원작�
     const got = Object.fromEntries(pieceLines(it.description).map((p) => [p.name, [p.base, p.level]]));
     assert.deepEqual(got, expect, en);
     assert.equal(it.meta.pieces, Object.keys(expect).length, en);
-    assert.match(it.description, /출처: Arreat Summit/, en);
+    assert.match(it.description, /출처: D2R 게임 데이터 테이블/, en);
   }
 });
 
@@ -481,7 +481,7 @@ test('세트별 핵심 수치 정정 (IK 강타·트랑 뱀파이어·나탈야 
   assert.match(setByEn('Immortal King').description, /Stone Crusher[^\n]*\n {2}[^\n]*강타 확률 35-40%/);
   assert.ok(fullBonus(setByEn('Immortal King').description).includes('+3 야만용사 스킬'));
   assert.ok(fullBonus(setByEn("Trang-Oul's Avatar").description).includes('뱀파이어'));
-  assert.ok(fullBonus(setByEn("Natalya's Odium").description).includes('피해 30% 감소'));
+  assert.ok(fullBonus(setByEn("Natalya's Odium").description).includes('받는 피해 감소 30%'));
   assert.ok(fullBonus(setByEn("Griswold's Legacy").description).includes('+3 팔라딘 스킬'));
   assert.ok(fullBonus(setByEn("Aldur's Watchtower").description).includes('+3 드루이드 스킬'));
   assert.ok(fullBonus(setByEn("M'avina's Battle Hymn").description).includes('매직 아이템 발견 +100%'));
@@ -510,7 +510,7 @@ const pieceBlock = (en, piece) => {
 test('신규 25세트 모두 출처 명시 및 부분/풀세트 보너스 형식', () => {
   for (const en of Object.keys(NEW_SETS)) {
     const d = setByEn(en).description;
-    assert.match(d, /출처: Arreat Summit/, en);
+    assert.match(d, /출처: D2R 게임 데이터 테이블/, en);
     assert.ok(!d.includes('세부 옵션 수치는 게임 내 확인 필요'), `미검증 문구 잔존: ${en}`);
   }
 });
@@ -720,4 +720,26 @@ test('유니크 베이스명은 게임 내부 오탈자 대신 표시명 사용'
     'Long Siege Bow', 'Stilleto', 'Kriss', 'Saber'];
   for (const u of uniques()) assert.ok(!internal.includes(u.meta.base), `${u.name}: ${u.meta.base}`);
   assert.equal(uniqueByEn('Skewer of Krintiz').meta.base, 'Sabre');
+});
+
+// ── 세트 32종 D2R 게임 데이터 반영 (패치 2.4 세트 상향·2.7 불카토스 변경 등) ──
+test('D2R 세트 변경분: 알드르 4세트 흡혈, 나탈야 독 저항, 불카토스 밀쳐내기 제거', () => {
+  const aldur = setByEn("Aldur's Watchtower").description;
+  assert.match(aldur, /^• 3세트: /m);
+  assert.ok(!/^• 4세트: /m.test(aldur), '4피스 세트의 4세트 줄은 풀세트와 중복이라 생략');
+  assert.ok(fullBonus(aldur).includes('생명력 흡수 10%'));
+  assert.ok(fullBonus(setByEn("Natalya's Odium").description).includes('독 저항 +20%'));
+  assert.ok(!setByEn("Bul-Kathos' Children").description.includes('밀쳐내기'));
+});
+
+test('풀세트 보너스는 부분 보너스 누적 합산 (IK 명중률 450, 트랑 마나 재생 60%)', () => {
+  const ik = fullBonus(setByEn('Immortal King').description);
+  assert.ok(ik.includes('명중률 +450'), ik);
+  assert.ok(!ik.includes('명중률 +50,'), '합산 전 개별 값 잔존');
+  assert.ok(fullBonus(setByEn("Trang-Oul's Avatar").description).includes('마나 재생 +60%'));
+});
+
+test('세트 공식 한글명 검색 태그 (사이곤 컴플릿스틸·임모틀 킹)', () => {
+  assert.ok(setByEn("Sigon's Complete Steel").tags.includes('사이곤컴플릿스틸'));
+  assert.ok(setByEn('Immortal King').tags.includes('임모틀킹'));
 });
