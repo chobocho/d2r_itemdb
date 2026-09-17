@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 28로 증가 (v27 캐시 사용자에게 클래스명 D2R 표기 반영)', () => {
-  assert.equal(version, 28);
+test('DB 버전이 29로 증가 (v28 캐시 사용자에게 지역명 D2R 표기 반영)', () => {
+  assert.equal(version, 29);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -933,4 +933,78 @@ test('클래스 표기 적용 예: 탈 라샤 meta.class·트랑-오울 스킬·
   assert.equal(setByEn("Tal Rasha's Wrappings").meta.class, '원소술사');
   assert.ok(fullBonus(setByEn("Trang-Oul's Avatar").description).includes('+3 강령술사 스킬'));
   assert.match(rwByEn('Exile').meta.base, /성기사 방패/);
+});
+
+// ── 지역명 D2R 표기 (D2R koKR levels 문자열), 이전 음역은 태그로만 유지 ──
+// 영문 괄호명은 areaByEn 조회 키라 유지. 퀘스트명은 D2R 문자열 출처가 없어 대상 아님
+const AREA_D2R = {
+  'Secret Cow Level': ['비밀의 젖소방', '비밀 젖소 레벨'],
+  'Chaos Sanctuary': ['혼돈의 성역', '카오스 생츄어리'],
+  'Ancient Tunnels': ['고대 토굴', '고대의 터널'],
+  "Nihlathak's Temple": ['니흘라탁의 사원', '니흘라탁 사원'],
+  Travincal: ['트라빈칼', '트라빈컬'],
+  'Durance of Hate Lv3': ['증오의 억류지 3층', '메피스토'],
+  'Catacombs Lv4': ['지하 묘지 4층', '앤디'],
+  'Stony Tomb': ['바위 무덤', '스토니 툼'],
+  'Arachnid Lair': ['거미 굴', '아라킨 사원'],
+  Mausoleum: ['영묘', '머설리엄'],
+  'Underground Passage Level 2': ['지하 통로 2층', '지하통로 2층'],
+  'Maggot Lair Level 3': ['구더기 굴 3층', '마고트 동굴 3층'],
+  'Arcane Sanctuary': ['비전의 성역', '아케인 생츄어리'],
+  'Swampy Pit': ['습한 구덩이 1~3층', '스웜피 피트'],
+  'Kurast Sewers': ['쿠라스트 하수도 1~2층', '쿠라스트 하수구'],
+  'Lower Kurast': ['하부 쿠라스트', '남부 쿠라스트'],
+  'City of the Damned': ['저주받은 자들의 도시', '지옥 망령의 도시'],
+  'Drifter Cavern': ['부랑자의 동굴', '드리프터 동굴'],
+  'Icy Cellar': ['얼음 지하실', '아이시 셀라'],
+  'Red Portal Areas': ['붉은 포탈 지역 (나락·아케론의 구덩이·지옥불 구덩이)', '피트 오브 아케런'],
+};
+// 이전 음역·레거시 번역 지역명 — 이름·설명 어디에도 남으면 안 됨 (태그는 검색 호환용으로 허용)
+const LEGACY_PLACES = ['비밀 젖소 레벨', '카오스 생츄어리', '아케인 생츄어리', '고대의 터널', '니흘라탁 사원', '트라빈컬',
+  '스토니 툼', '스토니 필드', '아라킨', '어래크니드', '머설리엄', '지하통로', '마고트', '스웜피', '하수구', '남부 쿠라스트',
+  '지옥 망령', '드리프터', '아이시 셀라', '어배던', '피트 오브 아케런', '인퍼널 피트', '증오의 사원', '카타콤', '파괴의 보좌',
+  '타무에', '타워 지하', '차가운 평원', '돌밭', '플레이어 정글', '쿠라스트 바자', '빙하 길', '할로게이트', '보우트',
+  '거미의 숲', '폐허의 사원', '폐허의 신전', '버려진 신전', '버려진 유적', '잊혀진 사원', '잊혀진 유적', '수도원 안쪽',
+  '수도원 외곽', '외곽 수도원', '루트 거레인', '로그 캠프', '지옥의 성채', '탈 라샤 무덤', '마법사의 협곡', '어둠의 숲', '거대 늪지', '얼어붙은 고원', /(?<!머나)먼 오아시스/];
+
+test('지역 이름 D2R 표기: 20곳 이름 접두어 정정, 이전 표기는 태그로 유지', () => {
+  for (const [en, [now, old]] of Object.entries(AREA_D2R)) {
+    const a = areaByEn(en);
+    assert.equal(a.name, `${now} (${en})`, en);
+    assert.ok(a.tags.includes(old), `${en}: 이전 표기 태그 ${old}`);
+  }
+});
+
+test('이름·설명에 이전 지역 표기 없음 (전 항목)', () => {
+  for (const it of items) {
+    const text = `${it.name}\n${it.description}`;
+    // 정규식 항목은 D2R 표기(머나먼 오아시스)에 포함되는 부분 문자열 오탐 방지용
+    for (const old of LEGACY_PLACES) assert.ok(typeof old === 'string' ? !text.includes(old) : !old.test(text), `${it.name}: ${old}`);
+  }
+});
+
+test('지역 표기 치환 경계: 스킬·아이템명(빙하 가시·뼈 감옥·헬포지 플레이트) 유지, 중복 치환 흔적 없음', () => {
+  const all = items.map((i) => `${i.name}\n${i.description}`).join('\n');
+  for (const keep of ['빙하 가시', '뼈 감옥', '헬포지 플레이트', '얼어붙은 갑옷', '쿠라스트 하수도 2층']) assert.ok(all.includes(keep), keep);
+  for (const bad of ['하수도도', '억류지지', '지하 지하', '성역 성역', '니흘라탁의의', '탈 라샤의의', '빙하의의']) assert.ok(!all.includes(bad), bad);
+});
+
+test('지역 설명 경로 D2R 표기 적용 예: 절망의 평원·니흘라탁·가디언·라다먼트', () => {
+  assert.match(areaByEn('Plains of Despair').description, /평원 외곽 → 절망의 평원/);
+  assert.match(areaByEn("Nihlathak's Temple").description, /하로가스 → 니흘라탁의 사원 → 고통의 전당/);
+  assert.match(areaByEn('Kurast Temples').description, /허물어진 사원, 버려진 교회당, 잊힌 성물실, 잊힌 사원, 허물어진 교회당, 버려진 성물실/);
+  assert.match(questByEn('The Guardian').description, /트라빈칼 → 증오의 억류지 1~3층/);
+  assert.match(questByEn("Radament's Lair").description, /루트 골레인 하수도 3층/);
+  assert.match(questByEn('Sisters to the Slaughter').description, /외부 회랑 → 병영 → 감옥 → 내부 회랑 → 지하 묘지 1~4층/);
+  // 람 에센의 책은 쿠라스트 시장의 Ruined Temple(허물어진 사원) — 기존 '버려진 유적'(Disused Reliquary)은 위치 오기
+  assert.match(questByEn("Lam Esen's Tome").description, /쿠라스트 시장 → 허물어진 사원/);
+});
+
+test('용병: 2막만 D2R 표기 사막 용병, 이전 표기 태그 유지 / 1·3·5막 이름 불변', () => {
+  const merc = (act) => items.find((i) => i.type === 'merc' && i.meta.act === act);
+  assert.equal(merc(2).name, '액트 2 용병 - 사막 용병 (Desert Mercenary)');
+  assert.ok(merc(2).tags.includes('사막 전사'));
+  assert.equal(merc(1).name, '액트 1 용병 - 로그 (Rogue Scout)');
+  assert.equal(merc(3).name, '액트 3 용병 - 아이언 울프 (Iron Wolf)');
+  assert.equal(merc(5).name, '액트 5 용병 - 야만전사 (Barbarian)');
 });
