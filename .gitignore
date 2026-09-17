@@ -1,3 +1,5 @@
 # build.sh 산출물 — 배포 시마다 재생성
 release/
 upload.sh
+# FTP 업로드 비밀번호 (upload.sh 가 읽음)
+.env.upload
