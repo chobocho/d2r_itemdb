@@ -641,115 +641,2691 @@
 
     {
       "type": "unique",
-      "name": "할리퀸 관모 (Harlequin Crest / Shako)",
-      "description": "기본: 샤코 (투구)\n레벨 제한: 62\n효과: +2 모든 스킬, 생명력 +(캐릭 레벨*1.5), 마나 +(캐릭 레벨*1.5), 매직 아이템 드랍 50% 증가, 피해 감소 10%, 모든 능력치 +2\n※ 거의 모든 빌드에 사용되는 최고의 투구",
-      "tags": ["unique", "shako", "샤코", "투구", "종결템", "올스킬"],
-      "meta": { "rarity": "Unique", "base": "Shako" }
+      "name": "더 내셔 (The Gnasher)",
+      "description": "일반 도끼 유니크 — 베이스: 핸드액스 (Hand Axe)\n요구 레벨: 5\n\n옵션:\n• 힘 +8\n• 상처 악화 확률 50%\n• 강타 확률 20%\n• 피해 +60-70%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "핸드액스"],
+      "meta": { "rarity": "Unique", "base": "Hand Axe", "level": 5 }
     },
     {
       "type": "unique",
-      "name": "거미그물 띠 (Arachnid Mesh)",
-      "description": "기본: 스파이더웹 새시 (벨트)\n레벨 제한: 80\n효과: +1 모든 스킬, 시전 속도 +20%, 최대 마나 5% 증가, 감속 기술 부여\n※ 캐스터 클래스 최고의 벨트",
-      "tags": ["unique", "스웹", "벨트", "시전속도", "종결템", "캐스터"],
-      "meta": { "rarity": "Unique", "base": "Spiderweb Sash" }
+      "name": "데쓰스페이드 (Deathspade)",
+      "description": "일반 도끼 유니크 — 베이스: 액스 (Axe)\n요구 레벨: 9\n\n옵션:\n• 타격 시 대상 실명 +1\n• 최소 피해 +8\n• 명중률 +15%\n• 처치 시 마나 +4\n• 피해 +60-70%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "액스"],
+      "meta": { "rarity": "Unique", "base": "Axe", "level": 9 }
     },
     {
       "type": "unique",
-      "name": "그리폰의 눈 (Griffon's Eye)",
-      "description": "기본: 다이아뎀 (투구)\n레벨 제한: 76\n효과: +1 모든 스킬, 시전 속도 +25%, 적의 번개 저항 -15~20%, 번개 기술 피해 +10~15%\n※ 번개 소서리스/자벨린 아마존 최고의 투구",
-      "tags": ["unique", "투구", "다이아뎀", "번개", "소서리스", "아마존", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Diadem" }
+      "name": "블레이드본 (Bladebone)",
+      "description": "일반 도끼 유니크 — 베이스: 더블액스 (Double Axe)\n요구 레벨: 15\n\n옵션:\n• 화염 피해 +8-12\n• 언데드 대상 피해 +100%\n• 언데드 대상 명중률 +40\n• 공격 속도 +20%\n• 방어력 +20\n• 피해 +30-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "더블액스"],
+      "meta": { "rarity": "Unique", "base": "Double Axe", "level": 15 }
     },
     {
       "type": "unique",
-      "name": "파괴의 군주 (Crown of Ages)",
-      "description": "기본: 코로나 (투구)\n레벨 제한: 82\n효과: 피해 감소 10~15%, 모든 저항 +20~30, 소켓 1~2개, 파괴 불가, 타격 회복 속도 +30%\n※ PvP 최고의 방어 투구",
-      "tags": ["unique", "투구", "코로나", "피해감소", "pvp", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Corona" }
+      "name": "스컬 스플리터 (Skull Splitter)",
+      "description": "일반 도끼 유니크 — 베이스: 밀리터리픽 (Military Pick)\n요구 레벨: 21\n\n옵션:\n• 번개 피해 +1-12\n• 타격 시 대상 실명 +2\n• 마나 재생 +20%\n• 명중률 +50-100\n• 피해 +60-100%\n• 상처 악화 확률 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "밀리터리픽"],
+      "meta": { "rarity": "Unique", "base": "Military Pick", "level": 21 }
     },
     {
       "type": "unique",
-      "name": "전쟁의 여행자 (War Traveler)",
-      "description": "기본: 배틀 부츠\n레벨 제한: 42\n효과: 피해 +15~25 추가, 힘 +10, 활력 +10, 달리기/걷기 속도 +25%, 매직 아이템 드랍 30~50% 증가\n※ MF(매직파인드) 파밍 필수 부츠",
-      "tags": ["unique", "부츠", "매파", "파밍", "이동속도"],
-      "meta": { "rarity": "Unique", "base": "Battle Boots" }
+      "name": "레이크스카 (Rakescar)",
+      "description": "일반 도끼 유니크 — 베이스: 워액스 (War Axe)\n요구 레벨: 27\n\n옵션:\n• 독 피해 +38 (3초)\n• 명중률 +50\n• 독 저항 +50%\n• 피해 +75-150%\n• 공격 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "워액스"],
+      "meta": { "rarity": "Unique", "base": "War Axe", "level": 27 }
     },
     {
       "type": "unique",
-      "name": "찬스가드 (Chance Guards)",
-      "description": "기본: 체인 글로브\n레벨 제한: 15\n효과: 매직 아이템 드랍 25~40% 증가, 금 200% 증가, 명중률 +25, 방어력 +20~30\n※ MF 파밍 장갑 필수템",
-      "tags": ["unique", "장갑", "매파", "파밍", "글러브"],
-      "meta": { "rarity": "Unique", "base": "Chain Gloves" }
+      "name": "액스 오브 페크마 (Axe of Fechmar)",
+      "description": "일반 도끼 유니크 — 베이스: 라지액스 (Large Axe)\n요구 레벨: 8\n\n옵션:\n• 피해 +70-90%\n• 대상 빙결 +3\n• 냉기 저항 +50%\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "라지액스"],
+      "meta": { "rarity": "Unique", "base": "Large Axe", "level": 8 }
     },
     {
       "type": "unique",
-      "name": "나겔 반지 (Nagelring)",
-      "description": "기본: 반지\n레벨 제한: 7\n효과: 매직 아이템 드랍 15~30% 증가, 명중률 +50~75, 공격자가 피해 3 받음\n※ 초반 MF 파밍 반지",
-      "tags": ["unique", "반지", "매파", "파밍"],
-      "meta": { "rarity": "Unique", "base": "Ring" }
+      "name": "고어셔벌 (Goreshovel)",
+      "description": "일반 도끼 유니크 — 베이스: 브로드액스 (Broad Axe)\n요구 레벨: 14\n\n옵션:\n• 공격 속도 +30%\n• 힘 +25\n• 상처 악화 확률 60%\n• 피해 +40-50%\n• 최대 피해 +9\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "브로드액스"],
+      "meta": { "rarity": "Unique", "base": "Broad Axe", "level": 14 }
     },
     {
       "type": "unique",
-      "name": "타이탄의 복수 (Titan's Revenge)",
-      "description": "기본: 세리머니얼 자벨린\n레벨 제한: 42\n효과: +2 아마존 스킬, +2 자벨린/창 기술, 피해 +150~200%, 생명력/마나 흡수 5~9%, 달리기/걷기 속도 +30%, 보충됨\n※ 자벨린 아마존 핵심 무기",
-      "tags": ["unique", "자벨린", "아마존", "자벨마", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Ceremonial Javelin" }
+      "name": "더 치프턴 (The Chieftain)",
+      "description": "일반 도끼 유니크 — 베이스: 배틀액스 (Battle Axe)\n요구 레벨: 19\n\n옵션:\n• 피해 +100%\n• 모든 저항 +10-20\n• 처치 시 마나 +6\n• 공격 속도 +20%\n• 번개 피해 +1-40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "배틀액스"],
+      "meta": { "rarity": "Unique", "base": "Battle Axe", "level": 19 }
+    },
+    {
+      "type": "unique",
+      "name": "브레인휴 (Brainhew)",
+      "description": "일반 도끼 유니크 — 베이스: 그레이트액스 (Great Axe)\n요구 레벨: 25\n\n옵션:\n• 최소 피해 +14\n• 마나 +25\n• 빛 반경 +4\n• 마나 흡수 10-13%\n• 피해 +50-80%\n• 화염 피해 +15-35\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "그레이트액스"],
+      "meta": { "rarity": "Unique", "base": "Great Axe", "level": 25 }
+    },
+    {
+      "type": "unique",
+      "name": "휴멍거스 (Humongous)",
+      "description": "일반 도끼 유니크 — 베이스: 자이언트액스 (Giant Axe)\n요구 레벨: 29\n\n옵션:\n• 힘 +20-30\n• 최소 피해 +8\n• 최대 피해 +15-25\n• 강타 확률 33%\n• 요구치 20%\n• 피해 +80-120%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "일반", "자이언트액스"],
+      "meta": { "rarity": "Unique", "base": "Giant Axe", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "토치 오브 이로 (Torch of Iro)",
+      "description": "일반 완드 유니크 — 베이스: 원드 (Wand)\n요구 레벨: 5\n\n옵션:\n• +1 네크로맨서 스킬\n• 생명력 흡수 6%\n• 화염 피해 +5-9\n• 빛 반경 +3\n• 에너지 +10\n• 마나 재생 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "일반", "원드"],
+      "meta": { "rarity": "Unique", "base": "Wand", "level": 5 }
+    },
+    {
+      "type": "unique",
+      "name": "메일스트럼 (Maelstrom)",
+      "description": "일반 완드 유니크 — 베이스: 유원드 (Yew Wand)\n요구 레벨: 14\n\n옵션:\n• 번개 피해 +1-9\n• 번개 저항 +40%\n• 마나 +13\n• 시전 속도 +30%\n• +1-3 커프스 익스플로젼(Corpse Explosion) (네크로맨서 전용)\n• +1-3 테러(Terror) (네크로맨서 전용)\n• +1-3 앰플리파이 데미지(Amplify Damage) (네크로맨서 전용)\n• +1-3 아이언 메이든(Iron Maiden) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "일반", "유원드"],
+      "meta": { "rarity": "Unique", "base": "Yew Wand", "level": 14 }
+    },
+    {
+      "type": "unique",
+      "name": "그레이븐스파인 (Gravenspine)",
+      "description": "일반 완드 유니크 — 베이스: 본원드 (Bone Wand)\n요구 레벨: 20\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 냉기 피해 +4-8\n• 힘 +10\n• 민첩 +10\n• 마나 흡수 5%\n• +2 네크로맨서 스킬\n• 마나 +25-50\n• 시전 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "일반", "본원드"],
+      "meta": { "rarity": "Unique", "base": "Bone Wand", "level": 20 }
+    },
+    {
+      "type": "unique",
+      "name": "우메즈 러먼트 (Ume's Lament)",
+      "description": "일반 완드 유니크 — 베이스: 그림원드 (Grim Wand)\n요구 레벨: 28\n\n옵션:\n• +2 네크로맨서 스킬\n• 마나 +40\n• 시전 속도 +20%\n• 타격 시 몬스터 도주 64%\n• +3 테러(Terror) (네크로맨서 전용)\n• +2 디크리피파이(Decrepify) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "일반", "그림원드"],
+      "meta": { "rarity": "Unique", "base": "Grim Wand", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "펠오크 (Felloak)",
+      "description": "일반 곤봉 유니크 — 베이스: 클럽 (Club)\n요구 레벨: 3\n\n옵션:\n• 화염 피해 +6-8\n• 번개 저항 +60%\n• 화염 저항 +20%\n• 밀쳐내기\n• 피해 +70-80%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "곤봉", "일반", "클럽"],
+      "meta": { "rarity": "Unique", "base": "Club", "level": 3 }
+    },
+    {
+      "type": "unique",
+      "name": "넬 스트라이커 (Knell Striker)",
+      "description": "일반 셉터 유니크 — 베이스: 셉터 (Scepter)\n요구 레벨: 5\n\n옵션:\n• 강타 확률 25%\n• 화염 저항 +20%\n• 독 저항 +20%\n• 마나 +15\n• 명중률 +35\n• 피해 +70-80%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "일반"],
+      "meta": { "rarity": "Unique", "base": "Scepter", "level": 5 }
+    },
+    {
+      "type": "unique",
+      "name": "러스트 핸들 (Rusthandle)",
+      "description": "일반 셉터 유니크 — 베이스: 그랜드셉터 (Grand Scepter)\n요구 레벨: 17\n\n옵션:\n• +1 팔라딘 스킬\n• 피해 +3-7\n• 마법 피해 감소 1\n• 생명력 흡수 8%\n• 피해 +50-60%\n• 언데드 대상 피해 +50-60%\n• +1-3 벤젠스(Vengeance) (팔라딘 전용)\n• +3 쏜즈(Thorns) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "일반", "그랜드셉터"],
+      "meta": { "rarity": "Unique", "base": "Grand Scepter", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰아이 (Stormeye)",
+      "description": "일반 셉터 유니크 — 베이스: 워셉터 (War Scepter)\n요구 레벨: 23\n\n옵션:\n• 번개 피해 +1-6\n• 냉기 피해 +3-5 (3초)\n• 생명력 재생 +10\n• 피해 +80-120%\n• +3-5 레지스트 라이트닝(Resist Lightning) (팔라딘 전용)\n• +3 홀리 쇼크(Holy Shock) (팔라딘 전용)\n• +1 피스트 오브 더 헤븐(Fist of the Heavens) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "일반", "워셉터"],
+      "meta": { "rarity": "Unique", "base": "War Scepter", "level": 23 }
+    },
+    {
+      "type": "unique",
+      "name": "스타우트네일 (Stoutnail)",
+      "description": "일반 곤봉 유니크 — 베이스: 스파이크클럽 (Spiked Club)\n요구 레벨: 5\n\n옵션:\n• 공격자 피해 반사 3-10\n• 피해 +100%\n• 활력 +7\n• 마법 피해 감소 2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "곤봉", "일반", "스파이크클럽"],
+      "meta": { "rarity": "Unique", "base": "Spiked Club", "level": 5 }
+    },
+    {
+      "type": "unique",
+      "name": "크러쉬플랜지 (Crushflange)",
+      "description": "일반 둔기 유니크 — 베이스: 메이스 (Mace)\n요구 레벨: 9\n\n옵션:\n• 힘 +15\n• 밀쳐내기\n• 빛 반경 +2\n• 화염 저항 +50%\n• 피해 +50-60%\n• 강타 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "일반", "메이스"],
+      "meta": { "rarity": "Unique", "base": "Mace", "level": 9 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드라이즈 (Bloodrise)",
+      "description": "일반 둔기 유니크 — 베이스: 모닝스타 (Morning Star)\n요구 레벨: 15\n\n옵션:\n• 피해 +120%\n• 명중률 +50%\n• 상처 악화 확률 25%\n• 빛 반경 +2\n• 공격 속도 +10%\n• +3 세크리파이스(Sacrifice) (팔라딘 전용)\n• 생명력 흡수 5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "일반", "모닝스타"],
+      "meta": { "rarity": "Unique", "base": "Morning Star", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "치우천왕의 철퇴 (The General's Tan Do Li Ga)",
+      "description": "일반 둔기 유니크 — 베이스: 프레일 (Flail)\n요구 레벨: 21\n\n옵션:\n• 최소 피해 +1\n• 최대 피해 +20\n• 대상 둔화 50%\n• 방어력 +25\n• 마나 흡수 5%\n• 피해 +50-60%\n• 공격 속도 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "일반", "프레일"],
+      "meta": { "rarity": "Unique", "base": "Flail", "level": 21 }
+    },
+    {
+      "type": "unique",
+      "name": "아이언스톤 (Ironstone)",
+      "description": "일반 해머 유니크 — 베이스: 워해머 (War Hammer)\n요구 레벨: 27\n\n옵션:\n• 번개 피해 +1-10\n• 명중률 +100-150\n• 피해 +100-150%\n• 힘 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "일반", "워해머"],
+      "meta": { "rarity": "Unique", "base": "War Hammer", "level": 27 }
+    },
+    {
+      "type": "unique",
+      "name": "본스냅 (Bonesnap)",
+      "description": "일반 해머 유니크 — 베이스: 마울 (Maul)\n요구 레벨: 24\n\n옵션:\n• 피해 +200-300%\n• 강타 확률 40%\n• 화염 저항 +30%\n• 냉기 저항 +30%\n• 언데드 대상 피해 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "일반", "마울"],
+      "meta": { "rarity": "Unique", "base": "Maul", "level": 24 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸드라이버 (Steeldriver)",
+      "description": "일반 해머 유니크 — 베이스: 그레이트마울 (Great Maul)\n요구 레벨: 29\n\n옵션:\n• 요구치 -50%\n• 공격 속도 +40%\n• 지구력 회복 +25%\n• 피해 +150-250%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "일반", "그레이트마울"],
+      "meta": { "rarity": "Unique", "base": "Great Maul", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "릭잣즈 킨 (Rixot's Keen)",
+      "description": "일반 검 유니크 — 베이스: 숏소드 (Short Sword)\n요구 레벨: 2\n\n옵션:\n• 최소 피해 +5\n• 명중률 +20%\n• 빛 반경 +2\n• 강타 확률 25%\n• 방어력 +25\n• 피해 +100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "숏소드"],
+      "meta": { "rarity": "Unique", "base": "Short Sword", "level": 2 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드 크레센트 (Blood Crescent)",
+      "description": "일반 검 유니크 — 베이스: 시미터 (Scimitar)\n요구 레벨: 7\n\n옵션:\n• 모든 저항 +15\n• 피해 +60-80%\n• 생명력 +15\n• 빛 반경 +4\n• 상처 악화 확률 33%\n• 공격 속도 +15%\n• 생명력 흡수 15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "시미터"],
+      "meta": { "rarity": "Unique", "base": "Scimitar", "level": 7 }
+    },
+    {
+      "type": "unique",
+      "name": "스큐어 오브 크린티즈 (Skewer of Krintiz)",
+      "description": "일반 검 유니크 — 베이스: 세이버 (Saber)\n요구 레벨: 10\n\n옵션:\n• 대상 방어력 무시\n• 힘 +10\n• 민첩 +10\n• 마나 흡수 7%\n• 피해 +50%\n• 피해 +3-7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "세이버"],
+      "meta": { "rarity": "Unique", "base": "Saber", "level": 10 }
+    },
+    {
+      "type": "unique",
+      "name": "글림싸이드 (Gleamscythe)",
+      "description": "일반 검 유니크 — 베이스: 펄션 (Falchion)\n요구 레벨: 13\n\n옵션:\n• 빛 반경 +3\n• 마나 +30\n• 방어력 +20\n• 공격 속도 +20%\n• 피해 +60-100%\n• 냉기 피해 +3-5 (2초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "펄션"],
+      "meta": { "rarity": "Unique", "base": "Falchion", "level": 13 }
+    },
+    {
+      "type": "unique",
+      "name": "그리스월즈엣지 (Griswold's Edge)",
+      "description": "일반 검 유니크 — 베이스: 브로드소드 (Broad Sword)\n요구 레벨: 17\n\n옵션:\n• 화염 피해 +10-15\n• 명중률 +100\n• 공격 속도 +10%\n• 밀쳐내기\n• 피해 +80-120%\n• 힘 +12\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "브로드소드"],
+      "meta": { "rarity": "Unique", "base": "Broad Sword", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "헬플레이그 (Hellplague)",
+      "description": "일반 검 유니크 — 베이스: 롱소드 (Long Sword)\n요구 레벨: 22\n\n옵션:\n• 독 피해 +28-56 (6초)\n• 마나 흡수 5%\n• 생명력 흡수 5%\n• 피해 +70-80%\n• 화염 피해 +25-75\n• +2 화염 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "롱소드"],
+      "meta": { "rarity": "Unique", "base": "Long Sword", "level": 22 }
+    },
+    {
+      "type": "unique",
+      "name": "컬웬즈 포인트 (Culwen's Point)",
+      "description": "일반 검 유니크 — 베이스: 워소드 (War Sword)\n요구 레벨: 29\n\n옵션:\n• +1 모든 스킬\n• 독 지속시간 감소 50%\n• 타격 회복 +20%\n• 공격 속도 +20%\n• 명중률 +60\n• 피해 +70-80%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "워소드"],
+      "meta": { "rarity": "Unique", "base": "War Sword", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "쉐도우팽 (Shadowfang)",
+      "description": "일반 검 유니크 — 베이스: 투핸드소드 (Two-Handed Sword)\n요구 레벨: 12\n\n옵션:\n• 마나 흡수 9%\n• 냉기 저항 +20%\n• 빛 반경 -2\n• 냉기 피해 +10-30 (6초)\n• 피해 +100%\n• 생명력 흡수 9%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "투핸드소드"],
+      "meta": { "rarity": "Unique", "base": "Two-Handed Sword", "level": 12 }
+    },
+    {
+      "type": "unique",
+      "name": "소울플레이 (Soulflay)",
+      "description": "일반 검 유니크 — 베이스: 클레이모어 (Claymore)\n요구 레벨: 19\n\n옵션:\n• 마나 흡수 4-10%\n• 생명력 흡수 4%\n• 피해 +70-100%\n• 모든 저항 +5\n• 공격 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "클레이모어"],
+      "meta": { "rarity": "Unique", "base": "Claymore", "level": 19 }
+    },
+    {
+      "type": "unique",
+      "name": "키네밀즈 얼 (Kinemil's Awl)",
+      "description": "일반 검 유니크 — 베이스: 자이언트소드 (Giant Sword)\n요구 레벨: 23\n\n옵션:\n• 화염 피해 +6-20\n• 명중률 +100-150\n• 마나 +20\n• 피해 +80-100%\n• +6 홀리 파이어(Holy Fire) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "자이언트소드"],
+      "meta": { "rarity": "Unique", "base": "Giant Sword", "level": 23 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙텅 (Blacktongue)",
+      "description": "일반 검 유니크 — 베이스: 배스터드소드 (Bastard Sword)\n요구 레벨: 26\n\n옵션:\n• 독 피해 +113 (6초)\n• 몬스터 회복 방지\n• 명중률 +50\n• 독 저항 +50%\n• 피해 +50-60%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "배스터드소드"],
+      "meta": { "rarity": "Unique", "base": "Bastard Sword", "level": 26 }
+    },
+    {
+      "type": "unique",
+      "name": "립서어 (Ripsaw)",
+      "description": "일반 검 유니크 — 베이스: 플람베르쥬 (Flamberge)\n요구 레벨: 26\n\n옵션:\n• 상처 악화 확률 80%\n• 최대 피해 +15\n• 마나 흡수 6%\n• 피해 +80-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "플람베르쥬"],
+      "meta": { "rarity": "Unique", "base": "Flamberge", "level": 26 }
+    },
+    {
+      "type": "unique",
+      "name": "더 페이트리악 (The Patriarch)",
+      "description": "일반 검 유니크 — 베이스: 그레이트소드 (Great Sword)\n요구 레벨: 29\n\n옵션:\n• 피해 감소 3\n• 마법 피해 감소 3\n• 타격 시 대상 실명 +1\n• 골드 획득 +100%\n• 피해 +100-120%\n• 힘 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "일반", "그레이트소드"],
+      "meta": { "rarity": "Unique", "base": "Great Sword", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "걸 (Gull)",
+      "description": "일반 단검 유니크 — 베이스: 대거 (Dagger)\n요구 레벨: 4\n\n옵션:\n• 최소 피해 +1\n• 최대 피해 +15\n• 매직 아이템 발견 +100%\n• 마나 -5\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "일반", "대거"],
+      "meta": { "rarity": "Unique", "base": "Dagger", "level": 4 }
+    },
+    {
+      "type": "unique",
+      "name": "더 디글러 (The Diggler)",
+      "description": "일반 단검 유니크 — 베이스: 더크 (Dirk)\n요구 레벨: 11\n\n옵션:\n• 민첩 +10\n• 피해 +50%\n• 공격 속도 +30%\n• 냉기 저항 +25%\n• 화염 저항 +25%\n• 대상 방어력 무시\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "일반", "더크"],
+      "meta": { "rarity": "Unique", "base": "Dirk", "level": 11 }
+    },
+    {
+      "type": "unique",
+      "name": "아사달의 단도 (The Jade Tan Do)",
+      "description": "일반 단검 유니크 — 베이스: 크리스 (Kriss)\n요구 레벨: 19\n\n옵션:\n• 명중률 +100-150\n• 빙결되지 않음\n• 독 피해 +180 (4초)\n• 독 저항 +95%\n• 최대 독 저항 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "일반", "크리스"],
+      "meta": { "rarity": "Unique", "base": "Kriss", "level": 19 }
+    },
+    {
+      "type": "unique",
+      "name": "스펙트럴 샤드 (Spectral Shard)",
+      "description": "일반 단검 유니크 — 베이스: 블레이드 (Blade)\n요구 레벨: 25\n\n옵션:\n• 시전 속도 +50%\n• 마나 +50\n• 명중률 +55\n• 모든 저항 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "일반", "블레이드"],
+      "meta": { "rarity": "Unique", "base": "Blade", "level": 25 }
+    },
+    {
+      "type": "unique",
+      "name": "운사의 용봉창 (The Dragon Chang)",
+      "description": "일반 창 유니크 — 베이스: 스피어 (Spear)\n요구 레벨: 8\n\n옵션:\n• 명중률 +35\n• 최소 피해 +10\n• 빛 반경 +2\n• 언데드 대상 피해 +100%\n• 화염 피해 +3-6\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "일반", "스피어"],
+      "meta": { "rarity": "Unique", "base": "Spear", "level": 8 }
+    },
+    {
+      "type": "unique",
+      "name": "레이저타인 (Razortine)",
+      "description": "일반 창 유니크 — 베이스: 트라이던트 (Trident)\n요구 레벨: 12\n\n옵션:\n• 대상 둔화 25%\n• 대상 방어력 -50%\n• 힘 +15\n• 민첩 +8\n• 공격 속도 +30%\n• 피해 +30-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "일반", "트라이던트"],
+      "meta": { "rarity": "Unique", "base": "Trident", "level": 12 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드씨프 (Bloodthief)",
+      "description": "일반 창 유니크 — 베이스: 브랜디스탁 (Brandistock)\n요구 레벨: 17\n\n옵션:\n• 상처 악화 확률 35%\n• 힘 +10\n• 생명력 흡수 8-12%\n• 생명력 +26\n• 피해 +50-70%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "일반", "브랜디스탁"],
+      "meta": { "rarity": "Unique", "base": "Brandistock", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "랜스 오브 야가이 (Lance of Yaggai)",
+      "description": "일반 창 유니크 — 베이스: 스페텀 (Spetum)\n요구 레벨: 22\n\n옵션:\n• 번개 피해 +1-60\n• 공격자 피해 반사 8\n• 모든 저항 +15\n• 공격 속도 +40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "일반", "스페텀"],
+      "meta": { "rarity": "Unique", "base": "Spetum", "level": 22 }
+    },
+    {
+      "type": "unique",
+      "name": "더 탄르 고어라드 (The Tannr Gorerod)",
+      "description": "일반 창 유니크 — 베이스: 파이크 (Pike)\n요구 레벨: 27\n\n옵션:\n• 화염 피해 +23-54\n• 최대 화염 저항 +15%\n• 생명력 +30\n• 명중률 +60\n• 빛 반경 +3\n• 화염 저항 +15%\n• 피해 +80-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "일반", "파이크"],
+      "meta": { "rarity": "Unique", "base": "Pike", "level": 27 }
+    },
+    {
+      "type": "unique",
+      "name": "디모악스 휴 (Dimoak's Hew)",
+      "description": "일반 폴암 유니크 — 베이스: 바디쉬 (Bardiche)\n요구 레벨: 8\n\n옵션:\n• 민첩 +15\n• 피해 +100%\n• 공격 속도 +20%\n• 방어력 -8\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "일반", "바디쉬"],
+      "meta": { "rarity": "Unique", "base": "Bardiche", "level": 8 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸고드 (Steelgoad)",
+      "description": "일반 폴암 유니크 — 베이스: 불즈 (Voulge)\n요구 레벨: 14\n\n옵션:\n• 타격 시 몬스터 도주 96%\n• 치명적 공격 30%\n• 명중률 +30\n• 모든 저항 +5\n• 피해 +60-80%\n• 내구도 +20-40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "일반", "불즈"],
+      "meta": { "rarity": "Unique", "base": "Voulge", "level": 14 }
+    },
+    {
+      "type": "unique",
+      "name": "소울 하베스트 (Soul Harvest)",
+      "description": "일반 폴암 유니크 — 베이스: 싸이드 (Scythe)\n요구 레벨: 19\n\n옵션:\n• 상처 악화 확률 30%\n• 명중률 +45\n• 모든 저항 +20\n• 피해 +50-90%\n• 마나 흡수 10%\n• 에너지 +5\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "일반", "싸이드"],
+      "meta": { "rarity": "Unique", "base": "Scythe", "level": 19 }
+    },
+    {
+      "type": "unique",
+      "name": "더 배틀브랜치 (The Battlebranch)",
+      "description": "일반 폴암 유니크 — 베이스: 폴액스 (Poleaxe)\n요구 레벨: 17\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 공격 속도 +30%\n• 민첩 +10\n• 피해 +50-70%\n• 명중률 +50-100\n• 생명력 흡수 7%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "일반", "폴액스"],
+      "meta": { "rarity": "Unique", "base": "Poleaxe", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "워스테이브 (Woestave)",
+      "description": "일반 폴암 유니크 — 베이스: 헬버드 (Halberd)\n요구 레벨: 28\n\n옵션:\n• 대상 둔화 50%\n• 상처 악화 확률 50%\n• 타격 시 대상 실명 +3\n• 타격 시 몬스터 방어력 -50\n• 대상 빙결 +1\n• 빛 반경 -3\n• 몬스터 회복 방지\n• 피해 +20-40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "일반", "헬버드"],
+      "meta": { "rarity": "Unique", "base": "Halberd", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "더 그림 리퍼 (The Grim Reaper)",
+      "description": "일반 폴암 유니크 — 베이스: 워싸이드 (War Scythe)\n요구 레벨: 29\n\n옵션:\n• 치명적 공격 100%\n• 몬스터 회복 방지\n• 마나 흡수 5%\n• 피해 +20%\n• 최소 피해 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "일반", "워싸이드"],
+      "meta": { "rarity": "Unique", "base": "War Scythe", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "베인 애쉬 (Bane Ash)",
+      "description": "일반 지팡이 유니크 — 베이스: 숏스태프 (Short Staff)\n요구 레벨: 5\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 화염 피해 +4-6\n• 화염 저항 +50%\n• 마나 +30\n• 시전 속도 +20%\n• +5 파이어 볼트(Fire Bolt) (소서리스 전용)\n• +2 웜쓰(Warmth) (소서리스 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "일반", "숏스태프"],
+      "meta": { "rarity": "Unique", "base": "Short Staff", "level": 5 }
+    },
+    {
+      "type": "unique",
+      "name": "서펀트 로드 (Serpent Lord)",
+      "description": "일반 지팡이 유니크 — 베이스: 롱스태프 (Long Staff)\n요구 레벨: 9\n\n옵션:\n• 독 피해 +12 (3초)\n• 독 저항 +50%\n• 빛 반경 -1\n• 마나 +10\n• 피해 +30-40%\n• 마나 흡수 100%\n• 대상 방어력 -50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "일반", "롱스태프"],
+      "meta": { "rarity": "Unique", "base": "Long Staff", "level": 9 }
+    },
+    {
+      "type": "unique",
+      "name": "스파이어 오브 라자루스 (Spire of Lazarus)",
+      "description": "일반 지팡이 유니크 — 베이스: 나알드스태프 (Gnarled Staff)\n요구 레벨: 18\n\n옵션:\n• 번개 저항 +75%\n• 피해 감소 5\n• 에너지 +15\n• +1 체인 라이트닝(Chain Lightning) (소서리스 전용)\n• +2 라이트닝(Lightning) (소서리스 전용)\n• +3 스태틱 필드(Static Field) (소서리스 전용)\n• 마나 재생 +43%\n• 번개 피해 +1-28\n• +1 소서리스 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "일반", "나알드스태프"],
+      "meta": { "rarity": "Unique", "base": "Gnarled Staff", "level": 18 }
+    },
+    {
+      "type": "unique",
+      "name": "더 샐러맨더 (The Salamander)",
+      "description": "일반 지팡이 유니크 — 베이스: 배틀스태프 (Battle Staff)\n요구 레벨: 21\n\n옵션:\n• 화염 피해 +15-32\n• 화염 저항 +30%\n• +1 파이어 월(Fire Wall) (소서리스 전용)\n• +2 파이어 볼(Fire Ball) (소서리스 전용)\n• +3 웜쓰(Warmth) (소서리스 전용)\n• +2 화염 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "일반", "배틀스태프"],
+      "meta": { "rarity": "Unique", "base": "Battle Staff", "level": 21 }
+    },
+    {
+      "type": "unique",
+      "name": "풍사의 철장봉 (The Iron Jang Bong)",
+      "description": "일반 지팡이 유니크 — 베이스: 워스태프 (War Staff)\n요구 레벨: 28\n\n옵션:\n• 방어력 +30\n• 시전 속도 +20%\n• 피해 +100%\n• 명중률 +50%\n• +2 노바(Nova) (소서리스 전용)\n• +2 블레이즈(Blaze) (소서리스 전용)\n• +3 프로스트 노바(Frost Nova) (소서리스 전용)\n• +2 소서리스 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "일반", "워스태프"],
+      "meta": { "rarity": "Unique", "base": "War Staff", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "플럭아이 (Pluckeye)",
+      "description": "일반 활 유니크 — 베이스: 숏보우 (Short Bow)\n요구 레벨: 7\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 명중률 +28\n• 피해 +100%\n• 생명력 +10\n• 빛 반경 +2\n• 마나 흡수 3%\n• 처치 시 마나 +2\n• 공격 속도 +25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "숏보우"],
+      "meta": { "rarity": "Unique", "base": "Short Bow", "level": 7 }
+    },
+    {
+      "type": "unique",
+      "name": "위더스트링 (Witherstring)",
+      "description": "일반 활 유니크 — 베이스: 헌터보우 (Hunter's Bow)\n요구 레벨: 13\n\n옵션:\n• 공격 속도 +30%\n• 최소 피해 +1\n• 최대 피해 +3\n• 명중률 +50\n• 매직 애로우 발사\n• 피해 +40-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "헌터보우"],
+      "meta": { "rarity": "Unique", "base": "Hunter's Bow", "level": 13 }
+    },
+    {
+      "type": "unique",
+      "name": "레이븐 클러 (Raven Claw)",
+      "description": "일반 활 유니크 — 베이스: 롱보우 (Long Bow)\n요구 레벨: 15\n\n옵션:\n• 명중률 +50%\n• 민첩 +3\n• 폭발 화살 발사\n• 힘 +3\n• 피해 +60-70%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "롱보우"],
+      "meta": { "rarity": "Unique", "base": "Long Bow", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "로그스 보우 (Rogue's Bow)",
+      "description": "일반 활 유니크 — 베이스: 컴퍼지트보우 (Composite Bow)\n요구 레벨: 20\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 모든 저항 +10\n• 치명적 공격 30%\n• 명중률 +60\n• 언데드 대상 피해 +100%\n• 피해 +40-60%\n• 공격 속도 +50%\n• +1-3 콜드 애로우 또는 파이어 애로우 (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "컴퍼지트보우"],
+      "meta": { "rarity": "Unique", "base": "Composite Bow", "level": 20 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰스트라이크 (Stormstrike)",
+      "description": "일반 활 유니크 — 베이스: 숏배틀보우 (Short Battle Bow)\n요구 레벨: 25\n\n옵션:\n• 번개 피해 +1-30\n• 힘 +8\n• 명중률 +28\n• 관통 공격 확률 25%\n• 번개 저항 +25%\n• 피해 +70-90%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "숏배틀보우"],
+      "meta": { "rarity": "Unique", "base": "Short Battle Bow", "level": 25 }
+    },
+    {
+      "type": "unique",
+      "name": "위즌드로우 (Wizendraw)",
+      "description": "일반 활 유니크 — 베이스: 롱배틀보우 (Long Battle Bow)\n요구 레벨: 26\n\n옵션:\n• 매직 애로우 발사\n• 마나 +30\n• 공격 속도 +20%\n• 냉기 저항 +26%\n• 명중률 +50-100\n• 피해 +70-80%\n• 에너지 +15\n• 적 냉기 저항 -20~-35%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "롱배틀보우"],
+      "meta": { "rarity": "Unique", "base": "Long Battle Bow", "level": 26 }
+    },
+    {
+      "type": "unique",
+      "name": "헬캡 (Hellclap)",
+      "description": "일반 활 유니크 — 베이스: 숏워보우 (Short War Bow)\n요구 레벨: 27\n\n옵션:\n• 화염 피해 +15-30\n• 공격 속도 +10%\n• 명중률 +50-75\n• 화염 저항 +40%\n• 민첩 +12\n• 피해 +70-90%\n• +1 화염 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "숏워보우"],
+      "meta": { "rarity": "Unique", "base": "Short War Bow", "level": 27 }
+    },
+    {
+      "type": "unique",
+      "name": "블래스트바크 (Blastbark)",
+      "description": "일반 활 유니크 — 베이스: 롱워보우 (Long War Bow)\n요구 레벨: 28\n\n옵션:\n• 피해 +70-130%\n• 힘 +5\n• +1 아마존 스킬\n• 마나 흡수 3%\n• +2 익스플로딩 애로우(Exploding Arrow) (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "일반", "롱워보우"],
+      "meta": { "rarity": "Unique", "base": "Long War Bow", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "리드크로우 (Leadcrow)",
+      "description": "일반 석궁 유니크 — 베이스: 라이트크로스보우 (Light Crossbow)\n요구 레벨: 9\n\n옵션:\n• 민첩 +10\n• 생명력 +10\n• 피해 +70%\n• 독 저항 +30%\n• 치명적 공격 25%\n• 명중률 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "일반", "라이트크로스보우"],
+      "meta": { "rarity": "Unique", "base": "Light Crossbow", "level": 9 }
+    },
+    {
+      "type": "unique",
+      "name": "아이커스팅 (Ichorsting)",
+      "description": "일반 석궁 유니크 — 베이스: 크로스보우 (Crossbow)\n요구 레벨: 18\n\n옵션:\n• 독 피해 +30 (3초)\n• 민첩 +20\n• 관통 공격 확률 50%\n• 명중률 +50\n• 피해 +50%\n• 공격 속도 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "일반", "크로스보우"],
+      "meta": { "rarity": "Unique", "base": "Crossbow", "level": 18 }
+    },
+    {
+      "type": "unique",
+      "name": "헬캐스트 (Hellcast)",
+      "description": "일반 석궁 유니크 — 베이스: 헤비크로스보우 (Heavy Crossbow)\n요구 레벨: 27\n\n옵션:\n• 폭발 화살 발사\n• 최대 화염 저항 +15%\n• 화염 저항 +15%\n• 명중률 +70\n• 공격 속도 +20%\n• 피해 +70-80%\n• 화염 피해 +15-35\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "일반", "헤비크로스보우"],
+      "meta": { "rarity": "Unique", "base": "Heavy Crossbow", "level": 27 }
+    },
+    {
+      "type": "unique",
+      "name": "둠슬링어 (Doomslinger)",
+      "description": "일반 석궁 유니크 — 베이스: 리피팅크로스보우 (Repeating Crossbow)\n요구 레벨: 28\n\n옵션:\n• +1 아마존 스킬\n• 관통 공격 확률 35%\n• 공격 속도 +30%\n• 생명력 +15\n• 피해 +60-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "일반", "리피팅크로스보우"],
+      "meta": { "rarity": "Unique", "base": "Repeating Crossbow", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "비긴즈 보넷 (Biggin's Bonnet)",
+      "description": "일반 투구 유니크 — 베이스: 캡 (Cap)\n요구 레벨: 3\n\n옵션:\n• 생명력 +15\n• 명중률 +30\n• 피해 +30%\n• 마나 +15\n• 방어력 +14\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "캡"],
+      "meta": { "rarity": "Unique", "base": "Cap", "level": 3 }
+    },
+    {
+      "type": "unique",
+      "name": "탄헬름 (Tarnhelm)",
+      "description": "일반 투구 유니크 — 베이스: 스컬캡 (Skull Cap)\n요구 레벨: 15\n\n옵션:\n• 골드 획득 +75%\n• 매직 아이템 발견 +25-50%\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "스컬캡"],
+      "meta": { "rarity": "Unique", "base": "Skull Cap", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "커이프 오브 글로리 (Coif of Glory)",
+      "description": "일반 투구 유니크 — 베이스: 헬름 (Helm)\n요구 레벨: 14\n\n옵션:\n• 공격자에게 번개 피해 7\n• 타격 시 대상 실명 +1\n• 번개 저항 +15%\n• 원거리 방어력 +100\n• 방어력 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "헬름"],
+      "meta": { "rarity": "Unique", "base": "Helm", "level": 14 }
+    },
+    {
+      "type": "unique",
+      "name": "더스크디프 (Duskdeep)",
+      "description": "일반 투구 유니크 — 베이스: 풀헬름 (Full Helm)\n요구 레벨: 17\n\n옵션:\n• 빛 반경 -2\n• 모든 저항 +15\n• 피해 감소 7\n• 최대 피해 +8\n• 방어력 +10-20\n• 방어력 +30-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "풀헬름"],
+      "meta": { "rarity": "Unique", "base": "Full Helm", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "웜스컬 (Wormskull)",
+      "description": "일반 투구 유니크 — 베이스: 본헬름 (Bone Helm)\n요구 레벨: 21\n\n옵션:\n• +1 네크로맨서 스킬\n• 생명력 흡수 5%\n• 마나 +10\n• 독 저항 +25%\n• 독 피해 +80 (8초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "본헬름"],
+      "meta": { "rarity": "Unique", "base": "Bone Helm", "level": 21 }
+    },
+    {
+      "type": "unique",
+      "name": "하울터스크 (Howltusk)",
+      "description": "일반 투구 유니크 — 베이스: 그레이트헬름 (Great Helm)\n요구 레벨: 25\n\n옵션:\n• 마법 피해 감소 2\n• 공격자 피해 반사 3\n• 방어력 +80%\n• 받은 피해 마나 전환 35%\n• 밀쳐내기\n• 타격 시 몬스터 도주 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "그레이트헬름"],
+      "meta": { "rarity": "Unique", "base": "Great Helm", "level": 25 }
+    },
+    {
+      "type": "unique",
+      "name": "언데드 크라운 (Undead Crown)",
+      "description": "일반 투구 유니크 — 베이스: 크라운 (Crown)\n요구 레벨: 29\n\n옵션:\n• 생명력 흡수 5%\n• 방어력 +40\n• 독 저항 +50%\n• 빙결 지속시간 절반\n• 방어력 +30-60%\n• 언데드 대상 피해 +50%\n• 언데드 대상 명중률 +50-100\n• +3 스켈레톤 마스터리(Skeleton Mastery) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "크라운"],
+      "meta": { "rarity": "Unique", "base": "Crown", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "더 페이스 오브 호러 (The Face of Horror)",
+      "description": "일반 투구 유니크 — 베이스: 마스크 (Mask)\n요구 레벨: 20\n\n옵션:\n• 타격 시 몬스터 도주 64%\n• 힘 +20\n• 모든 저항 +10\n• 언데드 대상 피해 +50%\n• 방어력 +25\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "일반", "마스크"],
+      "meta": { "rarity": "Unique", "base": "Mask", "level": 20 }
+    },
+    {
+      "type": "unique",
+      "name": "글레이폼 (Greyform)",
+      "description": "일반 갑옷 유니크 — 베이스: 퀼티드아머 (Quilted Armor)\n요구 레벨: 7\n\n옵션:\n• 마법 피해 감소 3\n• 냉기 저항 +20%\n• 화염 저항 +20%\n• 민첩 +10\n• 생명력 흡수 5%\n• 방어력 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "퀼티드아머"],
+      "meta": { "rarity": "Unique", "base": "Quilted Armor", "level": 7 }
+    },
+    {
+      "type": "unique",
+      "name": "블링크뱃스 폼 (Blinkbat's Form)",
+      "description": "일반 갑옷 유니크 — 베이스: 레더아머 (Leather Armor)\n요구 레벨: 12\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 화염 피해 +3-6\n• 원거리 방어력 +50\n• 달리기/걷기 +30%\n• 방어력 +25\n• 타격 회복 +40%\n• 처치 시 마나 +1\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "레더아머"],
+      "meta": { "rarity": "Unique", "base": "Leather Armor", "level": 12 }
+    },
+    {
+      "type": "unique",
+      "name": "더 센츄리언 (The Centurion)",
+      "description": "일반 갑옷 유니크 — 베이스: 하드레더아머 (Hard Leather Armor)\n요구 레벨: 14\n\n옵션:\n• 방어력 +30\n• 명중률 +50\n• 피해 감소 2\n• 생명력 +15\n• 마나 +15\n• 최대 지구력 +15\n• 생명력 재생 +5\n• 지구력 소모 감소 25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "하드레더아머"],
+      "meta": { "rarity": "Unique", "base": "Hard Leather Armor", "level": 14 }
+    },
+    {
+      "type": "unique",
+      "name": "트윗치쓰로 (Twitchthroe)",
+      "description": "일반 갑옷 유니크 — 베이스: 스터디드레더 (Studded Leather)\n요구 레벨: 16\n\n옵션:\n• 공격 속도 +20%\n• 민첩 +10\n• 막기 확률 +25%\n• 방어력 +25\n• 힘 +10\n• 타격 회복 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "스터디드레더"],
+      "meta": { "rarity": "Unique", "base": "Studded Leather", "level": 16 }
+    },
+    {
+      "type": "unique",
+      "name": "다크글로우 (Darkglow)",
+      "description": "일반 갑옷 유니크 — 베이스: 링메일 (Ring Mail)\n요구 레벨: 14\n\n옵션:\n• 명중률 +20\n• 최대 모든 저항 +5%\n• 빛 반경 +3\n• 근접 방어력 +50\n• 모든 저항 +10\n• 방어력 +70-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "링메일"],
+      "meta": { "rarity": "Unique", "base": "Ring Mail", "level": 14 }
+    },
+    {
+      "type": "unique",
+      "name": "호크메일 (Hawkmail)",
+      "description": "일반 갑옷 유니크 — 베이스: 스케일메일 (Scale Mail)\n요구 레벨: 15\n\n옵션:\n• 방어력 +80-100%\n• 최대 냉기 저항 +15%\n• 냉기 저항 +15%\n• 빙결되지 않음\n• 달리기/걷기 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "스케일메일"],
+      "meta": { "rarity": "Unique", "base": "Scale Mail", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "스파킹 메일 (Sparking Mail)",
+      "description": "일반 갑옷 유니크 — 베이스: 체인메일 (Chain Mail)\n요구 레벨: 17\n\n옵션:\n• 방어력 +75-85%\n• 번개 피해 +1-20\n• 공격자에게 번개 피해 10-14\n• 번개 저항 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "체인메일"],
+      "meta": { "rarity": "Unique", "base": "Chain Mail", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "베넘 워드 (Venom Ward)",
+      "description": "일반 갑옷 유니크 — 베이스: 브레스트플레이트 (Breast Plate)\n요구 레벨: 20\n\n옵션:\n• 최대 독 저항 +15%\n• 독 지속시간 감소 50%\n• 독 저항 +90%\n• 빛 반경 +2\n• 방어력 +60-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "브레스트플레이트"],
+      "meta": { "rarity": "Unique", "base": "Breast Plate", "level": 20 }
+    },
+    {
+      "type": "unique",
+      "name": "아이스블링크 (Iceblink)",
+      "description": "일반 갑옷 유니크 — 베이스: 스플린트메일 (Splint Mail)\n요구 레벨: 22\n\n옵션:\n• 대상 빙결 +1\n• 냉기 저항 +30%\n• 빛 반경 +4\n• 마법 피해 감소 1\n• 방어력 +70-80%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "스플린트메일"],
+      "meta": { "rarity": "Unique", "base": "Splint Mail", "level": 22 }
+    },
+    {
+      "type": "unique",
+      "name": "본플레쉬 (Boneflesh)",
+      "description": "일반 갑옷 유니크 — 베이스: 플레이트메일 (Plate Mail)\n요구 레벨: 26\n\n옵션:\n• 생명력 흡수 5%\n• 방어력 +100-120%\n• 명중률 +35\n• 상처 악화 확률 25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "플레이트메일"],
+      "meta": { "rarity": "Unique", "base": "Plate Mail", "level": 26 }
+    },
+    {
+      "type": "unique",
+      "name": "락플리스 (Rockfleece)",
+      "description": "일반 갑옷 유니크 — 베이스: 필드플레이트 (Field Plate)\n요구 레벨: 28\n\n옵션:\n• 요구치 -10%\n• 방어력 +100-130%\n• 받는 피해 감소 10%\n• 피해 감소 5\n• 힘 +5\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "필드플레이트"],
+      "meta": { "rarity": "Unique", "base": "Field Plate", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "래틀케이지 (Rattlecage)",
+      "description": "일반 갑옷 유니크 — 베이스: 고딕플레이트 (Gothic Plate)\n요구 레벨: 29\n\n옵션:\n• 타격 시 몬스터 도주 52%\n• 명중률 +45\n• 강타 확률 25%\n• 방어력 +200\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "고딕플레이트"],
+      "meta": { "rarity": "Unique", "base": "Gothic Plate", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "골드스킨 (Goldskin)",
+      "description": "일반 갑옷 유니크 — 베이스: 풀플레이트메일 (Full Plate Mail)\n요구 레벨: 28\n\n옵션:\n• 방어력 +120-150%\n• 모든 저항 +35\n• 공격자 피해 반사 10\n• 빛 반경 +2\n• 골드 획득 +100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "풀플레이트메일"],
+      "meta": { "rarity": "Unique", "base": "Full Plate Mail", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "실크 오브 빅터 (Silks of the Victor)",
+      "description": "일반 갑옷 유니크 — 베이스: 에인션트아머 (Ancient Armor)\n요구 레벨: 28\n\n옵션:\n• 마나 흡수 5%\n• +1 모든 스킬\n• 빛 반경 +2\n• 방어력 +100-120%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "에인션트아머"],
+      "meta": { "rarity": "Unique", "base": "Ancient Armor", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "헤븐리 가브 (Heavenly Garb)",
+      "description": "일반 갑옷 유니크 — 베이스: 라이트플레이트 (Light Plate)\n요구 레벨: 29\n\n옵션:\n• 방어력 +100%\n• 모든 저항 +10\n• 마나 재생 +25%\n• 에너지 +15\n• 언데드 대상 피해 +50%\n• 언데드 대상 명중률 +100\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "일반", "라이트플레이트"],
+      "meta": { "rarity": "Unique", "base": "Light Plate", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "펠타 루나타 (Pelta Lunata)",
+      "description": "일반 방패 유니크 — 베이스: 버클러 (Buckler)\n요구 레벨: 2\n\n옵션:\n• 방어력 +30\n• 활력 +10\n• 힘 +2\n• 에너지 +10\n• 방어력 +30-40%\n• 막기 확률 +20%\n• 막기 속도 +40%\n• 내구도 +8-12\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "버클러"],
+      "meta": { "rarity": "Unique", "base": "Buckler", "level": 2 }
+    },
+    {
+      "type": "unique",
+      "name": "엄브럴 디스크 (Umbral Disk)",
+      "description": "일반 방패 유니크 — 베이스: 스몰쉴드 (Small Shield)\n요구 레벨: 9\n\n옵션:\n• 타격 시 대상 실명 +1\n• 민첩 +10\n• 방어력 +30\n• 생명력 +20\n• 빛 반경 -2\n• 방어력 +40-50%\n• 막기 확률 +30%\n• 내구도 +10-15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "스몰쉴드"],
+      "meta": { "rarity": "Unique", "base": "Small Shield", "level": 9 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰길드 (Stormguild)",
+      "description": "일반 방패 유니크 — 베이스: 라지쉴드 (Large Shield)\n요구 레벨: 13\n\n옵션:\n• 마법 피해 감소 1\n• 번개 저항 +25%\n• 방어력 +30\n• 번개 피해 +1-6\n• 방어력 +50-60%\n• 막기 확률 +30%\n• 공격자에게 번개 피해 3\n• 내구도 +10-15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "라지쉴드"],
+      "meta": { "rarity": "Unique", "base": "Large Shield", "level": 13 }
+    },
+    {
+      "type": "unique",
+      "name": "월 오브 디 아이리스 (Wall of the Eyeless)",
+      "description": "일반 방패 유니크 — 베이스: 본쉴드 (Bone Shield)\n요구 레벨: 20\n\n옵션:\n• 처치 시 마나 +5\n• 마나 흡수 3%\n• 시전 속도 +20%\n• 독 저항 +20%\n• 방어력 +30-40%\n• 방어력 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "본쉴드"],
+      "meta": { "rarity": "Unique", "base": "Bone Shield", "level": 20 }
+    },
+    {
+      "type": "unique",
+      "name": "소드백 홀드 (Swordback Hold)",
+      "description": "일반 방패 유니크 — 베이스: 스파이크쉴드 (Spiked Shield)\n요구 레벨: 15\n\n옵션:\n• 공격자 피해 반사 5\n• 막기 확률 +20%\n• 상처 악화 확률 50%\n• 방어력 +30-60%\n• 방어력 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "스파이크쉴드"],
+      "meta": { "rarity": "Unique", "base": "Spiked Shield", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸클래쉬 (Steelclash)",
+      "description": "일반 방패 유니크 — 베이스: 카이트쉴드 (Kite Shield)\n요구 레벨: 17\n\n옵션:\n• 막기 확률 +25%\n• +1 팔라딘 스킬\n• 피해 감소 3\n• 빛 반경 +3\n• 방어력 +60-100%\n• 막기 속도 +20%\n• 모든 저항 +15\n• 방어력 +20\n• 내구도 +15-20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "카이트쉴드"],
+      "meta": { "rarity": "Unique", "base": "Kite Shield", "level": 17 }
+    },
+    {
+      "type": "unique",
+      "name": "브베리트 킵 (Bverrit Keep)",
+      "description": "일반 방패 유니크 — 베이스: 타워쉴드 (Tower Shield)\n요구 레벨: 19\n\n옵션:\n• 방어력 +30\n• 화염 저항 +75%\n• 힘 +5\n• 마법 피해 감소 5\n• 방어력 +80-120%\n• 막기 확률 +10%\n• 내구도 +80-100\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "타워쉴드"],
+      "meta": { "rarity": "Unique", "base": "Tower Shield", "level": 19 }
+    },
+    {
+      "type": "unique",
+      "name": "더 워드 (The Ward)",
+      "description": "일반 방패 유니크 — 베이스: 고딕쉴드 (Gothic Shield)\n요구 레벨: 26\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 방어력 +40\n• 마법 피해 감소 2\n• 힘 +10\n• 막기 확률 +10%\n• 방어력 +100%\n• 모든 저항 +30-50\n• 소켓 1개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "일반", "고딕쉴드"],
+      "meta": { "rarity": "Unique", "base": "Gothic Shield", "level": 26 }
+    },
+    {
+      "type": "unique",
+      "name": "더 헨드 오브 브록 (The Hand of Broc)",
+      "description": "일반 장갑 유니크 — 베이스: 레더글러브 (Leather Gloves)\n요구 레벨: 5\n\n옵션:\n• 마나 흡수 3%\n• 생명력 흡수 3%\n• 독 저항 +10%\n• 마나 +20\n• 방어력 +10\n• 방어력 +10-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "일반", "레더글러브"],
+      "meta": { "rarity": "Unique", "base": "Leather Gloves", "level": 5 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드피스트 (Bloodfist)",
+      "description": "일반 장갑 유니크 — 베이스: 헤비글러브 (Heavy Gloves)\n요구 레벨: 9\n\n옵션:\n• 최소 피해 +5\n• 생명력 +40\n• 타격 회복 +30%\n• 방어력 +10\n• 방어력 +10-20%\n• 공격 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "일반", "헤비글러브"],
+      "meta": { "rarity": "Unique", "base": "Heavy Gloves", "level": 9 }
+    },
+    {
+      "type": "unique",
+      "name": "챈스 가드 (Chance Guards)",
+      "description": "일반 장갑 유니크 — 베이스: 체인글러브 (Chain Gloves)\n요구 레벨: 15\n\n옵션:\n• 골드 획득 +200%\n• 매직 아이템 발견 +25-40%\n• 명중률 +25\n• 방어력 +15\n• 빛 반경 +2\n• 방어력 +20-30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "일반", "체인글러브", "매파", "파밍", "글러브"],
+      "meta": { "rarity": "Unique", "base": "Chain Gloves", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "메이지피스트 (Magefist)",
+      "description": "일반 장갑 유니크 — 베이스: 라이트건틀릿 (Light Gauntlets)\n요구 레벨: 23\n\n옵션:\n• 시전 속도 +20%\n• 마나 재생 +25%\n• +1 화염 스킬\n• 화염 피해 +1-6\n• 방어력 +10\n• 방어력 +20-30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "일반", "라이트건틀릿"],
+      "meta": { "rarity": "Unique", "base": "Light Gauntlets", "level": 23 }
+    },
+    {
+      "type": "unique",
+      "name": "프로스트번 (Frostburn)",
+      "description": "일반 장갑 유니크 — 베이스: 건틀릿 (Gauntlets)\n요구 레벨: 29\n\n옵션:\n• 방어력 +30\n• 피해 +5%\n• 최대 마나 +40%\n• 냉기 피해 +1-6 (2초)\n• 방어력 +10-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "일반", "건틀릿"],
+      "meta": { "rarity": "Unique", "base": "Gauntlets", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "핫스퍼 (Hotspur)",
+      "description": "일반 신발 유니크 — 베이스: 부츠 (Boots)\n요구 레벨: 5\n\n옵션:\n• 최대 화염 저항 +15%\n• 생명력 +15\n• 화염 피해 +3-6\n• 방어력 +6\n• 화염 저항 +45%\n• 방어력 +10-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "일반", "부츠"],
+      "meta": { "rarity": "Unique", "base": "Boots", "level": 5 }
+    },
+    {
+      "type": "unique",
+      "name": "고어풋 (Gorefoot)",
+      "description": "일반 신발 유니크 — 베이스: 헤비부츠 (Heavy Boots)\n요구 레벨: 9\n\n옵션:\n• 달리기/걷기 +20%\n• 마나 흡수 2%\n• 공격자 피해 반사 2\n• 방어력 +12\n• 방어력 +20-30%\n• +2 리프(Leap) (야만용사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "일반", "헤비부츠"],
+      "meta": { "rarity": "Unique", "base": "Heavy Boots", "level": 9 }
+    },
+    {
+      "type": "unique",
+      "name": "트레츠 오브 크던 (Treads of Cthon)",
+      "description": "일반 신발 유니크 — 베이스: 체인부츠 (Chain Boots)\n요구 레벨: 15\n\n옵션:\n• 달리기/걷기 +30%\n• 원거리 방어력 +50\n• 지구력 소모 감소 50%\n• 생명력 +10\n• 방어력 +12\n• 방어력 +30-40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "일반", "체인부츠"],
+      "meta": { "rarity": "Unique", "base": "Chain Boots", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "고블린 토우 (Goblin Toe)",
+      "description": "일반 신발 유니크 — 베이스: 라이트플레이트부츠 (Light Plated Boots)\n요구 레벨: 22\n\n옵션:\n• 강타 확률 25%\n• 피해 감소 1\n• 마법 피해 감소 1\n• 방어력 +15\n• 빛 반경 -1\n• 방어력 +50-60%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "일반", "라이트플레이트부츠"],
+      "meta": { "rarity": "Unique", "base": "Light Plated Boots", "level": 22 }
+    },
+    {
+      "type": "unique",
+      "name": "티어헌치 (Tearhaunch)",
+      "description": "일반 신발 유니크 — 베이스: 그리브 (Greaves)\n요구 레벨: 29\n\n옵션:\n• 방어력 +35\n• 힘 +5\n• 민첩 +5\n• 달리기/걷기 +20%\n• 모든 저항 +10\n• 방어력 +60-80%\n• +2 비거(Vigor) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "일반", "그리브"],
+      "meta": { "rarity": "Unique", "base": "Greaves", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "레니모 (Lenymo)",
+      "description": "일반 벨트 유니크 — 베이스: 섀시 (Sash)\n요구 레벨: 7\n\n옵션:\n• 마나 +15\n• 마나 재생 +30%\n• 모든 저항 +5\n• 빛 반경 +1\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "일반", "섀시"],
+      "meta": { "rarity": "Unique", "base": "Sash", "level": 7 }
+    },
+    {
+      "type": "unique",
+      "name": "스네이크코드 (Snakecord)",
+      "description": "일반 벨트 유니크 — 베이스: 라이트벨트 (Light Belt)\n요구 레벨: 12\n\n옵션:\n• 독 피해 +12 (3초)\n• 독 저항 +25%\n• 방어력 +10\n• 방어력 +20-30%\n• 생명력 재생 +5\n• 독 지속시간 감소 50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "일반", "라이트벨트"],
+      "meta": { "rarity": "Unique", "base": "Light Belt", "level": 12 }
+    },
+    {
+      "type": "unique",
+      "name": "나이트스모크 (Nightsmoke)",
+      "description": "일반 벨트 유니크 — 베이스: 벨트 (Belt)\n요구 레벨: 20\n\n옵션:\n• 모든 저항 +10\n• 받은 피해 마나 전환 50%\n• 마나 +20\n• 피해 감소 2\n• 방어력 +15\n• 방어력 +30-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "일반"],
+      "meta": { "rarity": "Unique", "base": "Belt", "level": 20 }
+    },
+    {
+      "type": "unique",
+      "name": "골드랩 (Goldwrap)",
+      "description": "일반 벨트 유니크 — 베이스: 헤비벨트 (Heavy Belt)\n요구 레벨: 27\n\n옵션:\n• 매직 아이템 발견 +30%\n• 빛 반경 +2\n• 방어력 +25\n• 공격 속도 +10%\n• 방어력 +40-60%\n• 골드 획득 +50-80%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "일반", "헤비벨트"],
+      "meta": { "rarity": "Unique", "base": "Heavy Belt", "level": 27 }
+    },
+    {
+      "type": "unique",
+      "name": "브레이드버클 (Bladebuckle)",
+      "description": "일반 벨트 유니크 — 베이스: 플레이트벨트 (Plated Belt)\n요구 레벨: 29\n\n옵션:\n• 공격자 피해 반사 8\n• 방어력 +30\n• 피해 감소 3\n• 힘 +5\n• 민첩 +10\n• 방어력 +80-100%\n• 타격 회복 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "일반", "플레이트벨트"],
+      "meta": { "rarity": "Unique", "base": "Plated Belt", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "노코잔 렐릭 (Nokozan Relic)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 10\n\n옵션:\n• 화염 피해 +3-6\n• 최대 화염 저항 +10%\n• 화염 저항 +50%\n• 빛 반경 +3\n• 타격 회복 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 10 }
+    },
+    {
+      "type": "unique",
+      "name": "더 아이 오브 에틀릭 (The Eye of Etlich)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 15\n\n옵션:\n• 냉기 피해 +1-3\n• 원거리 방어력 +10-40\n• 빛 반경 +1-5\n• +1 모든 스킬\n• 생명력 흡수 3-7%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "더 마힘 오크 큐리오우 (The Mahim-Oak Curio)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 25\n\n옵션:\n• 방어력 +10\n• 모든 능력치 +10\n• 명중률 +10%\n• 모든 저항 +10\n• 방어력 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 25 }
+    },
+    {
+      "type": "unique",
+      "name": "나겔링 (Nagelring)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 7\n\n옵션:\n• 마법 피해 감소 3\n• 공격자 피해 반사 3\n• 명중률 +50-75\n• 매직 아이템 발견 +15-30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링", "매파", "파밍"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 7 }
+    },
+    {
+      "type": "unique",
+      "name": "머날드 힐 (Manald Heal)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 15\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 마나 흡수 4-7%\n• 생명력 재생 +5-8\n• 생명력 +20\n• 마나 재생 +20%\n• 시전 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 15 }
+    },
+    {
+      "type": "unique",
+      "name": "더 스톤 오브 조던 (The Stone of Jordan)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 29\n\n옵션:\n• 번개 피해 +1-12\n• 마나 +20\n• 최대 마나 +25%\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링", "soj", "올스킬", "마나", "캐스터", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "콜드킬 (Coldkill)",
+      "description": "확장 도끼 유니크 — 베이스: 헤칫 (Hatchet)\n요구 레벨: 36\n\n옵션:\n• 냉기 피해 +40 (2초)\n• 냉기 저항 +15%\n• 최대 냉기 저항 +15%\n• 공격 속도 +30%\n• 타격 시 10% 확률로 레벨 10 아이스 블래스트(Ice Blast) 시전\n• 피격 시 10% 확률로 레벨 5 프로스트 노바(Frost Nova) 시전\n• 피해 +150-190%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "헤칫"],
+      "meta": { "rarity": "Unique", "base": "Hatchet", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "부쳐의 퓨필 (Butcher's Pupil)",
+      "description": "확장 도끼 유니크 — 베이스: 클레버 (Cleaver)\n요구 레벨: 39\n\n옵션:\n• 치명적 공격 35%\n• 상처 악화 확률 25%\n• 피해 +150-200%\n• 파괴 불가\n• 공격 속도 +30%\n• 피해 +30-50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "클레버"],
+      "meta": { "rarity": "Unique", "base": "Cleaver", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "아일스트라이크 (Islestrike)",
+      "description": "확장 도끼 유니크 — 베이스: 트윈액스 (Twin Axe)\n요구 레벨: 43\n\n옵션:\n• +2 드루이드 스킬\n• 모든 능력치 +10\n• 원거리 방어력 +50\n• 강타 확률 25%\n• 피해 +170-190%\n• +1 마울(Maul) (드루이드 전용)\n• +1 퓨리(Fury) (드루이드 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "트윈액스"],
+      "meta": { "rarity": "Unique", "base": "Twin Axe", "level": 43 }
+    },
+    {
+      "type": "unique",
+      "name": "폼페이의 래쓰 (Pompeii's Wrath)",
+      "description": "확장 도끼 유니크 — 베이스: 크로우빌 (Crowbill)\n요구 레벨: 45\n\n옵션:\n• 타격 시 4% 확률로 레벨 8 볼케이노(Volcano) 시전\n• 대상 둔화 50%\n• 화염 피해 +35-150\n• 밀쳐내기\n• 피해 +140-170%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "크로우빌"],
+      "meta": { "rarity": "Unique", "base": "Crowbill", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "가디안 나가 (Guardian Naga)",
+      "description": "확장 도끼 유니크 — 베이스: 네가 (Naga)\n요구 레벨: 48\n\n옵션:\n• 타격 시 5% 확률로 레벨 8 포이즌 노바(Poison Nova) 시전\n• 공격자 피해 반사 15\n• 독 저항 +30%\n• 피해 +150-180%\n• 독 피해 +250 (10초)\n• 최대 피해 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "네가"],
+      "meta": { "rarity": "Unique", "base": "Naga", "level": 48 }
+    },
+    {
+      "type": "unique",
+      "name": "워로드의 트러스트 (Warlord's Trust)",
+      "description": "확장 도끼 유니크 — 베이스: 밀리터리액스 (Military Axe)\n요구 레벨: 35\n\n옵션:\n• 방어력 +75\n• 생명력 재생 +20\n• 활력 +0-49 (레벨당 0.5)\n• 모든 저항 +10\n• 내구도 자동 회복 (4초마다 1)\n• 피해 +175%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "밀리터리액스"],
+      "meta": { "rarity": "Unique", "base": "Military Axe", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "스펠스틸 (Spellsteel)",
+      "description": "확장 도끼 유니크 — 베이스: 비어디드액스 (Bearded Axe)\n요구 레벨: 39\n\n옵션:\n• 요구치 -60%\n• 마나 +100\n• 마법 피해 감소 12-15\n• 시전 속도 +10%\n• 피해 +165%\n• 마나 재생 +25%\n• 레벨 1 텔레포트(Teleport) (20회 충전)\n• 레벨 3 디크리피파이(Decrepify) (30회 충전)\n• 레벨 10 홀리 볼트(Holy Bolt) (100회 충전)\n• 레벨 12 파이어스톰(Firestorm) (60회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "비어디드액스"],
+      "meta": { "rarity": "Unique", "base": "Bearded Axe", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰라이더 (Stormrider)",
+      "description": "확장 도끼 유니크 — 베이스: 타바 (Tabar)\n요구 레벨: 41\n\n옵션:\n• 타격 시 5% 확률로 레벨 10 체인 라이트닝(Chain Lightning) 시전\n• 타격 시 10% 확률로 레벨 0 차지드 볼트(Charged Bolt) 시전\n• 번개 피해 +1-200\n• 피해 +35-75\n• 피해 +100%\n• 내구도 +50\n• 공격자에게 번개 피해 15\n• 피격 시 15% 확률로 레벨 5 차지드 볼트(Charged Bolt) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "타바"],
+      "meta": { "rarity": "Unique", "base": "Tabar", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "본슬레이어 블레이드 (Boneslayer Blade)",
+      "description": "확장 도끼 유니크 — 베이스: 고딕액스 (Gothic Axe)\n요구 레벨: 42\n\n옵션:\n• 언데드 대상 명중률 +1-123 (레벨당 1.25)\n• 언데드 대상 피해 +2-247% (레벨당 2.5)\n• 힘 +8\n• 공격 속도 +20%\n• 명중률 +35%\n• 피해 +180-220%\n• 레벨 20 홀리 볼트(Holy Bolt) (200회 충전)\n• 피격 시 50% 확률로 레벨 0 홀리 볼트(Holy Bolt) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "고딕액스"],
+      "meta": { "rarity": "Unique", "base": "Gothic Axe", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "미노타우로스 (The Minotaur)",
+      "description": "확장 도끼 유니크 — 베이스: 에인션트액스 (Ancient Axe)\n요구 레벨: 45\n\n옵션:\n• 타격 시 대상 실명 +2\n• 빙결 지속시간 절반\n• 힘 +15-20\n• 대상 둔화 50%\n• 강타 확률 30%\n• 피해 +20-30\n• 피해 +140-200%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "확장", "에인션트액스"],
+      "meta": { "rarity": "Unique", "base": "Ancient Axe", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "수어사이드 브랜치 (Suicide Branch)",
+      "description": "확장 완드 유니크 — 베이스: 번트원드 (Burnt Wand)\n요구 레벨: 33\n\n옵션:\n• 공격자 피해 반사 25\n• 시전 속도 +50%\n• 모든 저항 +10\n• 최대 마나 +10%\n• 생명력 +40\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "확장", "번트원드"],
+      "meta": { "rarity": "Unique", "base": "Burnt Wand", "level": 33 }
+    },
+    {
+      "type": "unique",
+      "name": "캐린 샤드 (Carin Shard)",
+      "description": "확장 완드 유니크 — 베이스: 페트러파이드원드 (Petrified Wand)\n요구 레벨: 35\n\n옵션:\n• 생명력 +1-123 (레벨당 1.25)\n• 시전 속도 +10%\n• 마나 +1-123 (레벨당 1.25)\n• 타격 회복 +30%\n• 생명력 재생 +5\n• +1 네크로맨서 스킬\n• +2 소환 스킬 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "확장", "페트러파이드원드"],
+      "meta": { "rarity": "Unique", "base": "Petrified Wand", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "암 오브 킹 로릭 (Arm of King Leoric)",
+      "description": "확장 완드 유니크 — 베이스: 툼원드 (Tomb Wand)\n요구 레벨: 36\n\n옵션:\n• +2 소환 스킬 (네크로맨서 전용)\n• 피격 시 5% 확률로 레벨 10 본 스피리트(Bone Spirit) 시전\n• 마나 +1-123 (레벨당 1.25)\n• 피격 시 10% 확률로 레벨 2 본 프리즌(Bone Prison) 시전\n• 시전 속도 +10%\n• +2 포이즌 & 본 스펠 (네크로맨서 전용)\n• +2 테러(Terror) (네크로맨서 전용)\n• +2 레이즈 스켈레톤 메이지(Raise Skeletal Mage) (네크로맨서 전용)\n• +3 스켈레톤 마스터리(Skeleton Mastery) (네크로맨서 전용)\n• +3 레이즈 스켈레톤(Raise Skeleton) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "확장", "툼원드"],
+      "meta": { "rarity": "Unique", "base": "Tomb Wand", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙핸드 키 (Blackhand Key)",
+      "description": "확장 완드 유니크 — 베이스: 그레이브원드 (Grave Wand)\n요구 레벨: 41\n\n옵션:\n• +1 저주 (네크로맨서 전용)\n• 받은 피해 마나 전환 20%\n• 생명력 +50\n• 빛 반경 -2\n• 시전 속도 +30%\n• 화염 저항 +37%\n• +2 네크로맨서 스킬\n• 레벨 13 그림 워드(Grim Ward) (30회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "확장", "그레이브원드"],
+      "meta": { "rarity": "Unique", "base": "Grave Wand", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "다크 클랜 크러셔 (Dark Clan Crusher)",
+      "description": "확장 곤봉 유니크 — 베이스: 커절 (Cudgel)\n요구 레벨: 34\n\n옵션:\n• +2 드루이드 스킬\n• 악마 대상 피해 +200%\n• 악마 대상 명중률 +200\n• 피해 +195%\n• 명중률 +20-25%\n• 악마 처치 시 생명력 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "곤봉", "확장", "커절"],
+      "meta": { "rarity": "Unique", "base": "Cudgel", "level": 34 }
+    },
+    {
+      "type": "unique",
+      "name": "자카럼의 핸드 (Zakarum's Hand)",
+      "description": "확장 셉터 유니크 — 베이스: 룬셉터 (Rune Scepter)\n요구 레벨: 37\n\n옵션:\n• 마나 흡수 8%\n• 대상 방어력 무시\n• 마나 재생 +10%\n• 지구력 회복 +15%\n• 타격 시 6% 확률로 레벨 5 블리자드(Blizzard) 시전\n• 피해 +180-220%\n• 공격 속도 +30%\n• +2 홀리 프리즈(Holy Freeze) (팔라딘 전용)\n• +2 홀리 쇼크(Holy Shock) (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "확장", "룬셉터"],
+      "meta": { "rarity": "Unique", "base": "Rune Scepter", "level": 37 }
+    },
+    {
+      "type": "unique",
+      "name": "페티드 스프링클러 (The Fetid Sprinkler)",
+      "description": "확장 셉터 유니크 — 베이스: 홀리워터스프린클러 (Holy Water Sprinkler)\n요구 레벨: 38\n\n옵션:\n• +2 팔라딘 스킬\n• 타격 시 5% 확률로 레벨 1 디크리피파이(Decrepify) 시전\n• 타격 시 10% 확률로 레벨 1 컨퓨즈(Confuse) 시전\n• 독 피해 +160 (4초)\n• 피해 +160-190%\n• 명중률 +150-200\n• 피해 +15-25\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "확장", "홀리워터스프린클러"],
+      "meta": { "rarity": "Unique", "base": "Holy Water Sprinkler", "level": 38 }
+    },
+    {
+      "type": "unique",
+      "name": "핸드 오브 블레스드 라이트 (Hand of Blessed Light)",
+      "description": "확장 셉터 유니크 — 베이스: 디바인셉터 (Divine Scepter)\n요구 레벨: 42\n\n옵션:\n• +2 팔라딘 스킬\n• 피해 +130-160%\n• 명중률 +100%\n• 방어력 +50\n• 마나 재생 +15%\n• 빛 반경 +4\n• 피해 +20-45\n• +4 홀리 볼트(Holy Bolt) (팔라딘 전용)\n• +2 피스트 오브 더 헤븐(Fist of the Heavens) (팔라딘 전용)\n• 타격 시 5% 확률로 레벨 4 피스트 오브 더 헤븐(Fist of the Heavens) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "확장", "디바인셉터"],
+      "meta": { "rarity": "Unique", "base": "Divine Scepter", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "플레쉬렌더 (Fleshrender)",
+      "description": "확장 곤봉 유니크 — 베이스: 바브드클럽 (Barbed Club)\n요구 레벨: 38\n\n옵션:\n• 상처 악화 확률 25%\n• 몬스터 회복 방지\n• 강타 확률 20%\n• 치명적 공격 20%\n• 피해 +35-50\n• 피해 +130-200%\n• +1 드루이드 스킬\n• +2 쉐이프 쉬프팅 스킬 (드루이드 전용)\n• 내구도 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "곤봉", "확장", "바브드클럽"],
+      "meta": { "rarity": "Unique", "base": "Barbed Club", "level": 38 }
+    },
+    {
+      "type": "unique",
+      "name": "수어쉬릴 프로스트 (Sureshrill Frost)",
+      "description": "확장 둔기 유니크 — 베이스: 플랜지드메이스 (Flanged Mace)\n요구 레벨: 39\n\n옵션:\n• 냉기 피해 +63-112 (5초)\n• 빙결되지 않음\n• 피해 +150-180%\n• 피해 +5-10\n• 대상 빙결 +3\n• 레벨 9 프로즌 오브(Frozen Orb) (50회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "확장", "플랜지드메이스"],
+      "meta": { "rarity": "Unique", "base": "Flanged Mace", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "문폴 (Moonfall)",
+      "description": "확장 둔기 유니크 — 베이스: 재기드스타 (Jagged Star)\n요구 레벨: 42\n\n옵션:\n• 타격 시 5% 확률로 레벨 6 메테오(Meteor) 시전\n• 화염 피해 +55-115\n• 마법 피해 감소 9-12\n• 피해 +120-150%\n• 빛 반경 +2\n• 레벨 11 메테오(Meteor) (60회 충전)\n• 피해 +10-15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "확장", "재기드스타"],
+      "meta": { "rarity": "Unique", "base": "Jagged Star", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "배질의 보어텍스 (Baezil's Vortex)",
+      "description": "확장 둔기 유니크 — 베이스: 나우트 (Knout)\n요구 레벨: 45\n\n옵션:\n• 타격 시 5% 확률로 레벨 8 노바(Nova) 시전\n• 번개 피해 +1-150\n• 마나 +100\n• 번개 저항 +25%\n• 피해 +160-200%\n• 공격 속도 +20%\n• 레벨 15 노바(Nova) (80회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "확장", "나우트"],
+      "meta": { "rarity": "Unique", "base": "Knout", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "어스쉐이커 (Earthshaker)",
+      "description": "확장 해머 유니크 — 베이스: 배틀해머 (Battle Hammer)\n요구 레벨: 43\n\n옵션:\n• 타격 시 5% 확률로 레벨 7 피셔(Fissure) 시전\n• 밀쳐내기\n• 공격 속도 +30%\n• 피해 +180%\n• 타격 시 대상 실명 +1\n• +3 엘러멘틀 스킬 (드루이드 전용)\n• 내구도 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "확장", "배틀해머"],
+      "meta": { "rarity": "Unique", "base": "Battle Hammer", "level": 43 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드트리 스텀프 (Bloodtree Stump)",
+      "description": "확장 해머 유니크 — 베이스: 워클럽 (War Club)\n요구 레벨: 48\n\n옵션:\n• 강타 확률 50%\n• 피해 +180-220%\n• 모든 저항 +20\n• 힘 +25\n• +2 전투 마스터리 (야만용사 전용)\n• +3 메이스 마스터리(Mace Mastery) (야만용사 전용)\n• 내구도 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "확장", "워클럽"],
+      "meta": { "rarity": "Unique", "base": "War Club", "level": 48 }
+    },
+    {
+      "type": "unique",
+      "name": "게벌 오브 페인 (The Gavel of Pain)",
+      "description": "확장 해머 유니크 — 베이스: 마르텔 드페르 (Martel de Fer)\n요구 레벨: 45\n\n옵션:\n• 타격 시 5% 확률로 레벨 1 앰플리파이 데미지(Amplify Damage) 시전\n• 피격 시 5% 확률로 레벨 1 아이언 메이든(Iron Maiden) 시전\n• 공격자 피해 반사 26\n• 파괴 불가\n• 피해 +12-30\n• 피해 +130-160%\n• 레벨 8 앰플리파이 데미지(Amplify Damage) (3회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "확장", "마르텔 드페르"],
+      "meta": { "rarity": "Unique", "base": "Martel de Fer", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드레터 (Bloodletter)",
+      "description": "확장 검 유니크 — 베이스: 글래디우스 (Gladius)\n요구 레벨: 30\n래더 전용: 시즌 15 (이후 비래더 적용)\n\n옵션:\n• 피해 +12-45\n• 명중률 +90\n• 생명력 흡수 8%\n• 지구력 소모 감소 10%\n• 공격 속도 +20%\n• 피해 +140%\n• +2-4 소드 마스터리(Sword Mastery) (야만용사 전용)\n• +1-3 훨윈드(Whirlwind) (야만용사 전용)\n• 내구도 +30\n• 달리기/걷기 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "글래디우스"],
+      "meta": { "rarity": "Unique", "base": "Gladius", "level": 30 }
+    },
+    {
+      "type": "unique",
+      "name": "콜드스틸 아이 (Coldsteel Eye)",
+      "description": "확장 검 유니크 — 베이스: 커틀러스 (Cutlass)\n요구 레벨: 31\n\n옵션:\n• 타격 시 대상 실명 +1\n• 대상 둔화 30%\n• 치명적 공격 50%\n• 내구도 +50\n• 피해 +200-250%\n• 공격 속도 +20%\n• 마나 흡수 6%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "커틀러스"],
+      "meta": { "rarity": "Unique", "base": "Cutlass", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "헥스파이어 (Hexfire)",
+      "description": "확장 검 유니크 — 베이스: 샴쉬르 (Shamshir)\n요구 레벨: 33\n\n옵션:\n• 레벨 6 하이드라(Hydra) (36회 충전)\n• 대상 방어력 무시\n• 화염 저항 +25%\n• 최대 화염 저항 +10%\n• 피해 +35-40\n• 피해 +140-160%\n• +3 화염 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "샴쉬르"],
+      "meta": { "rarity": "Unique", "base": "Shamshir", "level": 33 }
+    },
+    {
+      "type": "unique",
+      "name": "블레이드 오브 알리바바 (Blade of Ali Baba)",
+      "description": "확장 검 유니크 — 베이스: 털워 (Tulwar)\n요구 레벨: 35\n\n옵션:\n• 소켓 3개\n• 골드 획득 +2-247% (레벨당 2.5)\n• 매직 아이템 발견 +1-99% (레벨당 1)\n• 마나 +15\n• 피해 +60-120%\n• 민첩 +5-15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "털워"],
+      "meta": { "rarity": "Unique", "base": "Tulwar", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "진저스 리프트 (Ginther's Rift)",
+      "description": "확장 검 유니크 — 베이스: 디멘셔널블레이드 (Dimensional Blade)\n요구 레벨: 37\n\n옵션:\n• 마법 피해 감소 7-12\n• 공격 속도 +30%\n• 내구도 자동 회복 (5초마다 1)\n• 내구도 +40\n• 마법 피해 +50-120\n• 피해 +100-150%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "디멘셔널블레이드"],
+      "meta": { "rarity": "Unique", "base": "Dimensional Blade", "level": 37 }
+    },
+    {
+      "type": "unique",
+      "name": "헤드스트라이커 (Headstriker)",
+      "description": "확장 검 유니크 — 베이스: 배틀소드 (Battle Sword)\n요구 레벨: 39\n\n옵션:\n• 몬스터 회복 방지\n• 힘 +15\n• 치명적 공격 +1-148% (레벨당 1.5)\n• 최대 피해 +1-99 (레벨당 1)\n• 피해 +150%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "배틀소드"],
+      "meta": { "rarity": "Unique", "base": "Battle Sword", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "플레이그 베어러 (Plague Bearer)",
+      "description": "확장 검 유니크 — 베이스: 룬소드 (Rune Sword)\n요구 레벨: 41\n\n옵션:\n• 타격 시 5% 확률로 레벨 4 포이즌 노바(Poison Nova) 시전\n• 독 피해 +300 (8초)\n• 피해 +10-45\n• 피해 +150%\n• 독 저항 +45%\n• +5 레이비즈(Rabies) (드루이드 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "룬소드"],
+      "meta": { "rarity": "Unique", "base": "Rune Sword", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "애틀랜티언 (The Atlantean)",
+      "description": "확장 검 유니크 — 베이스: 에인션트소드 (Ancient Sword)\n요구 레벨: 42\n\n옵션:\n• 내구도 +100\n• 방어력 +75\n• 힘 +16\n• 민첩 +12\n• 활력 +8\n• 피해 +200-250%\n• +2 팔라딘 스킬\n• 명중률 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "에인션트소드"],
+      "meta": { "rarity": "Unique", "base": "Ancient Sword", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "크래인트 보미르 (Crainte Vomir)",
+      "description": "확장 검 유니크 — 베이스: 에스팬돈 (Espandon)\n요구 레벨: 42\n\n옵션:\n• 대상 둔화 35%\n• 타격 시 몬스터 방어력 -70\n• 달리기/걷기 +20%\n• 받는 피해 감소 10%\n• 피해 +160-200%\n• 공격 속도 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "에스팬돈"],
+      "meta": { "rarity": "Unique", "base": "Espandon", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "빙 쯔 왕 (Bing Sz Wang)",
+      "description": "확장 검 유니크 — 베이스: 다키안파르크스 (Dacian Falx)\n요구 레벨: 43\n\n옵션:\n• 요구치 -30%\n• 냉기 피해 +50-140 (3초)\n• 힘 +20\n• 대상 빙결 +2\n• 타격 시 5% 확률로 레벨 3 프로즌 오브(Frozen Orb) 시전\n• 피해 +130-160%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "다키안파르크스"],
+      "meta": { "rarity": "Unique", "base": "Dacian Falx", "level": 43 }
+    },
+    {
+      "type": "unique",
+      "name": "바일 하스크 (The Vile Husk)",
+      "description": "확장 검 유니크 — 베이스: 터스크소드 (Tusk Sword)\n요구 레벨: 44\n\n옵션:\n• 타격 시 6% 확률로 레벨 1 앰플리파이 데미지(Amplify Damage) 시전\n• 언데드 대상 피해 +7-742% (레벨당 7.5)\n• 독 저항 +50%\n• 독 피해 +250 (6초)\n• 피해 +150-200%\n• 언데드 대상 명중률 +2-247 (레벨당 2.5)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "터스크소드"],
+      "meta": { "rarity": "Unique", "base": "Tusk Sword", "level": 44 }
+    },
+    {
+      "type": "unique",
+      "name": "클라우드크랙 (Cloudcrack)",
+      "description": "확장 검 유니크 — 베이스: 고딕소드 (Gothic Sword)\n요구 레벨: 45\n\n옵션:\n• 타격 시 6% 확률로 레벨 7 피스트 오브 더 헤븐(Fist of the Heavens) 시전\n• 번개 피해 +1-240\n• 방어력 +30\n• 빛 반경 +2\n• 최대 번개 저항 +10%\n• 피해 +150-200%\n• 공격자에게 번개 피해 15\n• +2 공격 오오라 (팔라딘 전용)\n• +2 방어 오오라 (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "고딕소드"],
+      "meta": { "rarity": "Unique", "base": "Gothic Sword", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "토즈팰러 플렘 (Todesfaelle Flamme)",
+      "description": "확장 검 유니크 — 베이스: 즈바이핸더 (Zweihander)\n요구 레벨: 46\n\n옵션:\n• 화염 피해 +50-200\n• 화염 저항 +40%\n• 화염 피해 흡수 +10\n• 공격 시 10% 확률로 레벨 6 파이어 볼(Fire Ball) 시전\n• 피해 +120-160%\n• 레벨 10 인첸트(Enchant) (45회 충전)\n• 레벨 10 파이어 월(Fire Wall) (20회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "즈바이핸더"],
+      "meta": { "rarity": "Unique", "base": "Zweihander", "level": 46 }
+    },
+    {
+      "type": "unique",
+      "name": "소드가드 (Swordguard)",
+      "description": "확장 검 유니크 — 베이스: 엑시큐셔너소드 (Executioner Sword)\n요구 레벨: 48\n\n옵션:\n• 요구치 -50%\n• 방어력 +5-495 (레벨당 5)\n• 모든 저항 +10-20\n• 원거리 방어력 +100\n• 받은 피해 마나 전환 30%\n• 피해 +170-180%\n• 근접 방어력 +200\n• 타격 회복 +20%\n• 막기 확률 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "확장", "엑시큐셔너소드"],
+      "meta": { "rarity": "Unique", "base": "Executioner Sword", "level": 48 }
+    },
+    {
+      "type": "unique",
+      "name": "스파인리퍼 (Spineripper)",
+      "description": "확장 단검 유니크 — 베이스: 포이나드 (Poignard)\n요구 레벨: 32\n\n옵션:\n• 대상 방어력 무시\n• 생명력 흡수 8%\n• 몬스터 회복 방지\n• 공격 속도 +15%\n• 민첩 +10\n• 피해 +200-240%\n• 피해 +15-27\n• +1 네크로맨서 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "확장", "포이나드"],
+      "meta": { "rarity": "Unique", "base": "Poignard", "level": 32 }
+    },
+    {
+      "type": "unique",
+      "name": "하트 카버 (Heart Carver)",
+      "description": "확장 단검 유니크 — 베이스: 런들 (Rondel)\n요구 레벨: 36\n\n옵션:\n• 치명적 공격 35%\n• 대상 방어력 무시\n• 피해 +15-35\n• 피해 +190-240%\n• +4 파인드 포션(Find Potion) (야만용사 전용)\n• +4 파인드 아이템(Find Item) (야만용사 전용)\n• +4 그림 워드(Grim Ward) (야만용사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "확장", "런들"],
+      "meta": { "rarity": "Unique", "base": "Rondel", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙보그의 샤프 (Blackbog's Sharp)",
+      "description": "확장 단검 유니크 — 베이스: 싱쿠디아 (Cinquedeas)\n요구 레벨: 38\n\n옵션:\n• 대상 둔화 50%\n• 방어력 +50\n• 피해 +15-45\n• 공격 속도 +30%\n• 독 피해 +488 (10초)\n• +5 포이즌 데거(Poison Dagger) (네크로맨서 전용)\n• +4 포이즌 익스플로젼(Poison Explosion) (네크로맨서 전용)\n• +4 포이즌 노바(Poison Nova) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "확장", "싱쿠디아"],
+      "meta": { "rarity": "Unique", "base": "Cinquedeas", "level": 38 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰스파이크 (Stormspike)",
+      "description": "확장 단검 유니크 — 베이스: 스틸레또 (Stilleto)\n요구 레벨: 41\n\n옵션:\n• 번개 피해 +1-120\n• 공격자에게 번개 피해 20\n• 피격 시 25% 확률로 레벨 3 차지드 볼트(Charged Bolt) 시전\n• 피해 +150%\n• 번개 저항 +1-99 (레벨당 1)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "확장", "스틸레또"],
+      "meta": { "rarity": "Unique", "base": "Stilleto", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "임페일러 (The Impaler)",
+      "description": "확장 창 유니크 — 베이스: 워스피어 (War Spear)\n요구 레벨: 31\n\n옵션:\n• 대상 방어력 무시\n• 명중률 +150\n• 공격 속도 +20%\n• 상처 악화 확률 40%\n• 몬스터 회복 방지\n• 피해 +140-170%\n• +5 임페일(Impale) (아마존 전용)\n• +3 파워 스트라이크(Power Strike) (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "확장", "워스피어"],
+      "meta": { "rarity": "Unique", "base": "War Spear", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "켈피 스네어 (Kelpie Snare)",
+      "description": "확장 창 유니크 — 베이스: 푸스키나 (Fuscina)\n요구 레벨: 33\n\n옵션:\n• 대상 둔화 75%\n• 화염 저항 +50%\n• 생명력 +1-123 (레벨당 1.25)\n• 피해 +30-50\n• 힘 +10\n• 피해 +140-180%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "확장", "푸스키나"],
+      "meta": { "rarity": "Unique", "base": "Fuscina", "level": 33 }
+    },
+    {
+      "type": "unique",
+      "name": "소울피스트 타인 (Soulfeast Tine)",
+      "description": "확장 창 유니크 — 베이스: 워포크 (War Fork)\n요구 레벨: 35\n\n옵션:\n• 요구치 -20%\n• 생명력 흡수 7%\n• 마나 흡수 7%\n• 지구력 소모 감소 20%\n• 피해 +150-190%\n• 명중률 +150-250\n• 내구도 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "확장", "워포크"],
+      "meta": { "rarity": "Unique", "base": "War Fork", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "혼 선단 (Hone Sundan)",
+      "description": "확장 창 유니크 — 베이스: 야리 (Yari)\n요구 레벨: 37\n\n옵션:\n• 소켓 3개\n• 피해 +20-40\n• 강타 확률 45%\n• 내구도 자동 회복 (10초마다 1)\n• 피해 +160-200%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "확장", "야리"],
+      "meta": { "rarity": "Unique", "base": "Yari", "level": 37 }
+    },
+    {
+      "type": "unique",
+      "name": "스파이어 오브 아너 (Spire of Honor)",
+      "description": "확장 창 유니크 — 베이스: 랜스 (Lance)\n요구 레벨: 39\n\n옵션:\n• 명중률 +25%\n• 빛 반경 +3\n• 생명력 재생 +20\n• 타격 회복 +20%\n• 피해 +20-40\n• 악마 대상 피해 +1-148% (레벨당 1.5)\n• 피해 +150-200%\n• +3 소환 스킬 (팔라딘 전용)\n• 방어력 +25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "확장", "랜스"],
+      "meta": { "rarity": "Unique", "base": "Lance", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "미트 스크레이퍼 (The Meat Scraper)",
+      "description": "확장 폴암 유니크 — 베이스: 로카버액스 (Lochaber Axe)\n요구 레벨: 41\n\n옵션:\n• 피해 +150-200%\n• 공격 속도 +30%\n• 생명력 흡수 10%\n• 상처 악화 확률 50%\n• 매직 아이템 발견 +25%\n• +3 전투 마스터리 (야만용사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "확장", "로카버액스"],
+      "meta": { "rarity": "Unique", "base": "Lochaber Axe", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙리취 블레이드 (Blackleach Blade)",
+      "description": "확장 폴암 유니크 — 베이스: 빌 (Bill)\n요구 레벨: 42\n\n옵션:\n• 요구치 -25%\n• 타격 시 5% 확률로 레벨 5 위큰(Weaken) 시전\n• 빛 반경 -2\n• 생명력 흡수 8%\n• 최대 피해 +1-123 (레벨당 1.25)\n• 피해 +100-140%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "확장", "빌"],
+      "meta": { "rarity": "Unique", "base": "Bill", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "아테네의 래쓰 (Athena's Wrath)",
+      "description": "확장 폴암 유니크 — 베이스: 배틀싸이드 (Battle Scythe)\n요구 레벨: 42\n\n옵션:\n• +1-3 드루이드 스킬\n• 민첩 +15\n• 공격 속도 +30%\n• 생명력 +1-99 (레벨당 1)\n• 최대 피해 +1-99 (레벨당 1)\n• 피해 +150-180%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "확장", "배틀싸이드"],
+      "meta": { "rarity": "Unique", "base": "Battle Scythe", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "피에르 톰 콘 (Pierre Tombale Couant)",
+      "description": "확장 폴암 유니크 — 베이스: 파르티잔 (Partizan)\n요구 레벨: 43\n\n옵션:\n• 치명적 공격 55%\n• +3 야만용사 스킬\n• 타격 회복 +30%\n• 마나 흡수 6%\n• 피해 +12-20\n• 피해 +160-220%\n• 명중률 +100-200\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "확장", "파르티잔"],
+      "meta": { "rarity": "Unique", "base": "Partizan", "level": 43 }
+    },
+    {
+      "type": "unique",
+      "name": "휴솔달 에보 (Husoldal Evo)",
+      "description": "확장 폴암 유니크 — 베이스: 벡드코방 (Bec-de-Corbin)\n요구 레벨: 44\n\n옵션:\n• 생명력 재생 +20\n• 명중률 +200-250\n• 몬스터 회복 방지\n• 피해 +20-32\n• 피해 +160-200%\n• 공격 속도 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "확장", "벡드코방"],
+      "meta": { "rarity": "Unique", "base": "Bec-de-Corbin", "level": 44 }
+    },
+    {
+      "type": "unique",
+      "name": "그림의 버닝 데드 (Grim's Burning Dead)",
+      "description": "확장 폴암 유니크 — 베이스: 그림싸이드 (Grim Scythe)\n요구 레벨: 45\n\n옵션:\n• 화염 피해 +131-232\n• 화염 저항 +45%\n• 피해 +140-180%\n• 공격자 피해 반사 8\n• 요구치 -50%\n• +3 네크로맨서 스킬\n• 대상 방어력 -50%\n• 방어력 +20%\n• 명중률 +200-250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "확장", "그림싸이드"],
+      "meta": { "rarity": "Unique", "base": "Grim Scythe", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "레이저스위치 (Razorswitch)",
+      "description": "확장 지팡이 유니크 — 베이스: 죠스태프 (Jo Staff)\n요구 레벨: 28\n\n옵션:\n• 시전 속도 +30%\n• 공격자 피해 반사 15\n• 마나 +175\n• 생명력 +80\n• 마법 피해 감소 15\n• 모든 저항 +50\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "확장", "죠스태프"],
+      "meta": { "rarity": "Unique", "base": "Jo Staff", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "립크래커 (Ribcracker)",
+      "description": "확장 지팡이 유니크 — 베이스: 쿼터스태프 (Quarterstaff)\n요구 레벨: 31\n\n옵션:\n• 피해 +30-65\n• 피해 +200-300%\n• 강타 확률 50%\n• 민첩 +15\n• 방어력 +100\n• 방어력 +100%\n• 타격 회복 +50%\n• 공격 속도 +50%\n• 내구도 +100\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "확장", "쿼터스태프"],
+      "meta": { "rarity": "Unique", "base": "Quarterstaff", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "크로마틱 아이어 (Chromatic Ire)",
+      "description": "확장 지팡이 유니크 — 베이스: 시더스태프 (Cedar Staff)\n요구 레벨: 35\n\n옵션:\n• +3 소서리스 스킬\n• 모든 저항 +20-40\n• 시전 속도 +20%\n• 공격자에게 번개 피해 20\n• 최대 생명력 +20-25%\n• +1 파이어 마스터리(Fire Mastery) (소서리스 전용)\n• +1 라이트닝 마스터리(Lightning Mastery) (소서리스 전용)\n• +1 콜드 마스터리(Cold Mastery) (소서리스 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "확장", "시더스태프"],
+      "meta": { "rarity": "Unique", "base": "Cedar Staff", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "워프스피어 (Warpspear)",
+      "description": "확장 지팡이 유니크 — 베이스: 고딕스태프 (Gothic Staff)\n요구 레벨: 39\n\n옵션:\n• +3 소서리스 스킬\n• 대상 방어력 무시\n• +3 텔레포트(Teleport) (소서리스 전용)\n• +3 텔레키네시스(Telekinesis) (소서리스 전용)\n• +3 에너지 쉴드(Energy Shield) (소서리스 전용)\n• 원거리 방어력 +250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "확장", "고딕스태프"],
+      "meta": { "rarity": "Unique", "base": "Gothic Staff", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "스컬 콜렉터 (Skull Collector)",
+      "description": "확장 지팡이 유니크 — 베이스: 룬스태프 (Rune Staff)\n요구 레벨: 41\n\n옵션:\n• 최대 마나 +20%\n• 처치 시 마나 +20\n• +2 모든 스킬\n• 매직 아이템 발견 +1-99% (레벨당 1)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "확장", "룬스태프"],
+      "meta": { "rarity": "Unique", "base": "Rune Staff", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "스카이스트라이크 (Skystrike)",
+      "description": "확장 활 유니크 — 베이스: 엣지보우 (Edge Bow)\n요구 레벨: 28\n\n옵션:\n• 번개 피해 +1-250\n• 명중률 +100\n• 에너지 +10\n• 공격 속도 +30%\n• 피해 +150-200%\n• 타격 시 2% 확률로 레벨 6 메테오(Meteor) 시전\n• +1 아마존 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "엣지보우"],
+      "meta": { "rarity": "Unique", "base": "Edge Bow", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "립후크 (Riphook)",
+      "description": "확장 활 유니크 — 베이스: 레이저보우 (Razor Bow)\n요구 레벨: 31\n\n옵션:\n• 상처 악화 확률 30%\n• 피해 +180-220%\n• 대상 둔화 30%\n• 마나 +35\n• 공격 속도 +30%\n• 생명력 흡수 7-10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "레이저보우"],
+      "meta": { "rarity": "Unique", "base": "Razor Bow", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "쿠코 샤카쿠 (Kuko Shakaku)",
+      "description": "확장 활 유니크 — 베이스: 시더보우 (Cedar Bow)\n요구 레벨: 33\n\n옵션:\n• +3 이몰레이션 애로우(Immolation Arrow) (아마존 전용)\n• 폭발 화살 발사\n• 피해 +150-180%\n• 관통 공격 확률 50%\n• 화염 피해 +40-180\n• +3 보우 & 크로스보우 스킬 (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "시더보우"],
+      "meta": { "rarity": "Unique", "base": "Cedar Bow", "level": 33 }
+    },
+    {
+      "type": "unique",
+      "name": "앤드리스해일 (Endlesshail)",
+      "description": "확장 활 유니크 — 베이스: 더블보우 (Double Bow)\n요구 레벨: 36\n\n옵션:\n• 냉기 저항 +35%\n• 마나 +40\n• 원거리 방어력 +50\n• +3-5 스트레이프(Strafe) (아마존 전용)\n• 피해 +180-220%\n• 냉기 피해 +15-30 (3초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "더블보우"],
+      "meta": { "rarity": "Unique", "base": "Double Bow", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "윗치와일드 스트링 (Witchwild String)",
+      "description": "확장 활 유니크 — 베이스: 숏시즈보우 (Short Siege Bow)\n요구 레벨: 39\n\n옵션:\n• 타격 시 2% 확률로 레벨 5 앰플리파이 데미지(Amplify Damage) 시전\n• 모든 저항 +40\n• 치명적 공격 +1-99% (레벨당 1)\n• 피해 +150-170%\n• 매직 애로우 발사\n• 소켓 2개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "숏시즈보우"],
+      "meta": { "rarity": "Unique", "base": "Short Siege Bow", "level": 39 }
+    },
+    {
+      "type": "unique",
+      "name": "클리프킬러 (Cliffkiller)",
+      "description": "확장 활 유니크 — 베이스: 라지시즈보우 (Long Siege Bow)\n요구 레벨: 41\n\n옵션:\n• +2 아마존 스킬\n• 피해 +190-230%\n• 원거리 방어력 +80\n• 밀쳐내기\n• 생명력 +50\n• 최소 피해 +5-10\n• 최대 피해 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "라지시즈보우"],
+      "meta": { "rarity": "Unique", "base": "Long Siege Bow", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "메이지래쓰 (Magewrath)",
+      "description": "확장 활 유니크 — 베이스: 룬보우 (Rune Bow)\n요구 레벨: 43\n\n옵션:\n• 마나 흡수 15%\n• 마법 피해 감소 9-13\n• +3 가이드 애로우(Guided Arrow) (아마존 전용)\n• 명중률 +200-250\n• 민첩 +10\n• 타격 시 대상 실명 +1\n• 피해 +25-50\n• 피해 +120-150%\n• +1 아마존 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "룬보우"],
+      "meta": { "rarity": "Unique", "base": "Rune Bow", "level": 43 }
+    },
+    {
+      "type": "unique",
+      "name": "골드스트라이크 아치 (Goldstrike Arch)",
+      "description": "확장 활 유니크 — 베이스: 고딕보우 (Gothic Bow)\n요구 레벨: 46\n\n옵션:\n• 피해 +200-250%\n• 명중률 +100-150%\n• 언데드 대상 피해 +100-200%\n• 악마 대상 피해 +100-200%\n• 타격 시 5% 확률로 레벨 7 피스트 오브 더 헤븐(Fist of the Heavens) 시전\n• 공격 속도 +50%\n• 생명력 재생 +12\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "확장", "고딕보우"],
+      "meta": { "rarity": "Unique", "base": "Gothic Bow", "level": 46 }
+    },
+    {
+      "type": "unique",
+      "name": "랭거 브리저 (Langer Briser)",
+      "description": "확장 석궁 유니크 — 베이스: 아발리스트 (Arbalest)\n요구 레벨: 32\n\n옵션:\n• 밀쳐내기\n• 피해 +170-200%\n• 매직 아이템 발견 +30-60%\n• 생명력 +30\n• 최대 피해 +10-30\n• 상처 악화 확률 33%\n• 번개 피해 +1-212\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "확장", "아발리스트"],
+      "meta": { "rarity": "Unique", "base": "Arbalest", "level": 32 }
+    },
+    {
+      "type": "unique",
+      "name": "퍼스 스피터 (Pus Spitter)",
+      "description": "확장 석궁 유니크 — 베이스: 시즈크로스보우 (Siege Crossbow)\n요구 레벨: 36\n\n옵션:\n• 독 피해 +150 (8초)\n• 타격 시 4% 확률로 레벨 1 로우어 레지스트(Lower Resist) 시전\n• +2 네크로맨서 스킬\n• 요구치 -60%\n• 피격 시 9% 확률로 레벨 6 포이즌 노바(Poison Nova) 시전\n• 공격 속도 +10%\n• 피해 +150-220%\n• 명중률 +1-123 (레벨당 1.25)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "확장", "시즈크로스보우"],
+      "meta": { "rarity": "Unique", "base": "Siege Crossbow", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "부리자-도 캬논 (Buriza-Do Kyanon)",
+      "description": "확장 석궁 유니크 — 베이스: 벌리스터 (Ballista)\n요구 레벨: 41\n\n옵션:\n• 관통 공격 확률 100%\n• 민첩 +35\n• 방어력 +75-150\n• 최대 피해 +2-247 (레벨당 2.5)\n• 공격 속도 +80%\n• 피해 +150-200%\n• 대상 빙결 +3\n• 냉기 피해 +32-196 (8초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "확장", "벌리스터"],
+      "meta": { "rarity": "Unique", "base": "Ballista", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "데몬 머신 (Demon Machine)",
+      "description": "확장 석궁 유니크 — 베이스: 초코누 (Chu-Ko-Nu)\n요구 레벨: 49\n\n옵션:\n• 방어력 +321\n• 마나 +36\n• 관통 공격 확률 66%\n• 폭발 화살 발사\n• 최대 피해 +66\n• 피해 +123%\n• 명중률 +632\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "확장", "초코누"],
+      "meta": { "rarity": "Unique", "base": "Chu-Ko-Nu", "level": 49 }
+    },
+    {
+      "type": "unique",
+      "name": "페전트 크라운 (Peasant Crown)",
+      "description": "확장 투구 유니크 — 베이스: 워햇 (War Hat)\n요구 레벨: 28\n\n옵션:\n• 에너지 +20\n• 활력 +20\n• +1 모든 스킬\n• 달리기/걷기 +15%\n• 생명력 재생 +6-12\n• 방어력 +100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "워햇"],
+      "meta": { "rarity": "Unique", "base": "War Hat", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "록스토퍼 (Rockstopper)",
+      "description": "확장 투구 유니크 — 베이스: 샐릿 (Sallet)\n요구 레벨: 31\n\n옵션:\n• 번개 저항 +20-40%\n• 받는 피해 감소 10%\n• 타격 회복 +30%\n• 방어력 +160-220%\n• 화염 저항 +20-50%\n• 냉기 저항 +20-40%\n• 활력 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "샐릿"],
+      "meta": { "rarity": "Unique", "base": "Sallet", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸스컬 (Stealskull)",
+      "description": "확장 투구 유니크 — 베이스: 캐스크 (Casque)\n요구 레벨: 35\n\n옵션:\n• 마나 흡수 5%\n• 생명력 흡수 5%\n• 타격 회복 +10%\n• 공격 속도 +10%\n• 방어력 +200-240%\n• 매직 아이템 발견 +30-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "캐스크"],
+      "meta": { "rarity": "Unique", "base": "Casque", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "다크사이트 헬름 (Darksight Helm)",
+      "description": "확장 투구 유니크 — 베이스: 배서넷 (Basinet)\n요구 레벨: 38\n\n옵션:\n• 빛 반경 -4\n• 방어력 +2-198 (레벨당 2)\n• 빙결되지 않음\n• 마나 흡수 5%\n• 피격 시 6% 확률로 레벨 3 딤 비젼(Dim Vision) 시전\n• 레벨 5 클럭 오브 쉐도우(Cloak of Shadows) (30회 충전)\n• 화염 저항 +20-40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "배서넷"],
+      "meta": { "rarity": "Unique", "base": "Basinet", "level": 38 }
+    },
+    {
+      "type": "unique",
+      "name": "발키리 윙 (Valkyrie Wing)",
+      "description": "확장 투구 유니크 — 베이스: 윙드 헬름 (Winged Helm)\n요구 레벨: 44\n\n옵션:\n• 방어력 +150-200%\n• 달리기/걷기 +20%\n• 타격 회복 +20%\n• +1-2 아마존 스킬\n• 처치 시 마나 +2-4\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "윙드 헬름"],
+      "meta": { "rarity": "Unique", "base": "Winged Helm", "level": 44 }
+    },
+    {
+      "type": "unique",
+      "name": "크라운 오브 디브스 (Crown of Thieves)",
+      "description": "확장 투구 유니크 — 베이스: 그랜드크라운 (Grand Crown)\n요구 레벨: 49\n\n옵션:\n• 민첩 +25\n• 생명력 흡수 9-12%\n• 생명력 +50\n• 마나 +35\n• 화염 저항 +33%\n• 방어력 +160-200%\n• 골드 획득 +80-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "그랜드크라운"],
+      "meta": { "rarity": "Unique", "base": "Grand Crown", "level": 49 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙혼의 페이스 (Blackhorn's Face)",
+      "description": "확장 투구 유니크 — 베이스: 데스마스크 (Death Mask)\n요구 레벨: 41\n\n옵션:\n• 공격자에게 번개 피해 25\n• 대상 둔화 20%\n• 몬스터 회복 방지\n• 번개 피해 흡수 +20\n• 번개 저항 +15%\n• 방어력 +180-220%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "데스마스크"],
+      "meta": { "rarity": "Unique", "base": "Death Mask", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "뱀파이어 게이즈 (Vampire Gaze)",
+      "description": "확장 투구 유니크 — 베이스: 그림헬름 (Grim Helm)\n요구 레벨: 41\n\n옵션:\n• 마나 흡수 6-8%\n• 생명력 흡수 6-8%\n• 지구력 소모 감소 15%\n• 받는 피해 감소 15-20%\n• 마법 피해 감소 10-15\n• 방어력 +100%\n• 냉기 피해 +6-22 (4초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "확장", "그림헬름"],
+      "meta": { "rarity": "Unique", "base": "Grim Helm", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "스피리트 슈라우드 (The Spirit Shroud)",
+      "description": "확장 갑옷 유니크 — 베이스: 고스트아머 (Ghost Armor)\n요구 레벨: 28\n\n옵션:\n• 빙결되지 않음\n• +1 모든 스킬\n• 마법 피해 감소 7-11\n• 생명력 재생 +10\n• 방어력 +150%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "고스트아머"],
+      "meta": { "rarity": "Unique", "base": "Ghost Armor", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "스킨 오브 바이퍼마이자이 (Skin of the Vipermagi)",
+      "description": "확장 갑옷 유니크 — 베이스: 서펀트스킨아머 (Serpentskin Armor)\n요구 레벨: 29\n\n옵션:\n• 방어력 +120%\n• 모든 저항 +20-35\n• 시전 속도 +30%\n• 마법 피해 감소 9-13\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "서펀트스킨아머"],
+      "meta": { "rarity": "Unique", "base": "Serpentskin Armor", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "스킨 오브 플라이드 원 (Skin of the Flayed One)",
+      "description": "확장 갑옷 유니크 — 베이스: 데몬하이드아머 (Demonhide Armor)\n요구 레벨: 31\n\n옵션:\n• 내구도 자동 회복 (10초마다 1)\n• 생명력 재생 +15-25\n• 내구도 +30\n• 생명력 흡수 5-7%\n• 방어력 +150-190%\n• 공격자 피해 반사 15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "데몬하이드아머"],
+      "meta": { "rarity": "Unique", "base": "Demonhide Armor", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "아이언 펠트 (Iron Pelt)",
+      "description": "확장 갑옷 유니크 — 베이스: 트렐리스드아머 (Trellised Armor)\n요구 레벨: 33\n\n옵션:\n• 내구도 +125\n• 생명력 +25\n• 마법 피해 감소 10-16\n• 피해 감소 15-20\n• 방어력 +3-297 (레벨당 3)\n• 방어력 +50-100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "트렐리스드아머"],
+      "meta": { "rarity": "Unique", "base": "Trellised Armor", "level": 33 }
+    },
+    {
+      "type": "unique",
+      "name": "스피리트 포지 (Spirit Forge)",
+      "description": "확장 갑옷 유니크 — 베이스: 링키드메일 (Linked Mail)\n요구 레벨: 35\n\n옵션:\n• 빛 반경 +4\n• 생명력 +1-123 (레벨당 1.25)\n• 화염 피해 +20-65\n• 화염 저항 +5%\n• 방어력 +120-160%\n• 힘 +15\n• 소켓 2개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "링키드메일"],
+      "meta": { "rarity": "Unique", "base": "Linked Mail", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "크로우 코우 (Crow Caw)",
+      "description": "확장 갑옷 유니크 — 베이스: 티귤레이티드아머 (Tigulated Mail)\n요구 레벨: 37\n\n옵션:\n• 상처 악화 확률 35%\n• 방어력 +150-180%\n• 민첩 +15\n• 타격 회복 +15%\n• 공격 속도 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "티귤레이티드아머"],
+      "meta": { "rarity": "Unique", "base": "Tigulated Mail", "level": 37 }
+    },
+    {
+      "type": "unique",
+      "name": "샤프트스톱 (Shaftstop)",
+      "description": "확장 갑옷 유니크 — 베이스: 메쉬아머 (Mesh Armor)\n요구 레벨: 38\n\n옵션:\n• 원거리 방어력 +250\n• 받는 피해 감소 30%\n• 생명력 +60\n• 방어력 +180-220%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "메쉬아머"],
+      "meta": { "rarity": "Unique", "base": "Mesh Armor", "level": 38 }
+    },
+    {
+      "type": "unique",
+      "name": "듀리엘의 쉘 (Duriel's Shell)",
+      "description": "확장 갑옷 유니크 — 베이스: 퀴래스 (Cuirass)\n요구 레벨: 41\n\n옵션:\n• 힘 +15\n• 방어력 +1-123 (레벨당 1.25)\n• 생명력 +1-99 (레벨당 1)\n• 방어력 +160-200%\n• 화염 저항 +20%\n• 번개 저항 +20%\n• 독 저항 +20%\n• 냉기 저항 +50%\n• 빙결되지 않음\n• 내구도 +100\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "퀴래스"],
+      "meta": { "rarity": "Unique", "base": "Cuirass", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "스컬더의 아이어 (Skullder's Ire)",
+      "description": "확장 갑옷 유니크 — 베이스: 러셋아머 (Russet Armor)\n요구 레벨: 42\n\n옵션:\n• +1 모든 스킬\n• 매직 아이템 발견 +1-123% (레벨당 1.25)\n• 방어력 +160-200%\n• 내구도 +60\n• 마법 피해 감소 10\n• 내구도 자동 회복 (5초마다 1)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "러셋아머"],
+      "meta": { "rarity": "Unique", "base": "Russet Armor", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "가디안 엔젤 (Guardian Angel)",
+      "description": "확장 갑옷 유니크 — 베이스: 템플라코트 (Templar Coat)\n요구 레벨: 45\n\n옵션:\n• 빛 반경 +4\n• +1 팔라딘 스킬\n• 방어력 +180-200%\n• 막기 속도 +30%\n• 최대 모든 저항 +15%\n• 악마 대상 명중률 +0-61 (레벨당 0.625)\n• 막기 확률 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "템플라코트"],
+      "meta": { "rarity": "Unique", "base": "Templar Coat", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "투쓰로 (Toothrow)",
+      "description": "확장 갑옷 유니크 — 베이스: 샤크투스아머 (Sharktooth Armor)\n요구 레벨: 48\n\n옵션:\n• 공격자 피해 반사 20-40\n• 방어력 +40-60\n• 힘 +10\n• 상처 악화 확률 40%\n• 화염 저항 +15%\n• 방어력 +160-220%\n• 내구도 +15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "샤크투스아머"],
+      "meta": { "rarity": "Unique", "base": "Sharktooth Armor", "level": 48 }
+    },
+    {
+      "type": "unique",
+      "name": "아트마의 와일 (Atma's Wail)",
+      "description": "확장 갑옷 유니크 — 베이스: 임바스트플레이트 (Embossed Plate)\n요구 레벨: 51\n\n옵션:\n• 민첩 +15\n• 생명력 재생 +10\n• 최대 마나 +15%\n• 타격 회복 +30%\n• 방어력 +2-198 (레벨당 2)\n• 내구도 +50\n• 방어력 +120-160%\n• 매직 아이템 발견 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "임바스트플레이트"],
+      "meta": { "rarity": "Unique", "base": "Embossed Plate", "level": 51 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙 하이드스 (Black Hades)",
+      "description": "확장 갑옷 유니크 — 베이스: 카오스아머 (Chaos Armor)\n요구 레벨: 53\n\n옵션:\n• 빛 반경 -2\n• 악마 대상 명중률 +200-250\n• 빙결 지속시간 절반\n• 소켓 3개\n• 방어력 +140-200%\n• 악마 대상 피해 +30-60%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "카오스아머"],
+      "meta": { "rarity": "Unique", "base": "Chaos Armor", "level": 53 }
+    },
+    {
+      "type": "unique",
+      "name": "커프스모온 (Corpsemourn)",
+      "description": "확장 갑옷 유니크 — 베이스: 어네이트플레이트 (Ornate Armor)\n요구 레벨: 55\n\n옵션:\n• 힘 +8\n• 활력 +10\n• 냉기 저항 +35%\n• 피격 시 6% 확률로 레벨 2 아이언 메이든(Iron Maiden) 시전\n• 방어력 +150-180%\n• 화염 피해 +12-36\n• 레벨 5 커프스 익스플로젼(Corpse Explosion) (40회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "어네이트플레이트"],
+      "meta": { "rarity": "Unique", "base": "Ornate Armor", "level": 55 }
+    },
+    {
+      "type": "unique",
+      "name": "퀘-히간의 위즈덤 (Que-Hegan's Wisdom)",
+      "description": "확장 갑옷 유니크 — 베이스: 메이지플레이트 (Mage Plate)\n요구 레벨: 51\n\n옵션:\n• 시전 속도 +20%\n• 처치 시 마나 +3\n• 마법 피해 감소 6-10\n• 에너지 +15\n• 타격 회복 +20%\n• 방어력 +140-160%\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "확장", "메이지플레이트"],
+      "meta": { "rarity": "Unique", "base": "Mage Plate", "level": 51 }
+    },
+    {
+      "type": "unique",
+      "name": "비서러턴트 (Visceratuant)",
+      "description": "확장 방패 유니크 — 베이스: 디펜더 (Defender)\n요구 레벨: 28\n\n옵션:\n• +1 소서리스 스킬\n• 막기 속도 +30%\n• 막기 확률 +30%\n• 방어력 +100-150%\n• 공격자에게 번개 피해 10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "디펜더"],
+      "meta": { "rarity": "Unique", "base": "Defender", "level": 28 }
+    },
+    {
+      "type": "unique",
+      "name": "모세의 블레스드 서클 (Moser's Blessed Circle)",
+      "description": "확장 방패 유니크 — 베이스: 라운드쉴드 (Round Shield)\n요구 레벨: 31\n\n옵션:\n• 모든 저항 +25\n• 막기 확률 +25%\n• 소켓 2개\n• 방어력 +180-220%\n• 막기 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "라운드쉴드"],
+      "meta": { "rarity": "Unique", "base": "Round Shield", "level": 31 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰체이서 (Stormchaser)",
+      "description": "확장 방패 유니크 — 베이스: 스큐텀 (Scutum)\n요구 레벨: 35\n\n옵션:\n• 번개 피해 +1-60\n• 막기 확률 +20%\n• 빙결 지속시간 절반\n• 번개 저항 +50%\n• 명중률 +150\n• 방어력 +160-220%\n• 막기 속도 +10%\n• 피격 시 4% 확률로 레벨 6 블리자드(Blizzard) 시전\n• 피격 시 4% 확률로 레벨 5 토네이도(Tornado) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "스큐텀"],
+      "meta": { "rarity": "Unique", "base": "Scutum", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "티아마트의 리뷰크 (Tiamat's Rebuke)",
+      "description": "확장 방패 유니크 — 베이스: 드래곤쉴드 (Dragon Shield)\n요구 레벨: 38\n\n옵션:\n• 냉기 피해 +27-53 (6초)\n• 화염 피해 +35-95\n• 번개 피해 +1-120\n• 모든 저항 +25-35\n• 방어력 +140-200%\n• 피격 시 5% 확률로 레벨 9 프로스트 노바(Frost Nova) 시전\n• 피격 시 5% 확률로 레벨 7 노바(Nova) 시전\n• 피격 시 3% 확률로 레벨 6 하이드라(Hydra) 시전\n• 내구도 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "드래곤쉴드"],
+      "meta": { "rarity": "Unique", "base": "Dragon Shield", "level": 38 }
+    },
+    {
+      "type": "unique",
+      "name": "게르크의 생츄어리 (Gerke's Sanctuary)",
+      "description": "확장 방패 유니크 — 베이스: 퍼비스 (Pavise)\n요구 레벨: 44\n\n옵션:\n• 피해 감소 11-16\n• 마법 피해 감소 14-18\n• 생명력 재생 +15\n• 방어력 +180-240%\n• 내구도 +100\n• 막기 확률 +30%\n• 모든 저항 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "퍼비스"],
+      "meta": { "rarity": "Unique", "base": "Pavise", "level": 44 }
+    },
+    {
+      "type": "unique",
+      "name": "라다만트의 스피어 (Radament's Sphere)",
+      "description": "확장 방패 유니크 — 베이스: 에인션트쉴드 (Ancient Shield)\n요구 레벨: 50\n\n옵션:\n• 독 피해 +80 (4초)\n• 피격 시 5% 확률로 레벨 5 포이즌 노바(Poison Nova) 시전\n• 독 저항 +75%\n• 방어력 +160-200%\n• 막기 확률 +20%\n• 막기 속도 +20%\n• 레벨 6 포이즌 익스플로젼(Poison Explosion) (40회 충전)\n• 내구도 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "에인션트쉴드"],
+      "meta": { "rarity": "Unique", "base": "Ancient Shield", "level": 50 }
+    },
+    {
+      "type": "unique",
+      "name": "리드리스 월 (Lidless Wall)",
+      "description": "확장 방패 유니크 — 베이스: 그림쉴드 (Grim Shield)\n요구 레벨: 41\n\n옵션:\n• 빛 반경 +1\n• +1 모든 스킬\n• 시전 속도 +20%\n• 처치 시 마나 +3-5\n• 방어력 +80-130%\n• 에너지 +10\n• 최대 마나 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "그림쉴드"],
+      "meta": { "rarity": "Unique", "base": "Grim Shield", "level": 41 }
+    },
+    {
+      "type": "unique",
+      "name": "랜스 가드 (Lance Guard)",
+      "description": "확장 방패 유니크 — 베이스: 바브드쉴드 (Barbed Shield)\n요구 레벨: 35\n\n옵션:\n• 생명력 +50\n• 타격 회복 +30%\n• 받은 피해 마나 전환 15%\n• 공격자 피해 반사 47\n• 방어력 +70-120%\n• 치명적 공격 20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "확장", "바브드쉴드"],
+      "meta": { "rarity": "Unique", "base": "Barbed Shield", "level": 35 }
+    },
+    {
+      "type": "unique",
+      "name": "베넘 그립 (Venom Grip)",
+      "description": "확장 장갑 유니크 — 베이스: 데몬하이드글러브 (Demonhide Gloves)\n요구 레벨: 29\n\n옵션:\n• 독 저항 +30%\n• 최대 독 저항 +5%\n• 독 피해 +60 (4초)\n• 강타 확률 5%\n• 생명력 흡수 5%\n• 방어력 +15-25\n• 방어력 +130-160%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "확장", "데몬하이드글러브"],
+      "meta": { "rarity": "Unique", "base": "Demonhide Gloves", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "그레이브팜 (Gravepalm)",
+      "description": "확장 장갑 유니크 — 베이스: 샤크스킨글러브 (Sharkskin Gloves)\n요구 레벨: 32\n\n옵션:\n• 에너지 +10\n• 힘 +10\n• 언데드 대상 피해 +100-200%\n• 언데드 대상 명중률 +100-200\n• 방어력 +140-180%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "확장", "샤크스킨글러브"],
+      "meta": { "rarity": "Unique", "base": "Sharkskin Gloves", "level": 32 }
+    },
+    {
+      "type": "unique",
+      "name": "구울하이드 (Ghoulhide)",
+      "description": "확장 장갑 유니크 — 베이스: 헤비브레이서 (Heavy Bracers)\n요구 레벨: 36\n\n옵션:\n• 언데드 대상 명중률 +2-198 (레벨당 2)\n• 언데드 대상 피해 +2-198% (레벨당 2)\n• 마나 흡수 4-5%\n• 생명력 +20\n• 방어력 +150-190%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "확장", "헤비브레이서"],
+      "meta": { "rarity": "Unique", "base": "Heavy Bracers", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "라바 가우트 (Lava Gout)",
+      "description": "확장 장갑 유니크 — 베이스: 배틀건틀릿 (Battle Gauntlets)\n요구 레벨: 42\n\n옵션:\n• 화염 저항 +24%\n• 빙결 지속시간 절반\n• 타격 시 2% 확률로 레벨 10 인첸트(Enchant) 시전\n• 공격 속도 +20%\n• 방어력 +150-200%\n• 화염 피해 +13-46\n• 내구도 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "확장", "배틀건틀릿"],
+      "meta": { "rarity": "Unique", "base": "Battle Gauntlets", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "헬마우쓰 (Hellmouth)",
+      "description": "확장 장갑 유니크 — 베이스: 워건틀릿 (War Gauntlets)\n요구 레벨: 47\n\n옵션:\n• 화염 피해 +15-72\n• 화염 피해 흡수 +15\n• 방어력 +150-200%\n• 내구도 +15\n• 타격 시 2% 확률로 레벨 4 메테오(Meteor) 시전\n• 타격 시 4% 확률로 레벨 12 파이어스톰(Firestorm) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "확장", "워건틀릿"],
+      "meta": { "rarity": "Unique", "base": "War Gauntlets", "level": 47 }
+    },
+    {
+      "type": "unique",
+      "name": "인페르노스트라이드 (Infernostride)",
+      "description": "확장 신발 유니크 — 베이스: 데몬하이드부츠 (Demonhide Boots)\n요구 레벨: 29\n\n옵션:\n• 화염 피해 +12-33\n• 달리기/걷기 +20%\n• 최대 화염 저항 +10%\n• 화염 저항 +30%\n• 빛 반경 +2\n• 방어력 +120-150%\n• 골드 획득 +40-70%\n• 방어력 +15\n• 피격 시 5% 확률로 레벨 8 블레이즈(Blaze) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "확장", "데몬하이드부츠"],
+      "meta": { "rarity": "Unique", "base": "Demonhide Boots", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "워터워크 (Waterwalk)",
+      "description": "확장 신발 유니크 — 베이스: 샤크스킨부츠 (Sharkskin Boots)\n요구 레벨: 32\n\n옵션:\n• 원거리 방어력 +100\n• 달리기/걷기 +20%\n• 민첩 +15\n• 방어력 +180-210%\n• 생명력 +45-65\n• 최대 지구력 +40\n• 최대 화염 저항 +5%\n• 지구력 회복 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "확장", "샤크스킨부츠"],
+      "meta": { "rarity": "Unique", "base": "Sharkskin Boots", "level": 32 }
+    },
+    {
+      "type": "unique",
+      "name": "실크위버 (Silkweave)",
+      "description": "확장 신발 유니크 — 베이스: 메쉬부츠 (Mesh Boots)\n요구 레벨: 36\n\n옵션:\n• 방어력 +150-190%\n• 처치 시 마나 +5\n• 원거리 방어력 +200\n• 최대 마나 +10%\n• 달리기/걷기 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "확장", "메쉬부츠"],
+      "meta": { "rarity": "Unique", "base": "Mesh Boots", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "워 트래블러 (War Traveler)",
+      "description": "확장 신발 유니크 — 베이스: 배틀부츠 (Battle Boots)\n요구 레벨: 42\n\n옵션:\n• 활력 +10\n• 힘 +10\n• 매직 아이템 발견 +30-50%\n• 내구도 +30\n• 달리기/걷기 +25%\n• 방어력 +150-190%\n• 피해 +15-25\n• 공격자 피해 반사 5-10\n• 지구력 소모 감소 40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "확장", "배틀부츠", "부츠", "매파", "파밍", "이동속도"],
+      "meta": { "rarity": "Unique", "base": "Battle Boots", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "고어 라이더 (Gore Rider)",
+      "description": "확장 신발 유니크 — 베이스: 워부츠 (War Boots)\n요구 레벨: 47\n\n옵션:\n• 요구치 -25%\n• 치명적 공격 15%\n• 달리기/걷기 +30%\n• 강타 확률 15%\n• 상처 악화 확률 10%\n• 방어력 +160-200%\n• 내구도 +10\n• 최대 지구력 +20\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "확장", "워부츠"],
+      "meta": { "rarity": "Unique", "base": "War Boots", "level": 47 }
+    },
+    {
+      "type": "unique",
+      "name": "스트링 오브 이어스 (String of Ears)",
+      "description": "확장 벨트 유니크 — 베이스: 데몬하이드섀시 (Demonhide Sash)\n요구 레벨: 29\n\n옵션:\n• 마법 피해 감소 10-15\n• 받는 피해 감소 10-15%\n• 생명력 흡수 6-8%\n• 방어력 +150-180%\n• 방어력 +15\n• 내구도 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "확장", "데몬하이드섀시"],
+      "meta": { "rarity": "Unique", "base": "Demonhide Sash", "level": 29 }
+    },
+    {
+      "type": "unique",
+      "name": "레이저테일 (Razortail)",
+      "description": "확장 벨트 유니크 — 베이스: 샤크스킨벨트 (Sharkskin Belt)\n요구 레벨: 32\n\n옵션:\n• 공격자 피해 반사 +1-99 (레벨당 1)\n• 민첩 +15\n• 관통 공격 확률 33%\n• 방어력 +15\n• 방어력 +120-150%\n• 최대 피해 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "확장", "샤크스킨벨트"],
+      "meta": { "rarity": "Unique", "base": "Sharkskin Belt", "level": 32 }
+    },
+    {
+      "type": "unique",
+      "name": "글룸스 트랩 (Gloom's Trap)",
+      "description": "확장 벨트 유니크 — 베이스: 메쉬벨트 (Mesh Belt)\n요구 레벨: 36\n\n옵션:\n• 빛 반경 -3\n• 최대 마나 +15%\n• 마나 흡수 5%\n• 방어력 +120-150%\n• 활력 +15\n• 마나 재생 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "확장", "메쉬벨트"],
+      "meta": { "rarity": "Unique", "base": "Mesh Belt", "level": 36 }
+    },
+    {
+      "type": "unique",
+      "name": "스노우클래쉬 (Snowclash)",
+      "description": "확장 벨트 유니크 — 베이스: 배틀벨트 (Battle Belt)\n요구 레벨: 42\n\n옵션:\n• 피격 시 5% 확률로 레벨 0 블리자드(Blizzard) 시전\n• 냉기 피해 흡수 +15\n• 최대 냉기 저항 +15%\n• 냉기 피해 +13-21 (3초)\n• 방어력 +130-170%\n• +2 블리자드(Blizzard) (소서리스 전용)\n• +3 글래셜 스파이크(Glacial Spike) (소서리스 전용)\n• +2 칠링 아머(Chilling Armor) (소서리스 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "확장", "배틀벨트"],
+      "meta": { "rarity": "Unique", "base": "Battle Belt", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "선더갓의 비거 (Thundergod's Vigor)",
+      "description": "확장 벨트 유니크 — 베이스: 워벨트 (War Belt)\n요구 레벨: 47\n\n옵션:\n• 피격 시 5% 확률로 레벨 7 피스트 오브 더 헤븐(Fist of the Heavens) 시전\n• 번개 피해 +1-50\n• 최대 번개 저항 +10%\n• 번개 피해 흡수 +20\n• 방어력 +160-200%\n• 활력 +20\n• 힘 +20\n• +3 라이트닝 스트라이크(Lightning Strike) (아마존 전용)\n• +3 라이트닝 퓨리(Lightning Fury) (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "확장", "워벨트"],
+      "meta": { "rarity": "Unique", "base": "War Belt", "level": 47 }
+    },
+    {
+      "type": "unique",
+      "name": "할리퀸 크레스트 (Harlequin Crest)",
+      "description": "엘리트 투구 유니크 — 베이스: 샤코 (Shako)\n요구 레벨: 62\n\n옵션:\n• +2 모든 스킬\n• 생명력 +1-148 (레벨당 1.5)\n• 마나 +1-148 (레벨당 1.5)\n• 매직 아이템 발견 +50%\n• 받는 피해 감소 10%\n• 모든 능력치 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "샤코", "엔드게임", "shako", "종결템", "올스킬"],
+      "meta": { "rarity": "Unique", "base": "Shako", "level": 62 }
+    },
+    {
+      "type": "unique",
+      "name": "베일 오브 스틸 (Veil of Steel)",
+      "description": "엘리트 투구 유니크 — 베이스: 스파이어드 헬름 (Spired Helm)\n요구 레벨: 73\n\n옵션:\n• 모든 저항 +50\n• 방어력 +60%\n• 힘 +15\n• 활력 +15\n• 빛 반경 -4\n• 내구도 +20\n• 방어력 +140\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "스파이어드 헬름", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Spired Helm", "level": 73 }
+    },
+    {
+      "type": "unique",
+      "name": "글래디에이터의 베인 (The Gladiator's Bane)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 와이어 플리스 (Wire Fleece)\n요구 레벨: 85\n\n옵션:\n• 방어력 +150-200%\n• 마법 피해 감소 15-20\n• 피해 감소 15-20\n• 공격자 피해 반사 20\n• 독 지속시간 감소 50%\n• 내구도 +103\n• 타격 회복 +30%\n• 방어력 +50\n• 빙결되지 않음\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "와이어 플리스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Wire Fleece", "level": 85 }
+    },
+    {
+      "type": "unique",
+      "name": "아케인의 발러 (Arkaine's Valor)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 발록 스킨 (Balrog Skin)\n요구 레벨: 85\n\n옵션:\n• 방어력 +150-180%\n• 타격 회복 +30%\n• +1-2 모든 스킬\n• 피해 감소 10-15\n• 활력 +0-49 (레벨당 0.5)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "발록 스킨", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Balrog Skin", "level": 85 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙오크 쉴드 (Blackoak Shield)",
+      "description": "엘리트 방패 유니크 — 베이스: 루나 (Luna)\n요구 레벨: 61\n\n옵션:\n• 민첩 +0-49 (레벨당 0.5)\n• 방어력 +160-200%\n• 냉기 피해 흡수 +0-61 (레벨당 0.625)\n• 피격 시 4% 확률로 레벨 5 위큰(Weaken) 시전\n• 내구도 +45\n• 생명력 +1-123 (레벨당 1.25)\n• 막기 속도 +50%\n• 빙결 지속시간 절반\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "엘리트", "루나", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Luna", "level": 61 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰쉴드 (Stormshield)",
+      "description": "엘리트 방패 유니크 — 베이스: 모너크 (Monarch)\n요구 레벨: 73\n\n옵션:\n• 방어력 +3-371 (레벨당 3.75)\n• 받는 피해 감소 35%\n• 힘 +30\n• 파괴 불가\n• 막기 속도 +35%\n• 번개 저항 +25%\n• 막기 확률 +25%\n• 냉기 저항 +60%\n• 공격자에게 번개 피해 10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "엘리트", "모너크", "엔드게임", "모나크", "피해감소", "pvp", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Monarch", "level": 73 }
+    },
+    {
+      "type": "unique",
+      "name": "헬슬레이어 (Hellslayer)",
+      "description": "엘리트 도끼 유니크 — 베이스: 디캐피테이터 (Decapitator)\n요구 레벨: 66\n\n옵션:\n• 힘 +0-49 (레벨당 0.5)\n• 활력 +0-49 (레벨당 0.5)\n• 피해 +3-297% (레벨당 3)\n• 화염 피해 +150-250\n• 생명력 +25\n• 피해 +100%\n• 공격 시 10% 확률로 레벨 0 파이어 볼(Fire Ball) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "디캐피테이터", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Decapitator", "level": 66 }
+    },
+    {
+      "type": "unique",
+      "name": "메서슈미트의 리버 (Messerschmidt's Reaver)",
+      "description": "엘리트 도끼 유니크 — 베이스: 챔피언 액스 (Champion Axe)\n요구 레벨: 70\n\n옵션:\n• 피해 +2-247% (레벨당 2.5)\n• 피해 +200%\n• 모든 능력치 +15\n• 화염 피해 +20-240\n• 내구도 +25\n• 명중률 +100%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "챔피언 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Champion Axe", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "바라나의 별 (Baranar's Star)",
+      "description": "엘리트 둔기 유니크 — 베이스: 데빌 스타 (Devil Star)\n요구 레벨: 65\n\n옵션:\n• 명중률 +200%\n• 피해 +200%\n• 민첩 +15\n• 힘 +15\n• 공격 속도 +50%\n• 내구도 +100\n• 번개 피해 +1-200\n• 화염 피해 +1-200\n• 냉기 피해 +1-200\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "엘리트", "데빌 스타", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Devil Star", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "쉐퍼의 해머 (Schaefer's Hammer)",
+      "description": "엘리트 해머 유니크 — 베이스: 레진드리 멜릿 (Legendary Mallet)\n요구 레벨: 79\n\n옵션:\n• 타격 시 20% 확률로 레벨 10 스태틱 필드(Static Field) 시전\n• 생명력 +50\n• 명중률 +2-198 (레벨당 2)\n• 번개 저항 +75%\n• 공격 속도 +20%\n• 최대 피해 +2-198 (레벨당 2)\n• 파괴 불가\n• 피해 +100-130%\n• 빛 반경 +1\n• 번개 피해 +50-200\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "엘리트", "레진드리 멜릿", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Legendary Mallet", "level": 79 }
+    },
+    {
+      "type": "unique",
+      "name": "크레이니엄 배셔 (The Cranium Basher)",
+      "description": "엘리트 해머 유니크 — 베이스: 선더 마울 (Thunder Maul)\n요구 레벨: 87\n\n옵션:\n• 공격 속도 +20%\n• 파괴 불가\n• 힘 +25\n• 모든 저항 +25\n• 강타 확률 75%\n• 피해 +20\n• 피해 +200-240%\n• 타격 시 4% 확률로 레벨 1 앰플리파이 데미지(Amplify Damage) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "엘리트", "선더 마울", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Thunder Maul", "level": 87 }
+    },
+    {
+      "type": "unique",
+      "name": "라이트세이버 (Lightsabre)",
+      "description": "엘리트 검 유니크 — 베이스: 패이즈 블레이드 (Phase Blade)\n요구 레벨: 58\n\n옵션:\n• 빛 반경 +7\n• 공격 시 5% 확률로 레벨 0 체인 라이트닝(Chain Lightning) 시전\n• 대상 방어력 무시\n• 번개 피해 흡수 +25%\n• 공격 속도 +20%\n• 마법 피해 +60-120\n• 번개 피해 +1-200\n• 마나 흡수 5-7%\n• 피해 +150-200%\n• 피해 +10-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "패이즈 블레이드"],
+      "meta": { "rarity": "Unique", "base": "Phase Blade", "level": 58 }
+    },
+    {
+      "type": "unique",
+      "name": "둠브링거 (Doombringer)",
+      "description": "엘리트 검 유니크 — 베이스: 챔피언 소드 (Champion Sword)\n요구 레벨: 69\n\n옵션:\n• 최대 생명력 +20%\n• 피해 +180-250%\n• 명중률 +40%\n• 파괴 불가\n• 피해 +30-100\n• 타격 시 8% 확률로 레벨 3 위큰(Weaken) 시전\n• 생명력 흡수 5-7%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "챔피언 소드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Champion Sword", "level": 69 }
+    },
+    {
+      "type": "unique",
+      "name": "그랜드파더 (The Grandfather)",
+      "description": "엘리트 검 유니크 — 베이스: 콜로서스 블레이드 (Colossus Blade)\n요구 레벨: 81\n\n옵션:\n• 모든 능력치 +20\n• 명중률 +50%\n• 생명력 +80\n• 최대 피해 +2-247 (레벨당 2.5)\n• 파괴 불가\n• 피해 +150-250%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "콜로서스 블레이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossus Blade", "level": 81 }
+    },
+    {
+      "type": "unique",
+      "name": "위저드스파이크 (Wizardspike)",
+      "description": "엘리트 단검 유니크 — 베이스: 본 나이프 (Bone Knife)\n요구 레벨: 61\n\n옵션:\n• 마나 +2-198 (레벨당 2)\n• 마나 재생 +15%\n• 최대 마나 +15%\n• 모든 저항 +75\n• 파괴 불가\n• 시전 속도 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "엘리트", "본 나이프", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Bone Knife", "level": 61 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰스파이어 (Stormspire)",
+      "description": "엘리트 폴암 유니크 — 베이스: 자이언트 쓰레셔 (Giant Thresher)\n요구 레벨: 70\n\n옵션:\n• 번개 저항 +50%\n• 피격 시 5% 확률로 레벨 5 체인 라이트닝(Chain Lightning) 시전\n• 피해 +150-250%\n• 힘 +10\n• 피격 시 2% 확률로 레벨 0 차지드 볼트(Charged Bolt) 시전\n• 공격 속도 +30%\n• 파괴 불가\n• 번개 피해 +1-237\n• 공격자에게 번개 피해 27\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "엘리트", "자이언트 쓰레셔", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Giant Thresher", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "이글혼 (Eaglehorn)",
+      "description": "엘리트 활 유니크 — 베이스: 크루세이더 보우 (Crusader Bow)\n요구 레벨: 69\n\n옵션:\n• 대상 방어력 무시\n• 명중률 +1-148 (레벨당 1.5)\n• 피해 +2-198% (레벨당 2)\n• 피해 +200%\n• +1 아마존 스킬\n• 민첩 +25\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "엘리트", "크루세이더 보우", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Crusader Bow", "level": 69 }
+    },
+    {
+      "type": "unique",
+      "name": "윈드포스 (Windforce)",
+      "description": "엘리트 활 유니크 — 베이스: 하이드라 보우 (Hydra Bow)\n요구 레벨: 73\n\n옵션:\n• 민첩 +5\n• 최대 피해 +3-309 (레벨당 3.125)\n• 지구력 회복 +30%\n• 마나 흡수 6-8%\n• 밀쳐내기\n• 피해 +250%\n• 공격 속도 +20%\n• 힘 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "엘리트", "하이드라 보우", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Hydra Bow", "level": 73 }
+    },
+    {
+      "type": "unique",
+      "name": "발카서스의 웨딩 밴드 (Bul-Kathos' Wedding Band)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 58\n\n옵션:\n• 생명력 +0-49 (레벨당 0.5)\n• +1 모든 스킬\n• 생명력 흡수 3-5%\n• 최대 지구력 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 58 }
+    },
+    {
+      "type": "unique",
+      "name": "캐츠 아이 (The Cat's Eye)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 50\n\n옵션:\n• 달리기/걷기 +30%\n• 공격 속도 +20%\n• 방어력 +100\n• 원거리 방어력 +100\n• 민첩 +25\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 50 }
+    },
+    {
+      "type": "unique",
+      "name": "라이징 선 (The Rising Sun)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 65\n\n옵션:\n• 화염 피해 흡수 +0-74 (레벨당 0.75)\n• 빛 반경 +4\n• 피격 시 2% 확률로 레벨 0 메테오(Meteor) 시전\n• 화염 피해 +24-48\n• +2 화염 스킬\n• 생명력 재생 +10\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "초승달 (Crescent Moon)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 50\n\n옵션:\n• 마나 흡수 11-15%\n• 마법 피해 감소 10\n• 받은 피해 마나 전환 10%\n• 빛 반경 -2\n• 마나 +45\n• 생명력 흡수 3-6%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 50 }
+    },
+    {
+      "type": "unique",
+      "name": "마라의 컬라이더스코프 (Mara's Kaleidoscope)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 67\n\n옵션:\n• +2 모든 스킬\n• 모든 저항 +20-30\n• 모든 능력치 +5\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛", "엔드게임", "올스킬", "올레지", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 67 }
+    },
+    {
+      "type": "unique",
+      "name": "아트마의 스캐럽 (Atma's Scarab)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 60\n\n옵션:\n• 독 피해 +40 (4초)\n• 독 저항 +75%\n• 빛 반경 +3\n• 공격자 피해 반사 5\n• 타격 시 5% 확률로 레벨 2 앰플리파이 데미지(Amplify Damage) 시전\n• 명중률 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 60 }
+    },
+    {
+      "type": "unique",
+      "name": "드와프 스타 (Dwarf Star)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 45\n\n옵션:\n• 골드 획득 +100%\n• 최대 지구력 +40\n• 지구력 회복 +15%\n• 생명력 +40\n• 마법 피해 감소 12-15\n• 화염 피해 흡수 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "레이븐 프로스트 (Raven Frost)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 45\n\n옵션:\n• 빙결되지 않음\n• 냉기 피해 +15-45 (4초)\n• 냉기 피해 흡수 +20%\n• 마나 +40\n• 민첩 +15-20\n• 명중률 +150-250\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링", "빙결방지", "민첩", "필수템"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 45 }
+    },
+    {
+      "type": "unique",
+      "name": "하이로드의 래쓰 (Highlord's Wrath)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 65\n\n옵션:\n• 번개 저항 +35%\n• 번개 피해 +1-30\n• 공격 속도 +20%\n• +1 모든 스킬\n• 치명적 공격 +0-37% (레벨당 0.375)\n• 공격자에게 번개 피해 15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "사라센의 찬스 (Saracen's Chance)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 47\n\n옵션:\n• 모든 저항 +15-25\n• 피격 시 10% 확률로 레벨 2 아이언 메이든(Iron Maiden) 시전\n• 모든 능력치 +12\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 47 }
+    },
+    {
+      "type": "unique",
+      "name": "아리앗의 페이스 (Arreat's Face)",
+      "description": "확장 야만용사 투구 유니크 — 베이스: 슬레이어 가드 (Slayer Guard)\n요구 레벨: 42\n\n옵션:\n• +2 야만용사 스킬\n• +2 전투 스킬 (야만용사 전용)\n• 방어력 +150-200%\n• 타격 회복 +30%\n• 명중률 +20%\n• 힘 +20\n• 민첩 +20\n• 생명력 흡수 3-6%\n• 모든 저항 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "야만용사 투구", "확장", "슬레이어 가드", "야만용사"],
+      "meta": { "rarity": "Unique", "base": "Slayer Guard", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "호우먼컬러스 (Homunculus)",
+      "description": "확장 네크로맨서 방패 유니크 — 베이스: 하이어러팬트 트로피 (Heirophant Trophy)\n요구 레벨: 42\n\n옵션:\n• +2 네크로맨서 스킬\n• +2 저주 (네크로맨서 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +40%\n• 에너지 +20\n• 마나 재생 +33%\n• 처치 시 마나 +5\n• 모든 저항 +40\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "네크로맨서 방패", "확장", "하이어러팬트 트로피", "네크로맨서"],
+      "meta": { "rarity": "Unique", "base": "Heirophant Trophy", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "타이탄의 리벤지 (Titan's Revenge)",
+      "description": "확장 아마존 재벌린 유니크 — 베이스: 세러모니얼 재벌린 (Ceremonial Javelin)\n요구 레벨: 42\n\n옵션:\n• +2 아마존 스킬\n• +2 재벌린 & 스피어 스킬 (아마존 전용)\n• 피해 +150-200%\n• 달리기/걷기 +30%\n• 수량 자동 회복 (3초마다 1)\n• 힘 +20\n• 민첩 +20\n• 생명력 흡수 5-9%\n• 피해 +25-50\n• 최대 수량 +60\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "아마존 재벌린", "확장", "세러모니얼 재벌린", "아마존", "자벨린", "자벨마", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Ceremonial Javelin", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "라이캔더의 에임 (Lycander's Aim)",
+      "description": "확장 아마존 활 유니크 — 베이스: 세러모니얼 보우 (Ceremonial Bow)\n요구 레벨: 42\n\n옵션:\n• +2 아마존 스킬\n• +2 보우 & 크로스보우 스킬 (아마존 전용)\n• 피해 +150-200%\n• 공격 속도 +20%\n• 방어력 +20%\n• 민첩 +20\n• 에너지 +20\n• 마나 흡수 5-8%\n• 피해 +25-50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "아마존 활", "확장", "세러모니얼 보우", "아마존"],
+      "meta": { "rarity": "Unique", "base": "Ceremonial Bow", "level": 42 }
+    },
+    {
+      "type": "unique",
+      "name": "라이캔더스 플랭크 (Lycander's Flank)",
+      "description": "확장 아마존 창 유니크 — 베이스: 세러모니얼 파이크 (Ceremonial Pike)\n요구 레벨: 42\n\n옵션:\n• +2 아마존 스킬\n• +2 재벌린 & 스피어 스킬 (아마존 전용)\n• 피해 +150-200%\n• 공격 속도 +30%\n• 방어력 +20%\n• 힘 +20\n• 활력 +20\n• 생명력 흡수 5-9%\n• 피해 +25-50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "아마존 창", "확장", "세러모니얼 파이크", "아마존"],
+      "meta": { "rarity": "Unique", "base": "Ceremonial Pike", "level": 42 }
     },
     {
       "type": "unique",
       "name": "오큘러스 (The Oculus)",
-      "description": "기본: 스워드 오브\n레벨 제한: 42\n효과: +3 소서리스 스킬, 시전 속도 +20%, 모든 저항 +20, 매직 아이템 드랍 50% 증가, 에너지 +20, 활력 +20\n※ 소서리스 중급 무기. 타격 시 텔레포트 주의",
-      "tags": ["unique", "오브", "소서리스", "시전속도", "매파"],
-      "meta": { "rarity": "Unique", "base": "Swirling Crystal" }
+      "description": "확장 소서리스 오브 유니크 — 베이스: 스월링 크리스탈 (Swirling Crystal)\n요구 레벨: 42\n\n옵션:\n• +3 소서리스 스킬\n• 피격 시 25% 확률로 레벨 1 텔레포트(Teleport) 시전\n• 모든 저항 +20\n• 시전 속도 +30%\n• 방어력 +20%\n• 활력 +20\n• 에너지 +20\n• 처치 시 마나 +5\n• 매직 아이템 발견 +50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "소서리스 오브", "확장", "스월링 크리스탈", "소서리스", "오브", "시전속도", "매파"],
+      "meta": { "rarity": "Unique", "base": "Swirling Crystal", "level": 42 }
     },
     {
       "type": "unique",
-      "name": "안다리엘의 얼굴 (Andariel's Visage)",
-      "description": "기본: 데몬헤드 (투구)\n레벨 제한: 83\n효과: +2 모든 스킬, 공격 속도 +20%, 생명력 흡수 8~10%, 힘 +25~30, 독 저항 -30%, 화염 저항 +70%\n※ 용병 투구 최고 인기. 라엘 보석으로 독저항 보완",
-      "tags": ["unique", "투구", "용병용", "종결템", "공격속도", "생명력흡수"],
-      "meta": { "rarity": "Unique", "base": "Demonhead" }
+      "name": "헤럴드 오브 자카럼 (Herald of Zakarum)",
+      "description": "확장 팔라딘 방패 유니크 — 베이스: 길디드 쉴드 (Gilded Shield)\n요구 레벨: 42\n\n옵션:\n• +2 팔라딘 스킬\n• +2 소환 스킬 (팔라딘 전용)\n• 방어력 +150-200%\n• 막기 속도 +30%\n• 막기 확률 +30%\n• 힘 +20\n• 활력 +20\n• 명중률 +20%\n• 모든 저항 +50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "팔라딘 방패", "확장", "길디드 쉴드", "팔라딘"],
+      "meta": { "rarity": "Unique", "base": "Gilded Shield", "level": 42 }
     },
     {
       "type": "unique",
-      "name": "마라의 만화경 (Mara's Kaleidoscope)",
-      "description": "기본: 목걸이\n레벨 제한: 67\n효과: +2 모든 스킬, 모든 저항 +20~30, 모든 능력치 +5\n※ 거의 모든 빌드에 적합한 최고의 목걸이",
-      "tags": ["unique", "목걸이", "아뮬렛", "올스킬", "올레지", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Amulet" }
+      "name": "바르턱스의 촙촙 (Bartuc's Cut-Throat)",
+      "description": "확장 암살자 클로 유니크 — 베이스: 그레이터 탤런 (Greater Talons)\n요구 레벨: 42\n\n옵션:\n• +2 암살자 스킬\n• +1 마샬 아트 (암살자 전용)\n• 피해 +150-200%\n• 타격 회복 +30%\n• 명중률 +20%\n• 힘 +20\n• 민첩 +20\n• 생명력 흡수 5-9%\n• 피해 +25-50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "암살자 클로", "확장", "그레이터 탤런", "암살자"],
+      "meta": { "rarity": "Unique", "base": "Greater Talons", "level": 42 }
     },
     {
       "type": "unique",
-      "name": "레이븐프로스트 (Ravenfrost)",
-      "description": "기본: 반지\n레벨 제한: 45\n효과: 냉기 피해 +15~45, 민첩 +15~20, 명중률 +150~250, 마나 +40, 냉기 흡수 +20%, 빙결되지 않음\n※ 빙결 방지 반지. 근접 캐릭터 필수",
-      "tags": ["unique", "반지", "빙결방지", "민첩", "필수템"],
-      "meta": { "rarity": "Unique", "base": "Ring" }
+      "name": "잘알의 메인 (Jalal's Mane)",
+      "description": "확장 드루이드 투구 유니크 — 베이스: 토테믹 마스크 (Totemic Mask)\n요구 레벨: 42\n\n옵션:\n• +2 드루이드 스킬\n• +2 쉐이프 쉬프팅 스킬 (드루이드 전용)\n• 방어력 +150-200%\n• 타격 회복 +30%\n• 명중률 +20%\n• 힘 +20\n• 에너지 +20\n• 처치 시 마나 +5\n• 모든 저항 +30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "드루이드 투구", "확장", "토테믹 마스크", "드루이드"],
+      "meta": { "rarity": "Unique", "base": "Totemic Mask", "level": 42 }
     },
     {
       "type": "unique",
-      "name": "소환의 재 (Stone of Jordan / SoJ)",
-      "description": "기본: 반지\n레벨 제한: 29\n효과: +1 모든 스킬, 최대 마나 +25%, 번개 흡수 +20, 마나 +20\n※ D2 화폐 단위로 쓰이던 전설적 반지. 캐스터 필수",
-      "tags": ["unique", "반지", "soj", "올스킬", "마나", "캐스터", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Ring" }
+      "name": "스캘퍼 (The Scalper)",
+      "description": "확장 투척 도끼 유니크 — 베이스: 프랜시스카 (Francisca)\n요구 레벨: 57\n\n옵션:\n• 수량 자동 회복 (3초마다 1)\n• 피해 +150-200%\n• 명중률 +25%\n• 공격 속도 +20%\n• 상처 악화 확률 33%\n• 생명력 흡수 4-6%\n• 처치 시 마나 +4\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투척 도끼", "확장", "프랜시스카"],
+      "meta": { "rarity": "Unique", "base": "Francisca", "level": 57 }
     },
     {
       "type": "unique",
-      "name": "톱니 이빨 (Stormshield)",
-      "description": "기본: 모나크 (방패)\n레벨 제한: 73\n효과: 피해 감소 35%, 냉기 저항 +60%, 번개 저항 +25%, 힘 +30, 막기 확률 증가\n※ 최고의 방어 방패. PvP 필수",
-      "tags": ["unique", "방패", "모나크", "피해감소", "pvp", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Monarch" }
+      "name": "블러드문 (Bloodmoon)",
+      "description": "엘리트 검 유니크 — 베이스: 엘리건트 블레이드 (Elegant Blade)\n요구 레벨: 61\n\n옵션:\n• 피해 +210-260%\n• 생명력 흡수 10-15%\n• 레벨 15 블러드 골렘(Blood Golem) (9회 충전)\n• 처치 시 생명력 +7-13\n• 상처 악화 확률 50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "엘리건트 블레이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Elegant Blade", "level": 61 }
     },
     {
       "type": "unique",
-      "name": "이더리얼 예언가의 안대 (Ethereal Edge)",
-      "description": "기본: 실버 에지드 액스\n레벨 제한: 74\n효과: +270~320% 피해 증가, 공격속도 +25%, 악마에게 피해 +150%, 생명력 흡수 5~10%, 파괴 불가",
-      "tags": ["unique", "도끼", "물리딜", "악마사냥"],
-      "meta": { "rarity": "Unique", "base": "Silver-Edged Axe" }
+      "name": "진 슬레이어 (Djinn Slayer)",
+      "description": "엘리트 검 유니크 — 베이스: 아타그한 (Ataghan)\n요구 레벨: 65\n\n옵션:\n• 피해 +190-240%\n• 화염 피해 +250-500\n• 악마 대상 피해 +100-150%\n• 악마 대상 명중률 +200-300\n• 번개 피해 흡수 +3-7\n• 마나 흡수 3-6%\n• 소켓 1-2개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "아타그한", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ataghan", "level": 65 }
     },
     {
       "type": "unique",
-      "name": "독 독사의 묵주 (Mang Song's Lesson)",
-      "description": "기본: 아콘 스태프\n레벨 제한: 82\n효과: +5 모든 스킬, 적의 화/냉/번 저항 -7~15% 감소, 시전 속도 +50%, 마나 재생 +10%\n※ 소서리스 최고의 스태프. 매우 희귀",
-      "tags": ["unique", "스태프", "소서리스", "올스킬", "종결템"],
-      "meta": { "rarity": "Unique", "base": "Archon Staff" }
+      "name": "데쓰비트 (Deathbit)",
+      "description": "확장 투척 단검 유니크 — 베이스: 배틀다트 (Battle Dart)\n요구 레벨: 44\n\n옵션:\n• 치명적 공격 40%\n• 피해 +130-180%\n• 명중률 +200-450\n• 생명력 흡수 7-9%\n• 마나 흡수 4-6%\n• 수량 자동 회복 (4초마다 1)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투척 단검", "확장", "배틀다트"],
+      "meta": { "rarity": "Unique", "base": "Battle Dart", "level": 44 }
+    },
+    {
+      "type": "unique",
+      "name": "워슈라이크 (Warshrike)",
+      "description": "엘리트 투척 단검 유니크 — 베이스: 윙드 나이프 (Winged Knife)\n요구 레벨: 75\n\n옵션:\n• 피해 +200-250%\n• 관통 공격 확률 50%\n• 공격 속도 +30%\n• 치명적 공격 50%\n• 수량 자동 회복 (3초마다 1)\n• 타격 시 25% 확률로 레벨 9 노바(Nova) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투척 단검", "엘리트", "윙드 나이프", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Winged Knife", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "구트 쉬폰 (Gut Siphon)",
+      "description": "엘리트 석궁 유니크 — 베이스: 데몬 크로스보우 (Demon Crossbow)\n요구 레벨: 71\n\n옵션:\n• 피해 +160-220%\n• 관통 공격 확률 33%\n• 생명력 흡수 12-18%\n• 대상 둔화 25%\n• 상처 악화 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "엘리트", "데몬 크로스보우", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Demon Crossbow", "level": 71 }
+    },
+    {
+      "type": "unique",
+      "name": "레이저스 엣지 (Razor's Edge)",
+      "description": "엘리트 도끼 유니크 — 베이스: 토마호크 (Tomahawk)\n요구 레벨: 67\n\n옵션:\n• 피해 +175-225%\n• 공격 속도 +40%\n• 대상 방어력 -33%\n• 치명적 공격 50%\n• 상처 악화 확률 50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "토마호크", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Tomahawk", "level": 67 }
+    },
+    {
+      "type": "unique",
+      "name": "데몬 림 (Demon Limb)",
+      "description": "엘리트 곤봉 유니크 — 베이스: 타이런트 클럽 (Tyrant Club)\n요구 레벨: 63\n\n옵션:\n• 피해 +180-230%\n• 화염 피해 +222-333\n• 생명력 흡수 7-13%\n• 레벨 23 인첸트(Enchant) (20회 충전)\n• 내구도 자동 회복 (20초마다 1)\n• 악마 대상 피해 +123%\n• 화염 저항 +15-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "곤봉", "엘리트", "타이런트 클럽", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Tyrant Club", "level": 63 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸 쉐이드 (Steel Shade)",
+      "description": "엘리트 투구 유니크 — 베이스: 아메트 (Armet)\n요구 레벨: 62\n\n옵션:\n• 방어력 +100-130%\n• 화염 피해 흡수 +5-11\n• 마나 흡수 4-8%\n• 생명력 재생 +10-18\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "아메트", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Armet", "level": 62 }
+    },
+    {
+      "type": "unique",
+      "name": "툼 리버 (Tomb Reaver)",
+      "description": "엘리트 폴암 유니크 — 베이스: 크립틱 액스 (Cryptic Axe)\n요구 레벨: 84\n\n옵션:\n• 공격 속도 +60%\n• 빛 반경 +4\n• 피해 +200-280%\n• 언데드 대상 피해 +150-230%\n• 매직 아이템 발견 +50-80%\n• 모든 저항 +30-50\n• 언데드 대상 명중률 +250-350\n• 처치 시 10% 확률로 몬스터 되살림\n• 처치 시 생명력 +10-14\n• 소켓 1-3개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "엘리트", "크립틱 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Cryptic Axe", "level": 84 }
+    },
+    {
+      "type": "unique",
+      "name": "데쓰 웹 (Death's Web)",
+      "description": "엘리트 완드 유니크 — 베이스: 언어스드 원드 (Unearthed Wand)\n요구 레벨: 66\n\n옵션:\n• +2 모든 스킬\n• 적 독 저항 -40~-50%\n• 처치 시 생명력 +7-12\n• 처치 시 마나 +7-12\n• +1-2 포이즌 & 본 스펠 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "엘리트", "언어스드 원드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Unearthed Wand", "level": 66 }
+    },
+    {
+      "type": "unique",
+      "name": "네이춰스 피스 (Nature's Peace)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 69\n\n옵션:\n• 몬스터 회복 방지\n• 처치한 몬스터 부활 불가\n• 피해 감소 7-11\n• 독 저항 +20-30%\n• 레벨 5 오크 세이지(Oak Sage) (27회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 69 }
+    },
+    {
+      "type": "unique",
+      "name": "에이져래쓰 (Azurewrath)",
+      "description": "엘리트 검 유니크 — 베이스: 패이즈 블레이드 (Phase Blade)\n요구 레벨: 85\n\n옵션:\n• 마법 피해 +250-500\n• 피해 +230-270%\n• 장착 시 레벨 10-13 생츄어리(Sanctuary) 오라\n• 냉기 피해 +250-500 (10초)\n• 공격 속도 +30%\n• 모든 능력치 +5-10\n• 빛 반경 +3\n• +1 모든 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "패이즈 블레이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Phase Blade", "level": 85 }
+    },
+    {
+      "type": "unique",
+      "name": "세라프의 힘 (Seraph's Hymn)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 65\n\n옵션:\n• +2 모든 스킬\n• +1-2 방어 오오라 (팔라딘 전용)\n• 악마 대상 피해 +25-50%\n• 언데드 대상 피해 +25-50%\n• 악마 대상 명중률 +150-250\n• 언데드 대상 명중률 +150-250\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "플레쉬리퍼 (Fleshripper)",
+      "description": "엘리트 단검 유니크 — 베이스: 팽드 나이프 (Fanged Knife)\n요구 레벨: 68\n\n옵션:\n• 피해 +200-300%\n• 대상 방어력 -50%\n• 몬스터 회복 방지\n• 강타 확률 25%\n• 상처 악화 확률 50%\n• 치명적 공격 33%\n• 대상 둔화 20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "엘리트", "팽드 나이프", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Fanged Knife", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "호라즌의 토네이도 (Horizon's Tornado)",
+      "description": "엘리트 둔기 유니크 — 베이스: 스컬지 (Scourge)\n요구 레벨: 64\n\n옵션:\n• 피해 +230-280%\n• 공격 속도 +50%\n• 대상 둔화 20%\n• 타격 시 20% 확률로 레벨 15 토네이도(Tornado) 시전\n• 요구치 -20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "엘리트", "스컬지", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Scourge", "level": 64 }
+    },
+    {
+      "type": "unique",
+      "name": "스톤 크러셔 (Stone Crusher)",
+      "description": "엘리트 해머 유니크 — 베이스: 레진드리 멜릿 (Legendary Mallet)\n요구 레벨: 68\n\n옵션:\n• 피해 +280-320%\n• 힘 +20-30\n• 강타 확률 40%\n• 대상 방어력 -25%\n• 타격 시 몬스터 방어력 -100\n• 피해 +10-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "엘리트", "레진드리 멜릿", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Legendary Mallet", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "제이드 탈런 (Jade Talon)",
+      "description": "엘리트 암살자 클로 유니크 — 베이스: 리스트 소드 (Wrist Sword)\n요구 레벨: 66\n\n옵션:\n• 피해 +190-240%\n• 마나 흡수 10-15%\n• 모든 저항 +40-50\n• 타격 회복 +30%\n• +1-2 쉐도우 디서플린 (암살자 전용)\n• +1-2 마샬 아트 (암살자 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "암살자 클로", "엘리트", "리스트 소드", "암살자", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Wrist Sword", "level": 66 }
+    },
+    {
+      "type": "unique",
+      "name": "쉐도우 댄서 (Shadow Dancer)",
+      "description": "엘리트 신발 유니크 — 베이스: 뮈르미돈 그리브즈 (Myrmidon Greaves)\n요구 레벨: 71\n\n옵션:\n• 방어력 +70-100%\n• 달리기/걷기 +30%\n• 타격 회복 +30%\n• 민첩 +15-25\n• +1-2 쉐도우 디서플린 (암살자 전용)\n• 요구치 -20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "엘리트", "뮈르미돈 그리브즈", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Myrmidon Greaves", "level": 71 }
+    },
+    {
+      "type": "unique",
+      "name": "케레버스 바이트 (Cerebus' Bite)",
+      "description": "엘리트 드루이드 투구 유니크 — 베이스: 블러드 스피리트 (Blood Spirit)\n요구 레벨: 63\n\n옵션:\n• 방어력 +130-140%\n• +2-4 쉐이프 쉬프팅 스킬 (드루이드 전용)\n• 생명력 흡수 7-10%\n• 명중률 +60-120%\n• 상처 악화 확률 33%\n• +1-2 피어럴 레이지(Feral Rage) (드루이드 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "드루이드 투구", "엘리트", "블러드 스피리트", "드루이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Blood Spirit", "level": 63 }
+    },
+    {
+      "type": "unique",
+      "name": "티리얼의 마이트 (Tyrael's Might)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 세이크리드 아머 (Sacred Armor)\n요구 레벨: 84\n\n옵션:\n• 요구치 -100%\n• 파괴 불가\n• 방어력 +120-150%\n• 처치한 몬스터 부활 불가\n• 악마 대상 피해 +50-100%\n• 빙결되지 않음\n• 달리기/걷기 +20%\n• 모든 저항 +20-30\n• 힘 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "세이크리드 아머", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Sacred Armor", "level": 84 }
+    },
+    {
+      "type": "unique",
+      "name": "소울 드레이너 (Soul Drainer)",
+      "description": "엘리트 장갑 유니크 — 베이스: 뱀브레이스 (Vambraces)\n요구 레벨: 74\n\n옵션:\n• 방어력 +90-120%\n• 마나 흡수 4-7%\n• 생명력 흡수 4-7%\n• 타격 시 8% 확률로 레벨 3 위큰(Weaken) 시전\n• 타격 시 몬스터 방어력 -50\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "엘리트", "뱀브레이스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Vambraces", "level": 74 }
+    },
+    {
+      "type": "unique",
+      "name": "룬 마스터 (Rune Master)",
+      "description": "엘리트 도끼 유니크 — 베이스: 에틴 액스 (Ettin Axe)\n요구 레벨: 72\n\n옵션:\n• 피해 +220-270%\n• 소켓 3-5개\n• 최대 냉기 저항 +5%\n• 빙결되지 않음\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "에틴 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ettin Axe", "level": 72 }
+    },
+    {
+      "type": "unique",
+      "name": "데쓰 클리버 (Death Cleaver)",
+      "description": "엘리트 도끼 유니크 — 베이스: 버서커 액스 (Berserker Axe)\n요구 레벨: 70\n\n옵션:\n• 피해 +230-280%\n• 치명적 공격 66%\n• 대상 방어력 -33%\n• 공격 속도 +40%\n• 처치 시 생명력 +6-9\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "버서커 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Berserker Axe", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "엑시큐셔너의 저스티스 (Executioner's Justice)",
+      "description": "엘리트 도끼 유니크 — 베이스: 글로리어스 액스 (Glorious Axe)\n요구 레벨: 75\n\n옵션:\n• 피해 +240-290%\n• 강타 확률 25%\n• 대상 방어력 -33%\n• 처치 시 50% 확률로 레벨 6 디크리피파이(Decrepify) 시전\n• 공격 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "글로리어스 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Glorious Axe", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "스톤레이븐 (Stoneraven)",
+      "description": "엘리트 아마존 창 유니크 — 베이스: 메이트리어춸 스피어 (Matriarchal Spear)\n요구 레벨: 64\n\n옵션:\n• 피해 +230-280%\n• 마법 피해 +101-187\n• 모든 저항 +30-50\n• 방어력 +400-600\n• +1-3 재벌린 & 스피어 스킬 (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "아마존 창", "엘리트", "메이트리어춸 스피어", "아마존", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Matriarchal Spear", "level": 64 }
+    },
+    {
+      "type": "unique",
+      "name": "레비아탄 (Leviathan)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 크라컨 쉘 (Kraken Shell)\n요구 레벨: 65\n\n옵션:\n• 방어력 +170-200%\n• 방어력 +100-150\n• 받는 피해 감소 15-25%\n• 힘 +40-50\n• 파괴 불가\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "크라컨 쉘", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Kraken Shell", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "위스프 프로젝터 (Wisp Projector)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 76\n\n옵션:\n• 번개 피해 흡수 +10-20%\n• 타격 시 10% 확률로 레벨 16 라이트닝(Lightning) 시전\n• 매직 아이템 발견 +10-20%\n• 레벨 2 오크 세이지(Oak Sage) (15회 충전)\n• 레벨 5 하트 오브 울버린(Heart of Wolverine) (13회 충전)\n• 레벨 7 스피리트 오브 바브(Spirit of Barbs) (11회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 76 }
+    },
+    {
+      "type": "unique",
+      "name": "가고일 바이트 (Gargoyle's Bite)",
+      "description": "엘리트 재벌린 유니크 — 베이스: 윙드 하푼 (Winged Harpoon)\n요구 레벨: 70\n\n옵션:\n• 피해 +180-230%\n• 수량 자동 회복 (3초마다 1)\n• 독 피해 +293 (10초)\n• 생명력 흡수 9-15%\n• 레벨 11 플레이그 재벌린(Plague Javelin) (60회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "재벌린", "엘리트", "윙드 하푼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Winged Harpoon", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "래서레이트 (Lacerator)",
+      "description": "엘리트 투척 도끼 유니크 — 베이스: 윙드 액스 (Winged Axe)\n요구 레벨: 68\n\n옵션:\n• 피해 +150-210%\n• 수량 자동 회복 (4초마다 1)\n• 공격 속도 +30%\n• 몬스터 회복 방지\n• 상처 악화 확률 33%\n• 타격 시 몬스터 도주 64%\n• 타격 시 33% 확률로 레벨 3 앰플리파이 데미지(Amplify Damage) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투척 도끼", "엘리트", "윙드 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Winged Axe", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "망 송의 레슨 (Mang Song's Lesson)",
+      "description": "엘리트 지팡이 유니크 — 베이스: 아콘 스태프 (Archon Staff)\n요구 레벨: 82\n\n옵션:\n• +5 모든 스킬\n• 적 화염 저항 -7~-15%\n• 적 번개 저항 -7~-15%\n• 적 냉기 저항 -7~-15%\n• 마나 재생 +10%\n• 시전 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "엘리트", "아콘 스태프", "엔드게임", "스태프", "소서리스", "올스킬", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Archon Staff", "level": 82 }
+    },
+    {
+      "type": "unique",
+      "name": "바이퍼포크 (Viperfork)",
+      "description": "엘리트 창 유니크 — 베이스: 맨캐쳐 (Mancatcher)\n요구 레벨: 71\n\n옵션:\n• 피해 +190-240%\n• 독 피해 +325 (10초)\n• 공격 속도 +50%\n• 명중률 +200-250\n• 타격 시 15% 확률로 레벨 9 포이즌 익스플로젼(Poison Explosion) 시전\n• 독 저항 +30-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "엘리트", "맨캐쳐", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Mancatcher", "level": 71 }
+    },
+    {
+      "type": "unique",
+      "name": "에테리얼 엣지 (Ethereal Edge)",
+      "description": "엘리트 도끼 유니크 — 베이스: 실버 엣지드 액스 (Silver-edged Axe)\n요구 레벨: 74\n\n옵션:\n• 피해 +150-180%\n• 공격 속도 +25%\n• 화염 피해 흡수 +10-12\n• 악마 대상 피해 +150-200%\n• 악마 처치 시 생명력 +5-10\n• 명중률 +270-350\n• 무형(수리 불가)\n• 파괴 불가\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "실버 엣지드 액스", "엔드게임", "물리딜", "악마사냥"],
+      "meta": { "rarity": "Unique", "base": "Silver-edged Axe", "level": 74 }
+    },
+    {
+      "type": "unique",
+      "name": "데몬혼스 엣지 (Demonhorn's Edge)",
+      "description": "엘리트 야만용사 투구 유니크 — 베이스: 디스트로이어 헬름 (Destroyer Helm)\n요구 레벨: 61\n\n옵션:\n• 방어력 +120-160%\n• 공격 속도 +10%\n• 생명력 흡수 3-6%\n• 공격자 피해 반사 55-77\n• +1-3 전투 스킬 (야만용사 전용)\n• +1-3 전투 마스터리 (야만용사 전용)\n• +1-3 함성 (야만용사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "야만용사 투구", "엘리트", "디스트로이어 헬름", "야만용사", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Destroyer Helm", "level": 61 }
+    },
+    {
+      "type": "unique",
+      "name": "리퍼스 톨 (The Reaper's Toll)",
+      "description": "엘리트 폴암 유니크 — 베이스: 쓰레셔 (Thresher)\n요구 레벨: 75\n\n옵션:\n• 피해 +190-240%\n• 타격 시 33% 확률로 레벨 1 디크리피파이(Decrepify) 시전\n• 대상 방어력 무시\n• 생명력 흡수 11-15%\n• 요구치 -25%\n• 치명적 공격 33%\n• 냉기 피해 +4-44\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "엘리트", "쓰레셔", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Thresher", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "스피리트 키퍼 (Spirit Keeper)",
+      "description": "엘리트 드루이드 투구 유니크 — 베이스: 어스 스피리트 (Earth Spirit)\n요구 레벨: 67\n\n옵션:\n• 방어력 +170-190%\n• 타격 회복 +20%\n• 번개 피해 흡수 +9-14\n• 화염 저항 +30-40%\n• 냉기 피해 흡수 +15-25%\n• 최대 독 저항 +10%\n• +1-2 드루이드 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "드루이드 투구", "엘리트", "어스 스피리트", "드루이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Earth Spirit", "level": 67 }
+    },
+    {
+      "type": "unique",
+      "name": "헬랙 (Hellrack)",
+      "description": "엘리트 석궁 유니크 — 베이스: 콜로서스 크로스보우 (Colossus Crossbow)\n요구 레벨: 76\n\n옵션:\n• 피해 +180-230%\n• 화염·번개·냉기 피해 +63-324\n• 공격 속도 +20%\n• 명중률 +100-150%\n• 소켓 2개\n• 레벨 18 이몰레이션 애로우(Immolation Arrow) (150회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "석궁", "엘리트", "콜로서스 크로스보우", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossus Crossbow", "level": 76 }
+    },
+    {
+      "type": "unique",
+      "name": "알마 네그라 (Alma Negra)",
+      "description": "엘리트 팔라딘 방패 유니크 — 베이스: 세이크리드 론다쉬 (Sacred Rondache)\n요구 레벨: 77\n\n옵션:\n• 방어력 +180-210%\n• 막기 속도 +30%\n• +1-2 팔라딘 스킬\n• 막기 확률 +20%\n• 마법 피해 감소 5-9\n• 명중률 +40-75%\n• 피해 +40-75%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "팔라딘 방패", "엘리트", "세이크리드 론다쉬", "팔라딘", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Sacred Rondache", "level": 77 }
+    },
+    {
+      "type": "unique",
+      "name": "타크포스 스폰 (Darkforce Spawn)",
+      "description": "엘리트 네크로맨서 방패 유니크 — 베이스: 블러드로드 스컬 (Bloodlord Skull)\n요구 레벨: 64\n\n옵션:\n• 방어력 +140-180%\n• 시전 속도 +30%\n• 최대 마나 +10%\n• +1-3 저주 (네크로맨서 전용)\n• +1-3 포이즌 & 본 스펠 (네크로맨서 전용)\n• +1-3 소환 스킬 (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "블러드로드 스컬", "네크로맨서", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Bloodlord Skull", "level": 64 }
+    },
+    {
+      "type": "unique",
+      "name": "위도우메이커 (Widowmaker)",
+      "description": "엘리트 활 유니크 — 베이스: 워드 보우 (Ward Bow)\n요구 레벨: 65\n\n옵션:\n• 피해 +150-200%\n• 치명적 공격 33%\n• 대상 방어력 무시\n• 매직 애로우 발사\n• +3-5 가이드 애로우(Guided Arrow)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "활", "엘리트", "워드 보우", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ward Bow", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "블러드 레이븐의 차지 (Blood Raven's Charge)",
+      "description": "엘리트 아마존 활 유니크 — 베이스: 메이트리어춸 보우 (Matriarchal Bow)\n요구 레벨: 71\n\n옵션:\n• 피해 +180-230%\n• 명중률 +200-300%\n• 폭발 화살 발사\n• +2-4 보우 & 크로스보우 스킬 (아마존 전용)\n• 레벨 5 리바이브(Revive) (30회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "아마존 활", "엘리트", "메이트리어춸 보우", "아마존", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Matriarchal Bow", "level": 71 }
+    },
+    {
+      "type": "unique",
+      "name": "고스트플레임 (Ghostflame)",
+      "description": "엘리트 단검 유니크 — 베이스: 레전드 스파이크 (Legend Spike)\n요구 레벨: 62\n\n옵션:\n• 피해 +190-240%\n• 대상 방어력 무시\n• 마법 피해 +108\n• 마나 흡수 10-15%\n• 무형(수리 불가)\n• 파괴 불가\n• 빛 반경 +2\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "단검", "엘리트", "레전드 스파이크", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Legend Spike", "level": 62 }
+    },
+    {
+      "type": "unique",
+      "name": "쉐도우 킬러 (Shadow Killer)",
+      "description": "엘리트 암살자 클로 유니크 — 베이스: 배틀 새스터스 (Battle Cestus)\n요구 레벨: 78\n\n옵션:\n• 피해 +170-220%\n• 대상 방어력 -25%\n• 대상 빙결 +2\n• 처치 시 마나 +10-15\n• 타격 시 33% 확률로 레벨 8 프로스트 노바(Frost Nova) 시전\n• 무형(수리 불가)\n• 파괴 불가\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "암살자 클로", "엘리트", "배틀 새스터스", "암살자", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Battle Cestus", "level": 78 }
+    },
+    {
+      "type": "unique",
+      "name": "김머쉬레드 (Gimmershred)",
+      "description": "엘리트 투척 도끼 유니크 — 베이스: 플라잉 액스 (Flying Axe)\n요구 레벨: 70\n\n옵션:\n• 피해 +160-210%\n• 화염 피해 +218-483\n• 냉기 피해 +176-397 (4초)\n• 번개 피해 +29-501\n• 최대 수량 +60\n• 공격 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투척 도끼", "엘리트", "플라잉 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Flying Axe", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "그리폰의 아이 (Griffon's Eye)",
+      "description": "엘리트 서클릿 유니크 — 베이스: 다이어뎀 (Diadem)\n요구 레벨: 76\n\n옵션:\n• 방어력 +100-200\n• 시전 속도 +25%\n• +1 모든 스킬\n• 번개 스킬 피해 +10-15%\n• 적 번개 저항 -15~-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "서클릿", "엘리트", "다이어뎀", "엔드게임", "투구", "다이아뎀", "번개", "소서리스", "아마존", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Diadem", "level": 76 }
+    },
+    {
+      "type": "unique",
+      "name": "윈드해머 (Windhammer)",
+      "description": "엘리트 해머 유니크 — 베이스: 오우거 마울 (Ogre Maul)\n요구 레벨: 68\n\n옵션:\n• 피해 +180-230%\n• 강타 확률 50%\n• 공격 속도 +60%\n• 타격 시 33% 확률로 레벨 22 트위스터(Twister) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "엘리트", "오우거 마울", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ogre Maul", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "선더스트로크 (Thunderstroke)",
+      "description": "엘리트 아마존 재벌린 유니크 — 베이스: 메이트리어춸 재벌린 (Matriarchal Javelin)\n요구 레벨: 69\n\n옵션:\n• 피해 +150-200%\n• 번개 피해 +1-511\n• 타격 시 20% 확률로 레벨 14 라이트닝(Lightning) 시전\n• 공격 속도 +15%\n• 적 번개 저항 -15%\n• +3 라이트닝 볼트(Lightning Bolt) (아마존 전용)\n• +2-4 재벌린 & 스피어 스킬 (아마존 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "아마존 재벌린", "엘리트", "메이트리어춸 재벌린", "아마존", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Matriarchal Javelin", "level": 69 }
+    },
+    {
+      "type": "unique",
+      "name": "데몬스 아치 (Demon's Arch)",
+      "description": "엘리트 재벌린 유니크 — 베이스: 발록 스피어 (Balrog Spear)\n요구 레벨: 68\n\n옵션:\n• 피해 +160-210%\n• 화염 피해 +232-323\n• 생명력 흡수 6-12%\n• 수량 자동 회복 (3초마다 1)\n• 공격 속도 +30%\n• 번개 피해 +23-333\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "재벌린", "엘리트", "발록 스피어", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Balrog Spear", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "본플레임 (Boneflame)",
+      "description": "엘리트 네크로맨서 방패 유니크 — 베이스: 써큐버스 스컬 (Succubus Skull)\n요구 레벨: 72\n\n옵션:\n• 방어력 +120-150%\n• 달리기/걷기 +20%\n• 피격 시 15% 확률로 레벨 3 테러(Terror) 시전\n• +2-3 네크로맨서 스킬\n• 모든 저항 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "네크로맨서 방패", "엘리트", "써큐버스 스컬", "네크로맨서", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Succubus Skull", "level": 72 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸 필라 (Steel Pillar)",
+      "description": "엘리트 창 유니크 — 베이스: 워 파이크 (War Pike)\n요구 레벨: 69\n\n옵션:\n• 피해 +210-260%\n• 공격 속도 +25%\n• 대상 방어력 -20%\n• 방어력 +50-80%\n• 파괴 불가\n• 강타 확률 25%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "엘리트", "워 파이크", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "War Pike", "level": 69 }
+    },
+    {
+      "type": "unique",
+      "name": "나이트윙의 베일 (Nightwing's Veil)",
+      "description": "엘리트 투구 유니크 — 베이스: 스파이어드 헬름 (Spired Helm)\n요구 레벨: 67\n\n옵션:\n• 방어력 +90-120%\n• +2 모든 스킬\n• 민첩 +10-20\n• 냉기 피해 흡수 +5-9\n• 빙결 지속시간 절반\n• 냉기 스킬 피해 +8-15%\n• 요구치 -50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "스파이어드 헬름", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Spired Helm", "level": 67 }
+    },
+    {
+      "type": "unique",
+      "name": "크라운 오브 에이지스 (Crown of Ages)",
+      "description": "엘리트 투구 유니크 — 베이스: 코로나 (Corona)\n요구 레벨: 82\n\n옵션:\n• 타격 회복 +30%\n• 모든 저항 +20-30\n• +1 모든 스킬\n• 방어력 +100-150\n• 파괴 불가\n• 받는 피해 감소 10-15%\n• 방어력 +50%\n• 소켓 1-2개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "코로나", "엔드게임", "피해감소", "pvp", "종결템"],
+      "meta": { "rarity": "Unique", "base": "Corona", "level": 82 }
+    },
+    {
+      "type": "unique",
+      "name": "안다리엘의 비지스 (Andariel's Visage)",
+      "description": "엘리트 투구 유니크 — 베이스: 데몬헤드 (Demonhead)\n요구 레벨: 83\n\n옵션:\n• 방어력 +100-150%\n• 독 저항 +70%\n• +2 모든 스킬\n• 최대 독 저항 +10%\n• 공격 속도 +20%\n• 힘 +25-30\n• 피격 시 15% 확률로 레벨 15 포이즌 노바(Poison Nova) 시전\n• 레벨 3 베넘(Venom) (20회 충전)\n• 생명력 흡수 8-10%\n• 화염 저항 -30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "데몬헤드", "엔드게임", "용병용", "종결템", "공격속도", "생명력흡수"],
+      "meta": { "rarity": "Unique", "base": "Demonhead", "level": 83 }
+    },
+    {
+      "type": "unique",
+      "name": "드래곤스케일 (Dragonscale)",
+      "description": "엘리트 팔라딘 방패 유니크 — 베이스: 자카럼 쉴드 (Zakarum Shield)\n요구 레벨: 80\n\n옵션:\n• 방어력 +170-200%\n• 화염 피해 흡수 +10-20%\n• 최대 화염 저항 +5%\n• 힘 +15-25\n• 화염 피해 +211-371\n• +10 하이드라(Hydra)\n• 화염 스킬 피해 +15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "팔라딘 방패", "엘리트", "자카럼 쉴드", "팔라딘", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Zakarum Shield", "level": 80 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸 캐러패이스 (Steel Carapace)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 쉐도우 플레이트 (Shadow Plate)\n요구 레벨: 66\n\n옵션:\n• 방어력 +190-220%\n• 타격 회복 +20%\n• 피해 감소 9-14\n• 냉기 저항 +40-60%\n• 마나 재생 +10-15%\n• 내구도 자동 회복 (20초마다 1)\n• 피격 시 8% 확률로 레벨 6 아이언 메이든(Iron Maiden) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "쉐도우 플레이트", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Shadow Plate", "level": 66 }
+    },
+    {
+      "type": "unique",
+      "name": "메두사의 게이즈 (Medusa's Gaze)",
+      "description": "엘리트 방패 유니크 — 베이스: 이지스 (Aegis)\n요구 레벨: 76\n\n옵션:\n• 방어력 +150-180%\n• 대상 둔화 20%\n• 피격 시 10% 확률로 레벨 7 로우어 레지스트(Lower Resist) 시전\n• 생명력 흡수 5-9%\n• 사망 시 100% 확률로 레벨 44 노바(Nova) 시전\n• 냉기 저항 +40-80%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "엘리트", "이지스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Aegis", "level": 76 }
+    },
+    {
+      "type": "unique",
+      "name": "레이븐로어 (Ravenlore)",
+      "description": "엘리트 드루이드 투구 유니크 — 베이스: 스카이 스피리트 (Sky Spirit)\n요구 레벨: 74\n\n옵션:\n• 방어력 +120-150%\n• 모든 저항 +15-25\n• +3 엘러멘틀 스킬 (드루이드 전용)\n• 에너지 +20-30\n• 적 화염 저항 -10~-20%\n• +7 레이번(Raven) (드루이드 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "드루이드 투구", "엘리트", "스카이 스피리트", "드루이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Sky Spirit", "level": 74 }
+    },
+    {
+      "type": "unique",
+      "name": "본쉐이드 (Boneshade)",
+      "description": "엘리트 완드 유니크 — 베이스: 리치 원드 (Lich Wand)\n요구 레벨: 79\n\n옵션:\n• +2 네크로맨서 스킬\n• 시전 속도 +25%\n• +4-5 티스(Teeth) (네크로맨서 전용)\n• +4-5 본 아머(Bone Armor) (네크로맨서 전용)\n• +2-3 본 스피어(Bone Spear) (네크로맨서 전용)\n• +1-2 본 스피리트(Bone Spirit) (네크로맨서 전용)\n• +2-3 본 월(Bone Wall) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "완드", "엘리트", "리치 원드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Lich Wand", "level": 79 }
+    },
+    {
+      "type": "unique",
+      "name": "플레임벨로우 (Flamebellow)",
+      "description": "엘리트 검 유니크 — 베이스: 발록 블레이드 (Balrog Blade)\n요구 레벨: 71\n\n옵션:\n• 피해 +170-240%\n• 화염 피해 +233-482\n• +3 화염 스킬\n• 화염 피해 흡수 +20-30%\n• 타격 시 12% 확률로 레벨 16 파이어스톰(Firestorm) 시전\n• 힘 +10-20\n• 활력 +5-10\n• +12-18 인페르노(Inferno)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "발록 블레이드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Balrog Blade", "level": 71 }
+    },
+    {
+      "type": "unique",
+      "name": "데쓰 패썸 (Death's Fathom)",
+      "description": "엘리트 소서리스 오브 유니크 — 베이스: 디멘셔널 샤드 (Dimensional Shard)\n요구 레벨: 73\n\n옵션:\n• +3 소서리스 스킬\n• 냉기 스킬 피해 +15-30%\n• 시전 속도 +20%\n• 화염 저항 +25-40%\n• 번개 저항 +25-40%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "소서리스 오브", "엘리트", "디멘셔널 샤드", "소서리스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Dimensional Shard", "level": 73 }
+    },
+    {
+      "type": "unique",
+      "name": "울프하울 (Wolfhowl)",
+      "description": "엘리트 야만용사 투구 유니크 — 베이스: 퓨리 바이저 (Fury Visor)\n요구 레벨: 79\n\n옵션:\n• 방어력 +120-150%\n• +2-3 함성 (야만용사 전용)\n• 힘 +8-15\n• 민첩 +8-15\n• 활력 +8-15\n• +3-6 워울프(Werewolf)\n• 레벨 15 다이어 울프(Summon Dire Wolf) (18회 충전)\n• +3-6 변신술(Lycanthropy)\n• +3-6 피어럴 레이지(Feral Rage)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "야만용사 투구", "엘리트", "퓨리 바이저", "야만용사", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Fury Visor", "level": 79 }
+    },
+    {
+      "type": "unique",
+      "name": "스피리트 워드 (Spirit Ward)",
+      "description": "엘리트 방패 유니크 — 베이스: 워드 (Ward)\n요구 레벨: 68\n\n옵션:\n• 방어력 +130-180%\n• 냉기 피해 흡수 +6-11\n• 모든 저항 +30-40\n• 막기 확률 +20-30%\n• 막기 속도 +25%\n• 피격 시 5% 확률로 레벨 8 페이드(Fade) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "엘리트", "워드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ward", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "기라의 가디안 (Kira's Guardian)",
+      "description": "확장 서클릿 유니크 — 베이스: 티아라 (Tiara)\n요구 레벨: 77\n\n옵션:\n• 방어력 +50-120\n• 모든 저항 +50-70\n• 빙결되지 않음\n• 타격 회복 +20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "서클릿", "확장", "티아라", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Tiara", "level": 77 }
+    },
+    {
+      "type": "unique",
+      "name": "오르무스 로브 (Ormus' Robes)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 더스크 슈라우드 (Dusk Shroud)\n요구 레벨: 75\n\n옵션:\n• 방어력 +10-20\n• 시전 속도 +20%\n• 화염 스킬 피해 +10-15%\n• 냉기 스킬 피해 +10-15%\n• 번개 스킬 피해 +10-15%\n• 마나 재생 +10-15%\n• +3 무작위 소서리스 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "더스크 슈라우드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Dusk Shroud", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "기드의 포츈 (Gheed's Fortune)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 62\n\n옵션:\n• 매직 아이템 발견 +20-40%\n• 골드 획득 +80-160%\n• 상점 가격 인하 10-15%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 62 }
+    },
+    {
+      "type": "unique",
+      "name": "스톰래쉬 (Stormlash)",
+      "description": "엘리트 둔기 유니크 — 베이스: 스컬지 (Scourge)\n요구 레벨: 82\n\n옵션:\n• 피해 +240-300%\n• 공격 속도 +30%\n• 타격 시 15% 확률로 레벨 10 스태틱 필드(Static Field) 시전\n• 타격 시 20% 확률로 레벨 18 토네이도(Tornado) 시전\n• 번개 피해 +1-473\n• 공격자에게 번개 피해 30\n• 강타 확률 33%\n• 번개 피해 흡수 +3-9\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "둔기", "엘리트", "스컬지", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Scourge", "level": 82 }
+    },
+    {
+      "type": "unique",
+      "name": "할라버드의 레인 (Halaberd's Reign)",
+      "description": "엘리트 야만용사 투구 유니크 — 베이스: 컨커러 크라운 (Conqueror Crown)\n요구 레벨: 77\n\n옵션:\n• 방어력 +140-170%\n• +1 전투 마스터리 (야만용사 전용)\n• +2 야만용사 스킬\n• 타격 회복 +20%\n• 생명력 재생 +15-23\n• +1-2 배틀 오더스(Battle Orders) (야만용사 전용)\n• +1-2 배틀 커멘드(Battle Command) (야만용사 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "야만용사 투구", "엘리트", "컨커러 크라운", "야만용사", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Conqueror Crown", "level": 77 }
+    },
+    {
+      "type": "unique",
+      "name": "스파이크 쏜 (Spike Thorn)",
+      "description": "엘리트 방패 유니크 — 베이스: 블레이드 배리어 (Blade Barrier)\n요구 레벨: 70\n\n옵션:\n• 방어력 +120-150%\n• 공격자 피해 반사 +1-136 (레벨당 1.375)\n• 내구도 +250\n• 타격 회복 +30%\n• 받는 피해 감소 15-20%\n• 소켓 1개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "엘리트", "블레이드 배리어", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Blade Barrier", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "드라큘의 그래스프 (Dracul's Grasp)",
+      "description": "엘리트 장갑 유니크 — 베이스: 뱀파이어본 글러브 (Vampirebone Gloves)\n요구 레벨: 76\n\n옵션:\n• 방어력 +90-120%\n• 생명력 흡수 7-10%\n• 상처 악화 확률 25%\n• 타격 시 5% 확률로 레벨 10 라이프 탭(Life Tap) 시전\n• 처치 시 생명력 +5-10\n• 힘 +10-15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "엘리트", "뱀파이어본 글러브", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Vampirebone Gloves", "level": 76 }
+    },
+    {
+      "type": "unique",
+      "name": "프로스트윈드 (Frostwind)",
+      "description": "엘리트 검 유니크 — 베이스: 크립틱 소드 (Cryptic Sword)\n요구 레벨: 70\n\n옵션:\n• 피해 +180-230%\n• 대상 빙결 +4\n• 빙결 지속시간 절반\n• 냉기 피해 +237-486 (6초)\n• 공격 속도 +25%\n• 냉기 피해 흡수 +7-15%\n• +7-14 아틱 블라스트(Arctic Blast)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "검", "엘리트", "크립틱 소드", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Cryptic Sword", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "템플러의 마이트 (Templar's Might)",
+      "description": "엘리트 갑옷 유니크 — 베이스: 세이크리드 아머 (Sacred Armor)\n요구 레벨: 74\n\n옵션:\n• 방어력 +170-220%\n• 타격 회복 +20%\n• 원거리 방어력 +250-300\n• 최대 지구력 +40-50\n• 힘 +10-15\n• 활력 +10-15\n• +1-2 공격 오오라 (팔라딘 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "갑옷", "엘리트", "세이크리드 아머", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Sacred Armor", "level": 74 }
+    },
+    {
+      "type": "unique",
+      "name": "에슈타스 템퍼 (Eschuta's Temper)",
+      "description": "엘리트 소서리스 오브 유니크 — 베이스: 엘드리치오브 (Eldritch Orb)\n요구 레벨: 72\n\n옵션:\n• +1-3 소서리스 스킬\n• 시전 속도 +40%\n• 화염 스킬 피해 +10-20%\n• 번개 스킬 피해 +10-20%\n• 에너지 +20-30\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "소서리스 오브", "엘리트", "엘드리치오브", "소서리스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Eldritch Orb", "level": 72 }
+    },
+    {
+      "type": "unique",
+      "name": "파이어리저드의 탤런스 (Firelizard's Talons)",
+      "description": "엘리트 암살자 클로 유니크 — 베이스: 피어럴 클러 (Feral Claws)\n요구 레벨: 67\n\n옵션:\n• 피해 +200-270%\n• 공격 속도 +15%\n• +1-3 마샬 아트 (암살자 전용)\n• 화염 피해 +236-480\n• 화염 저항 +40-70%\n• +1-2 웨이크 오브 파이어(Wake of Fire) (암살자 전용)\n• +1-2 웨이크 오브 인페르노(Wake of Inferno) (암살자 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "암살자 클로", "엘리트", "피어럴 클러", "암살자", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Feral Claws", "level": 67 }
+    },
+    {
+      "type": "unique",
+      "name": "샌드스톰 트랙 (Sandstorm Trek)",
+      "description": "엘리트 신발 유니크 — 베이스: 스캐럽쉘 부츠 (Scarabshell Boots)\n요구 레벨: 64\n\n옵션:\n• 방어력 +140-170%\n• 달리기/걷기 +20%\n• 타격 회복 +20%\n• 최대 지구력 +1-99 (레벨당 1)\n• 지구력 소모 감소 50%\n• 독 저항 +40-70%\n• 내구도 자동 회복 (20초마다 1)\n• 힘 +10-15\n• 활력 +10-15\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "엘리트", "스캐럽쉘 부츠", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Scarabshell Boots", "level": 64 }
+    },
+    {
+      "type": "unique",
+      "name": "메로우워커 (Marrowwalk)",
+      "description": "엘리트 신발 유니크 — 베이스: 본위브 부츠 (Boneweave Boots)\n요구 레벨: 66\n\n옵션:\n• 방어력 +170-200%\n• 달리기/걷기 +20%\n• 레벨 33 본 프리즌(Bone Prison) (13회 충전)\n• 레벨 12 라이프 탭(Life Tap) (10회 충전)\n• 지구력 회복 +10%\n• 마나 재생 +10%\n• 빙결 지속시간 절반\n• 힘 +10-20\n• 민첩 +17\n• +1-2 스켈레톤 마스터리(Skeleton Mastery) (네크로맨서 전용)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "신발", "엘리트", "본위브 부츠", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Boneweave Boots", "level": 66 }
+    },
+    {
+      "type": "unique",
+      "name": "헤븐의 라이트 (Heaven's Light)",
+      "description": "엘리트 셉터 유니크 — 베이스: 마이티 샙터 (Mighty Scepter)\n요구 레벨: 61\n\n옵션:\n• 피해 +250-300%\n• 공격 속도 +20%\n• 대상 방어력 -33%\n• 빛 반경 +3\n• 악마 처치 시 생명력 +15-20\n• 강타 확률 33%\n• 소켓 1-3개\n• +2-3 팔라딘 스킬\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "엘리트", "마이티 샙터", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Mighty Scepter", "level": 61 }
+    },
+    {
+      "type": "unique",
+      "name": "아라크니드 메쉬 (Arachnid Mesh)",
+      "description": "엘리트 벨트 유니크 — 베이스: 스파이더웹 새시 (Spiderweb Sash)\n요구 레벨: 80\n\n옵션:\n• 방어력 +90-120%\n• 시전 속도 +20%\n• 레벨 3 베넘(Venom) (11회 충전)\n• +1 모든 스킬\n• 대상 둔화 10%\n• 최대 마나 +5%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "엘리트", "스파이더웹 새시", "엔드게임", "스웹", "시전속도", "종결템", "캐스터"],
+      "meta": { "rarity": "Unique", "base": "Spiderweb Sash", "level": 80 }
+    },
+    {
+      "type": "unique",
+      "name": "노스페라투의 코일 (Nosferatu's Coil)",
+      "description": "엘리트 벨트 유니크 — 베이스: 뱀파이어팽 벨트 (Vampirefang Belt)\n요구 레벨: 51\n\n옵션:\n• 힘 +15\n• 처치 시 마나 +2\n• 대상 둔화 10%\n• 생명력 흡수 5-7%\n• 공격 속도 +10%\n• 빛 반경 -3\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "엘리트", "뱀파이어팽 벨트"],
+      "meta": { "rarity": "Unique", "base": "Vampirefang Belt", "level": 51 }
+    },
+    {
+      "type": "unique",
+      "name": "메탈그리드 (Metalgrid)",
+      "description": "목걸이 유니크 — 베이스: 아뮬렛 (Amulet)\n요구 레벨: 81\n\n옵션:\n• 방어력 +300-350\n• 모든 저항 +25-35\n• 명중률 +400-450\n• 레벨 22 아이언 골렘(Iron Golem) (11회 충전)\n• 레벨 12 아이언 메이든(Iron Maiden) (20회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "목걸이", "아뮬렛", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Amulet", "level": 81 }
+    },
+    {
+      "type": "unique",
+      "name": "베르던고의 하티 코드 (Verdungo's Hearty Cord)",
+      "description": "엘리트 벨트 유니크 — 베이스: 미스릴 코일 (Mithril Coil)\n요구 레벨: 63\n\n옵션:\n• 방어력 +90-140%\n• 활력 +30-40\n• 최대 지구력 +100-120\n• 타격 회복 +10%\n• 받는 피해 감소 10-15%\n• 생명력 재생 +10-13\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "벨트", "엘리트", "미스릴 코일", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Mithril Coil", "level": 63 }
+    },
+    {
+      "type": "unique",
+      "name": "캐리언 윈드 (Carrion Wind)",
+      "description": "반지 유니크 — 베이스: 링 (Ring)\n요구 레벨: 60\n\n옵션:\n• 원거리 방어력 +100-160\n• 생명력 흡수 6-9%\n• 독 저항 +55%\n• 피격 시 10% 확률로 레벨 10 포이즌 노바(Poison Nova) 시전\n• 레벨 21 워울프(Werewolf) (15회 충전)\n• 타격 시 8% 확률로 레벨 13 트위스터(Twister) 시전\n• 받은 피해 마나 전환 10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "반지", "링", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ring", "level": 60 }
+    },
+    {
+      "type": "unique",
+      "name": "자이언트 스컬 (Giant Skull)",
+      "description": "엘리트 투구 유니크 — 베이스: 본 비지즈 (Bone Visage)\n요구 레벨: 65\n\n옵션:\n• 방어력 +250-320\n• 힘 +25-35\n• 강타 확률 10%\n• 소켓 1-2개\n• 밀쳐내기\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "투구", "엘리트", "본 비지즈", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Bone Visage", "level": 65 }
+    },
+    {
+      "type": "unique",
+      "name": "애스트리언의 아이언 워드 (Astreon's Iron Ward)",
+      "description": "엘리트 셉터 유니크 — 베이스: 캐듀시어스 (Caduceus)\n요구 레벨: 60\n\n옵션:\n• 피해 +240-290%\n• 대상 둔화 25%\n• 명중률 +150-200%\n• 공격 속도 +10%\n• 마법 피해 +80-240\n• 피해 감소 4-7\n• 피해 +40-85\n• +2-4 소환 스킬 (팔라딘 전용)\n• 강타 확률 33%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "엘리트", "캐듀시어스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Caduceus", "level": 60 }
+    },
+    {
+      "type": "unique",
+      "name": "애니힐러스 (Annihilus)",
+      "description": "스몰 참 유니크 — 베이스: 스몰 차암 (Small Charm)\n요구 레벨: 70\n\n옵션:\n• +1 모든 스킬\n• 모든 능력치 +10-20\n• 모든 저항 +10-20\n• 경험치 획득 +5-10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "스몰 참", "스몰 차암", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Small Charm", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "아리어의 니들 (Arioc's Needle)",
+      "description": "엘리트 창 유니크 — 베이스: 하이페리언 스피어 (Hyperion Spear)\n요구 레벨: 81\n\n옵션:\n• 피해 +180-230%\n• 독 피해 +394 (10초)\n• 치명적 공격 50%\n• 대상 방어력 무시\n• +2-4 모든 스킬\n• 공격 속도 +30%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "창", "엘리트", "하이페리언 스피어", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Hyperion Spear", "level": 81 }
+    },
+    {
+      "type": "unique",
+      "name": "크레인비크 (Cranebeak)",
+      "description": "엘리트 도끼 유니크 — 베이스: 워 스파이크 (War Spike)\n요구 레벨: 63\n\n옵션:\n• 피해 +240-300%\n• 번개 피해 +1-305\n• 공격 속도 +40%\n• 대상 방어력 -25%\n• 매직 아이템 발견 +20-50%\n• 레벨 8 레이번(Raven) (15회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "도끼", "엘리트", "워 스파이크", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "War Spike", "level": 63 }
+    },
+    {
+      "type": "unique",
+      "name": "노드의 텐더라이저 (Nord's Tenderizer)",
+      "description": "엘리트 곤봉 유니크 — 베이스: 트란쳐 (Truncheon)\n요구 레벨: 68\n\n옵션:\n• 피해 +270-330%\n• 대상 빙결 +2-4\n• 공격 속도 +25%\n• 레벨 16 블리자드(Blizzard) (12회 충전)\n• 명중률 +150-180%\n• 냉기 피해 흡수 +5-15%\n• 냉기 피해 +205-455 (5초)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "곤봉", "엘리트", "트란쳐", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Truncheon", "level": 68 }
+    },
+    {
+      "type": "unique",
+      "name": "어스 쉬프터 (Earth Shifter)",
+      "description": "엘리트 해머 유니크 — 베이스: 선더 마울 (Thunder Maul)\n요구 레벨: 69\n\n옵션:\n• 피해 +250-300%\n• 타격 시 25% 확률로 레벨 14 피셔(Fissure) 시전\n• 강타 확률 33%\n• 공격 속도 +10%\n• 레벨 14 볼케이노(Volcano) (30회 충전)\n• +7 엘러멘틀 스킬 (드루이드 전용)\n• 시전 속도 +10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "해머", "엘리트", "선더 마울", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Thunder Maul", "level": 69 }
+    },
+    {
+      "type": "unique",
+      "name": "레이쓰 플라이트 (Wraith Flight)",
+      "description": "엘리트 재벌린 유니크 — 베이스: 고스트 글래이브 (Ghost Glaive)\n요구 레벨: 76\n\n옵션:\n• 피해 +150-190%\n• 수량 자동 회복 (2초마다 1)\n• 생명력 흡수 9-13%\n• 처치 시 마나 +15\n• 무형(수리 불가)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "재벌린", "엘리트", "고스트 글래이브", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ghost Glaive", "level": 76 }
+    },
+    {
+      "type": "unique",
+      "name": "본휴 (Bonehew)",
+      "description": "엘리트 폴암 유니크 — 베이스: 오우거 액스 (Ogre Axe)\n요구 레벨: 64\n\n옵션:\n• 피해 +270-320%\n• 공격 속도 +30%\n• 레벨 14 커프스 익스플로젼(Corpse Explosion) (30회 충전)\n• 타격 시 50% 확률로 레벨 16 본 스피어(Bone Spear) 시전\n• 몬스터 회복 방지\n• 소켓 2개\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "폴암", "엘리트", "오우거 액스", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ogre Axe", "level": 64 }
+    },
+    {
+      "type": "unique",
+      "name": "온달의 지혜 (Ondal's Wisdom)",
+      "description": "엘리트 지팡이 유니크 — 베이스: 엘더 스태프 (Elder Staff)\n요구 레벨: 66\n\n옵션:\n• 시전 속도 +45%\n• 에너지 +40-50\n• +2-4 모든 스킬\n• 방어력 +450-550\n• 경험치 획득 +5%\n• 마법 피해 감소 5-8\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "지팡이", "엘리트", "엘더 스태프", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Elder Staff", "level": 66 }
+    },
+    {
+      "type": "unique",
+      "name": "리디머르 (The Redeemer)",
+      "description": "엘리트 셉터 유니크 — 베이스: 마이티 샙터 (Mighty Scepter)\n요구 레벨: 72\n\n옵션:\n• 피해 +250-300%\n• 악마 대상 피해 +200-250%\n• +2 팔라딘 스킬\n• 요구치 -60%\n• +2-4 리뎀션(Redemption) (팔라딘 전용)\n• +2-4 홀리 볼트(Holy Bolt) (팔라딘 전용)\n• 빛 반경 +3\n• 대상 방어력 -33%\n• 피해 +60-120\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "셉터", "엘리트", "마이티 샙터", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Mighty Scepter", "level": 72 }
+    },
+    {
+      "type": "unique",
+      "name": "헤드 헌터의 글로리 (Head Hunter's Glory)",
+      "description": "엘리트 방패 유니크 — 베이스: 트롤 네스트 (Troll Nest)\n요구 레벨: 75\n\n옵션:\n• 방어력 +320-420\n• 원거리 방어력 +300-350\n• 독 저항 +30-40%\n• 소켓 1-3개\n• 화염 저항 +20-30%\n• 처치 시 생명력 +5-7\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "방패", "엘리트", "트롤 네스트", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Troll Nest", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "스틸렌드 (Steelrend)",
+      "description": "엘리트 장갑 유니크 — 베이스: 오우거 건틀릿 (Ogre Gauntlets)\n요구 레벨: 70\n\n옵션:\n• 방어력 +170-210\n• 힘 +15-20\n• 피해 +30-60%\n• 강타 확률 10%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "장갑", "엘리트", "오우거 건틀릿", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Ogre Gauntlets", "level": 70 }
+    },
+    {
+      "type": "unique",
+      "name": "레인보우 패시트 (Rainbow Facet)",
+      "description": "주얼 유니크 — 베이스: 주얼 (Jewel)\n요구 레벨: 49\n\n변형 8종 (드랍 시 하나로 결정):\n• 변형 1: 번개 피해 +1-74, 적 번개 저항 -3~-5%, 번개 스킬 피해 +3-5%, 사망 시 100% 확률로 레벨 47 체인 라이트닝(Chain Lightning) 시전\n• 변형 2: 냉기 피해 +24-38, 적 냉기 저항 -3~-5%, 냉기 스킬 피해 +3-5%, 사망 시 100% 확률로 레벨 37 블리자드(Blizzard) 시전\n• 변형 3: 화염 피해 +17-45, 적 화염 저항 -3~-5%, 화염 스킬 피해 +3-5%, 사망 시 100% 확률로 레벨 31 메테오(Meteor) 시전\n• 변형 4: 독 피해 +37 (2초), 적 독 저항 -3~-5%, 독 스킬 피해 +3-5%, 사망 시 100% 확률로 레벨 51 포이즌 노바(Poison Nova) 시전\n• 변형 5: 번개 피해 +1-74, 적 번개 저항 -3~-5%, 번개 스킬 피해 +3-5%, 레벨 상승 시 100% 확률로 레벨 41 노바(Nova) 시전\n• 변형 6: 냉기 피해 +24-38, 적 냉기 저항 -3~-5%, 냉기 스킬 피해 +3-5%, 레벨 상승 시 100% 확률로 레벨 43 프로스트 노바(Frost Nova) 시전\n• 변형 7: 화염 피해 +17-45, 적 화염 저항 -3~-5%, 화염 스킬 피해 +3-5%, 레벨 상승 시 100% 확률로 레벨 29 블레이즈(Blaze) 시전\n• 변형 8: 독 피해 +37 (2초), 적 독 저항 -3~-5%, 독 스킬 피해 +3-5%, 레벨 상승 시 100% 확률로 레벨 23 베넘(Venom) 시전\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "주얼"],
+      "meta": { "rarity": "Unique", "base": "Jewel", "level": 49 }
+    },
+    {
+      "type": "unique",
+      "name": "지옥의 횃불 (Hellfire Torch)",
+      "description": "라지 참 유니크 — 베이스: 라지 차암 (Large Charm)\n요구 레벨: 75\n\n옵션:\n• +3 무작위 클래스 스킬\n• 모든 능력치 +10-20\n• 모든 저항 +10-20\n• 빛 반경 +8\n• 타격 시 5% 확률로 레벨 10 파이어스톰(Firestorm) 시전\n• 레벨 30 하이드라(Hydra) (10회 충전)\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "라지 참", "라지 차암", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Large Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "콜드 럽처 (Cold Rupture)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 75\n획득: 테러 존 (선더 참)\n래더 전용: 시즌 2 (이후 비래더 적용)\n\n옵션:\n• 몬스터 냉기 면역 파괴\n• 냉기 저항 -70~-90%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "선더참", "sunder", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "플레임 리프트 (Flame Rift)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 75\n획득: 테러 존 (선더 참)\n래더 전용: 시즌 2 (이후 비래더 적용)\n\n옵션:\n• 몬스터 화염 면역 파괴\n• 화염 저항 -70~-90%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "선더참", "sunder", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "크랙 오브 더 헤븐스 (Crack of the Heavens)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 75\n획득: 테러 존 (선더 참)\n래더 전용: 시즌 2 (이후 비래더 적용)\n\n옵션:\n• 몬스터 번개 면역 파괴\n• 번개 저항 -70~-90%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "선더참", "sunder", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "로팅 피셔 (Rotting Fissure)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 75\n획득: 테러 존 (선더 참)\n래더 전용: 시즌 2 (이후 비래더 적용)\n\n옵션:\n• 몬스터 독 면역 파괴\n• 독 저항 -70~-90%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "선더참", "sunder", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "본 브레이크 (Bone Break)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 75\n획득: 테러 존 (선더 참)\n래더 전용: 시즌 2 (이후 비래더 적용)\n\n옵션:\n• 몬스터 물리 면역 파괴\n• 받는 피해 감소 -10~-20%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "선더참", "sunder", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "블랙 클레프트 (Black Cleft)",
+      "description": "그랜드 참 유니크 — 베이스: 그랜드 차암 (Grand Charm)\n요구 레벨: 75\n획득: 테러 존 (선더 참)\n래더 전용: 시즌 2 (이후 비래더 적용)\n\n옵션:\n• 몬스터 마법 면역 파괴\n• 마법 저항 -45~-65%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "그랜드 참", "그랜드 차암", "선더참", "sunder", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Grand Charm", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "수호자의 담즙 (Defender's Bile)",
+      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 본 아머(Bone Armor) 시전\n• 독 스킬 피해 +5-10%\n• 독 피해 +95 (1초)\n• 적 독 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "보호자의 천둥 (Guardian's Thunder)",
+      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 사이클론 아머(Cyclone Armor) 시전\n• 번개 스킬 피해 +5-10%\n• 번개 피해 +1-75\n• 적 번개 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "방어자의 서리 (Protector's Frost)",
+      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 프로즌 아머(Frozen Armor) 시전\n• 냉기 스킬 피해 +5-10%\n• 냉기 피해 +10-30 (5초)\n• 적 냉기 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "수호자의 불꽃 (Defender's Fire)",
+      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 블레이즈(Blaze) 시전\n• 화염 스킬 피해 +5-10%\n• 화염 피해 +20-60\n• 적 화염 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "방어자의 바위 (Protector's Stone)",
+      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 15 페이드(Fade) 시전\n• 피해 +30-50%\n• 피해 +10-30\n• 적 물리 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
+    },
+    {
+      "type": "unique",
+      "name": "보호자의 빛 (Guardian's Light)",
+      "description": "콜로살 주얼 유니크 — 베이스: 콜로살 주얼 (Colossal Jewel)\n요구 레벨: 75\n획득: 콜로살 에인션트 (DLC 신규 유니크 주얼)\n\n옵션:\n• 피격 시 1% 확률로 레벨 25 Psychic Ward 시전\n• 마법 스킬 피해 +5-10%\n• 마법 피해 +15-35\n• 적 마법 저항 -5~-10%\n• 경험치 획득 +3-5%\n• 매직 아이템 발견 +15-35%\n• 골드 획득 +25-50%\n\n※ 출처: D2R 게임 데이터 테이블 (패치 3.3, blizzhackers/d2data)",
+      "tags": ["unique", "유니크", "콜로살 주얼", "엔드게임"],
+      "meta": { "rarity": "Unique", "base": "Colossal Jewel", "level": 75 }
     },
 
     {

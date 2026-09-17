@@ -53,8 +53,8 @@ test('룬워드 룬 조합은 실존 룬만 사용 (1~6개)', () => {
   }
 });
 
-test('DB 버전이 17로 증가 (v16 캐시 사용자에게 신규 세트 25종 수치 정정 반영)', () => {
-  assert.equal(version, 17);
+test('DB 버전이 18로 증가 (v17 캐시 사용자에게 유니크 전체 반영)', () => {
+  assert.equal(version, 18);
 });
 
 // ── 시즌 15 / 패치 3.3 ──
@@ -545,4 +545,79 @@ test('경계: 부분 세트 효과 개수는 구성 수 미만 (2세트 ~ N-1세
 
 test('천사의 예복: 패치 3.3 변경 안내 유지', () => {
   assert.match(setByEn('Angelic Raiment').description, /패치 3\.3/);
+});
+
+// ── 유니크 전체 (D2R 게임 데이터 패치 3.3 기준, 공식 한글명) ──
+const uniques = () => items.filter((i) => i.type === 'unique');
+const uniqueByEn = (en) => uniques().find((i) => i.name.endsWith(`(${en})`));
+const GAMEDATA_NOTE = 'D2R 게임 데이터 테이블 (패치 3.3';
+const optLines = (desc) => desc.split('\n').filter((l) => l.startsWith('• '));
+// 항목 부재 시 TypeError 대신 명확한 단언 실패가 나도록 설명을 꺼내는 헬퍼
+const uDesc = (en) => {
+  const u = uniqueByEn(en);
+  assert.ok(u, `유니크 없음: ${en}`);
+  return u.description;
+};
+
+test('유니크: 게임 데이터 기반 384종 + DLC 3.0 기존 항목 유지', () => {
+  assert.equal(uniques().filter((u) => u.description.includes(GAMEDATA_NOTE)).length, 384);
+  for (const en of ['Dreadfang', 'Wraithstep', 'Bloodpact Shard', 'Opalvein', 'Entropy Locket', "Gheed's Wager"]) {
+    assert.ok(uniqueByEn(en), `DLC 유니크 유실: ${en}`);
+  }
+});
+
+test('유니크: 영문명 중복 없음, 게임 데이터 항목은 meta.level 1~99 정수·meta.base 보유', () => {
+  const en = uniques().map((u) => (u.name.match(/\(([^()]*)\)$/) || [])[1]);
+  assert.ok(en.every(Boolean));
+  assert.equal(new Set(en).size, en.length, '유니크 영문명 중복');
+  for (const u of uniques().filter((x) => x.description.includes(GAMEDATA_NOTE))) {
+    assert.ok(Number.isInteger(u.meta.level) && u.meta.level >= 1 && u.meta.level <= 99, u.name);
+    assert.equal(typeof u.meta.base, 'string');
+    assert.ok(optLines(u.description).length >= 1, `옵션 없음: ${u.name}`);
+  }
+});
+
+test('유니크: 렌더링 오류 문자열 없음 (None, 음수 범위 --, 빈 괄호)', () => {
+  for (const u of uniques()) {
+    assert.ok(!/None|--|\(\)/.test(u.description), u.name);
+  }
+});
+
+test('대표 유니크 수치·공식 한글명: 샤코, 소조, 애니, 토치, 블랙텅', () => {
+  const shako = uniqueByEn('Harlequin Crest');
+  assert.ok(shako, '샤코 없음');
+  assert.match(shako.name, /^할리퀸 크레스트 /);
+  assert.equal(shako.meta.base, 'Shako');
+  assert.equal(shako.meta.level, 62);
+  for (const o of ['+2 모든 스킬', '매직 아이템 발견 +50%', '받는 피해 감소 10%', '모든 능력치 +2']) assert.ok(shako.description.includes(o), o);
+  assert.ok(shako.tags.includes('shako') && shako.tags.includes('샤코'), '기존 검색 태그 보존');
+  const soj = uDesc('The Stone of Jordan');
+  assert.ok(soj.includes('번개 피해 +1-12') && soj.includes('최대 마나 +25%'));
+  assert.ok(uDesc('Annihilus').includes('경험치 획득 +5-10%'));
+  assert.ok(uDesc('Hellfire Torch').includes('+3 무작위 클래스 스킬'));
+  assert.ok(uDesc('Blacktongue').includes('독 피해 +113 (6초)'));
+});
+
+test('스킬 트리·오라·충전 옵션 렌더링: 아리앗의 페이스, 울프하울, 에이져래쓰', () => {
+  assert.ok(uDesc("Arreat's Face").includes('+2 전투 스킬 (야만용사 전용)'));
+  assert.ok(uDesc('Wolfhowl').includes('+2-3 함성 (야만용사 전용)'));
+  assert.ok(uDesc('Azurewrath').includes('장착 시 레벨 10-13 생츄어리(Sanctuary) 오라'));
+});
+
+test('선더 참 6종·레인보우 패시트 8변형·패치 3.3 로그스 보우', () => {
+  for (const en of ['Cold Rupture', 'Flame Rift', 'Crack of the Heavens', 'Rotting Fissure', 'Bone Break', 'Black Cleft']) {
+    const u = uniqueByEn(en);
+    assert.ok(u, en);
+    assert.match(u.description, /면역 파괴/, en);
+    assert.ok(u.tags.includes('선더참'), en);
+  }
+  assert.match(uDesc('Cold Rupture'), /냉기 저항 -70~-90%/);
+  assert.equal((uDesc('Rainbow Facet').match(/^• 변형 \d/gm) || []).length, 8);
+  assert.match(uDesc("Rogue's Bow"), /콜드 애로우 또는 파이어 애로우/);
+});
+
+test('유니크 기존 오기 이름 제거 (소환의 재·톱니 이빨 등)', () => {
+  for (const bad of ['소환의 재', '톱니 이빨', 'Stone of Jordan / SoJ', 'Harlequin Crest / Shako', '독 독사의 묵주']) {
+    assert.ok(!uniques().some((u) => u.name.includes(bad)), bad);
+  }
 });
